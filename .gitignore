@@ -43,3 +43,7 @@ Thumbs.db
 # Next.js build info
 web/tsconfig.tsbuildinfo
 *.tsbuildinfo
+
+# 数据库压缩快照（不入 git，用 release 管理）
+data/papers.db.gz
+*.db.gz
