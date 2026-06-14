@@ -1,0 +1,673 @@
+{
+  "generated_at": "2026-06-14T13:15:37.609136Z",
+  "totals": {
+    "papers_indexed": 2386,
+    "papers_scored": 1268,
+    "papers_ai_relevant": 222
+  },
+  "journals": [
+    {
+      "abbr": "TOCHI",
+      "name_en": "ACM Transactions on Computer-Human Interaction",
+      "name_zh": "ACM 人机交互汇刊",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "UX"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/journal/tochi",
+      "papers_indexed": 107,
+      "papers_ai_relevant": 19
+    },
+    {
+      "abbr": "HCI",
+      "name_en": "Human-Computer Interaction",
+      "name_zh": "人机交互",
+      "publisher": "Taylor & Francis",
+      "tier": "A",
+      "domain": [
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
+      "papers_indexed": 19,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "IJHCS",
+      "name_en": "International Journal of Human-Computer Studies",
+      "name_zh": "国际人机研究杂志",
+      "publisher": "Elsevier",
+      "tier": "A",
+      "domain": [
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
+      "papers_indexed": 205,
+      "papers_ai_relevant": 57
+    },
+    {
+      "abbr": "IwC",
+      "name_en": "Interacting with Computers",
+      "name_zh": "与计算机交互",
+      "publisher": "Elsevier",
+      "tier": "B",
+      "domain": [
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
+      "papers_indexed": 49,
+      "papers_ai_relevant": 9
+    },
+    {
+      "abbr": "TiiS",
+      "name_en": "ACM Transactions on Interactive Intelligent Systems",
+      "name_zh": "ACM 交互智能系统汇刊",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "AI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/journal/tiis",
+      "papers_indexed": 32,
+      "papers_ai_relevant": 21
+    },
+    {
+      "abbr": "BIT",
+      "name_en": "Behaviour & Information Technology",
+      "name_zh": "行为与信息技术",
+      "publisher": "Taylor & Francis",
+      "tier": "B",
+      "domain": [
+        "HCI",
+        "UX"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
+      "papers_indexed": 210,
+      "papers_ai_relevant": 37
+    },
+    {
+      "abbr": "DI",
+      "name_en": "Design Issues",
+      "name_zh": "设计议题",
+      "publisher": "MIT Press",
+      "tier": "B",
+      "domain": [
+        "UX",
+        "design"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://direct.mit.edu/desi",
+      "papers_indexed": 7,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "THMS",
+      "name_en": "IEEE Transactions on Human-Machine Systems",
+      "name_zh": "IEEE 人机系统汇刊",
+      "publisher": "IEEE",
+      "tier": "B",
+      "domain": [
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
+      "papers_indexed": 70,
+      "papers_ai_relevant": 3
+    },
+    {
+      "abbr": "JCR",
+      "name_en": "Journal of Consumer Research",
+      "name_zh": "消费者研究杂志",
+      "publisher": "OUP",
+      "tier": "A",
+      "domain": [
+        "consumer",
+        "UX"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://academic.oup.com/jcr",
+      "papers_indexed": 98,
+      "papers_ai_relevant": 7
+    },
+    {
+      "abbr": "JM",
+      "name_en": "Journal of Marketing",
+      "name_zh": "营销学杂志",
+      "publisher": "SAGE",
+      "tier": "A",
+      "domain": [
+        "marketing",
+        "consumer"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://journals.sagepub.com/loi/jmx",
+      "papers_indexed": 77,
+      "papers_ai_relevant": 7
+    },
+    {
+      "abbr": "JMR",
+      "name_en": "Journal of Marketing Research",
+      "name_zh": "营销研究杂志",
+      "publisher": "SAGE",
+      "tier": "A",
+      "domain": [
+        "marketing",
+        "research_methods"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://journals.sagepub.com/loi/mrj",
+      "papers_indexed": 60,
+      "papers_ai_relevant": 5
+    },
+    {
+      "abbr": "MktSci",
+      "name_en": "Marketing Science",
+      "name_zh": "营销科学",
+      "publisher": "INFORMS",
+      "tier": "A",
+      "domain": [
+        "marketing"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
+      "papers_indexed": 92,
+      "papers_ai_relevant": 1
+    },
+    {
+      "abbr": "JCP",
+      "name_en": "Journal of Consumer Psychology",
+      "name_zh": "消费者心理学杂志",
+      "publisher": "Wiley",
+      "tier": "A",
+      "domain": [
+        "consumer",
+        "psychology"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
+      "papers_indexed": 41,
+      "papers_ai_relevant": 5
+    },
+    {
+      "abbr": "JAMS",
+      "name_en": "Journal of the Academy of Marketing Science",
+      "name_zh": "营销科学学会杂志",
+      "publisher": "Springer",
+      "tier": "A",
+      "domain": [
+        "marketing"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://link.springer.com/journal/11747",
+      "papers_indexed": 99,
+      "papers_ai_relevant": 4
+    },
+    {
+      "abbr": "JSR",
+      "name_en": "Journal of Service Research",
+      "name_zh": "服务研究杂志",
+      "publisher": "SAGE",
+      "tier": "A",
+      "domain": [
+        "CX",
+        "service"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://journals.sagepub.com/loi/jsr",
+      "papers_indexed": 54,
+      "papers_ai_relevant": 20
+    },
+    {
+      "abbr": "JIM",
+      "name_en": "Journal of Interactive Marketing",
+      "name_zh": "互动营销杂志",
+      "publisher": "Elsevier",
+      "tier": "A",
+      "domain": [
+        "CX",
+        "marketing"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
+      "papers_indexed": 24,
+      "papers_ai_relevant": 4
+    },
+    {
+      "abbr": "JCA",
+      "name_en": "Journal of Consumer Affairs",
+      "name_zh": "消费者事务杂志",
+      "publisher": "Wiley",
+      "tier": "B",
+      "domain": [
+        "consumer",
+        "CX"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
+      "papers_indexed": 28,
+      "papers_ai_relevant": 1
+    },
+    {
+      "abbr": "JR",
+      "name_en": "Journal of Retailing",
+      "name_zh": "零售学杂志",
+      "publisher": "Elsevier",
+      "tier": "A",
+      "domain": [
+        "CX",
+        "consumer"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-retailing",
+      "papers_indexed": 70,
+      "papers_ai_relevant": 1
+    },
+    {
+      "abbr": "IJMR",
+      "name_en": "International Journal of Market Research",
+      "name_zh": "国际市场研究杂志",
+      "publisher": "SAGE",
+      "tier": "B",
+      "domain": [
+        "research_methods",
+        "marketing"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://journals.sagepub.com/loi/mre",
+      "papers_indexed": 23,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "JAR",
+      "name_en": "Journal of Advertising Research",
+      "name_zh": "广告研究杂志",
+      "publisher": "WARC",
+      "tier": "B",
+      "domain": [
+        "marketing",
+        "research_methods"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://www.warc.com/journalissue/JAR",
+      "papers_indexed": 28,
+      "papers_ai_relevant": 4
+    },
+    {
+      "abbr": "JMMR",
+      "name_en": "Journal of Mixed Methods Research",
+      "name_zh": "混合方法研究杂志",
+      "publisher": "SAGE",
+      "tier": "B",
+      "domain": [
+        "research_methods"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://journals.sagepub.com/loi/mmr",
+      "papers_indexed": 21,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "CHI",
+      "name_en": "ACM CHI Conference on Human Factors in Computing Systems",
+      "name_zh": "ACM CHI 计算系统人因大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "UX"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/chi",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "CSCW",
+      "name_en": "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+      "name_zh": "ACM 计算机支持的协同工作大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "CSCW"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/cscw",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "UIST",
+      "name_en": "ACM Symposium on User Interface Software and Technology",
+      "name_zh": "ACM 用户界面软件与技术大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "UI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/uist",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "DIS",
+      "name_en": "ACM Conference on Designing Interactive Systems",
+      "name_zh": "ACM 交互系统设计大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "design"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/dis",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "IUI",
+      "name_en": "International Conference on Intelligent User Interfaces",
+      "name_zh": "国际智能用户界面大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "AI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/iui",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "HRI",
+      "name_en": "ACM/IEEE International Conference on Human-Robot Interaction",
+      "name_zh": "ACM/IEEE 人-机器人交互大会",
+      "publisher": "ACM",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "HRI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/hri",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "MobileHCI",
+      "name_en": "International Conference on Human-Computer Interaction with Mobile Devices and Services",
+      "name_zh": "国际移动设备与服务人机交互大会",
+      "publisher": "ACM",
+      "tier": "B",
+      "domain": [
+        "HCI",
+        "mobile"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/mhc",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "TEI",
+      "name_en": "TEI Conference on Tangible, Embedded, and Embodied Interaction",
+      "name_zh": "TEI 实体嵌入式与具身交互大会",
+      "publisher": "ACM",
+      "tier": "B",
+      "domain": [
+        "HCI",
+        "design"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://dl.acm.org/conference/tei",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "IEEEVIS",
+      "name_en": "IEEE Visualization Conference",
+      "name_zh": "IEEE 可视化大会",
+      "publisher": "IEEE",
+      "tier": "A",
+      "domain": [
+        "HCI",
+        "visualization"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://ieeexplore.ieee.org/xpl/conhome/1000.jsp?punumber=10005244",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "INTERACT",
+      "name_en": "INTERACT Conference on Human-Computer Interaction",
+      "name_zh": "INTERACT 人机交互大会",
+      "publisher": "Springer",
+      "tier": "A",
+      "domain": [
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://link.springer.com/conference/interact",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "ICIS",
+      "name_en": "International Conference on Information Systems",
+      "name_zh": "国际信息系统大会",
+      "publisher": "AIS",
+      "tier": "A",
+      "domain": [
+        "IS",
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://aisel.aisnet.org/icis/",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "HICSS",
+      "name_en": "Hawaii International Conference on System Sciences",
+      "name_zh": "夏威夷系统科学国际大会",
+      "publisher": "HICSS",
+      "tier": "B",
+      "domain": [
+        "IS",
+        "HCI"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://hicss.hawaii.edu/",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "APS",
+      "name_en": "Acta Psychologica Sinica",
+      "name_zh": "心理学报",
+      "publisher": "中科院心理研究所",
+      "tier": "A",
+      "domain": [
+        "psychology",
+        "consumer"
+      ],
+      "lang": "zh",
+      "publisher_toc": "https://journal.psych.ac.cn/xlxb/CN/volumn/current.shtml",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "NBR",
+      "name_en": "Nankai Business Review",
+      "name_zh": "南开管理评论",
+      "publisher": "南开大学",
+      "tier": "A",
+      "domain": [
+        "marketing",
+        "management"
+      ],
+      "lang": "zh",
+      "publisher_toc": "http://nbr.nankai.edu.cn/",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "MW",
+      "name_en": "Management World",
+      "name_zh": "管理世界",
+      "publisher": "国务院发展研究中心",
+      "tier": "A",
+      "domain": [
+        "management",
+        "marketing"
+      ],
+      "lang": "zh",
+      "publisher_toc": "http://www.mwm.net.cn/",
+      "papers_indexed": 0,
+      "papers_ai_relevant": 0
+    },
+    {
+      "abbr": "arXiv",
+      "name_en": "arXiv preprints",
+      "name_zh": "arXiv 预印本",
+      "publisher": "arXiv",
+      "tier": "—",
+      "domain": [
+        "AI",
+        "preprint"
+      ],
+      "lang": "en",
+      "publisher_toc": "https://arxiv.org/",
+      "papers_indexed": 972,
+      "papers_ai_relevant": 17
+    }
+  ],
+  "facets": {
+    "years": {
+      "2023": 52,
+      "2024": 50,
+      "2025": 70,
+      "2026": 50
+    },
+    "journals": {
+      "IJHCS": 57,
+      "BIT": 37,
+      "TiiS": 21,
+      "JSR": 20,
+      "TOCHI": 19,
+      "arXiv:cs.HC": 13,
+      "IwC": 9,
+      "JM": 7,
+      "JCR": 7,
+      "JMR": 5,
+      "JCP": 5,
+      "JAR": 4,
+      "JAMS": 4,
+      "JIM": 4,
+      "THMS": 3,
+      "arXiv:cs.AI": 1,
+      "arXiv:cs.CL": 1,
+      "arXiv:cs.CY": 1,
+      "arXiv:cs.SE": 1,
+      "JCA": 1,
+      "MktSci": 1,
+      "JR": 1
+    },
+    "topic_tags": {
+      "消费者行为": 55,
+      "人机交互": 54,
+      "用户体验(UX)": 52,
+      "人机协作": 41,
+      "人机交互(HCI)": 37,
+      "信任": 35,
+      "用户研究方法": 28,
+      "可解释性": 25,
+      "情感计算": 23,
+      "AI采用": 21,
+      "可用性": 21,
+      "AI 采用": 19,
+      "对话式 AI": 18,
+      "服务体验": 17,
+      "AI 助手": 16,
+      "AI治理": 13,
+      "服务设计": 12,
+      "多模态交互": 12,
+      "用户体验": 12,
+      "伦理": 11,
+      "可视化": 11,
+      "AI 治理": 10,
+      "推荐系统": 9,
+      "对话式AI": 9,
+      "营销": 9,
+      "AI伦理": 8,
+      "客户体验": 6,
+      "广告": 6,
+      "儿童/老人/无障碍": 6,
+      "客户体验(CX)": 6,
+      "用户画像": 6,
+      "可解释AI": 6,
+      "智能体/Agent": 5,
+      "个性化": 5,
+      "生成式AI": 4,
+      "语音交互": 4,
+      "AI助手": 4,
+      "服务机器人": 4,
+      "隐私": 3,
+      "决策支持": 3,
+      "医疗健康": 3,
+      "用户行为": 3,
+      "医疗AI": 3,
+      "拟人化": 3,
+      "用户信任": 2,
+      "元分析": 2,
+      "交互设计": 2,
+      "认知负荷": 2,
+      "系统综述": 2,
+      "创意": 2
+    },
+    "ai_type_tags": {
+      "LLM": 38,
+      "AI 助手": 37,
+      "GenAI": 36,
+      "对话式AI": 33,
+      "对话式 AI": 32,
+      "AI助手": 31,
+      "智能体/Agent": 26,
+      "多模态": 24,
+      "人机协作": 24,
+      "可解释AI": 20,
+      "人机交互": 16,
+      "可解释 AI": 13,
+      "推荐算法": 11,
+      "机器学习": 11,
+      "情感识别": 10,
+      "AI治理": 9,
+      "AI 推荐": 9,
+      "情感计算": 7,
+      "ChatGPT": 6,
+      "图像生成": 6,
+      "AI": 6,
+      "智能体": 6,
+      "服务机器人": 6,
+      "AI客服": 5,
+      "AI推荐": 5,
+      "个性化": 5,
+      "AI 客服": 3,
+      "生成式 AI": 3,
+      "机器人": 3,
+      "自动驾驶": 3
+    }
+  }
+}

@@ -1,0 +1,569 @@
+journals:
+- name_en: ACM Transactions on Computer-Human Interaction
+  name_zh: ACM 人机交互汇刊
+  abbr: TOCHI
+  type: journal
+  issn: 1073-0516
+  eissn: 1557-7315
+  openalex_source_id: S89276529
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/journal/tochi
+  rss: https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=JTOCI
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - UX
+  lang: en
+- name_en: Human-Computer Interaction
+  name_zh: 人机交互
+  abbr: HCI
+  type: journal
+  issn: 0737-0024
+  eissn: 1532-7590
+  openalex_source_id: S2481449237
+  publisher: Taylor & Francis
+  publisher_toc: https://www.tandfonline.com/journals/hhci20
+  rss: https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=hhci20
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  lang: en
+- name_en: International Journal of Human-Computer Studies
+  name_zh: 国际人机研究杂志
+  abbr: IJHCS
+  type: journal
+  issn: 1071-5819
+  eissn: 1095-9250
+  openalex_source_id: S4210190811
+  publisher: Elsevier
+  publisher_toc: https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies
+  rss: https://rss.sciencedirect.com/publication/science/10715819
+  online_first: https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies/articles-in-press
+  tier: A
+  domain:
+  - HCI
+  lang: en
+- name_en: Interacting with Computers
+  name_zh: 与计算机交互
+  abbr: IwC
+  type: journal
+  issn: 0953-5438
+  eissn: 1873-7951
+  openalex_source_id: S23117883
+  publisher: Elsevier
+  publisher_toc: https://www.sciencedirect.com/journal/interacting-with-computers
+  rss: https://rss.sciencedirect.com/publication/science/09535438
+  online_first: ''
+  tier: B
+  domain:
+  - HCI
+  lang: en
+- name_en: ACM Transactions on Interactive Intelligent Systems
+  name_zh: ACM 交互智能系统汇刊
+  abbr: TiiS
+  type: journal
+  issn: 2160-6455
+  eissn: 2160-6455
+  openalex_source_id: S4210173818
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/journal/tiis
+  rss: https://dl.acm.org/action/showFeed?type=etoc&feed=rss&jc=JTIIS
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - AI
+  lang: en
+- name_en: Behaviour & Information Technology
+  name_zh: 行为与信息技术
+  abbr: BIT
+  type: journal
+  issn: 0144-929X
+  eissn: 1362-3001
+  openalex_source_id: S123849098
+  publisher: Taylor & Francis
+  publisher_toc: https://www.tandfonline.com/journals/tbit20
+  rss: https://www.tandfonline.com/action/showFeed?type=etoc&feed=rss&jc=tbit20
+  online_first: ''
+  tier: B
+  domain:
+  - HCI
+  - UX
+  lang: en
+- name_en: Design Issues
+  name_zh: 设计议题
+  abbr: DI
+  type: journal
+  issn: 0747-9360
+  eissn: 1531-4790
+  openalex_source_id: S107659597
+  publisher: MIT Press
+  publisher_toc: https://direct.mit.edu/desi
+  rss: https://direct.mit.edu/journals/loi/desi
+  online_first: ''
+  tier: B
+  domain:
+  - UX
+  - design
+  lang: en
+- name_en: IEEE Transactions on Human-Machine Systems
+  name_zh: IEEE 人机系统汇刊
+  abbr: THMS
+  type: journal
+  issn: 2168-2291
+  eissn: 2168-2305
+  openalex_source_id: S2476799526
+  publisher: IEEE
+  publisher_toc: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
+  rss: ''
+  online_first: ''
+  tier: B
+  domain:
+  - HCI
+  lang: en
+- name_en: Journal of Consumer Research
+  name_zh: 消费者研究杂志
+  abbr: JCR
+  type: journal
+  issn: 0093-5301
+  eissn: 1537-5277
+  openalex_source_id: S145429826
+  publisher: OUP
+  publisher_toc: https://academic.oup.com/jcr
+  rss: https://academic.oup.com/rss/site_5340/3091.xml
+  online_first: https://academic.oup.com/jcr/advance-articles
+  tier: A
+  domain:
+  - consumer
+  - UX
+  lang: en
+- name_en: Journal of Marketing
+  name_zh: 营销学杂志
+  abbr: JM
+  type: journal
+  issn: 0022-2429
+  eissn: 1547-7185
+  openalex_source_id: S142990027
+  publisher: SAGE
+  publisher_toc: https://journals.sagepub.com/loi/jmx
+  rss: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=jmxa&type=etoc&feed=rss
+  online_first: https://journals.sagepub.com/toc/jmx/0/0
+  tier: A
+  domain:
+  - marketing
+  - consumer
+  lang: en
+- name_en: Journal of Marketing Research
+  name_zh: 营销研究杂志
+  abbr: JMR
+  type: journal
+  issn: 0022-2437
+  eissn: 1547-7193
+  openalex_source_id: S119950638
+  publisher: SAGE
+  publisher_toc: https://journals.sagepub.com/loi/mrj
+  rss: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mrja&type=etoc&feed=rss
+  online_first: https://journals.sagepub.com/toc/mrj/0/0
+  tier: A
+  domain:
+  - marketing
+  - research_methods
+  lang: en
+- name_en: Marketing Science
+  name_zh: 营销科学
+  abbr: MktSci
+  type: journal
+  issn: 0732-2399
+  eissn: 1526-548X
+  openalex_source_id: S163534328
+  publisher: INFORMS
+  publisher_toc: https://pubsonline.informs.org/loi/mksc
+  rss: https://pubsonline.informs.org/action/showFeed?type=etoc&feed=rss&jc=mksc
+  online_first: https://pubsonline.informs.org/toc/mksc/0/0
+  tier: A
+  domain:
+  - marketing
+  lang: en
+- name_en: Journal of Consumer Psychology
+  name_zh: 消费者心理学杂志
+  abbr: JCP
+  type: journal
+  issn: 1057-7408
+  eissn: 1532-7663
+  openalex_source_id: S163545350
+  publisher: Wiley
+  publisher_toc: https://onlinelibrary.wiley.com/journal/15327663
+  rss: https://onlinelibrary.wiley.com/feed/15327663/most-recent
+  online_first: https://onlinelibrary.wiley.com/toc/15327663/0/0
+  tier: A
+  domain:
+  - consumer
+  - psychology
+  lang: en
+- name_en: Journal of the Academy of Marketing Science
+  name_zh: 营销科学学会杂志
+  abbr: JAMS
+  type: journal
+  issn: 0092-0703
+  eissn: 1552-7824
+  openalex_source_id: S92522684
+  publisher: Springer
+  publisher_toc: https://link.springer.com/journal/11747
+  rss: https://link.springer.com/search.rss?facet-journal-id=11747&channel-name=Journal+of+the+Academy+of+Marketing+Science
+  online_first: https://link.springer.com/journal/11747/online-first
+  tier: A
+  domain:
+  - marketing
+  lang: en
+- name_en: Journal of Service Research
+  name_zh: 服务研究杂志
+  abbr: JSR
+  type: journal
+  issn: 1094-6705
+  eissn: 1557-7377
+  openalex_source_id: S125608309
+  publisher: SAGE
+  publisher_toc: https://journals.sagepub.com/loi/jsr
+  rss: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=jsra&type=etoc&feed=rss
+  online_first: https://journals.sagepub.com/toc/jsr/0/0
+  tier: A
+  domain:
+  - CX
+  - service
+  lang: en
+- name_en: Journal of Interactive Marketing
+  name_zh: 互动营销杂志
+  abbr: JIM
+  type: journal
+  issn: 1094-9968
+  eissn: 1520-6653
+  openalex_source_id: S92709572
+  publisher: Elsevier
+  publisher_toc: https://www.sciencedirect.com/journal/journal-of-interactive-marketing
+  rss: https://rss.sciencedirect.com/publication/science/10949968
+  online_first: https://www.sciencedirect.com/journal/journal-of-interactive-marketing/articles-in-press
+  tier: A
+  domain:
+  - CX
+  - marketing
+  lang: en
+- name_en: Journal of Consumer Affairs
+  name_zh: 消费者事务杂志
+  abbr: JCA
+  type: journal
+  issn: 0022-0078
+  eissn: 1745-6606
+  openalex_source_id: S189751245
+  publisher: Wiley
+  publisher_toc: https://onlinelibrary.wiley.com/journal/17456606
+  rss: https://onlinelibrary.wiley.com/feed/17456606/most-recent
+  online_first: https://onlinelibrary.wiley.com/toc/17456606/0/0
+  tier: B
+  domain:
+  - consumer
+  - CX
+  lang: en
+- name_en: Journal of Retailing
+  name_zh: 零售学杂志
+  abbr: JR
+  type: journal
+  issn: 0022-4359
+  eissn: 1873-3440
+  openalex_source_id: S159120381
+  publisher: Elsevier
+  publisher_toc: https://www.sciencedirect.com/journal/journal-of-retailing
+  rss: https://rss.sciencedirect.com/publication/science/00224359
+  online_first: https://www.sciencedirect.com/journal/journal-of-retailing/articles-in-press
+  tier: A
+  domain:
+  - CX
+  - consumer
+  lang: en
+- name_en: International Journal of Market Research
+  name_zh: 国际市场研究杂志
+  abbr: IJMR
+  type: journal
+  issn: 1470-7853
+  eissn: 1751-5944
+  openalex_source_id: S162526994
+  publisher: SAGE
+  publisher_toc: https://journals.sagepub.com/loi/mre
+  rss: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mrea&type=etoc&feed=rss
+  online_first: ''
+  tier: B
+  domain:
+  - research_methods
+  - marketing
+  lang: en
+- name_en: Journal of Advertising Research
+  name_zh: 广告研究杂志
+  abbr: JAR
+  type: journal
+  issn: 0021-8499
+  eissn: 1747-4901
+  openalex_source_id: S61992289
+  publisher: WARC
+  publisher_toc: https://www.warc.com/journalissue/JAR
+  rss: ''
+  online_first: ''
+  tier: B
+  domain:
+  - marketing
+  - research_methods
+  lang: en
+- name_en: Journal of Mixed Methods Research
+  name_zh: 混合方法研究杂志
+  abbr: JMMR
+  type: journal
+  issn: 1558-6898
+  eissn: 1558-6901
+  openalex_source_id: S3162283
+  publisher: SAGE
+  publisher_toc: https://journals.sagepub.com/loi/mmr
+  rss: https://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=mmra&type=etoc&feed=rss
+  online_first: ''
+  tier: B
+  domain:
+  - research_methods
+  lang: en
+- name_en: ACM CHI Conference on Human Factors in Computing Systems
+  name_zh: ACM CHI 计算系统人因大会
+  abbr: CHI
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4363607743
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/chi
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - UX
+  lang: en
+- name_en: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  name_zh: ACM 计算机支持的协同工作大会
+  abbr: CSCW
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4363607909
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/cscw
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - CSCW
+  lang: en
+- name_en: ACM Symposium on User Interface Software and Technology
+  name_zh: ACM 用户界面软件与技术大会
+  abbr: UIST
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306421131
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/uist
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - UI
+  lang: en
+- name_en: ACM Conference on Designing Interactive Systems
+  name_zh: ACM 交互系统设计大会
+  abbr: DIS
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4363608268
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/dis
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - design
+  lang: en
+- name_en: International Conference on Intelligent User Interfaces
+  name_zh: 国际智能用户界面大会
+  abbr: IUI
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306418948
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/iui
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - AI
+  lang: en
+- name_en: ACM/IEEE International Conference on Human-Robot Interaction
+  name_zh: ACM/IEEE 人-机器人交互大会
+  abbr: HRI
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306418552
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/hri
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - HRI
+  lang: en
+- name_en: International Conference on Human-Computer Interaction with Mobile Devices and Services
+  name_zh: 国际移动设备与服务人机交互大会
+  abbr: MobileHCI
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306418549
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/mhc
+  rss: ''
+  online_first: ''
+  tier: B
+  domain:
+  - HCI
+  - mobile
+  lang: en
+- name_en: TEI Conference on Tangible, Embedded, and Embodied Interaction
+  name_zh: TEI 实体嵌入式与具身交互大会
+  abbr: TEI
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: ''
+  publisher: ACM
+  publisher_toc: https://dl.acm.org/conference/tei
+  rss: ''
+  online_first: ''
+  tier: B
+  domain:
+  - HCI
+  - design
+  lang: en
+- name_en: IEEE Visualization Conference
+  name_zh: IEEE 可视化大会
+  abbr: IEEEVIS
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306418842
+  publisher: IEEE
+  publisher_toc: https://ieeexplore.ieee.org/xpl/conhome/1000.jsp?punumber=10005244
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  - visualization
+  lang: en
+- name_en: INTERACT Conference on Human-Computer Interaction
+  name_zh: INTERACT 人机交互大会
+  abbr: INTERACT
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: ''
+  publisher: Springer
+  publisher_toc: https://link.springer.com/conference/interact
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - HCI
+  lang: en
+- name_en: International Conference on Information Systems
+  name_zh: 国际信息系统大会
+  abbr: ICIS
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4306419566
+  publisher: AIS
+  publisher_toc: https://aisel.aisnet.org/icis/
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - IS
+  - HCI
+  lang: en
+- name_en: Hawaii International Conference on System Sciences
+  name_zh: 夏威夷系统科学国际大会
+  abbr: HICSS
+  type: conference
+  issn: ''
+  eissn: ''
+  openalex_source_id: S4210195248
+  publisher: HICSS
+  publisher_toc: https://hicss.hawaii.edu/
+  rss: ''
+  online_first: ''
+  tier: B
+  domain:
+  - IS
+  - HCI
+  lang: en
+- name_en: Acta Psychologica Sinica
+  name_zh: 心理学报
+  abbr: APS
+  type: journal
+  issn: 0439-755X
+  eissn: 1671-3710
+  openalex_source_id: ''
+  publisher: 中科院心理研究所
+  publisher_toc: https://journal.psych.ac.cn/xlxb/CN/volumn/current.shtml
+  rss: https://journal.psych.ac.cn/xlxb/CN/rss/showRssInfo.do
+  online_first: https://journal.psych.ac.cn/xlxb/CN/article/showOnlineFirstList.do
+  tier: A
+  domain:
+  - psychology
+  - consumer
+  lang: zh
+- name_en: Nankai Business Review
+  name_zh: 南开管理评论
+  abbr: NBR
+  type: journal
+  issn: 1008-3448
+  eissn: ''
+  openalex_source_id: ''
+  publisher: 南开大学
+  publisher_toc: http://nbr.nankai.edu.cn/
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - marketing
+  - management
+  lang: zh
+- name_en: Management World
+  name_zh: 管理世界
+  abbr: MW
+  type: journal
+  issn: 1002-5502
+  eissn: ''
+  openalex_source_id: ''
+  publisher: 国务院发展研究中心
+  publisher_toc: http://www.mwm.net.cn/
+  rss: ''
+  online_first: ''
+  tier: A
+  domain:
+  - management
+  - marketing
+  lang: zh
