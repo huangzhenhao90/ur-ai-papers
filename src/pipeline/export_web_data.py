@@ -48,18 +48,26 @@ def _rss_date(d) -> str | None:
 
 
 def export_rss(slim_list: list[dict]):
-    """生成 RSS 2.0 feed（取最近 30 篇）。
+    """生成 RSS 2.0 feed。
 
-    slim_list 已经按 (year desc, ai_score desc) 排序，直接复用。
+    RSS 排序按 (scored_at desc, pub_date desc)：先按"被打分/入库的时间"倒序，
+    保证新加入的论文一定在 feed 顶部（订阅者能看到），同分再按出版日期倒序。
+    跟 papers.json 的排序不同（papers.json 按 year/ai_score 排，是浏览用的）。
     """
+    rss_list = sorted(
+        slim_list,
+        key=lambda x: (x.get("scored_at") or "", x.get("date") or ""),
+        reverse=True,
+    )
     items = []
     now_rfc = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    for x in slim_list[:30]:
+    for x in rss_list[:30]:
         title = x.get("title_zh") or x.get("title") or "(无标题)"
         title_en = x.get("title") or ""
         tldr = x.get("tldr") or ""
         link = f"{SITE_URL}/papers/{x['id']}"
-        pub = _rss_date(x.get("date"))
+        # pubDate 用 scored_at（订阅者关心"何时进库"），fallback 到出版日期
+        pub = _rss_date((x.get("scored_at") or "")[:10]) or _rss_date(x.get("date"))
         authors = ", ".join(x.get("authors") or []) or "Unknown"
         tags = (x.get("topic_tags") or []) + (x.get("ai_type_tags") or [])
         categories_xml = "".join(f"<category>{escape(t)}</category>" for t in tags[:8])
@@ -103,7 +111,7 @@ def export_rss(slim_list: list[dict]):
 """
     out = WEB_PUBLIC_DIR / "rss.xml"
     out.write_text(rss, encoding="utf-8")
-    print(f"  → rss.xml: {min(len(slim_list), 30)} 条 ({out.stat().st_size//1024} KB)")
+    print(f"  → rss.xml: {min(len(rss_list), 30)} 条 ({out.stat().st_size//1024} KB)")
 
 
 def slim_paper(p, score, llm) -> dict:
@@ -131,6 +139,7 @@ def slim_paper(p, score, llm) -> dict:
         "ai_score": score.ai_relevance,
         "domain_score": score.domain_relevance,
         "ai_reason": score.rationale,
+        "scored_at": score.scored_at.isoformat() if score.scored_at else None,
         "tldr": (llm.tldr_zh if llm else None),
         "topic_tags": (llm.topic_tags if llm else []) or [],
         "ai_type_tags": (llm.ai_type_tags if llm else []) or [],

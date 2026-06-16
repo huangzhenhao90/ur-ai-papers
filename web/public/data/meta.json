@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T07:17:17.270234Z",
+  "generated_at": "2026-06-16T04:20:19.893871Z",
   "totals": {
-    "papers_indexed": 8634,
+    "papers_indexed": 2386,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 308,
+      "papers_indexed": 107,
       "papers_ai_relevant": 19
     },
     {
@@ -32,7 +32,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
-      "papers_indexed": 122,
+      "papers_indexed": 19,
       "papers_ai_relevant": 0
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 590,
+      "papers_indexed": 205,
       "papers_ai_relevant": 57
     },
     {
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 166,
+      "papers_indexed": 49,
       "papers_ai_relevant": 9
     },
     {
@@ -75,7 +75,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 102,
+      "papers_indexed": 32,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 511,
+      "papers_indexed": 210,
       "papers_ai_relevant": 37
     },
     {
@@ -105,7 +105,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 88,
+      "papers_indexed": 7,
       "papers_ai_relevant": 0
     },
     {
@@ -119,7 +119,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 203,
+      "papers_indexed": 70,
       "papers_ai_relevant": 3
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 995,
+      "papers_indexed": 98,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 889,
+      "papers_indexed": 77,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 753,
+      "papers_indexed": 60,
       "papers_ai_relevant": 5
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 491,
+      "papers_indexed": 92,
       "papers_ai_relevant": 1
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 382,
+      "papers_indexed": 41,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 611,
+      "papers_indexed": 99,
       "papers_ai_relevant": 4
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 285,
+      "papers_indexed": 54,
       "papers_ai_relevant": 20
     },
     {
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 206,
+      "papers_indexed": 24,
       "papers_ai_relevant": 4
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 189,
+      "papers_indexed": 28,
       "papers_ai_relevant": 1
     },
     {
@@ -267,7 +267,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-retailing",
-      "papers_indexed": 340,
+      "papers_indexed": 70,
       "papers_ai_relevant": 1
     },
     {
@@ -282,7 +282,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mre",
-      "papers_indexed": 99,
+      "papers_indexed": 23,
       "papers_ai_relevant": 0
     },
     {
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 170,
+      "papers_indexed": 28,
       "papers_ai_relevant": 4
     },
     {
@@ -311,7 +311,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 162,
+      "papers_indexed": 21,
       "papers_ai_relevant": 0
     },
     {
