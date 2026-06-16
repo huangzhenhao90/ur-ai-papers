@@ -50,13 +50,16 @@ def _rss_date(d) -> str | None:
 def export_rss(slim_list: list[dict]):
     """生成 RSS 2.0 feed。
 
-    RSS 排序按 (scored_at desc, pub_date desc)：先按"被打分/入库的时间"倒序，
-    保证新加入的论文一定在 feed 顶部（订阅者能看到），同分再按出版日期倒序。
-    跟 papers.json 的排序不同（papers.json 按 year/ai_score 排，是浏览用的）。
+    RSS 排序按 (ingested_at desc, pub_date desc)：先按"首次入库时间"倒序，
+    保证新加入的论文一定在 feed 顶部。
+
+    关键设计：用 Paper.created_at（首次入库时间），不用 scored_at。
+    因为重打分会更新 scored_at（导致 RSS 被一次性污染一大批老论文），
+    但 created_at 只在论文首次被抓取入库时设置一次，永远不会因为重打分变化。
     """
     rss_list = sorted(
         slim_list,
-        key=lambda x: (x.get("scored_at") or "", x.get("date") or ""),
+        key=lambda x: (x.get("ingested_at") or "", x.get("date") or ""),
         reverse=True,
     )
     items = []
@@ -66,8 +69,8 @@ def export_rss(slim_list: list[dict]):
         title_en = x.get("title") or ""
         tldr = x.get("tldr") or ""
         link = f"{SITE_URL}/papers/{x['id']}"
-        # pubDate 用 scored_at（订阅者关心"何时进库"），fallback 到出版日期
-        pub = _rss_date((x.get("scored_at") or "")[:10]) or _rss_date(x.get("date"))
+        # pubDate 用 ingested_at（首次入库时间），fallback 到出版日期
+        pub = _rss_date((x.get("ingested_at") or "")[:10]) or _rss_date(x.get("date"))
         authors = ", ".join(x.get("authors") or []) or "Unknown"
         tags = (x.get("topic_tags") or []) + (x.get("ai_type_tags") or [])
         categories_xml = "".join(f"<category>{escape(t)}</category>" for t in tags[:8])
@@ -125,6 +128,7 @@ def slim_paper(p, score, llm) -> dict:
     return {
         "id": p.id,
         "doi": p.doi,
+        "ingested_at": p.created_at.isoformat() if p.created_at else None,
         "title": p.title,
         "title_zh": p.title_zh,
         "journal": journal,
