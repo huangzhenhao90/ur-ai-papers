@@ -6,6 +6,9 @@
   papers_full.json ── 全量论文（含 TL;DR），用于详情页
   coverage.json ── 覆盖率审计
   meta.json     ── 期刊清单 + 全局统计
+
+输出到 web/public/:
+  rss.xml      ── RSS 2.0 feed（最近 30 篇双≥3 论文）
 """
 
 import json
@@ -14,6 +17,7 @@ import sys
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
@@ -26,6 +30,80 @@ from src.utils.journals import load_journals
 load_dotenv()
 DB_PATH = os.getenv("DB_PATH", "./data/papers.db")
 OUT_DIR = Path(__file__).resolve().parents[2] / "web" / "public" / "data"
+WEB_PUBLIC_DIR = Path(__file__).resolve().parents[2] / "web" / "public"
+SITE_TITLE = "UR × AI Papers"
+SITE_DESC = "用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR"
+SITE_URL = os.getenv("SITE_URL", "https://ur-ai-papers.vercel.app").rstrip("/")
+
+
+def _rss_date(d) -> str | None:
+    """'2026-06-14' → 'Sun, 14 Jun 2026 00:00:00 +0000' (RFC 822)。"""
+    if not d:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(d)[:10])
+        return dt.strftime("%a, %d %b %Y 00:00:00 +0000")
+    except (ValueError, TypeError):
+        return None
+
+
+def export_rss(slim_list: list[dict]):
+    """生成 RSS 2.0 feed（取最近 30 篇）。
+
+    slim_list 已经按 (year desc, ai_score desc) 排序，直接复用。
+    """
+    items = []
+    now_rfc = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+    for x in slim_list[:30]:
+        title = x.get("title_zh") or x.get("title") or "(无标题)"
+        title_en = x.get("title") or ""
+        tldr = x.get("tldr") or ""
+        link = f"{SITE_URL}/papers/{x['id']}"
+        pub = _rss_date(x.get("date"))
+        authors = ", ".join(x.get("authors") or []) or "Unknown"
+        tags = (x.get("topic_tags") or []) + (x.get("ai_type_tags") or [])
+        categories_xml = "".join(f"<category>{escape(t)}</category>" for t in tags[:8])
+
+        # 描述：中文标题 + 英文原标题 + TL;DR + 元数据
+        desc_parts = [f"📝 {escape(title)}"]
+        if title_en and title_en != title:
+            desc_parts.append(f"EN: {escape(title_en)}")
+        if tldr:
+            desc_parts.append(f"\n💡 {escape(tldr)}")
+        desc_parts.append(f"\n📚 {escape(x.get('journal') or 'arXiv')} · {x.get('year') or ''} · 引用 {x.get('cited_by') or 0}")
+        desc_parts.append(f"👤 {escape(authors)}")
+        desc_parts.append(f"\nAI 分: {x.get('ai_score')} / 领域分: {x.get('domain_score')}")
+        if x.get("pdf_url"):
+            desc_parts.append(f'\n📄 PDF: {escape(x["pdf_url"])}')
+        description = "\n".join(desc_parts)
+
+        item = f"""    <item>
+      <title>{escape(title)}</title>
+      <link>{link}</link>
+      <guid isPermaLink="true">{link}</guid>
+      <description>{escape(description)}</description>
+      {f"<pubDate>{pub}</pubDate>" if pub else ""}
+      {categories_xml}
+    </item>"""
+        items.append(item)
+
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{SITE_TITLE}</title>
+    <link>{SITE_URL}</link>
+    <atom:link href="{SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+    <description>{SITE_DESC}</description>
+    <language>zh-CN</language>
+    <lastBuildDate>{now_rfc}</lastBuildDate>
+    <generator>ur-ai-papers export pipeline</generator>
+{''.join(items)}
+  </channel>
+</rss>
+"""
+    out = WEB_PUBLIC_DIR / "rss.xml"
+    out.write_text(rss, encoding="utf-8")
+    print(f"  → rss.xml: {min(len(slim_list), 30)} 条 ({out.stat().st_size//1024} KB)")
 
 
 def slim_paper(p, score, llm) -> dict:
@@ -197,6 +275,9 @@ def main():
         }
         (OUT_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
         print(f"  → meta.json")
+
+        # rss.xml: 最近 30 篇双≥3 论文
+        export_rss(slim_list)
 
         print(f"\n全部导出到: {OUT_DIR}")
     finally:

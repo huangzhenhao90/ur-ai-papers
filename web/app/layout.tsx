@@ -7,6 +7,11 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: "UR × AI Papers — 用户研究 / HCI / CX AI 论文索引",
   description: "聚合 2023 至今 HCI / UX / 消费者 / CX 顶刊与顶会中与 AI 相关的论文，含中文 TL;DR、主题标签与覆盖率审计。",
+  alternates: {
+    types: {
+      "application/rss+xml": "/rss.xml",
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
