@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T07:21:23.001722Z",
+  "generated_at": "2026-06-17T07:05:33.306726Z",
   "totals": {
-    "papers_indexed": 8641,
+    "papers_indexed": 8651,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 590,
+      "papers_indexed": 591,
       "papers_ai_relevant": 57
     },
     {
@@ -119,7 +119,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 203,
+      "papers_indexed": 204,
       "papers_ai_relevant": 3
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 995,
+      "papers_indexed": 997,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 889,
+      "papers_indexed": 890,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 753,
+      "papers_indexed": 755,
       "papers_ai_relevant": 5
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 382,
+      "papers_indexed": 383,
       "papers_ai_relevant": 5
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 287,
+      "papers_indexed": 288,
       "papers_ai_relevant": 20
     },
     {
@@ -311,7 +311,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 162,
+      "papers_indexed": 163,
       "papers_ai_relevant": 0
     },
     {
