@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T07:05:33.306726Z",
+  "generated_at": "2026-06-18T06:49:21.895196Z",
   "totals": {
-    "papers_indexed": 8651,
+    "papers_indexed": 8660,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 511,
+      "papers_indexed": 517,
       "papers_ai_relevant": 37
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 383,
+      "papers_indexed": 384,
       "papers_ai_relevant": 5
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 972,
+      "papers_indexed": 974,
       "papers_ai_relevant": 17
     }
   ],
