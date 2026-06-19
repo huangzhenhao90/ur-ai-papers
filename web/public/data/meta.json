@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T06:49:21.895196Z",
+  "generated_at": "2026-06-19T07:03:30.398431Z",
   "totals": {
-    "papers_indexed": 8660,
+    "papers_indexed": 8673,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 308,
+      "papers_indexed": 309,
       "papers_ai_relevant": 19
     },
     {
@@ -75,7 +75,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 102,
+      "papers_indexed": 103,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 517,
+      "papers_indexed": 519,
       "papers_ai_relevant": 37
     },
     {
@@ -105,7 +105,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 88,
+      "papers_indexed": 89,
       "papers_ai_relevant": 0
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 890,
+      "papers_indexed": 892,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 755,
+      "papers_indexed": 757,
       "papers_ai_relevant": 5
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 492,
+      "papers_indexed": 493,
       "papers_ai_relevant": 1
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 384,
+      "papers_indexed": 385,
       "papers_ai_relevant": 5
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 288,
+      "papers_indexed": 289,
       "papers_ai_relevant": 20
     },
     {
@@ -311,7 +311,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 163,
+      "papers_indexed": 164,
       "papers_ai_relevant": 0
     },
     {
