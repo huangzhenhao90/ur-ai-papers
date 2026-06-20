@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T07:03:30.398431Z",
+  "generated_at": "2026-06-20T06:23:46.820268Z",
   "totals": {
-    "papers_indexed": 8673,
+    "papers_indexed": 8688,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -75,7 +75,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 103,
+      "papers_indexed": 104,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 519,
+      "papers_indexed": 520,
       "papers_ai_relevant": 37
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 493,
+      "papers_indexed": 494,
       "papers_ai_relevant": 1
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 385,
+      "papers_indexed": 386,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 611,
+      "papers_indexed": 612,
       "papers_ai_relevant": 4
     },
     {
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 206,
+      "papers_indexed": 207,
       "papers_ai_relevant": 4
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 974,
+      "papers_indexed": 983,
       "papers_ai_relevant": 17
     }
   ],
