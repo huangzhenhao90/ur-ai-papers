@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T06:23:46.820268Z",
+  "generated_at": "2026-06-21T06:47:42.162813Z",
   "totals": {
-    "papers_indexed": 8688,
+    "papers_indexed": 8697,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 309,
+      "papers_indexed": 310,
       "papers_ai_relevant": 19
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 591,
+      "papers_indexed": 592,
       "papers_ai_relevant": 57
     },
     {
@@ -75,7 +75,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 104,
+      "papers_indexed": 105,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 520,
+      "papers_indexed": 522,
       "papers_ai_relevant": 37
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 892,
+      "papers_indexed": 894,
       "papers_ai_relevant": 7
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 494,
+      "papers_indexed": 495,
       "papers_ai_relevant": 1
     },
     {
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 207,
+      "papers_indexed": 208,
       "papers_ai_relevant": 4
     },
     {
