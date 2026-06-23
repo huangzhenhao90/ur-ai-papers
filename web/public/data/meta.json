@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T07:17:34.559978Z",
+  "generated_at": "2026-06-23T06:05:18.661000Z",
   "totals": {
-    "papers_indexed": 8698,
+    "papers_indexed": 8706,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 522,
+      "papers_indexed": 524,
       "papers_ai_relevant": 37
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 997,
+      "papers_indexed": 998,
       "papers_ai_relevant": 7
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 289,
+      "papers_indexed": 290,
       "papers_ai_relevant": 20
     },
     {
@@ -267,7 +267,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-retailing",
-      "papers_indexed": 341,
+      "papers_indexed": 342,
       "papers_ai_relevant": 1
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 983,
+      "papers_indexed": 986,
       "papers_ai_relevant": 17
     }
   ],
