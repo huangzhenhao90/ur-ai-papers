@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24T06:05:49.210892Z",
+  "generated_at": "2026-06-25T06:03:41.079424Z",
   "totals": {
-    "papers_indexed": 8714,
+    "papers_indexed": 8722,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 166,
+      "papers_indexed": 167,
       "papers_ai_relevant": 9
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 525,
+      "papers_indexed": 527,
       "papers_ai_relevant": 37
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 998,
+      "papers_indexed": 999,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 894,
+      "papers_indexed": 895,
       "papers_ai_relevant": 7
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 612,
+      "papers_indexed": 613,
       "papers_ai_relevant": 4
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 290,
+      "papers_indexed": 291,
       "papers_ai_relevant": 20
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 986,
+      "papers_indexed": 987,
       "papers_ai_relevant": 17
     }
   ],
