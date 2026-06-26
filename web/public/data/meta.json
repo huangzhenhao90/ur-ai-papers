@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T06:03:41.079424Z",
+  "generated_at": "2026-06-26T06:07:58.149453Z",
   "totals": {
-    "papers_indexed": 8722,
+    "papers_indexed": 8744,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 593,
+      "papers_indexed": 595,
       "papers_ai_relevant": 57
     },
     {
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 167,
+      "papers_indexed": 168,
       "papers_ai_relevant": 9
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 895,
+      "papers_indexed": 896,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 757,
+      "papers_indexed": 758,
       "papers_ai_relevant": 5
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 496,
+      "papers_indexed": 497,
       "papers_ai_relevant": 1
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 386,
+      "papers_indexed": 392,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 613,
+      "papers_indexed": 614,
       "papers_ai_relevant": 4
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 291,
+      "papers_indexed": 292,
       "papers_ai_relevant": 20
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 189,
+      "papers_indexed": 191,
       "papers_ai_relevant": 1
     },
     {
@@ -282,7 +282,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mre",
-      "papers_indexed": 101,
+      "papers_indexed": 102,
       "papers_ai_relevant": 0
     },
     {
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 171,
+      "papers_indexed": 172,
       "papers_ai_relevant": 4
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 987,
+      "papers_indexed": 991,
       "papers_ai_relevant": 17
     }
   ],
