@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T06:07:58.149453Z",
+  "generated_at": "2026-06-27T05:55:26.421223Z",
   "totals": {
-    "papers_indexed": 8744,
+    "papers_indexed": 8749,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 311,
+      "papers_indexed": 312,
       "papers_ai_relevant": 19
     },
     {
@@ -119,7 +119,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 205,
+      "papers_indexed": 206,
       "papers_ai_relevant": 3
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 896,
+      "papers_indexed": 898,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 758,
+      "papers_indexed": 759,
       "papers_ai_relevant": 5
     },
     {
