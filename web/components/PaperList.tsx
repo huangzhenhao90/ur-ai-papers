@@ -11,6 +11,7 @@ import { comparePapersByRecent } from "@/lib/paperSort";
 export type Paper = {
   id: number;
   doi: string | null;
+  ingested_at: string | null;
   title: string;
   title_zh: string | null;
   journal: string | null;
