@@ -30,7 +30,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
 export default function HeaderNav() {
   return (
     <nav className="flex gap-3 text-sm items-center">
-      <NavLink href="/recent">本周新增</NavLink>
+      <NavLink href="/recent">最近发表</NavLink>
       <NavLink href="/">全部论文</NavLink>
       <FavLink />
       <NavLink href="/about">关于</NavLink>
