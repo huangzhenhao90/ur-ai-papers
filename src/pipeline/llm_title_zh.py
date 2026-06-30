@@ -91,10 +91,17 @@ def process_batch(client, batch_idx, batch):
     return [(p["id"], by_idx.get(i), None) for i, p in enumerate(batch)]
 
 
-def run(min_ai=3.0, min_dom=3.0, batch_size=BATCH_SIZE, n_workers=N_WORKERS, limit=None):
+def run(min_ai=3.0, min_dom=3.0, batch_size=BATCH_SIZE, n_workers=N_WORKERS,
+        limit=None, candidate_ids=None):
     session = get_session(DB_PATH)
     client = MiniMaxClient()
     try:
+        wanted_ids = None
+        wanted_order = {}
+        if candidate_ids is not None:
+            wanted_ids = {int(pid) for pid in candidate_ids}
+            wanted_order = {int(pid): i for i, pid in enumerate(candidate_ids)}
+
         rows = session.execute(text("""
             SELECT p.id, p.title
             FROM papers p
@@ -105,7 +112,13 @@ def run(min_ai=3.0, min_dom=3.0, batch_size=BATCH_SIZE, n_workers=N_WORKERS, lim
             ORDER BY p.pub_year DESC, p.id
         """), {"ai": min_ai, "dom": min_dom}).all()
 
-        todo = [{"id": r[0], "title": r[1]} for r in rows]
+        todo = [
+            {"id": r[0], "title": r[1]}
+            for r in rows
+            if wanted_ids is None or r[0] in wanted_ids
+        ]
+        if wanted_ids is not None:
+            todo.sort(key=lambda p: wanted_order.get(p["id"], len(wanted_order)))
         if limit:
             todo = todo[:limit]
         print(f"待翻译: {len(todo)} 篇 (batch={batch_size}, workers={n_workers})")
@@ -148,5 +161,7 @@ if __name__ == "__main__":
     p.add_argument("--limit", type=int, default=None)
     p.add_argument("--batch", type=int, default=BATCH_SIZE)
     p.add_argument("--workers", type=int, default=N_WORKERS)
+    p.add_argument("--ids", default=None, help="Comma-separated paper IDs to process")
     args = p.parse_args()
-    run(batch_size=args.batch, n_workers=args.workers, limit=args.limit)
+    ids = [int(x) for x in args.ids.split(",") if x.strip()] if args.ids else None
+    run(batch_size=args.batch, n_workers=args.workers, limit=args.limit, candidate_ids=ids)

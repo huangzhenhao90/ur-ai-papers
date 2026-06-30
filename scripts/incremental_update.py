@@ -157,42 +157,94 @@ def step_normalize():
     normalize_arxiv()
 
 
+def select_recent_llm_candidate_ids(limit: int) -> tuple[int, int, list[int], str]:
+    """Return recent pending LLM candidates without letting old backlog block daily updates."""
+    from sqlalchemy import text
+
+    days = int(os.getenv("LLM_CANDIDATE_LOOKBACK_DAYS", str(LOOKBACK_DAYS)))
+    since_dt_obj = datetime.utcnow() - timedelta(days=days)
+    since_dt = since_dt_obj.strftime("%Y-%m-%d %H:%M:%S")
+    since_date = since_dt_obj.strftime("%Y-%m-%d")
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+
+    pending_where = """
+        FROM papers p
+        LEFT JOIN paper_scores s ON s.paper_id = p.id
+        WHERE (s.paper_id IS NULL OR s.ai_relevance IS NULL)
+    """
+    recent_where = pending_where + """
+          AND (
+            (p.pub_date IS NOT NULL AND p.pub_date >= :since_date)
+            OR (p.created_at IS NOT NULL AND p.created_at >= :since_dt)
+          )
+    """
+
+    session = get_session(DB_PATH)
+    try:
+        total_pending = session.execute(
+            text(f"SELECT COUNT(*) {pending_where}")
+        ).scalar() or 0
+        candidate_total = session.execute(
+            text(f"SELECT COUNT(*) {recent_where}"),
+            {"since_date": since_date, "since_dt": since_dt},
+        ).scalar() or 0
+        ids = session.execute(text(f"""
+            SELECT p.id
+            {recent_where}
+            ORDER BY
+              CASE
+                WHEN p.pub_date >= :since_date AND p.pub_date <= :today THEN 0
+                WHEN p.created_at >= :since_dt THEN 1
+                ELSE 2
+              END,
+              COALESCE(p.pub_date, '') DESC,
+              COALESCE(p.created_at, '') DESC,
+              p.id DESC
+            LIMIT :limit
+        """), {
+            "since_date": since_date,
+            "since_dt": since_dt,
+            "today": today,
+            "limit": limit,
+        }).scalars().all()
+        return total_pending, candidate_total, [int(pid) for pid in ids], since_date
+    finally:
+        session.close()
+
+
 def step_llm():
     """打分新增论文 + 生成 TL;DR。如果没有 API key 则跳过 LLM 步骤。"""
     if not os.getenv("MINIMAX_API_KEY"):
         print("\n[skip] 无 MINIMAX_API_KEY，跳过 LLM 步骤")
         return
 
-    # 安全阀：检查未打分论文数量，过多则报警退出（避免初次跑或 cache miss 烧钱）
-    from sqlalchemy import select, func
-    from src.db.schema import Paper, PaperScore
-    session = get_session(DB_PATH)
-    try:
-        scored_ids = set(session.execute(select(PaperScore.paper_id)).scalars().all())
-        total_papers = session.execute(select(func.count(Paper.id))).scalar() or 0
-        unscored = total_papers - len(scored_ids)
-    finally:
-        session.close()
-
     SAFETY_LIMIT = int(os.getenv("LLM_SAFETY_LIMIT", "500"))
-    print(f"\n[安全阀] 待打分 {unscored} 篇 / 阈值 {SAFETY_LIMIT}")
-    if unscored > SAFETY_LIMIT:
-        print(f"⚠️  待打分超阈值，跳过 LLM 步骤（避免烧钱）")
-        print(f"   如需强制跑，本地手动: python -m src.pipeline.llm_score_parallel")
+    DAILY_LIMIT = int(os.getenv("LLM_DAILY_LIMIT", "200"))
+    if DAILY_LIMIT <= 0:
+        print("\n[skip] LLM_DAILY_LIMIT <= 0，跳过 LLM 步骤")
         return
+    run_limit = min(DAILY_LIMIT, SAFETY_LIMIT)
 
-    if unscored == 0:
-        print("[skip] 无新增论文，跳过 LLM")
+    total_pending, candidate_total, candidate_ids, since_date = select_recent_llm_candidate_ids(run_limit)
+    print(
+        f"\n[LLM 候选] 待处理 {total_pending} 篇；"
+        f"近 {os.getenv('LLM_CANDIDATE_LOOKBACK_DAYS', str(LOOKBACK_DAYS))} 天候选 {candidate_total} 篇；"
+        f"本次上限 {run_limit} 篇"
+    )
+    if not candidate_ids:
+        print(f"[skip] {since_date} 以来没有新的 LLM 候选，跳过 LLM")
         return
+    if candidate_total > len(candidate_ids):
+        print(f"⚠️  候选超过本次上限，仅处理前 {len(candidate_ids)} 篇；历史积压请单独 backfill")
 
     print("\n=== LLM 双打分 ===")
-    llm_score_run(batch_size=12, n_workers=50)
+    llm_score_run(batch_size=12, n_workers=50, candidate_ids=candidate_ids)
 
     print("\n=== LLM TL;DR ===")
-    llm_tldr_run(batch_size=3, n_workers=20)
+    llm_tldr_run(batch_size=3, n_workers=20, candidate_ids=candidate_ids)
 
     print("\n=== LLM 中文标题翻译 ===")
-    llm_title_zh_run(batch_size=10, n_workers=50)
+    llm_title_zh_run(batch_size=10, n_workers=50, candidate_ids=candidate_ids)
 
 
 def step_audit_export():

@@ -131,13 +131,19 @@ g_done = g_ok = g_fail = 0
 
 
 def run(min_ai: float = 3.0, min_dom: float = 3.0, batch_size: int = BATCH_SIZE,
-        n_workers: int = N_WORKERS, limit: int | None = None):
+        n_workers: int = N_WORKERS, limit: int | None = None,
+        candidate_ids: list[int] | None = None):
     global g_in, g_out, g_reason, g_done, g_ok, g_fail
 
     session = get_session(DB_PATH)
     client = MiniMaxClient()
     try:
         existing = set(session.execute(select(LlmOutput.paper_id)).scalars().all())
+        wanted_ids = None
+        wanted_order = {}
+        if candidate_ids is not None:
+            wanted_ids = {int(pid) for pid in candidate_ids}
+            wanted_order = {int(pid): i for i, pid in enumerate(candidate_ids)}
 
         # 选 ai≥3 且 domain≥3 且尚无 tldr 的论文
         rows = session.execute(text("""
@@ -150,8 +156,11 @@ def run(min_ai: float = 3.0, min_dom: float = 3.0, batch_size: int = BATCH_SIZE,
 
         todo = [
             {"id": r[0], "title": r[1], "abstract": r[2], "journal_abbr": r[3]}
-            for r in rows if r[0] not in existing
+            for r in rows
+            if r[0] not in existing and (wanted_ids is None or r[0] in wanted_ids)
         ]
+        if wanted_ids is not None:
+            todo.sort(key=lambda p: wanted_order.get(p["id"], len(wanted_order)))
         if limit:
             todo = todo[:limit]
 
@@ -217,6 +226,9 @@ if __name__ == "__main__":
     p.add_argument("--workers", type=int, default=N_WORKERS)
     p.add_argument("--min-ai", type=float, default=3.0)
     p.add_argument("--min-dom", type=float, default=3.0)
+    p.add_argument("--ids", default=None, help="Comma-separated paper IDs to process")
     args = p.parse_args()
+    ids = [int(x) for x in args.ids.split(",") if x.strip()] if args.ids else None
     run(min_ai=args.min_ai, min_dom=args.min_dom,
-        batch_size=args.batch, n_workers=args.workers, limit=args.limit)
+        batch_size=args.batch, n_workers=args.workers, limit=args.limit,
+        candidate_ids=ids)

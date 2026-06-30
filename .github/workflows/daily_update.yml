@@ -15,6 +15,14 @@ on:
         description: "LLM 安全阀上限（避免烧钱）"
         required: false
         default: "500"
+      llm_daily_limit:
+        description: "每日 LLM 处理上限"
+        required: false
+        default: "200"
+      llm_candidate_lookback_days:
+        description: "LLM 候选回看天数"
+        required: false
+        default: "14"
 
 permissions:
   contents: write  # 需要 commit JSON + 更新 release
@@ -70,13 +78,15 @@ jobs:
           DB_PATH: ./data/papers.db
           LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
           LLM_SAFETY_LIMIT: ${{ inputs.llm_safety_limit || '500' }}
+          LLM_DAILY_LIMIT: ${{ inputs.llm_daily_limit || '200' }}
+          LLM_CANDIDATE_LOOKBACK_DAYS: ${{ inputs.llm_candidate_lookback_days || '14' }}
         run: python scripts/incremental_update.py
 
       - name: Commit updated JSON if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/public/data/*.json
+          git add web/public/data/*.json web/public/rss.xml
           if git diff --cached --quiet; then
             echo "✨ JSON 无变化，跳过 commit"
           else
