@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T06:35:53.515857Z",
+  "generated_at": "2026-06-30T06:09:29.738909Z",
   "totals": {
-    "papers_indexed": 8753,
+    "papers_indexed": 8758,
     "papers_scored": 1268,
     "papers_ai_relevant": 222
   },
@@ -32,7 +32,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
-      "papers_indexed": 124,
+      "papers_indexed": 125,
       "papers_ai_relevant": 0
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 595,
+      "papers_indexed": 596,
       "papers_ai_relevant": 57
     },
     {
@@ -105,7 +105,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 89,
+      "papers_indexed": 91,
       "papers_ai_relevant": 0
     },
     {
@@ -119,7 +119,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 206,
+      "papers_indexed": 207,
       "papers_ai_relevant": 3
     },
     {
