@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T06:35:51.675853Z",
+  "generated_at": "2026-07-02T05:56:40.461821Z",
   "totals": {
-    "papers_indexed": 8782,
-    "papers_scored": 1410,
+    "papers_indexed": 8783,
+    "papers_scored": 1411,
     "papers_ai_relevant": 248
   },
   "journals": [
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 211,
+      "papers_indexed": 212,
       "papers_ai_relevant": 6
     },
     {
