@@ -6,9 +6,109 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 05:56:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 05:59:56 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>公共部门采购中的人-AI交互需求</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15108</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15108</guid>
+      <description>📝 公共部门采购中的人-AI交互需求
+EN: Human-AI Interaction Requirements in Public Sector Procurements
+
+💡 将人机交互(HAI)视为公共部门采购关键设计维度，提出面向采购的HAI交互需求分类体系。该体系帮助采购部门在合同文件中明确透明度、问责和人类监督等要求，确保AI系统在决策与服务交付中的伦理合规与可持续价值实现。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Mateen A. Abbasi, Tommi Mikkonen, Sinna Pirinen, Aapo Koski
+
+AI 分: 4.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2606.21247v1</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>公共部门采购</category><category>AI 治理</category><category>人机交互</category><category>服务设计</category><category>AI 系统</category><category>AI 决策支持</category>
+    </item>    <item>
+      <title>AI调解谈判：设计反思与经验</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15107</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15107</guid>
+      <description>📝 AI调解谈判：设计反思与经验
+EN: AI-Mediated Negotiation: Design Reflections and Lessons
+
+💡 研究构建理论驱动的AI谈判辅导系统Trucey并通过预注册实验(N=267)和访谈(N=15)检验四项设计假设。结果显示静态手册在赋能和可用性上优于AI辅导；原因在于会话AI把递归的谈判准备线性化。研究提出“图谱→路径→模拟”原则，提示AI辅导设计需先映射任务结构再进行路径规划。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Veda Duddu, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2606.21886v1</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机交互</category><category>AI 助手</category><category>可用性</category><category>用户体验</category><category>对话式AI</category><category>AI 辅导</category><category>AI 智能体</category>
+    </item>    <item>
+      <title>简历筛选，快与慢：AI推荐对人类决策的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15106</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15106</guid>
+      <description>📝 简历筛选，快与慢：AI推荐对人类决策的影响
+EN: Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on Human Decision Making
+
+💡 通过实验分析AI推荐对简历筛选的影响，发现当AI未推荐时，受试者审阅简历时间显著增加（最高55.6%），且审阅时长与未推荐候选人的选中概率呈正相关（3‑4%）。完成内隐联想测试(IAT)的受试者在不同种族候选人间审阅时间更均衡，IAT分数可预测审阅时长。结果表明人类在AI辅助决策中的认知过程不足以有效监督AI偏见。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, Soham Chatterjee, Aylin Caliskan
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2606.22213v1</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>AI 伦理</category><category>人机协作</category><category>决策公平</category><category>认知过程</category><category>AI 推荐</category><category>AI 招聘</category><category>AI 决策</category><category>AI 辅助筛选</category>
+    </item>    <item>
+      <title>人力资本而非模型基准预测混合智能预测表现</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15102</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15102</guid>
+      <description>📝 人力资本而非模型基准预测混合智能预测表现
+EN: Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting
+
+💡 通过真实货币预测市场评估人机混合预测，发现混合表现呈三模态：多数人仅服从模型或以模型确认先验猜测，少数人实现真正互补推理，准确性匹配甚至超过市场本身。区分这三类人的是合作特质（视角采择、智识谦逊、好奇心）而非原始认知能力或模型基准，说明人类资本在混合智能中关键作用。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Vivienne Ming
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2607.02467v1</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>预测</category><category>人类资本</category><category>混合智能</category><category>预测模型</category><category>人机协作</category><category>混合智能</category>
+    </item>    <item>
+      <title>Reddit上机器人账号的社会影响与行为传染田野实验</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15094</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15094</guid>
+      <description>📝 Reddit上机器人账号的社会影响与行为传染田野实验
+EN: A field experiment of social influence and behavioral contagion with bots on Reddit
+
+💡 在Reddit进行田野实验，考察用户对人类和机器人发出的象征性奖励的敏感性。奖励分为赞扬逻辑、情感、道德或随机抽奖四类。结果显示奖励并未提升受奖者的活动量和后续影响，且机器人随机奖励甚至降低这些指标；但奖励仍促进用户间直接交流。研究表明在线用户对简单的行为操控具有一定韧性，却可能易受更拟人化的策略影响，平台需透明标注自动化账号。
+
+📚 arXiv:cs.SI · 2026 · 引用 0
+👤 Hiroki Oda, Kinga Makovi, Taha Yasseri, Milena Tsvetkova
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2607.00854v1</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>社会影响</category><category>行为传染</category><category>机器人</category><category>在线社区</category><category>机器人</category><category>AI代理</category>
+    </item>    <item>
+      <title>社交媒体问题报告中的价值关切：Bluesky与Mastodon的人-LLM研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15091</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15091</guid>
+      <description>📝 社交媒体问题报告中的价值关切：Bluesky与Mastodon的人-LLM研究
+EN: Exploring value concerns in social media issue reports: a human-LLM study of Bluesky and Mastodon
+
+💡 研究在去中心化社交平台Bluesky和Mastodon上，采用人机协同方式对平台用户提交的内容问题报告进行价值关切分析。通过人类标注员与大型语言模型（LLM）共同分类，揭示安全、隐私、表达自由等核心价值在不同平台上的关注差异，并发现LLM能提升标注一致性、加速大规模议题发现。研究为平台治理与人机协同审查提供了实证参考。
+
+📚 BIT · 2026 · 引用 0
+👤 Davoud Mougouei, Ahmad Azarnik, Elahe Mougouei, Son Pham, Niamh Kinchin
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>社交媒体</category><category>内容审核</category><category>价值关切</category><category>去中心化平台</category><category>LLM</category><category>人机协作</category><category>文本分析</category>
+    </item>    <item>
       <title>开放模型的实际应用：r/LocalLLaMA上开放模型的采用与适应</title>
       <link>https://ur-ai-papers.vercel.app/papers/15076</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15076</guid>
@@ -388,106 +488,6 @@ EN: Mindsets, cultures, and technologies: supporting end-user development in the
 AI 分: 3.0 / 领域分: 3.0</description>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <category>用户研究方法</category><category>AI 采用</category><category>人机协作</category><category>GenAI</category><category>智能体</category><category>AI 助手</category>
-    </item>    <item>
-      <title>AI是否适合？人格对生成式AI协作与愉悦感的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14936</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14936</guid>
-      <description>📝 AI是否适合？人格对生成式AI协作与愉悦感的影响
-EN: Is AI a good fit? The impact of personality on generative AI collaboration and enjoyment
-
-💡 探究人格特质如何影响用户与生成式AI协作及使用体验。研究关注人格如何调节用户对AI工具的接受度、协作满意度，揭示不同人格特征用户在使用GenAI时的行为差异和体验偏好，为AI产品个性化设计和用户适配提供依据。
-
-📚 IJHCS · 2026 · 引用 1
-👤 Anna Kovbasiuk, Tamilla Triantoro, Leon Ciechanowski, Konrad Sowa, Aleksandra Przegalinska
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>用户体验(UX)</category><category>人机协作</category><category>GenAI</category><category>LLM</category><category>对话式AI</category>
-    </item>    <item>
-      <title>GenAI在软件开发用户体验研究中的新兴应用：挑战与机遇</title>
-      <link>https://ur-ai-papers.vercel.app/papers/8680</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/8680</guid>
-      <description>📝 GenAI在软件开发用户体验研究中的新兴应用：挑战与机遇
-EN: The Emerging Use of GenAI for UX Research in Software Development: Challenges and Opportunities
-
-💡 对21位UX研究人员、产品经理和设计师的访谈与实验表明，生成式AI在质性研究中的可信度受限，需与人类协作并调整角色定位；提出设计指南帮助在敏捷开发中负责任地集成AI。
-
-📚 arXiv:cs.HC · 2025 · 引用 0
-👤 Heloisa Candello, Werner Geyer, Siya Kunde, Michael Muller, Daita Sarkar
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2512.15944v1</description>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <category>UX研究</category><category>生成式AI</category><category>软件开发</category><category>人机协作</category><category>GenAI</category><category>LLM</category><category>AI助手</category><category>UX研究</category>
-    </item>    <item>
-      <title>"一瞥，而非凝视"：利用生成式AI平衡代际护理中的隐私与意识</title>
-      <link>https://ur-ai-papers.vercel.app/papers/7750</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/7750</guid>
-      <description>📝 "一瞥，而非凝视"：利用生成式AI平衡代际护理中的隐私与意识
-EN: "A Glimpse, Not a Gaze": Using Generative AI to Balance Privacy and Awareness in Inter-generational Caregiving
-
-💡 研究代际护理中隐私与监护需求的张力问题。采用体验抽样法(ESM)，让老年用户与其成年子女连续10天通过智能手机记录日常情境，并评估AI生成的抽象化视觉摘要(草图)，以探索生成式AI在保护隐私的前提下传递照护信息的可行性。研究旨在量化代际间隐私期望差异，为AI介导的护理工具提供隐私化视觉抽象设计指南，实现尊重长者尊严的代际连接。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Zixi Christina Li, Keiko Katsuragawa, James R. Wallace
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2606.05055v1</description>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <category>隐私</category><category>代际护理</category><category>用户体验(UX)</category><category>可用性</category><category>AI采用</category><category>GenAI</category><category>图像生成</category><category>AI助手</category>
-    </item>    <item>
-      <title>引导意义建构：协作审议中的智能体</title>
-      <link>https://ur-ai-papers.vercel.app/papers/7746</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/7746</guid>
-      <description>📝 引导意义建构：协作审议中的智能体
-EN: Guided Sensemaking: Agents in Collaborative Deliberation
-
-💡 生成式AI在教育场景中易促使用户追求便捷而回避深度思考。该研究提出 Guided Sensemaking——一个多智能体话语平台，围绕中心议题引导用户形成深思熟虑的观点，提供情境敏感的追问式脚手架，并将论证结构可视化，旨在将生成式AI定位为外部化推理、支持批判性思维、保留用户主体性的研究伙伴，而非直接给答案的工具。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Aaditya Bhatia, Navdeep Kaur Bhatia, Marc-Antoine Parent, Jack Park
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2606.02260v1</description>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <category>多模态交互</category><category>智能体/Agent</category><category>人机协作</category><category>服务设计</category><category>GenAI</category><category>智能体/Agent</category><category>AI助手</category><category>多模态</category>
-    </item>    <item>
-      <title>制度信任与本土AI优势：来自中国DeepSeek和ChatGPT用户的证据</title>
-      <link>https://ur-ai-papers.vercel.app/papers/7715</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/7715</guid>
-      <description>📝 制度信任与本土AI优势：来自中国DeepSeek和ChatGPT用户的证据
-EN: Institutional Trust and the Domestic AI Advantage: Evidence from DeepSeek and ChatGPT Users in China
-
-💡 为探讨制度信任如何影响用户对本土与全球大模型的信任，基于制度棱镜框架和认知-情感信任理论，对405名中国用户进行调查。结果显示，制度信任越高，用户对本土AI的情感信任越强，认知评价也更正面；制度信任低时，本土优势减弱。制度信任已成为AI信任形成的核心维度。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Jiashen Huang, Yu Jia, Xu Pan
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2606.01228v1</description>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>人机交互</category><category>消费者行为</category><category>AI 治理</category><category>LLM</category><category>GenAI</category>
-    </item>    <item>
-      <title>CANote：通过支架式和溯源性人机协作赋能事实核查笔记写作</title>
-      <link>https://ur-ai-papers.vercel.app/papers/7714</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/7714</guid>
-      <description>📝 CANote：通过支架式和溯源性人机协作赋能事实核查笔记写作
-EN: CANote: Empowering Fact-checking Note Writing Through Scaffolded and Provenance-based Human-AI Collaboration
-
-💡 针对众包事实核查笔记写作负担重的问题，开发了AI辅助系统CANote，通过提取子声明、关联证据并生成结构化草稿帮助用户。52名事实核查员和52名普通用户的实验表明，CANote显著提升笔记质量，使普通人达到专家水平，且任务时间和认知负荷相当、满意度更高，但削弱了用户的拥有感和控制感。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Shuning Zhang, Jingruo Chen, Yuwei Chuai, Dai Shi, Yifan Wang
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2606.07101v1</description>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>AI 助手</category><category>可用性</category><category>LLM</category><category>GenAI</category>
     </item>
   </channel>
 </rss>
