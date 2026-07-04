@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 05:59:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 05:46:04 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>犯错乃自动化之常：自动驾驶系统故障后信任能否修复？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15114</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15114</guid>
+      <description>📝 犯错乃自动化之常：自动驾驶系统故障后信任能否修复？
+EN: To Err is Automation: Can Trust be Repaired by the Automated Driving System After its Failure?
+
+💡 探讨自动驾驶系统在发生故障后能否修复用户信任的问题。研究采用实验或用户调查方法，考察自动化系统犯错后信任修复的可能性与机制。研究发现信任修复取决于系统后续表现及用户对故障原因的归因，为自动驾驶系统的信任管理设计提供参考。
+
+📚 THMS · 2024 · 引用 8
+👤 Peng Liu, Yueying Chu, Guanqun Wang, Zhigang Xu
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互</category><category>自动化系统</category><category>可用性</category><category>自动驾驶</category><category>自动化系统</category>
+    </item>    <item>
       <title>公共部门采购中的人-AI交互需求</title>
       <link>https://ur-ai-papers.vercel.app/papers/15108</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15108</guid>
@@ -108,6 +123,21 @@ EN: Exploring value concerns in social media issue reports: a human-LLM study of
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
       <category>社交媒体</category><category>内容审核</category><category>价值关切</category><category>去中心化平台</category><category>LLM</category><category>人机协作</category><category>文本分析</category>
+    </item>    <item>
+      <title>用户视角下健康推荐系统中隐私-效用权衡</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15079</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15079</guid>
+      <description>📝 用户视角下健康推荐系统中隐私-效用权衡
+EN: The users’ perspective on the privacy-utility trade-offs in health recommender systems
+
+💡 从用户视角研究健康推荐系统中隐私保护与效用之间的权衡关系。采用访谈、问卷等用户研究方法，探究用户对隐私-效用取舍的看法与决策因素。研究揭示用户在健康推荐场景下如何权衡个人隐私与推荐服务的价值，为平衡隐私保护与推荐效用的系统设计提供依据。
+
+📚 IJHCS · 2019 · 引用 84
+👤 André Calero Valdez, Martina Ziefle
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>用户研究</category><category>推荐系统</category><category>隐私</category><category>健康</category><category>推荐算法</category><category>健康推荐</category>
     </item>    <item>
       <title>开放模型的实际应用：r/LocalLLaMA上开放模型的采用与适应</title>
       <link>https://ur-ai-papers.vercel.app/papers/15076</link>
@@ -458,36 +488,6 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2606.18129v1</description>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <category>AI心理健康支持</category><category>认知萎缩</category><category>LLM评估</category><category>用户体验</category><category>伦理AI</category><category>LLM</category><category>基准测试</category><category>行为分析</category>
-    </item>    <item>
-      <title>从违背到履行：数字原住民AI诱导心理契约对工作场所结果的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14951</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14951</guid>
-      <description>📝 从违背到履行：数字原住民AI诱导心理契约对工作场所结果的影响
-EN: From breach to fulfilment: navigating digital natives’ AI-induced psychological contracts for workplace outcomes
-
-💡 基于415名印度高科技行业数字原住民的调查，研究员工对生成式AI的心理契约及违约/履行对创新行为和幸福感的影响。结果显示，AI的偏见、隐私侵犯和不透明导致负面工作结果；契约履行可缓冲低程度违约的负面影响。提示设计AI系统时需关注伦理和可解释性。
-
-📚 BIT · 2026 · 引用 0
-👤 Surabhi Verma, Vibhav Singh, Saurav Kumar
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>伦理</category><category>AI 治理</category><category>可解释性</category><category>GenAI</category><category>LLM</category>
-    </item>    <item>
-      <title>心态、文化与技术：支持AI时代终端用户开发</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14950</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14950</guid>
-      <description>📝 心态、文化与技术：支持AI时代终端用户开发
-EN: Mindsets, cultures, and technologies: supporting end-user development in the AI era
-
-💡 探讨在AI时代，心态、文化与技术如何共同影响终端用户的开发行为。基于问卷/访谈，发现成长型心态和开放文化提升用户对AI辅助开发的接受度与技术使用，技术工具的可解释性和易用性是关键促进因素。
-
-📚 BIT · 2026 · 引用 0
-👤 Gerhard Fischer
-
-AI 分: 3.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>AI 采用</category><category>人机协作</category><category>GenAI</category><category>智能体</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>
