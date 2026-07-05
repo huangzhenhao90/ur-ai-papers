@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Jul 2026 05:46:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 06:02:55 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>社会中的机器（MIS）模型：人们何时以及为何信任非人类代理执行社会角色</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15126</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15126</guid>
+      <description>📝 社会中的机器（MIS）模型：人们何时以及为何信任非人类代理执行社会角色
+EN: The Machines-In-Society (MIS) model: when and why people trust non-human agents to perform social roles
+
+💡 探讨 Machines-In-Society (MIS) 模型，核心研究人们信任非人类智能体扮演社会角色的时机与原因。分析影响信任建立的关键因素，揭示智能体在社会中承担角色时的信任机制。
+
+📚 BIT · 2026 · 引用 0
+👤 Joo-Wha Hong, Jonathan Gratch
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互(HCI)</category><category>社会影响</category><category>智能体</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>人类教练的使用是否比单纯使用AI教练带来更多减肥效果？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15117</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15117</guid>
+      <description>📝 人类教练的使用是否比单纯使用AI教练带来更多减肥效果？
+EN: Does Access to Human Coaches Lead to More Weight Loss Than With AI Coaches Alone?
+
+💡 通过对比实验考察人类教练与AI教练在减肥干预中的效果差异。结果表明，获得人类教练支持比仅用AI教练能带来更显著的减肥效果，主要因为消费者设定了更高的减肥目标，并更频繁地跟踪体重和食物摄入。
+
+📚 MktSci · 2026 · 引用 0
+👤 Anuj Kapoor, Sridhar Narayanan, Puneet Manchanda
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>健康干预</category><category>行为改变</category><category>AI采用</category><category>AI教练</category><category>AI助手</category><category>人机协作</category>
+    </item>    <item>
       <title>犯错乃自动化之常：自动驾驶系统故障后信任能否修复？</title>
       <link>https://ur-ai-papers.vercel.app/papers/15114</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15114</guid>
@@ -454,40 +484,6 @@ EN: Urania: Visualizing Data Analysis Pipelines for Natural Language-Based Data 
 AI 分: 4.0 / 领域分: 3.0</description>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
       <category>可视化</category><category>自然语言交互</category><category>数据探索</category><category>可解释性</category><category>对话式 AI</category><category>自然语言接口</category><category>数据可视化</category>
-    </item>    <item>
-      <title>Mind Companion：用于过程导向心理治疗的具身对话智能体</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14954</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14954</guid>
-      <description>📝 Mind Companion：用于过程导向心理治疗的具身对话智能体
-EN: Mind Companion: An Embodied Conversational Agent for Process-Based Psychotherapy
-
-💡 Mind Companion是基于LLM的具身对话智能体，集成多层心理分析与过程导向疗法原则，实时执行心理灵活性检测、情绪识别与安全监控。响应通过具身Avatar同步语音与动画传递。三种LLM配置对比真实治疗师表现，GPT-5.2在理解力、人际效果、合作性与治疗一致性上均优于人类治疗师，验证了LLM作为临床护理补充工具的可行性。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Sofie Kamber, Lukas Diebold, Pascal Riachi, Stella Brogna, Andrew Gloster
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2606.17789v1</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>心理健康</category><category>对话式AI</category><category>心理治疗</category><category>用户体验</category><category>临床支持</category><category>LLM</category><category>对话式AI</category><category>具身智能体</category>
-    </item>    <item>
-      <title>理解并测量LLM行为中的认知萎缩</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14953</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14953</guid>
-      <description>📝 理解并测量LLM行为中的认知萎缩
-EN: Towards Understanding and Measuring COGNITIVE ATROPHY in LLM Behaviour
-
-💡 识别现有LLM心理支持评估的关键缺口：表面安全分数无法捕捉模型在长期、情感敏感交互中的过程行为。提出认知萎缩（COGNITIVE ATROPHY）作为独立于安全性和有用性的新行为衡量维度。基于1,576个真实咨询对话、15,680轮、42,230响应构建认知萎缩基准，发现主流模型整体呈现中高度萎缩行为——对显性安全线索响应良好，但对用户寻求解决方案时适应不稳定。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Abeer Badawi, Moyosoreoluwa Olatosi, Negin Baghbanzadeh, Laleh Seyyed-Kalantari, Frank Rudzicz
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2606.18129v1</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>AI心理健康支持</category><category>认知萎缩</category><category>LLM评估</category><category>用户体验</category><category>伦理AI</category><category>LLM</category><category>基准测试</category><category>行为分析</category>
     </item>
   </channel>
 </rss>

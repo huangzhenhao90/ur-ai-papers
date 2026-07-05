@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T05:46:04.666451Z",
+  "generated_at": "2026-07-05T06:02:55.655579Z",
   "totals": {
-    "papers_indexed": 8824,
-    "papers_scored": 1451,
-    "papers_ai_relevant": 256
+    "papers_indexed": 8833,
+    "papers_scored": 1461,
+    "papers_ai_relevant": 258
   },
   "journals": [
     {
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 312,
+      "papers_indexed": 313,
       "papers_ai_relevant": 21
     },
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 535,
-      "papers_ai_relevant": 43
+      "papers_indexed": 537,
+      "papers_ai_relevant": 44
     },
     {
       "abbr": "DI",
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 762,
+      "papers_indexed": 763,
       "papers_ai_relevant": 5
     },
     {
@@ -179,7 +179,7 @@
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
       "papers_indexed": 499,
-      "papers_ai_relevant": 1
+      "papers_ai_relevant": 2
     },
     {
       "abbr": "JCP",
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 394,
+      "papers_indexed": 395,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 614,
+      "papers_indexed": 615,
       "papers_ai_relevant": 4
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 193,
+      "papers_indexed": 194,
       "papers_ai_relevant": 1
     },
     {
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 177,
+      "papers_indexed": 178,
       "papers_ai_relevant": 4
     },
     {
@@ -311,7 +311,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 164,
+      "papers_indexed": 165,
       "papers_ai_relevant": 0
     },
     {
@@ -560,11 +560,11 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 79
+      "2026": 81
     },
     "journals": {
       "IJHCS": 62,
-      "BIT": 43,
+      "BIT": 44,
       "TiiS": 24,
       "JSR": 21,
       "TOCHI": 21,
@@ -580,24 +580,24 @@
       "JAR": 4,
       "JAMS": 4,
       "arXiv:cs.CL": 3,
+      "MktSci": 2,
       "arXiv:cs.AI": 2,
       "arXiv:cs.SI": 1,
       "arXiv:cs.SE": 1,
       "JCA": 1,
-      "MktSci": 1,
       "JR": 1
     },
     "topic_tags": {
       "人机交互": 61,
-      "消费者行为": 60,
+      "消费者行为": 61,
       "用户体验(UX)": 57,
       "人机协作": 48,
-      "信任": 41,
-      "人机交互(HCI)": 39,
+      "信任": 42,
+      "人机交互(HCI)": 40,
       "用户研究方法": 35,
       "可解释性": 27,
       "可用性": 26,
-      "AI采用": 23,
+      "AI采用": 24,
       "情感计算": 23,
       "AI 采用": 21,
       "对话式 AI": 19,
@@ -622,11 +622,11 @@
       "广告": 6,
       "儿童/老人/无障碍": 6,
       "智能体/Agent": 5,
+      "智能体": 5,
       "认知负荷": 4,
       "隐私": 4,
       "生成式AI": 4,
       "语音交互": 4,
-      "智能体": 4,
       "在线社区": 4,
       "医疗AI": 4,
       "AI助手": 4,
@@ -645,12 +645,12 @@
       "AI 助手": 39,
       "对话式AI": 37,
       "对话式 AI": 35,
-      "AI助手": 32,
-      "智能体/Agent": 29,
-      "人机协作": 27,
+      "AI助手": 33,
+      "智能体/Agent": 30,
+      "人机协作": 28,
       "多模态": 25,
       "可解释AI": 20,
-      "人机交互": 16,
+      "人机交互": 17,
       "可解释 AI": 15,
       "推荐算法": 13,
       "AI 推荐": 13,
