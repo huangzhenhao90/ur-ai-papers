@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 06:02:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 06:25:51 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>社会中的机器（MIS）模型：人们何时以及为何信任非人类代理执行社会角色</title>
