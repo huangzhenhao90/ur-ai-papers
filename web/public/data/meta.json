@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T06:25:51.682161Z",
+  "generated_at": "2026-07-07T06:07:35.003572Z",
   "totals": {
-    "papers_indexed": 8837,
-    "papers_scored": 1465,
-    "papers_ai_relevant": 258
+    "papers_indexed": 8843,
+    "papers_scored": 1471,
+    "papers_ai_relevant": 259
   },
   "journals": [
     {
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 313,
+      "papers_indexed": 314,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 539,
+      "papers_indexed": 540,
       "papers_ai_relevant": 44
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1002,
+      "papers_indexed": 1003,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 902,
+      "papers_indexed": 903,
       "papers_ai_relevant": 8
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 615,
+      "papers_indexed": 616,
       "papers_ai_relevant": 4
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1020,
-      "papers_ai_relevant": 30
+      "papers_indexed": 1021,
+      "papers_ai_relevant": 31
     }
   ],
   "facets": {
@@ -560,7 +560,7 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 81
+      "2026": 82
     },
     "journals": {
       "IJHCS": 62,
@@ -568,7 +568,7 @@
       "TiiS": 24,
       "JSR": 21,
       "TOCHI": 21,
-      "arXiv:cs.HC": 19,
+      "arXiv:cs.HC": 20,
       "IwC": 9,
       "JM": 8,
       "JCR": 7,
@@ -594,10 +594,10 @@
       "人机协作": 48,
       "信任": 42,
       "人机交互(HCI)": 40,
-      "用户研究方法": 35,
+      "用户研究方法": 36,
       "可解释性": 27,
       "可用性": 26,
-      "AI采用": 24,
+      "AI采用": 25,
       "情感计算": 23,
       "AI 采用": 21,
       "对话式 AI": 19,
@@ -640,7 +640,7 @@
       "用户信任": 2
     },
     "ai_type_tags": {
-      "LLM": 49,
+      "LLM": 50,
       "GenAI": 40,
       "AI 助手": 39,
       "对话式AI": 37,

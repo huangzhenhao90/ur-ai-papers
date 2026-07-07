@@ -6,9 +6,26 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Jul 2026 06:25:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 06:07:35 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>一便士换一计：调查对象LLM使用的检测与缓解实验</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15137</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15137</guid>
+      <description>📝 一便士换一计：调查对象LLM使用的检测与缓解实验
+EN: A Penny for Your Prompts: Experiments Detecting and Mitigating LLM Usage by Survey Respondents
+
+💡 众包平台调查回复中LLM使用情况严重，平台间差异大（Prolific低于10%，Mechanical Turk超80%）。研究通过250份问卷测试检测特征并探索缓解措施，发现禁用复制粘贴、禁止AI请求等措施可减少使用但未必提升数据质量，建议结合按键数据与针对性问题设计来识别LLM辅助回复。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Zane Xu, Nathan Malkin
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2607.00403v1</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>众包</category><category>AI采用</category><category>数据质量</category><category>LLM</category><category>AI检测</category>
+    </item>    <item>
       <title>社会中的机器（MIS）模型：人们何时以及为何信任非人类代理执行社会角色</title>
       <link>https://ur-ai-papers.vercel.app/papers/15126</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15126</guid>
@@ -469,21 +486,6 @@ EN: The 2026 Service Research Priorities: AI-Driven Discovery, Interdisciplinary
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
       <category>服务研究</category><category>AI驱动研究</category><category>人机交互</category><category>服务体验</category><category>AI治理</category><category>LLM</category><category>机器学习</category><category>链接预测</category>
-    </item>    <item>
-      <title>Urania：面向自然语言数据探索的数据分析流程可视化</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14956</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14956</guid>
-      <description>📝 Urania：面向自然语言数据探索的数据分析流程可视化
-EN: Urania: Visualizing Data Analysis Pipelines for Natural Language-Based Data Exploration
-
-💡 Urania是一个自然语言交互系统，能够将用户提问分解为数据分析管道并以动画形式可视化展示。通过数据感知的提问分解算法和量化实验，验证其在执行准确性和探索体验上优于现有方法。
-
-📚 TiiS · 2026 · 引用 2
-👤 Yi Guo, Xiaoyu Qi, Haoyang Li, Jing Zhang, Danqing Shi
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      <category>可视化</category><category>自然语言交互</category><category>数据探索</category><category>可解释性</category><category>对话式 AI</category><category>自然语言接口</category><category>数据可视化</category>
     </item>
   </channel>
 </rss>
