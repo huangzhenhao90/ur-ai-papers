@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T06:07:35.003572Z",
+  "generated_at": "2026-07-08T05:09:09.129514Z",
   "totals": {
-    "papers_indexed": 8843,
-    "papers_scored": 1471,
-    "papers_ai_relevant": 259
+    "papers_indexed": 8855,
+    "papers_scored": 1483,
+    "papers_ai_relevant": 262
   },
   "journals": [
     {
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 314,
+      "papers_indexed": 315,
       "papers_ai_relevant": 21
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 600,
+      "papers_indexed": 601,
       "papers_ai_relevant": 62
     },
     {
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 168,
+      "papers_indexed": 169,
       "papers_ai_relevant": 9
     },
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 540,
-      "papers_ai_relevant": 44
+      "papers_indexed": 543,
+      "papers_ai_relevant": 45
     },
     {
       "abbr": "DI",
@@ -119,8 +119,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 209,
-      "papers_ai_relevant": 4
+      "papers_indexed": 210,
+      "papers_ai_relevant": 5
     },
     {
       "abbr": "JCR",
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1003,
+      "papers_indexed": 1005,
       "papers_ai_relevant": 7
     },
     {
@@ -207,8 +207,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 616,
-      "papers_ai_relevant": 4
+      "papers_indexed": 617,
+      "papers_ai_relevant": 5
     },
     {
       "abbr": "JSR",
@@ -550,21 +550,22 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1021,
+      "papers_indexed": 1023,
       "papers_ai_relevant": 31
     }
   ],
   "facets": {
     "years": {
       "2019": 1,
+      "2022": 1,
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 82
+      "2026": 84
     },
     "journals": {
       "IJHCS": 62,
-      "BIT": 44,
+      "BIT": 45,
       "TiiS": 24,
       "JSR": 21,
       "TOCHI": 21,
@@ -573,12 +574,12 @@
       "JM": 8,
       "JCR": 7,
       "JIM": 6,
+      "JAMS": 5,
+      "THMS": 5,
       "JMR": 5,
       "JCP": 5,
-      "THMS": 4,
       "arXiv:cs.CY": 4,
       "JAR": 4,
-      "JAMS": 4,
       "arXiv:cs.CL": 3,
       "MktSci": 2,
       "arXiv:cs.AI": 2,
@@ -588,10 +589,10 @@
       "JR": 1
     },
     "topic_tags": {
-      "人机交互": 61,
-      "消费者行为": 61,
+      "人机交互": 63,
+      "消费者行为": 62,
       "用户体验(UX)": 57,
-      "人机协作": 48,
+      "人机协作": 49,
       "信任": 42,
       "人机交互(HCI)": 40,
       "用户研究方法": 36,
@@ -599,28 +600,28 @@
       "可用性": 26,
       "AI采用": 25,
       "情感计算": 23,
-      "AI 采用": 21,
+      "AI 采用": 23,
+      "AI 助手": 20,
       "对话式 AI": 19,
-      "AI 助手": 19,
       "服务体验": 18,
       "用户体验": 16,
       "AI治理": 15,
-      "服务设计": 13,
+      "服务设计": 14,
       "伦理": 13,
       "AI 治理": 12,
       "可视化": 12,
       "多模态交互": 12,
       "推荐系统": 11,
       "对话式AI": 11,
-      "营销": 10,
+      "营销": 11,
+      "客户体验(CX)": 8,
       "AI伦理": 8,
       "用户画像": 7,
       "个性化": 7,
-      "客户体验(CX)": 7,
+      "儿童/老人/无障碍": 7,
       "可解释AI": 7,
       "客户体验": 6,
       "广告": 6,
-      "儿童/老人/无障碍": 6,
       "智能体/Agent": 5,
       "智能体": 5,
       "认知负荷": 4,
@@ -641,13 +642,13 @@
     },
     "ai_type_tags": {
       "LLM": 50,
-      "GenAI": 40,
-      "AI 助手": 39,
+      "GenAI": 41,
+      "AI 助手": 40,
       "对话式AI": 37,
       "对话式 AI": 35,
       "AI助手": 33,
-      "智能体/Agent": 30,
-      "人机协作": 28,
+      "智能体/Agent": 32,
+      "人机协作": 29,
       "多模态": 25,
       "可解释AI": 20,
       "人机交互": 17,
@@ -666,10 +667,10 @@
       "服务机器人": 6,
       "AI客服": 5,
       "个性化": 5,
+      "AI 采用": 4,
       "AI 智能体": 4,
       "机器人": 4,
-      "AI采用": 4,
-      "自动驾驶": 4
+      "AI采用": 4
     }
   }
 }

@@ -6,9 +6,56 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Jul 2026 06:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 05:09:09 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>AI与人类设计师：消费者如何将设计中的真诚关怀视为更可持续</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15147</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15147</guid>
+      <description>📝 AI与人类设计师：消费者如何将设计中的真诚关怀视为更可持续
+EN: AI and human designers: How consumers see the genuine care in product design as more sustainable
+
+💡 研究探讨消费者对AI设计可持续产品的感知，发现AI设计被视为不如人类设计更可持续，因缺乏‘真诚关怀’。实验表明关怀感知是关键中介，符号化的爱与关怀使人类参与提升可持续性评价。
+
+📚 JAMS · 2026 · 引用 0
+👤 Barbara Duffek, Dipayan Biswas
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1007/s11747-026-01170-4</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>营销</category><category>AI 采用</category><category>人机交互</category><category>GenAI</category><category>AI 采用</category>
+    </item>    <item>
+      <title>利用AI实现服务交付个性化：AI驱动机器人餐厅的启示</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15144</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15144</guid>
+      <description>📝 利用AI实现服务交付个性化：AI驱动机器人餐厅的启示
+EN: Harnessing AI to personalize service delivery: insights from AI-Driven robot restaurants
+
+💡 基于真实期权理论、混合智能和拟社会关系，研究通过双波问卷与访谈考察机器人餐厅的AI投资如何转化为机器人敏捷性，进而提升运营调节敏捷和客服能力。结果显示机器人敏捷是核心中介，拟人化感知强化客服效果。
+
+📚 BIT · 2026 · 引用 0
+👤 Edward C.S. Ku, Chun-Der Chen, Shu-Hua Wu
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>客户体验(CX)</category><category>服务设计</category><category>人机协作</category><category>AI 采用</category><category>智能体/Agent</category><category>AI 采用</category><category>人机协作</category>
+    </item>    <item>
+      <title>辅助机器人提升痴呆症患者感知沟通质量：一项概念验证</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15143</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15143</guid>
+      <description>📝 辅助机器人提升痴呆症患者感知沟通质量：一项概念验证
+EN: Assistant Robot Enhances the Perceived Communication Quality of People With Dementia: A Proof of Concept
+
+💡 针对痴呆症患者，试点使用助理机器人提升其感知沟通质量。研究采用概念验证设计，初步结果显示机器人介入能改善患者的沟通体验与人际互动质量。
+
+📚 THMS · 2022 · 引用 18
+👤 Di Zhou, Emilia I. Barakova, Pengcheng An, Matthias Rauterberg
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机交互</category><category>儿童/老人/无障碍</category><category>AI 助手</category><category>智能体/Agent</category><category>AI 助手</category>
+    </item>    <item>
       <title>一便士换一计：调查对象LLM使用的检测与缓解实验</title>
       <link>https://ur-ai-papers.vercel.app/papers/15137</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15137</guid>
@@ -441,51 +488,6 @@ AI 分: 3.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2606.09655v1</description>
       <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
       <category>用户研究方法</category><category>客户体验(CX)</category><category>消费者行为</category><category>AI治理</category><category>机器翻译</category><category>AI评价</category><category>AI采用</category>
-    </item>    <item>
-      <title>XEQ：评估XAI体验质量的量表</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14971</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14971</guid>
-      <description>📝 XEQ：评估XAI体验质量的量表
-EN: XEQ Scale for Evaluating XAI Experience Quality
-
-💡 提出并验证了XAI体验质量（XEQ）量表，从效用、满意度、有效性三维度量化用户与可解释AI系统的多轮交互体验，超越单次解释评价，为以用户为中心的XAI评估提供新框架。
-
-📚 TiiS · 2026 · 引用 0
-👤 Anjana Wijekoon, Nirmalie Wiratunga, David Corsar, Kyle Martin, Ikechukwu Nkisi-Orji
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>可解释 AI</category>
-    </item>    <item>
-      <title>机器理论：算法数据处理的常人信念对推荐接受的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14970</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14970</guid>
-      <description>📝 机器理论：算法数据处理的常人信念对推荐接受的影响
-EN: Theory of Machine: Lay Beliefs About Algorithmic Data Processing Drive Recommendation Acceptance
-
-💡 研究探究消费者对AI推荐系统所使用数据的朴素认知，划分三类数据类型，通过实验验证两种机制——感知个体性威胁和处理可接受性——如何影响推荐接受度。结果显示数据类型显著调节威胁感与接受意愿。
-
-📚 JIM · 2026 · 引用 0
-👤 Alcheikh Edmond Kozah, Ana Valenzuela
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>推荐系统</category><category>AI 采用</category><category>信任</category><category>推荐算法</category><category>AI 推荐</category>
-    </item>    <item>
-      <title>2026年服务研究优先事项：AI驱动的发现、跨学科影响动力学与个性化优先事项的"交互式服务学术孵化器"</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14967</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14967</guid>
-      <description>📝 2026年服务研究优先事项：AI驱动的发现、跨学科影响动力学与个性化优先事项的"交互式服务学术孵化器"
-EN: The 2026 Service Research Priorities: AI-Driven Discovery, Interdisciplinary Influence Dynamics, and the “Interactive Service Scholarship Incubator” for Personalized Priorities
-
-💡 通过混合AI-人类方法对10,500余篇服务文献构建概念网络，运用机器学习链接预测识别15个前瞻性主题，分为人机代理交互、AI全渠道生态编排、负责任包容性AI服务系统、服务体验心理动力学四大集群，并引入跨学科影响指数量化各学科对服务研究的驱动关系，同时提供交互式学术孵化平台供研究者探索。
-
-📚 JSR · 2026 · 引用 0
-👤 Martin Mende, Amy Ostrom, Juneha Baek, Donghyuk Shin, Sanghak Lee
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      <category>服务研究</category><category>AI驱动研究</category><category>人机交互</category><category>服务体验</category><category>AI治理</category><category>LLM</category><category>机器学习</category><category>链接预测</category>
     </item>
   </channel>
 </rss>
