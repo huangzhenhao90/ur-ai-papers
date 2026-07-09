@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-08T05:09:09.129514Z",
+  "generated_at": "2026-07-09T06:01:14.172752Z",
   "totals": {
-    "papers_indexed": 8855,
-    "papers_scored": 1483,
+    "papers_indexed": 8864,
+    "papers_scored": 1492,
     "papers_ai_relevant": 262
   },
   "journals": [
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1005,
+      "papers_indexed": 1006,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 903,
+      "papers_indexed": 904,
       "papers_ai_relevant": 8
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 763,
+      "papers_indexed": 765,
       "papers_ai_relevant": 5
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 499,
+      "papers_indexed": 501,
       "papers_ai_relevant": 2
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 617,
+      "papers_indexed": 619,
       "papers_ai_relevant": 5
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 293,
+      "papers_indexed": 294,
       "papers_ai_relevant": 21
     },
     {
