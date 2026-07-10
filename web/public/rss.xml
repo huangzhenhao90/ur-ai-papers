@@ -6,9 +6,43 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 06:01:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 05:59:41 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>开发者使用生成式人工智能的体验：超越生产力评估——来自实证混合方法实地研究的洞见</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15168</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15168</guid>
+      <description>📝 开发者使用生成式人工智能的体验：超越生产力评估——来自实证混合方法实地研究的洞见
+EN: Developers' Experience with Generative AI Beyond Productivity Assessment -- Insights from an Empirical Mixed-Methods Field Study
+
+💡 先前研究多聚焦GenAI对程序员的生产力提升，忽视了使用体验与身心健康。本研究结合受控数据收集与自然工作周期，考察专业开发者与GenAI编程助手的真实互动。发现开发者对GenAI总体满意，尤其偏好用于单调重复的结构化任务。代码建议与聊天交互两种模式对不同任务类型效率各异，同时使用可能削弱收益。研究提出基于任务特征选择交互类型的经验法则，并指出AI交互在开发密集型任务中会引发认知负荷。
+
+📚 arXiv:cs.SE · 2026 · 引用 0
+👤 Charlotte Brandebusemeyer, Kerim Zunic, Thomas Zimmermann, Tobias Schimmer, Bert Arnrich
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2607.02337v2</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>人机协作</category><category>消费者行为</category><category>GenAI</category><category>AI助手</category><category>人机协作</category>
+    </item>    <item>
+      <title>高风险犯罪关联分析中分析师如何使用人工智能：一项工业研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15165</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15165</guid>
+      <description>📝 高风险犯罪关联分析中分析师如何使用人工智能：一项工业研究
+EN: How Analysts Use AI in High-Stakes Crime Linkage: An Industrial Study
+
+💡 犯罪关联分析依赖人工检索数据库，耗时且认知负荷高。英国执法机构联合开发了AI辅助决策工具。本研究通过眼动追踪、鼠标追踪和问卷等混合方法评估该工具，发现分析师对AI预测持选择性信任，频繁验证非AI行为证据。分析师认可模型特征解释的价值，但建议改进呈现方式和与工作流程的整合。研究强调AI决策支持工具需更好融合解释与既有分析方法。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Jessica Woodhams, Amy Burrell, Wanyin Li, Fahim Ahmed, Matthew Tonkin
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2607.08274v1</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性测试</category><category>眼动追踪</category><category>信任</category><category>AI决策支持</category><category>人机协作</category>
+    </item>    <item>
       <title>AI与人类设计师：消费者如何将设计中的真诚关怀视为更可持续</title>
       <link>https://ur-ai-papers.vercel.app/papers/15147</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15147</guid>
@@ -454,40 +488,6 @@ EN: Personalised AI Coaching Technology: A Systematic Mapping Review
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>AI 助手</category><category>用户研究方法</category><category>AI 推荐</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>不确定系统信息对用户在辅助语言判断中的表现、自信和信任的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14985</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14985</guid>
-      <description>📝 不确定系统信息对用户在辅助语言判断中的表现、自信和信任的影响
-EN: Effects of uncertain system information on users' performance, confidence, and trust in aided linguistic judgement
-
-💡 通过两个在线实验(N=268)检验用户在自动语法建议中是否能够理解和利用系统可靠性信息。使用信号检测理论分析，发现更可靠的建议提升决策准确率，但用户仍系统性低估建议价值，表现出过度自信。结论：可靠性信息可被传递，但用户对其利用不足。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Melle Zijlstra, Stephen J. Payne
-
-AI 分: 3.0 / 领域分: 5.0
-
-📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103881</description>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>可用性测试</category><category>信任</category><category>用户研究方法</category><category>AI 推荐</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>超越准确性：社区视角下的机器翻译</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14981</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14981</guid>
-      <description>📝 超越准确性：社区视角下的机器翻译
-EN: Beyond Accuracy: Community Perspectives on Machine Translation
-
-💡 分析四个利益相关群体对机器翻译的看法差异。收集2019-2025年Reddit、Facebook、Bluesky、Mastodon上79,286条帖子，比较AI开发者、专业译者、语言学习者、语言服务提供商的讨论。结果发现各群体常因翻译质量、效率、可靠性等话题产生极化冲突，因为AI社区将其视为技术问题，而用户群体更关注质量细节、时间节省、信任及社会影响。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Yujun Wang, Ehud Reiter, Shimei Pan, Steffen Eger, Wei Zhao
-
-AI 分: 3.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2606.09655v1</description>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>客户体验(CX)</category><category>消费者行为</category><category>AI治理</category><category>机器翻译</category><category>AI评价</category><category>AI采用</category>
     </item>
   </channel>
 </rss>

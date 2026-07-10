@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-09T06:01:14.172752Z",
+  "generated_at": "2026-07-10T05:59:41.119275Z",
   "totals": {
-    "papers_indexed": 8864,
-    "papers_scored": 1492,
-    "papers_ai_relevant": 262
+    "papers_indexed": 8882,
+    "papers_scored": 1510,
+    "papers_ai_relevant": 264
   },
   "journals": [
     {
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 169,
+      "papers_indexed": 170,
       "papers_ai_relevant": 9
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 543,
+      "papers_indexed": 546,
       "papers_ai_relevant": 45
     },
     {
@@ -105,7 +105,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 92,
+      "papers_indexed": 93,
       "papers_ai_relevant": 0
     },
     {
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 178,
+      "papers_indexed": 179,
       "papers_ai_relevant": 4
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1023,
-      "papers_ai_relevant": 31
+      "papers_indexed": 1035,
+      "papers_ai_relevant": 33
     }
   ],
   "facets": {
@@ -561,7 +561,7 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 84
+      "2026": 86
     },
     "journals": {
       "IJHCS": 62,
@@ -569,7 +569,7 @@
       "TiiS": 24,
       "JSR": 21,
       "TOCHI": 21,
-      "arXiv:cs.HC": 20,
+      "arXiv:cs.HC": 21,
       "IwC": 9,
       "JM": 8,
       "JCR": 7,
@@ -583,19 +583,19 @@
       "arXiv:cs.CL": 3,
       "MktSci": 2,
       "arXiv:cs.AI": 2,
+      "arXiv:cs.SE": 2,
       "arXiv:cs.SI": 1,
-      "arXiv:cs.SE": 1,
       "JCA": 1,
       "JR": 1
     },
     "topic_tags": {
       "人机交互": 63,
-      "消费者行为": 62,
+      "消费者行为": 63,
       "用户体验(UX)": 57,
-      "人机协作": 49,
-      "信任": 42,
-      "人机交互(HCI)": 40,
-      "用户研究方法": 36,
+      "人机协作": 50,
+      "信任": 43,
+      "人机交互(HCI)": 42,
+      "用户研究方法": 37,
       "可解释性": 27,
       "可用性": 26,
       "AI采用": 25,
@@ -628,27 +628,27 @@
       "隐私": 4,
       "生成式AI": 4,
       "语音交互": 4,
+      "可用性测试": 4,
       "在线社区": 4,
       "医疗AI": 4,
       "AI助手": 4,
       "服务机器人": 4,
       "决策支持": 3,
+      "眼动追踪": 3,
       "医疗健康": 3,
-      "可用性测试": 3,
       "用户行为": 3,
       "用户研究": 3,
-      "拟人化": 3,
-      "用户信任": 2
+      "拟人化": 3
     },
     "ai_type_tags": {
       "LLM": 50,
-      "GenAI": 41,
+      "GenAI": 42,
       "AI 助手": 40,
       "对话式AI": 37,
       "对话式 AI": 35,
-      "AI助手": 33,
+      "AI助手": 34,
       "智能体/Agent": 32,
-      "人机协作": 29,
+      "人机协作": 31,
       "多模态": 25,
       "可解释AI": 20,
       "人机交互": 17,
