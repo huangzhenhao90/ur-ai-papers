@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 05:59:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 04:59:15 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>开发者使用生成式人工智能的体验：超越生产力评估——来自实证混合方法实地研究的洞见</title>
