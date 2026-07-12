@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T04:59:15.555992Z",
+  "generated_at": "2026-07-12T05:23:20.792030Z",
   "totals": {
-    "papers_indexed": 8895,
+    "papers_indexed": 8904,
     "papers_scored": 1523,
     "papers_ai_relevant": 264
   },
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 315,
+      "papers_indexed": 316,
       "papers_ai_relevant": 21
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 550,
+      "papers_indexed": 552,
       "papers_ai_relevant": 45
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 905,
+      "papers_indexed": 906,
       "papers_ai_relevant": 8
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 503,
+      "papers_indexed": 505,
       "papers_ai_relevant": 2
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 194,
+      "papers_indexed": 196,
       "papers_ai_relevant": 1
     },
     {
@@ -311,7 +311,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 165,
+      "papers_indexed": 166,
       "papers_ai_relevant": 0
     },
     {
