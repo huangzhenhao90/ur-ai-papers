@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T05:23:20.792030Z",
+  "generated_at": "2026-07-13T05:31:04.895727Z",
   "totals": {
-    "papers_indexed": 8904,
-    "papers_scored": 1523,
-    "papers_ai_relevant": 264
+    "papers_indexed": 8909,
+    "papers_scored": 1537,
+    "papers_ai_relevant": 266
   },
   "journals": [
     {
@@ -91,7 +91,7 @@
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
       "papers_indexed": 552,
-      "papers_ai_relevant": 45
+      "papers_ai_relevant": 46
     },
     {
       "abbr": "DI",
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1006,
+      "papers_indexed": 1009,
       "papers_ai_relevant": 7
     },
     {
@@ -252,8 +252,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 196,
-      "papers_ai_relevant": 1
+      "papers_indexed": 198,
+      "papers_ai_relevant": 2
     },
     {
       "abbr": "JR",
@@ -561,11 +561,11 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 86
+      "2026": 88
     },
     "journals": {
       "IJHCS": 62,
-      "BIT": 45,
+      "BIT": 46,
       "TiiS": 24,
       "JSR": 21,
       "TOCHI": 21,
@@ -581,17 +581,17 @@
       "arXiv:cs.CY": 4,
       "JAR": 4,
       "arXiv:cs.CL": 3,
+      "JCA": 2,
       "MktSci": 2,
       "arXiv:cs.AI": 2,
       "arXiv:cs.SE": 2,
       "arXiv:cs.SI": 1,
-      "JCA": 1,
       "JR": 1
     },
     "topic_tags": {
+      "消费者行为": 64,
       "人机交互": 63,
-      "消费者行为": 63,
-      "用户体验(UX)": 57,
+      "用户体验(UX)": 59,
       "人机协作": 50,
       "信任": 43,
       "人机交互(HCI)": 42,
@@ -601,8 +601,8 @@
       "AI采用": 25,
       "情感计算": 23,
       "AI 采用": 23,
-      "AI 助手": 20,
-      "对话式 AI": 19,
+      "AI 助手": 21,
+      "对话式 AI": 20,
       "服务体验": 18,
       "用户体验": 16,
       "AI治理": 15,
@@ -622,7 +622,7 @@
       "可解释AI": 7,
       "客户体验": 6,
       "广告": 6,
-      "智能体/Agent": 5,
+      "智能体/Agent": 6,
       "智能体": 5,
       "认知负荷": 4,
       "隐私": 4,
@@ -641,13 +641,13 @@
       "拟人化": 3
     },
     "ai_type_tags": {
-      "LLM": 50,
-      "GenAI": 42,
+      "LLM": 51,
+      "GenAI": 43,
       "AI 助手": 40,
       "对话式AI": 37,
-      "对话式 AI": 35,
+      "对话式 AI": 36,
       "AI助手": 34,
-      "智能体/Agent": 32,
+      "智能体/Agent": 33,
       "人机协作": 31,
       "多模态": 25,
       "可解释AI": 20,

@@ -6,9 +6,41 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 05:23:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 05:31:04 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>重塑心理治疗：消费者对生成式AI在心理健康领域的认知</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15203</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15203</guid>
+      <description>📝 重塑心理治疗：消费者对生成式AI在心理健康领域的认知
+EN: Reimagining Therapy: Consumer Perceptions of Generative &amp;lt;scp&amp;gt;AI&amp;lt;/scp&amp;gt; in Mental Health
+
+💡 研究发现，消费者在使用生成式AI进行心理治疗时体验差异显著。基于30次半结构化访谈，框架揭示AI兼具功能服务与关系代理双重角色，消费者的功利评估与关系评估共同驱动决策。认知评价过程解释体验分歧，并提示潜在风险。
+
+📚 JCA · 2026 · 引用 0
+👤 Kaiwen Xue, Sven Tuzovic, Udo Gottlieb
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1111/joca.70066</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>用户体验(UX)</category><category>AI 助手</category><category>对话式 AI</category><category>GenAI</category><category>LLM</category><category>对话式 AI</category>
+    </item>    <item>
+      <title>AI时代的反馈：理解用户对AI和人工客服的反应</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15193</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15193</guid>
+      <description>📝 AI时代的反馈：理解用户对AI和人工客服的反应
+EN: Feedback in the age of AI: understanding user reactions to AI and human agents
+
+💡 研究探讨反馈效价（正向/负向）与反馈来源（AI vs 人类）对用户在平台上的态度影响。三项行为实验发现，负面反馈在被AI提供时更易被接受，用户对其公平感更高，进而形成更积极的态度。公平感是中介变量，任务重要性调节效应：低重要性任务时AI负面反馈更公平，高重要性任务时人类负面反馈更公平。
+
+📚 BIT · 2026 · 引用 0
+👤 Meiling Yin, Mingyeong Jeon
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>公平性</category><category>平台交互</category><category>智能体/Agent</category><category>智能体/Agent</category>
+    </item>    <item>
       <title>开发者使用生成式人工智能的体验：超越生产力评估——来自实证混合方法实地研究的洞见</title>
       <link>https://ur-ai-papers.vercel.app/papers/15168</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15168</guid>
@@ -458,36 +490,6 @@ EN: Behaviour-driven adaptive feedback in LLM-guided 3D spatial tasks: effects o
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
       <category>人机交互</category><category>可用性</category><category>信任</category><category>认知负荷</category><category>LLM</category><category>AI 助手</category>
-    </item>    <item>
-      <title>可穿戴健身技术采用后用户评价的测量：来自Fitbit评论与调查的证据</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14987</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14987</guid>
-      <description>📝 可穿戴健身技术采用后用户评价的测量：来自Fitbit评论与调查的证据
-EN: Measuring post-adoption user evaluations in wearable fitness technology: evidence from Fitbit reviews and surveys
-
-💡 通过分析5万条Fitbit用户评论并结合683名用户的问卷调查，识别出追踪精度、同步稳定性等关键满意因素与同步故障、软件问题等不满因素，并构建了可穿戴健身技术用户满意度的经验性测量量表，为产品改进提供依据。
-
-📚 BIT · 2026 · 引用 0
-👤 Minseong Kim
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>用户研究方法</category><category>消费者行为</category><category>情感识别</category><category>AI 访谈分析</category>
-    </item>    <item>
-      <title>个性化AI辅导技术：系统性映射综述</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14986</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14986</guid>
-      <description>📝 个性化AI辅导技术：系统性映射综述
-EN: Personalised AI Coaching Technology: A Systematic Mapping Review
-
-💡 系统综述了207篇个性化AI辅导系统的文献，梳理了其在医疗、教育、体育等领域的应用、目标用户、AI技术、个人化策略和交互方式，发现大多数系统面向普通用户，医疗领域最多，教育和职场研究不足。
-
-📚 TiiS · 2026 · 引用 0
-👤 Jonathan Vitale, Filippo Cenacchi, Matthias Kraus, Fidelia A. Orji, Deborah Richards
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>AI 助手</category><category>用户研究方法</category><category>AI 推荐</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>
