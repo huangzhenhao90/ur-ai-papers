@@ -6,9 +6,43 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Jul 2026 05:31:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 04:47:27 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>方向性 AI 建议：来自医疗领域的实验证据</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15215</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15215</guid>
+      <description>📝 方向性 AI 建议：来自医疗领域的实验证据
+EN: Directional AI Advice: Experimental Evidence from Healthcare
+
+💡 在中国一家医院进行随机对照实验，发现AI聊天机器人在门诊前提供倾向性建议，常提醒患者慎用中药和抗生素，导致处方率下降、检查率上升，且在易接受患者意见的医生中效应更强；AI使用还降低患者依从性和满意度，改变医患权威平衡。
+
+📚 arXiv:econ.GN · 2026 · 引用 0
+👤 Yuyu Chen, Hongbin Li, Lingsheng Meng, Xinyao Qiu, Qingxu Yang
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2607.08706v1</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <category>医疗AI</category><category>AI助手</category><category>患者体验</category><category>实验研究</category><category>AI助手</category><category>LLM</category><category>AI治理</category>
+    </item>    <item>
+      <title>满意度评级中的维度问题</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15208</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15208</guid>
+      <description>📝 满意度评级中的维度问题
+EN: Dimensionality in Satisfaction Ratings
+
+💡 利用GPT-4.1对约9000条客服对话进行满意度标注，将整体满意度分解为代理、结果、产品和客户努力等维度，发现除产品外其余四个维度与自评高度相关，排除极端分歧后相关性升至0.91，全量覆盖显示实际满意度低于传统调研。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Andrew Hong, Jason Potteiger
+
+AI 分: 3.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2607.11026v1</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <category>客户满意度</category><category>对话式AI</category><category>文本分析</category><category>LLM</category><category>对话式AI</category><category>AI客服</category>
+    </item>    <item>
       <title>重塑心理治疗：消费者对生成式AI在心理健康领域的认知</title>
       <link>https://ur-ai-papers.vercel.app/papers/15203</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15203</guid>
@@ -460,36 +494,6 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2606.15483v1</description>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>用户体验(UX)</category><category>用户研究方法</category><category>AI采用</category><category>LLM</category><category>机器翻译</category><category>GenAI</category>
-    </item>    <item>
-      <title>EXPRESS：#MeToo运动如何重塑市场中的性别动态——来自娱乐业的证据</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14989</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14989</guid>
-      <description>📝 EXPRESS：#MeToo运动如何重塑市场中的性别动态——来自娱乐业的证据
-EN: EXPRESS: How the #MeToo Movement Has Reshaped Gender Dynamics in the Marketplace: Evidence from the Entertainment Industry
-
-💡 通过AI辅助内容分析与关键词文本分析1,523部票房最高电影，发现#MeToo后短期内容变化不大；观众仍偏好传统性别角色，对有问题的行为有所惩罚，却对非传统男性形象抵制，仅对女性非传统形象部分接受。
-
-📚 JM · 2026 · 引用 0
-👤 Chi P. Tran, Nooshin L. Warren, Joshua T. Beck
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>市场营销</category><category>社会运动</category><category>娱乐产业</category><category>AI 内容分析</category><category>AI 文本分析</category>
-    </item>    <item>
-      <title>LLM引导的3D空间任务中行为驱动的自适应反馈：对信任、反思及任务绩效的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14988</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14988</guid>
-      <description>📝 LLM引导的3D空间任务中行为驱动的自适应反馈：对信任、反思及任务绩效的影响
-EN: Behaviour-driven adaptive feedback in LLM-guided 3D spatial tasks: effects on trust, reflection, and task performance
-
-💡 研究LLM驱动的行为自适应反馈在3D空间任务中的作用。实时监测犹豫、重复错误等行为，触发个性化语言反馈。结果表明自适应反馈显著提升信任感、反馈恰当性和反思性参与，信任中介了反馈策略与恰当性的关系，并减少了回溯行为。
-
-📚 BIT · 2026 · 引用 0
-👤 Like Wu, Shihui Xu, Wenjie Liao, Shigeru Fujimura
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>人机交互</category><category>可用性</category><category>信任</category><category>认知负荷</category><category>LLM</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>

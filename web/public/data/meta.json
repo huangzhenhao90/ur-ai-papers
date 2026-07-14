@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13T05:31:04.895727Z",
+  "generated_at": "2026-07-14T04:47:27.371196Z",
   "totals": {
-    "papers_indexed": 8909,
-    "papers_scored": 1537,
-    "papers_ai_relevant": 266
+    "papers_indexed": 8923,
+    "papers_scored": 1551,
+    "papers_ai_relevant": 268
   },
   "journals": [
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1009,
+      "papers_indexed": 1010,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 765,
+      "papers_indexed": 766,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 622,
+      "papers_indexed": 623,
       "papers_ai_relevant": 5
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1035,
-      "papers_ai_relevant": 33
+      "papers_indexed": 1046,
+      "papers_ai_relevant": 35
     }
   ],
   "facets": {
@@ -561,7 +561,7 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 88
+      "2026": 90
     },
     "journals": {
       "IJHCS": 62,
@@ -578,14 +578,15 @@
       "THMS": 5,
       "JMR": 5,
       "JCP": 5,
+      "arXiv:cs.CL": 4,
       "arXiv:cs.CY": 4,
       "JAR": 4,
-      "arXiv:cs.CL": 3,
       "JCA": 2,
       "MktSci": 2,
       "arXiv:cs.AI": 2,
       "arXiv:cs.SE": 2,
       "arXiv:cs.SI": 1,
+      "arXiv:econ.GN": 1,
       "JR": 1
     },
     "topic_tags": {
@@ -609,10 +610,10 @@
       "服务设计": 14,
       "伦理": 13,
       "AI 治理": 12,
+      "对话式AI": 12,
       "可视化": 12,
       "多模态交互": 12,
       "推荐系统": 11,
-      "对话式AI": 11,
       "营销": 11,
       "客户体验(CX)": 8,
       "AI伦理": 8,
@@ -624,14 +625,14 @@
       "广告": 6,
       "智能体/Agent": 6,
       "智能体": 5,
+      "医疗AI": 5,
+      "AI助手": 5,
       "认知负荷": 4,
       "隐私": 4,
       "生成式AI": 4,
       "语音交互": 4,
       "可用性测试": 4,
       "在线社区": 4,
-      "医疗AI": 4,
-      "AI助手": 4,
       "服务机器人": 4,
       "决策支持": 3,
       "眼动追踪": 3,
@@ -641,12 +642,12 @@
       "拟人化": 3
     },
     "ai_type_tags": {
-      "LLM": 51,
+      "LLM": 53,
       "GenAI": 43,
       "AI 助手": 40,
-      "对话式AI": 37,
+      "对话式AI": 38,
       "对话式 AI": 36,
-      "AI助手": 34,
+      "AI助手": 35,
       "智能体/Agent": 33,
       "人机协作": 31,
       "多模态": 25,
@@ -657,15 +658,15 @@
       "AI 推荐": 13,
       "机器学习": 12,
       "情感识别": 11,
-      "AI治理": 9,
+      "AI治理": 10,
       "智能体": 8,
       "情感计算": 7,
+      "AI客服": 6,
       "AI推荐": 6,
       "ChatGPT": 6,
       "图像生成": 6,
       "AI": 6,
       "服务机器人": 6,
-      "AI客服": 5,
       "个性化": 5,
       "AI 采用": 4,
       "AI 智能体": 4,
