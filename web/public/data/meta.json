@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-14T04:47:27.371196Z",
+  "generated_at": "2026-07-15T04:46:12.263124Z",
   "totals": {
-    "papers_indexed": 8923,
-    "papers_scored": 1551,
-    "papers_ai_relevant": 268
+    "papers_indexed": 8935,
+    "papers_scored": 1563,
+    "papers_ai_relevant": 270
   },
   "journals": [
     {
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 316,
+      "papers_indexed": 318,
       "papers_ai_relevant": 21
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 601,
+      "papers_indexed": 603,
       "papers_ai_relevant": 62
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 552,
+      "papers_indexed": 556,
       "papers_ai_relevant": 46
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 623,
+      "papers_indexed": 625,
       "papers_ai_relevant": 5
     },
     {
@@ -237,8 +237,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 213,
-      "papers_ai_relevant": 6
+      "papers_indexed": 214,
+      "papers_ai_relevant": 7
     },
     {
       "abbr": "JCA",
@@ -297,8 +297,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 179,
-      "papers_ai_relevant": 4
+      "papers_indexed": 180,
+      "papers_ai_relevant": 5
     },
     {
       "abbr": "JMMR",
@@ -561,7 +561,7 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 90
+      "2026": 92
     },
     "journals": {
       "IJHCS": 62,
@@ -572,15 +572,15 @@
       "arXiv:cs.HC": 21,
       "IwC": 9,
       "JM": 8,
+      "JIM": 7,
       "JCR": 7,
-      "JIM": 6,
       "JAMS": 5,
+      "JAR": 5,
       "THMS": 5,
       "JMR": 5,
       "JCP": 5,
       "arXiv:cs.CL": 4,
       "arXiv:cs.CY": 4,
-      "JAR": 4,
       "JCA": 2,
       "MktSci": 2,
       "arXiv:cs.AI": 2,
@@ -590,8 +590,8 @@
       "JR": 1
     },
     "topic_tags": {
-      "消费者行为": 64,
-      "人机交互": 63,
+      "人机交互": 65,
+      "消费者行为": 65,
       "用户体验(UX)": 59,
       "人机协作": 50,
       "信任": 43,
@@ -605,7 +605,7 @@
       "AI 助手": 21,
       "对话式 AI": 20,
       "服务体验": 18,
-      "用户体验": 16,
+      "用户体验": 17,
       "AI治理": 15,
       "服务设计": 14,
       "伦理": 13,
@@ -615,16 +615,16 @@
       "多模态交互": 12,
       "推荐系统": 11,
       "营销": 11,
+      "AI伦理": 9,
       "客户体验(CX)": 8,
-      "AI伦理": 8,
       "用户画像": 7,
+      "广告": 7,
       "个性化": 7,
       "儿童/老人/无障碍": 7,
       "可解释AI": 7,
       "客户体验": 6,
-      "广告": 6,
       "智能体/Agent": 6,
-      "智能体": 5,
+      "智能体": 6,
       "医疗AI": 5,
       "AI助手": 5,
       "认知负荷": 4,
@@ -643,12 +643,12 @@
     },
     "ai_type_tags": {
       "LLM": 53,
-      "GenAI": 43,
+      "GenAI": 44,
       "AI 助手": 40,
       "对话式AI": 38,
       "对话式 AI": 36,
       "AI助手": 35,
-      "智能体/Agent": 33,
+      "智能体/Agent": 34,
       "人机协作": 31,
       "多模态": 25,
       "可解释AI": 20,

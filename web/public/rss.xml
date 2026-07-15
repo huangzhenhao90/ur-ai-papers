@@ -6,9 +6,41 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Jul 2026 04:47:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 04:46:12 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>原谅算法？消费者对 AI 与人类创作欺骗性广告的响应研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15229</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15229</guid>
+      <description>📝 原谅算法？消费者对 AI 与人类创作欺骗性广告的响应研究
+EN: Forgiving the Algorithm? Consumer Responses to AI- vs. Human-Created Misrepresentative Ads
+
+💡 探讨消费者对AI与人类创作的误导性广告的反应差异。研究采用实验法，对比AI生成与人类创作的虚假广告素材，发现消费者对算法驱动的误导性广告更难以宽容，因感知算法缺乏情感与道德意识，导致更高的责备和更低购买意愿，对AI广告伦理与营销监管具有启示。
+
+📚 JAR · 2026 · 引用 0
+👤 Kshitij Bhoumik
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1080/00218499.2026.2677339</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>广告</category><category>AI伦理</category><category>人机交互</category><category>AI生成</category><category>GenAI</category>
+    </item>    <item>
+      <title>EXPRESS：迈向智能虚拟主播：利用响应能力与回应自然度提升电商直播</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15228</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15228</guid>
+      <description>📝 EXPRESS：迈向智能虚拟主播：利用响应能力与回应自然度提升电商直播
+EN: EXPRESS: Toward Intelligent Virtual Streamers: Leveraging Responsiveness and Response Naturalness in E-commerce Livestreaming
+
+💡 研究虚拟主播在电商直播中的有效性机制。通过回忆研究和多实验设计，考察响应性与回应自然性的交互效应，发现高响应性需配合高自然性才能提升购买意愿和直播继续意愿，否则无显著作用。心理意象质量和消费者-虚拟主播认同起中介作用，人类直播助手可弥补低自然性的不足，为虚拟主播设计优化提供理论依据。
+
+📚 JIM · 2026 · 引用 0
+👤 Ruiqi Yao, Guijie Qi, Hua Sun, Kaiping Wang
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <category>电商直播</category><category>用户体验</category><category>人机交互</category><category>智能体</category><category>虚拟主播</category><category>智能体/Agent</category><category>多模态交互</category>
+    </item>    <item>
       <title>方向性 AI 建议：来自医疗领域的实验证据</title>
       <link>https://ur-ai-papers.vercel.app/papers/15215</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15215</guid>
@@ -462,38 +494,6 @@ AI 分: 4.0 / 领域分: 5.0
 📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103882</description>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <category>虚拟现实</category><category>人机交互</category><category>智能体</category><category>信任</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>设计、实施与评估AI解释：可解释AI框架的范围审查</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15001</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15001</guid>
-      <description>📝 设计、实施与评估AI解释：可解释AI框架的范围审查
-EN: Designing, Implementing, and Evaluating AI Explanations: A Scoping Review of Explainable AI Frameworks
-
-💡 通过系统文献综述73篇Explainable AI (XAI)论文，构建统一模型并提出设计各阶段的选型指南；分析框架开发与评估方法，指出当前实践的不足与改进方向。
-
-📚 TOCHI · 2025 · 引用 4
-👤 Karina Cortiñas-Lorenzo, Wanling Cai, Gavin Doherty
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>可解释AI</category><category>人机交互</category><category>设计方法论</category><category>用户体验</category><category>可解释 AI</category><category>XAI</category>
-    </item>    <item>
-      <title>AI翻译教学中的评价判断：AI介导翻译与译后编辑的课堂案例研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/14999</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/14999</guid>
-      <description>📝 AI翻译教学中的评价判断：AI介导翻译与译后编辑的课堂案例研究
-EN: Evaluative Judgement in Teaching AI-based Translation: A Class-room Case Study of AI-Mediated Translation and Post-Editing
-
-💡 研究在翻译课程中分析学生如何评估AI翻译系统。23个项目比较通用LLM与在线机译系统，学生翻译专业Wikipedia文本、评估输出并选择后编辑版本。结果显示学生不以自动指标为最终权威，最终选择常与指标排名不同，理由涉及充分性、流利性、术语、自然性及预期编辑工作量。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Gokhan Dogru
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2606.15483v1</description>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>用户体验(UX)</category><category>用户研究方法</category><category>AI采用</category><category>LLM</category><category>机器翻译</category><category>GenAI</category>
     </item>
   </channel>
 </rss>
