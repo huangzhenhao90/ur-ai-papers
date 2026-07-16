@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T04:46:12.263124Z",
+  "generated_at": "2026-07-16T04:56:09.828124Z",
   "totals": {
-    "papers_indexed": 8935,
-    "papers_scored": 1563,
+    "papers_indexed": 8940,
+    "papers_scored": 1568,
     "papers_ai_relevant": 270
   },
   "journals": [
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 603,
+      "papers_indexed": 604,
       "papers_ai_relevant": 62
     },
     {
@@ -60,7 +60,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 170,
+      "papers_indexed": 171,
       "papers_ai_relevant": 9
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 556,
+      "papers_indexed": 557,
       "papers_ai_relevant": 46
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1010,
+      "papers_indexed": 1011,
       "papers_ai_relevant": 7
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 294,
+      "papers_indexed": 295,
       "papers_ai_relevant": 21
     },
     {

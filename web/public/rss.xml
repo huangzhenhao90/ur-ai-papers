@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Jul 2026 04:46:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 04:56:09 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>原谅算法？消费者对 AI 与人类创作欺骗性广告的响应研究</title>
