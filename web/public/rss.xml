@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 04:56:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 04:59:47 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>AI的非对称交互：专业设计师对AI工具的认知与整合</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15235</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15235</guid>
+      <description>📝 AI的非对称交互：专业设计师对AI工具的认知与整合
+EN: Asymmetric Encounters with AI: Professional Designers’ Perceptions and Integration of AI Tools
+
+💡 研究探索专业设计师对AI设计工具的认知、态度及整合实践。研究采用访谈或调查等方法，考察设计师如何感知AI工具的能力、如何看待AI在创意工作中的角色，以及在实际项目中如何集成AI工具。核心发现揭示了设计师与AI工具之间存在"非对称性"交互——AI工具的能力与设计师使用能力之间存在差距，这种不对称影响设计师的接纳程度和使用策略。研究为理解专业创意工作者在AI时代的适应过程提供实证洞察。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Samangi Wadinambiarachchi, Jenny Waycott, Greg Wadley
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>AI采用</category><category>AI工具</category><category>生成式AI</category><category>人机协作</category>
+    </item>    <item>
       <title>原谅算法？消费者对 AI 与人类创作欺骗性广告的响应研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/15229</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15229</guid>
@@ -477,23 +492,6 @@ EN: Improving Workflow Integration with xPath: Design and Evaluation of a Human-
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>医疗AI</category><category>工作流整合</category><category>可用性</category><category>AI诊断</category><category>人机协作</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>虚拟现实中与人工智能智能体的交互：基于游戏任务的行为研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15032</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15032</guid>
-      <description>📝 虚拟现实中与人工智能智能体的交互：基于游戏任务的行为研究
-EN: Interactions with artificial agents in virtual reality: A study of behaviors in game-based tasks
-
-💡 研究虚拟代理的外观和行为如何影响人在沉浸式VR任务中的反应。结果显示，混合外观的代理引发更强的诡异感和身体收缩；思维归属与好感度正相关；在囚徒困境中女性合作与宽恕率更高。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Dawid Ratajczyk, Zuzanna Kurowska, Aleksandra Wasielewska, Paweł Łupkowski
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103882</description>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <category>虚拟现实</category><category>人机交互</category><category>智能体</category><category>信任</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>

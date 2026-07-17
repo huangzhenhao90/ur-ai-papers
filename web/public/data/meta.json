@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T04:56:09.828124Z",
+  "generated_at": "2026-07-17T04:59:47.058278Z",
   "totals": {
-    "papers_indexed": 8940,
-    "papers_scored": 1568,
-    "papers_ai_relevant": 270
+    "papers_indexed": 8948,
+    "papers_scored": 1576,
+    "papers_ai_relevant": 271
   },
   "journals": [
     {
@@ -46,8 +46,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 604,
-      "papers_ai_relevant": 62
+      "papers_indexed": 605,
+      "papers_ai_relevant": 63
     },
     {
       "abbr": "IwC",
@@ -105,7 +105,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 93,
+      "papers_indexed": 94,
       "papers_ai_relevant": 0
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 766,
+      "papers_indexed": 768,
       "papers_ai_relevant": 5
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 295,
+      "papers_indexed": 296,
       "papers_ai_relevant": 21
     },
     {
@@ -267,7 +267,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-retailing",
-      "papers_indexed": 343,
+      "papers_indexed": 344,
       "papers_ai_relevant": 1
     },
     {
@@ -282,7 +282,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mre",
-      "papers_indexed": 104,
+      "papers_indexed": 105,
       "papers_ai_relevant": 0
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1046,
+      "papers_indexed": 1047,
       "papers_ai_relevant": 35
     }
   ],
@@ -561,10 +561,10 @@
       "2023": 53,
       "2024": 51,
       "2025": 72,
-      "2026": 92
+      "2026": 93
     },
     "journals": {
-      "IJHCS": 62,
+      "IJHCS": 63,
       "BIT": 46,
       "TiiS": 24,
       "JSR": 21,
@@ -592,14 +592,14 @@
     "topic_tags": {
       "人机交互": 65,
       "消费者行为": 65,
-      "用户体验(UX)": 59,
+      "用户体验(UX)": 60,
       "人机协作": 50,
       "信任": 43,
-      "人机交互(HCI)": 42,
-      "用户研究方法": 37,
+      "人机交互(HCI)": 43,
+      "用户研究方法": 38,
       "可解释性": 27,
       "可用性": 26,
-      "AI采用": 25,
+      "AI采用": 26,
       "情感计算": 23,
       "AI 采用": 23,
       "AI 助手": 21,
@@ -649,7 +649,7 @@
       "对话式 AI": 36,
       "AI助手": 35,
       "智能体/Agent": 34,
-      "人机协作": 31,
+      "人机协作": 32,
       "多模态": 25,
       "可解释AI": 20,
       "人机交互": 17,
