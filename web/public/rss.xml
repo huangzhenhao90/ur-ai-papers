@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 Jul 2026 04:59:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 04:43:40 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>AI的非对称交互：专业设计师对AI工具的认知与整合</title>

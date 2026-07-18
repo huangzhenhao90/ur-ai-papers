@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17T04:59:47.058278Z",
+  "generated_at": "2026-07-18T04:43:40.710697Z",
   "totals": {
-    "papers_indexed": 8948,
-    "papers_scored": 1576,
+    "papers_indexed": 8952,
+    "papers_scored": 1580,
     "papers_ai_relevant": 271
   },
   "journals": [
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1011,
+      "papers_indexed": 1012,
       "papers_ai_relevant": 7
     },
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 906,
+      "papers_indexed": 907,
       "papers_ai_relevant": 8
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 768,
+      "papers_indexed": 769,
       "papers_ai_relevant": 5
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 505,
+      "papers_indexed": 506,
       "papers_ai_relevant": 2
     },
     {
