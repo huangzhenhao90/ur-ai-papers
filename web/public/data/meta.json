@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T04:43:40.710697Z",
+  "generated_at": "2026-07-19T05:07:22.788004Z",
   "totals": {
-    "papers_indexed": 8952,
-    "papers_scored": 1580,
+    "papers_indexed": 8956,
+    "papers_scored": 1584,
     "papers_ai_relevant": 271
   },
   "journals": [
@@ -75,7 +75,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 106,
+      "papers_indexed": 108,
       "papers_ai_relevant": 24
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 557,
+      "papers_indexed": 558,
       "papers_ai_relevant": 46
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 625,
+      "papers_indexed": 626,
       "papers_ai_relevant": 5
     },
     {
