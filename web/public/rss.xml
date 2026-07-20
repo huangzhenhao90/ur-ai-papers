@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Jul 2026 05:07:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:36:10 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>副语言线索与确定性表达在人际与人机交互中的相互作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15251</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15251</guid>
+      <description>📝 副语言线索与确定性表达在人际与人机交互中的相互作用
+EN: The Interplay of Paralinguistic Cues and Expressions of Certainty in Human-Human and Human-Agent Interactions
+
+💡 研究副语言线索（如语调、停顿）如何影响人-agent交互中的确定性表达。研究分两阶段：发音分析+问卷调查。结果发现：低确定性在表达和识别上均比高确定性更稳定一致；相比人类交互，用户倾向于给智能体更低的确定性评分，即使使用相同的语音线索。研究为智能体在交互情境中如何利用副语言线索表达不同确定性水平提供设计建议。
+
+📚 TOCHI · 2026 · 引用 0
+👤 Christina Wei, Emily Su, Manveer Kalirai, Annie Tan, Peter Dushniku
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <category>人机交互</category><category>对话式AI</category><category>用户研究方法</category><category>语音交互</category><category>智能体/Agent</category><category>对话式AI</category><category>人机交互</category>
+    </item>    <item>
       <title>AI的非对称交互：专业设计师对AI工具的认知与整合</title>
       <link>https://ur-ai-papers.vercel.app/papers/15235</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15235</guid>
@@ -477,21 +492,6 @@ EN: Marketing AI Superiority: Risks of Using the “Better-Than-Human” Framing
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <category>营销</category><category>AI采用</category><category>消费者行为</category><category>信任</category><category>AI营销</category><category>AI采用</category><category>伦理</category>
-    </item>    <item>
-      <title>用xPath改进工作流集成：病理学人机AI诊断系统的设计与评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15039</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15039</guid>
-      <description>📝 用xPath改进工作流集成：病理学人机AI诊断系统的设计与评估
-EN: Improving Workflow Integration with xPath: Design and Evaluation of a Human-AI Diagnosis System in Pathology
-
-💡 研究旨在解决AI辅助诊断系统难以融入病理学家工作流程的问题。通过观察实际病理检查流程，开发了与人病理检查过程相似的xPath人机协作诊断工具，并在技术评估与12位病理专业人员的作业实验中验证其可行性与融入效果，为人-AI协同在医学任务中的应用提供参考。
-
-📚 TOCHI · 2023 · 引用 44
-👤 Hongyan Gu, Yuan Liang, Yifan Xu, Christopher Kazu Williams, Shino Magaki
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>医疗AI</category><category>工作流整合</category><category>可用性</category><category>AI诊断</category><category>人机协作</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>
