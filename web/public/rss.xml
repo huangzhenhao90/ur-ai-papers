@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 05:36:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:04:38 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>情境化解读与数据：可解释性传达机器错位</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15254</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15254</guid>
+      <description>📝 情境化解读与数据：可解释性传达机器错位
+EN: Situated Interpretation and Data: Explainability to Convey Machine Misalignment
+
+💡 探讨如何通过情境化解释向用户传达机器学习模型与人类预期不一致的问题。研究关注可解释性方法在揭示AI系统错位现象中的应用，强调将数据置于具体情境中理解的重要性，以提升用户对AI系统局限性的认知和信任管理。
+
+📚 THMS · 2024 · 引用 11
+👤 Dane Anthony Morey, Michael F. Rayo
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>可解释性</category><category>人机交互</category><category>信任</category><category>AI治理</category><category>可解释AI</category>
+    </item>    <item>
       <title>副语言线索与确定性表达在人际与人机交互中的相互作用</title>
       <link>https://ur-ai-papers.vercel.app/papers/15251</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15251</guid>
@@ -477,21 +492,6 @@ AI 分: 3.0 / 领域分: 3.0
 📄 PDF: https://doi.org/10.1080/0144929x.2026.2692098</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <category>隐私政策</category><category>个性化</category><category>可用性</category><category>用户体验(UX)</category><category>AI推荐</category>
-    </item>    <item>
-      <title>营销AI优越性："优于人类"框架的风险</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15046</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15046</guid>
-      <description>📝 营销AI优越性："优于人类"框架的风险
-EN: Marketing AI Superiority: Risks of Using the “Better-Than-Human” Framing
-
-💡 研究探讨“比人类更优秀”AI宣传框架对消费者的影响。四实验表明该框架会引发存在性担忧，增强人类威胁感，尤其是高AI焦虑者更易产生恐惧；并提出配套干预信息以降低威胁感知，为AI营销沟通提供细致策略建议。
-
-📚 JIM · 2025 · 引用 0
-👤 Andrea Weihrauch, Chunya Xie
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>营销</category><category>AI采用</category><category>消费者行为</category><category>信任</category><category>AI营销</category><category>AI采用</category><category>伦理</category>
     </item>
   </channel>
 </rss>

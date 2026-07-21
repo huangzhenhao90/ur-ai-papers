@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T05:36:10.057896Z",
+  "generated_at": "2026-07-21T05:04:38.551401Z",
   "totals": {
-    "papers_indexed": 8959,
-    "papers_scored": 1587,
-    "papers_ai_relevant": 272
+    "papers_indexed": 8960,
+    "papers_scored": 1588,
+    "papers_ai_relevant": 273
   },
   "journals": [
     {
@@ -119,8 +119,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 210,
-      "papers_ai_relevant": 5
+      "papers_indexed": 211,
+      "papers_ai_relevant": 6
     },
     {
       "abbr": "JCR",
@@ -559,7 +559,7 @@
       "2019": 1,
       "2022": 1,
       "2023": 53,
-      "2024": 51,
+      "2024": 52,
       "2025": 72,
       "2026": 94
     },
@@ -574,9 +574,9 @@
       "JM": 8,
       "JIM": 7,
       "JCR": 7,
+      "THMS": 6,
       "JAMS": 5,
       "JAR": 5,
-      "THMS": 5,
       "JMR": 5,
       "JCP": 5,
       "arXiv:cs.CL": 4,
@@ -590,14 +590,14 @@
       "JR": 1
     },
     "topic_tags": {
-      "人机交互": 66,
+      "人机交互": 67,
       "消费者行为": 65,
       "用户体验(UX)": 60,
       "人机协作": 50,
-      "信任": 43,
+      "信任": 44,
       "人机交互(HCI)": 43,
       "用户研究方法": 39,
-      "可解释性": 27,
+      "可解释性": 28,
       "可用性": 26,
       "AI采用": 26,
       "情感计算": 23,
@@ -606,7 +606,7 @@
       "对话式 AI": 20,
       "服务体验": 18,
       "用户体验": 17,
-      "AI治理": 15,
+      "AI治理": 16,
       "服务设计": 14,
       "伦理": 13,
       "对话式AI": 13,
@@ -651,7 +651,7 @@
       "智能体/Agent": 35,
       "人机协作": 32,
       "多模态": 25,
-      "可解释AI": 20,
+      "可解释AI": 21,
       "人机交互": 18,
       "可解释 AI": 15,
       "推荐算法": 13,
