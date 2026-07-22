@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T05:04:38.551401Z",
+  "generated_at": "2026-07-22T05:10:16.471957Z",
   "totals": {
-    "papers_indexed": 8960,
-    "papers_scored": 1588,
-    "papers_ai_relevant": 273
+    "papers_indexed": 8966,
+    "papers_scored": 1594,
+    "papers_ai_relevant": 275
   },
   "journals": [
     {
@@ -60,8 +60,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 171,
-      "papers_ai_relevant": 9
+      "papers_indexed": 172,
+      "papers_ai_relevant": 10
     },
     {
       "abbr": "TiiS",
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 558,
-      "papers_ai_relevant": 46
+      "papers_indexed": 559,
+      "papers_ai_relevant": 47
     },
     {
       "abbr": "DI",
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 769,
+      "papers_indexed": 771,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 626,
+      "papers_indexed": 627,
       "papers_ai_relevant": 5
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 198,
+      "papers_indexed": 199,
       "papers_ai_relevant": 2
     },
     {
@@ -561,16 +561,16 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 94
+      "2026": 96
     },
     "journals": {
       "IJHCS": 63,
-      "BIT": 46,
+      "BIT": 47,
       "TiiS": 24,
       "TOCHI": 22,
       "JSR": 21,
       "arXiv:cs.HC": 21,
-      "IwC": 9,
+      "IwC": 10,
       "JM": 8,
       "JIM": 7,
       "JCR": 7,
@@ -597,10 +597,10 @@
       "信任": 44,
       "人机交互(HCI)": 43,
       "用户研究方法": 39,
+      "可用性": 28,
       "可解释性": 28,
-      "可用性": 26,
       "AI采用": 26,
-      "情感计算": 23,
+      "情感计算": 24,
       "AI 采用": 23,
       "AI 助手": 21,
       "对话式 AI": 20,
@@ -629,6 +629,7 @@
       "医疗AI": 5,
       "AI助手": 5,
       "认知负荷": 4,
+      "用户信任": 4,
       "隐私": 4,
       "生成式AI": 4,
       "可用性测试": 4,
@@ -638,8 +639,7 @@
       "眼动追踪": 3,
       "医疗健康": 3,
       "用户行为": 3,
-      "用户研究": 3,
-      "拟人化": 3
+      "用户研究": 3
     },
     "ai_type_tags": {
       "LLM": 53,
@@ -650,15 +650,15 @@
       "AI助手": 35,
       "智能体/Agent": 35,
       "人机协作": 32,
-      "多模态": 25,
-      "可解释AI": 21,
-      "人机交互": 18,
+      "多模态": 26,
+      "可解释AI": 23,
+      "人机交互": 19,
       "可解释 AI": 15,
       "推荐算法": 13,
       "AI 推荐": 13,
       "机器学习": 12,
-      "情感识别": 11,
-      "AI治理": 10,
+      "情感识别": 12,
+      "AI治理": 11,
       "智能体": 8,
       "情感计算": 7,
       "AI客服": 6,
