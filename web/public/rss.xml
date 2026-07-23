@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Jul 2026 05:10:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 05:21:53 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>对话式AI在神经认知障碍筛查中的前瞻性未来：多利益相关方视角</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15264</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15264</guid>
+      <description>📝 对话式AI在神经认知障碍筛查中的前瞻性未来：多利益相关方视角
+EN: The speculative future of conversational AI for neurocognitive disorder screening: a multi-stakeholder perspective
+
+💡 探究对话式AI在神经认知障碍筛查中的未来发展潜力，采用推测性设计方法，从患者、照护者、临床医生等多利益相关者视角分析机遇与挑战，为开发兼具可及性与临床适用性的AI筛查工具提供前瞻性指导。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Jiaxiong Hu, Ruowen Niu, Qiuxin Du, Chenzhuo Xiang, Yirui Zuo
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <category>对话式AI</category><category>用户研究方法</category><category>人机交互(HCI)</category><category>可访问性</category><category>对话式AI</category><category>AI助手</category>
+    </item>    <item>
       <title>智慧旅游中健康数据披露的治理：透明度、知情同意可用性与隐私疲劳的作用</title>
       <link>https://ur-ai-papers.vercel.app/papers/15259</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15259</guid>
@@ -473,21 +488,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2606.31762v1</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <category>群体决策</category><category>人机交互(HCI)</category><category>伦理</category><category>LLM</category><category>AI生成内容</category><category>AI调解</category>
-    </item>    <item>
-      <title>大语言模型中介的搜索救援人机交互：专业知识对注意力分配的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15071</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15071</guid>
-      <description>📝 大语言模型中介的搜索救援人机交互：专业知识对注意力分配的影响
-EN: LLM-Mediated Human-AI Interaction in Search and Rescue: Impact of Expertise on Attentional Allocation
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Elahe Oveisi, Hemanth Manjunatha
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2606.19514v1</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      
     </item>
   </channel>
 </rss>

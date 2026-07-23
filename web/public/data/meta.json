@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T05:10:16.471957Z",
+  "generated_at": "2026-07-23T05:21:53.151212Z",
   "totals": {
-    "papers_indexed": 8966,
-    "papers_scored": 1594,
-    "papers_ai_relevant": 275
+    "papers_indexed": 8972,
+    "papers_scored": 1600,
+    "papers_ai_relevant": 276
   },
   "journals": [
     {
@@ -46,8 +46,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 605,
-      "papers_ai_relevant": 63
+      "papers_indexed": 606,
+      "papers_ai_relevant": 64
     },
     {
       "abbr": "IwC",
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 559,
+      "papers_indexed": 561,
       "papers_ai_relevant": 47
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 506,
+      "papers_indexed": 508,
       "papers_ai_relevant": 2
     },
     {
@@ -193,7 +193,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 397,
+      "papers_indexed": 398,
       "papers_ai_relevant": 5
     },
     {
@@ -561,10 +561,10 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 96
+      "2026": 97
     },
     "journals": {
-      "IJHCS": 63,
+      "IJHCS": 64,
       "BIT": 47,
       "TiiS": 24,
       "TOCHI": 22,
@@ -595,8 +595,8 @@
       "用户体验(UX)": 60,
       "人机协作": 50,
       "信任": 44,
-      "人机交互(HCI)": 43,
-      "用户研究方法": 39,
+      "人机交互(HCI)": 44,
+      "用户研究方法": 40,
       "可用性": 28,
       "可解释性": 28,
       "AI采用": 26,
@@ -608,8 +608,8 @@
       "用户体验": 17,
       "AI治理": 16,
       "服务设计": 14,
+      "对话式AI": 14,
       "伦理": 13,
-      "对话式AI": 13,
       "AI 治理": 12,
       "可视化": 12,
       "多模态交互": 12,
@@ -645,9 +645,9 @@
       "LLM": 53,
       "GenAI": 44,
       "AI 助手": 40,
-      "对话式AI": 39,
+      "对话式AI": 40,
+      "AI助手": 36,
       "对话式 AI": 36,
-      "AI助手": 35,
       "智能体/Agent": 35,
       "人机协作": 32,
       "多模态": 26,
