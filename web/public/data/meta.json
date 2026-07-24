@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T05:21:53.151212Z",
+  "generated_at": "2026-07-24T05:07:19.037740Z",
   "totals": {
-    "papers_indexed": 8972,
-    "papers_scored": 1600,
-    "papers_ai_relevant": 276
+    "papers_indexed": 8983,
+    "papers_scored": 1611,
+    "papers_ai_relevant": 279
   },
   "journals": [
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 561,
-      "papers_ai_relevant": 47
+      "papers_indexed": 564,
+      "papers_ai_relevant": 48
     },
     {
       "abbr": "DI",
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 627,
+      "papers_indexed": 628,
       "papers_ai_relevant": 5
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1048,
-      "papers_ai_relevant": 35
+      "papers_indexed": 1055,
+      "papers_ai_relevant": 37
     }
   ],
   "facets": {
@@ -561,11 +561,11 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 97
+      "2026": 100
     },
     "journals": {
       "IJHCS": 64,
-      "BIT": 47,
+      "BIT": 48,
       "TiiS": 24,
       "TOCHI": 22,
       "JSR": 21,
@@ -581,12 +581,12 @@
       "JCP": 5,
       "arXiv:cs.CL": 4,
       "arXiv:cs.CY": 4,
+      "arXiv:cs.AI": 3,
       "JCA": 2,
       "MktSci": 2,
-      "arXiv:cs.AI": 2,
       "arXiv:cs.SE": 2,
+      "arXiv:econ.GN": 2,
       "arXiv:cs.SI": 1,
-      "arXiv:econ.GN": 1,
       "JR": 1
     },
     "topic_tags": {

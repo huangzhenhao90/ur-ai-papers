@@ -6,9 +6,52 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Jul 2026 05:21:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:07:19 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>数字搜索的演进：从蓝色链接到委托决策</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15274</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15274</guid>
+      <description>📝 数字搜索的演进：从蓝色链接到委托决策
+EN: The Evolution of Digital Search: From Blue Links to Delegated Decision-Making
+
+📚 arXiv:econ.GN · 2026 · 引用 0
+👤 David M. Rothschild, Nicole Immorlica, Brendan Lucier, Markus Mobius, Aleksandrs Slivkins
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2607.21459v1</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>人机协作中的非均匀性原理</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15272</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15272</guid>
+      <description>📝 人机协作中的非均匀性原理
+EN: Nonuniformity Principle in Human-AI Coworking
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 An Luo, Jie Ding
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2607.16530v1</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>人机协作准备好了吗？技术准备度对专家身份、使用及使用期望的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15268</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15268</guid>
+      <description>📝 人机协作准备好了吗？技术准备度对专家身份、使用及使用期望的影响
+EN: Ready for human–AI collaboration? The impact of technology readiness on expert status, usage and usage expectations
+
+📚 BIT · 2026 · 引用 0
+👤 Wieland Müller, Michael Leyer, Sabrina Schneider, Ferry Nolte, Alexander Richter
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
       <title>对话式AI在神经认知障碍筛查中的前瞻性未来：多利益相关方视角</title>
       <link>https://ur-ai-papers.vercel.app/papers/15264</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15264</guid>
@@ -439,55 +482,6 @@ EN: Exploring value concerns in social media issue reports: a human-LLM study of
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
       <category>社交媒体</category><category>内容审核</category><category>价值关切</category><category>去中心化平台</category><category>LLM</category><category>人机协作</category><category>文本分析</category>
-    </item>    <item>
-      <title>用户视角下健康推荐系统中隐私-效用权衡</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15079</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15079</guid>
-      <description>📝 用户视角下健康推荐系统中隐私-效用权衡
-EN: The users’ perspective on the privacy-utility trade-offs in health recommender systems
-
-💡 从用户视角研究健康推荐系统中隐私保护与效用之间的权衡关系。采用访谈、问卷等用户研究方法，探究用户对隐私-效用取舍的看法与决策因素。研究揭示用户在健康推荐场景下如何权衡个人隐私与推荐服务的价值，为平衡隐私保护与推荐效用的系统设计提供依据。
-
-📚 IJHCS · 2019 · 引用 84
-👤 André Calero Valdez, Martina Ziefle
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <category>用户研究</category><category>推荐系统</category><category>隐私</category><category>健康</category><category>推荐算法</category><category>健康推荐</category>
-    </item>    <item>
-      <title>开放模型的实际应用：r/LocalLLaMA上开放模型的采用与适应</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15076</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15076</guid>
-      <description>📝 开放模型的实际应用：r/LocalLLaMA上开放模型的采用与适应
-EN: Open AI in the Wild: Adoption and Adaptation of Open Models on r/LocalLLaMA
-
-💡 对r/LocalLLaMA社区进行主题分析，发现成员将AI开放视为可靠性、本地控制、隐私与可定制的实用价值；动机包括自主、实验、抗平台不稳定，阻力是学习曲线和性能差距；共享资源维持开放模型生态。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Woohyeuk Lee, James Howison, Min Kyung Lee, Hanlin Li
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2606.22211v1</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <category>AI开放</category><category>在线社区</category><category>用户采用</category><category>AI生态</category><category>LLM</category><category>开放模型</category><category>本地部署</category>
-    </item>    <item>
-      <title>探究大语言模型支持的权力不平衡群体决策中持异议少数群体支持：反论证与调解作为干预策略</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15072</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15072</guid>
-      <description>📝 探究大语言模型支持的权力不平衡群体决策中持异议少数群体支持：反论证与调解作为干预策略
-EN: Investigating LLM-Powered Dissenting Minority Support in Power-Imbalanced Group Decision-Making: Counterargument and Mediation as Intervention Strategies
-
-💡 在权力不平衡的群体决策中，使用LLM生成的反驳或调解信息帮助少数意见。96人24组实验显示，反驳提升氛围灵活性和满意度，调解增加参与但降低心理安全。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Soohwan Lee, Seoyeong Hwang, Mingyu Kim, Dajung Kim, Kyungho Lee
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2606.31762v1</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <category>群体决策</category><category>人机交互(HCI)</category><category>伦理</category><category>LLM</category><category>AI生成内容</category><category>AI调解</category>
     </item>
   </channel>
 </rss>
