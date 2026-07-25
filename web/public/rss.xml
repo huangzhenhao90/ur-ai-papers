@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:07:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 05:03:47 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>数字搜索的演进：从蓝色链接到委托决策</title>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T05:07:19.037740Z",
+  "generated_at": "2026-07-25T05:03:47.375009Z",
   "totals": {
-    "papers_indexed": 8983,
+    "papers_indexed": 8990,
     "papers_scored": 1611,
     "papers_ai_relevant": 279
   },
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 606,
+      "papers_indexed": 607,
       "papers_ai_relevant": 64
     },
     {
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 564,
+      "papers_indexed": 565,
       "papers_ai_relevant": 48
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1012,
+      "papers_indexed": 1013,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 771,
+      "papers_indexed": 772,
       "papers_ai_relevant": 5
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 199,
+      "papers_indexed": 200,
       "papers_ai_relevant": 2
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1055,
+      "papers_indexed": 1057,
       "papers_ai_relevant": 37
     }
   ],
