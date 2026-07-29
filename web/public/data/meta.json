@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T05:00:46.514552Z",
+  "generated_at": "2026-07-29T05:04:44.323051Z",
   "totals": {
-    "papers_indexed": 9059,
-    "papers_scored": 1687,
-    "papers_ai_relevant": 311
+    "papers_indexed": 9062,
+    "papers_scored": 1690,
+    "papers_ai_relevant": 312
   },
   "journals": [
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1013,
+      "papers_indexed": 1014,
       "papers_ai_relevant": 7
     },
     {
@@ -252,8 +252,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 200,
-      "papers_ai_relevant": 2
+      "papers_indexed": 201,
+      "papers_ai_relevant": 3
     },
     {
       "abbr": "JR",
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 180,
+      "papers_indexed": 181,
       "papers_ai_relevant": 5
     },
     {
@@ -562,7 +562,7 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 131
+      "2026": 132
     },
     "journals": {
       "IJHCS": 68,
@@ -582,9 +582,9 @@
       "JMR": 5,
       "JCP": 5,
       "arXiv:cs.CL": 4,
+      "JCA": 3,
       "arXiv:cs.AI": 3,
       "arXiv:cs.SE": 3,
-      "JCA": 2,
       "MktSci": 2,
       "arXiv:econ.GN": 2,
       "arXiv:cs.RO": 2,
@@ -593,16 +593,16 @@
     },
     "topic_tags": {
       "人机交互": 72,
-      "用户体验(UX)": 67,
-      "消费者行为": 66,
+      "用户体验(UX)": 68,
+      "消费者行为": 67,
       "人机协作": 56,
-      "人机交互(HCI)": 54,
+      "人机交互(HCI)": 55,
       "信任": 48,
       "用户研究方法": 44,
       "可解释性": 36,
       "可用性": 30,
+      "情感计算": 28,
       "AI采用": 28,
-      "情感计算": 27,
       "AI 采用": 23,
       "对话式 AI": 22,
       "AI 助手": 22,
@@ -654,13 +654,13 @@
       "人机协作": 35,
       "多模态": 32,
       "可解释AI": 26,
-      "人机交互": 19,
+      "人机交互": 20,
       "可解释 AI": 16,
       "推荐算法": 15,
       "AI 推荐": 13,
       "情感识别": 13,
+      "AI治理": 12,
       "机器学习": 12,
-      "AI治理": 11,
       "情感计算": 9,
       "智能体": 9,
       "图像生成": 7,

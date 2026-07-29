@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2026 05:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:04:44 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>设计介导的情感问责：人工智能情感设计如何塑造负责任使用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15355</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15355</guid>
+      <description>📝 设计介导的情感问责：人工智能情感设计如何塑造负责任使用
+EN: Design‐Mediated Affective Accountability: How Artificial Intelligence's Emotional Design Shapes Responsible Use
+
+💡 研究AI情感架构如何通过界面设计影响用户情绪，进而塑造负责任消费行为。通过45名AI用户访谈，发现三种核心悖论：拟人化问题（人工亲密感降低伦理警觉）、摩擦悖论（挫折感增强核实行为）、透明悖论（披露要求引发焦虑降低遵从）。研究提出“设计介导的情感问责“框架，揭示情绪设计到负责任消费的路径机制。
+
+📚 JCA · 2026 · 引用 0
+👤 Samuel Babu Deborah Joshi, S. Sekar
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>情感计算</category><category>用户体验(UX)</category><category>人机交互(HCI)</category><category>情感AI</category><category>人机交互</category><category>AI治理</category>
+    </item>    <item>
       <title>对话式触觉数据界面：使用可刷新触觉显示器和对话式AI与视障用户协作设计无障碍数据体验</title>
       <link>https://ur-ai-papers.vercel.app/papers/15350</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15350</guid>
@@ -489,21 +504,6 @@ AI 分: 4.0 / 领域分: 5.0
 📄 PDF: https://www.sciencedirect.com/science/article/pii/S1071581926001746/pdf</description>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
       <category>伦理</category><category>人机交互(HCI)</category><category>AI治理</category><category>多模态交互</category><category>图像生成</category><category>多模态</category><category>GenAI</category>
-    </item>    <item>
-      <title>设计信任：ML教育系统中的人类因素与信任校准</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15288</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15288</guid>
-      <description>📝 设计信任：ML教育系统中的人类因素与信任校准
-EN: Trust by design: Human factors and trust calibration in ML-based educational systems
-
-💡 本文从人为因素角度探讨机器学习教育系统中的信任校准问题，提出“信任设计”框架，分析用户与ML系统交互时信任形成机制，并给出设计建议以优化信任校准，提升学习效果和用户体验。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Zach Anthis, A. Kyriakidou–Zacharoudiou
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可解释性</category><category>用户体验(UX)</category><category>教育技术</category><category>LLM</category><category>推荐算法</category><category>可解释AI</category>
     </item>
   </channel>
 </rss>
