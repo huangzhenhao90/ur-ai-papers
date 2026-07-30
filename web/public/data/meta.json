@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T05:04:44.323051Z",
+  "generated_at": "2026-07-30T04:54:09.456407Z",
   "totals": {
-    "papers_indexed": 9062,
-    "papers_scored": 1690,
-    "papers_ai_relevant": 312
+    "papers_indexed": 9073,
+    "papers_scored": 1701,
+    "papers_ai_relevant": 315
   },
   "journals": [
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 611,
+      "papers_indexed": 612,
       "papers_ai_relevant": 68
     },
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 568,
-      "papers_ai_relevant": 50
+      "papers_indexed": 570,
+      "papers_ai_relevant": 51
     },
     {
       "abbr": "DI",
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1014,
+      "papers_indexed": 1015,
       "papers_ai_relevant": 7
     },
     {
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 508,
+      "papers_indexed": 510,
       "papers_ai_relevant": 2
     },
     {
@@ -207,8 +207,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 631,
-      "papers_ai_relevant": 6
+      "papers_indexed": 634,
+      "papers_ai_relevant": 7
     },
     {
       "abbr": "JSR",
@@ -222,8 +222,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 296,
-      "papers_ai_relevant": 21
+      "papers_indexed": 297,
+      "papers_ai_relevant": 22
     },
     {
       "abbr": "JIM",
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 216,
+      "papers_indexed": 217,
       "papers_ai_relevant": 7
     },
     {
@@ -562,20 +562,20 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 132
+      "2026": 135
     },
     "journals": {
       "IJHCS": 68,
-      "BIT": 50,
+      "BIT": 51,
       "arXiv:cs.HC": 42,
       "TiiS": 24,
+      "JSR": 22,
       "TOCHI": 22,
-      "JSR": 21,
       "IwC": 10,
       "JM": 8,
+      "JAMS": 7,
       "JIM": 7,
       "JCR": 7,
-      "JAMS": 6,
       "THMS": 6,
       "JAR": 5,
       "arXiv:cs.CY": 5,

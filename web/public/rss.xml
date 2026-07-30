@@ -6,9 +6,52 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:04:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 04:54:09 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>前线管理者AI准备度与AI在前线的实施</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15366</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15366</guid>
+      <description>📝 前线管理者AI准备度与AI在前线的实施
+EN: Frontline Manager AI Readiness and the Implementation of AI in the Frontlines
+
+📚 JSR · 2026 · 引用 0
+👤 Nawar N. Chaker, Lisa Beeler, Deva Rangarajan, Vijay Mehrotra, Jonna Koponen
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>虚拟网红营销：元分析综述</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15364</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15364</guid>
+      <description>📝 虚拟网红营销：元分析综述
+EN: Virtual influencer marketing: A meta-analytic review
+
+📚 JAMS · 2026 · 引用 0
+👤 Mojtaba Barari, Martin Eisend, Alicia Kulczynski
+
+AI 分: 3.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1007/s11747-026-01186-w</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>从可供性提供到接受深度：探究人机协作学术写作中的混合智能</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15359</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15359</guid>
+      <description>📝 从可供性提供到接受深度：探究人机协作学术写作中的混合智能
+EN: From affordance offers to uptake depth: examining hybrid intelligence in human–AI collaborative academic writing
+
+📚 BIT · 2026 · 引用 0
+👤 Nguyen-Ai-Thu Duong, Andy Nguyen, Luna Huynh
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1080/0144929x.2026.2706668</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
       <title>设计介导的情感问责：人工智能情感设计如何塑造负责任使用</title>
       <link>https://ur-ai-papers.vercel.app/papers/15355</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15355</guid>
@@ -457,53 +500,6 @@ EN: Automated social presence in artificial agents: A conventional and qualitati
 AI 分: 5.0 / 领域分: 3.0</description>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
       <category>社交临场感</category><category>人机交互</category><category>元分析</category><category>对话式 AI</category><category>智能体</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>适应还是变通？感知算法控制对平台工作者应对行为的差异化影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15292</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15292</guid>
-      <description>📝 适应还是变通？感知算法控制对平台工作者应对行为的差异化影响
-EN: Adaptation or workaround? The differential impact of perceived algorithmic control on platform workers’ coping behaviour
-
-💡 基于归因与社会交换理论，三阶段时滞调查显示，平台工作者对算法控制的感知通过关系型与交易型心理契约分别促发适应性服务行为和规避行为，算法归因在其中起关键调节作用。
-
-📚 BIT · 2026 · 引用 0
-👤 Ting Deng, Zhi Cao, Chunyong Tang, Ju Huang
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <category>AI 治理</category><category>可解释性</category><category>问卷</category><category>AI 治理</category><category>可解释性</category>
-    </item>    <item>
-      <title>AI赋能心理健康干预对广泛性焦虑症状的用户体验主题分析</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15291</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15291</guid>
-      <description>📝 AI赋能心理健康干预对广泛性焦虑症状的用户体验主题分析
-EN: A thematic analysis of users’ experience of an AI-enabled mental health intervention for generalised anxiety symptoms
-
-💡 对100名焦虑症状成年人使用AI心理干预APP PATH进行体验访谈，归纳出使用动机、可用性、功能偏好、持续参与促进与障碍四大主题，强调共情、个性化和易获取设计的价值。
-
-📚 BIT · 2026 · 引用 0
-👤 Zalia Powell, Andrew Allen, Cindy Davis, Ani Gisnarian, Francine C. Jellesma
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>可访问性</category><category>情感计算</category><category>AI 助手</category><category>情感计算</category>
-    </item>    <item>
-      <title>“What do you expect? You’re part of the internet”：分析西方名人的深度伪造技术使用体验</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15289</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15289</guid>
-      <description>📝 “What do you expect? You’re part of the internet”：分析西方名人的深度伪造技术使用体验
-EN: “What do you expect? You’re part of the internet”: Analyzing Western Celebrities’ Experiences as Usees of Deepfake Technology
-
-💡 本文采用批判话语心理学分析八位名人及一位非二元个体被深度伪造技术非自愿 targeting 的经历，揭示名人如何建构被攻击的身份，以及在寻求救济时面临的基础设施和社会障碍。研究批驳受害者指责言论，强调基础设施因素对救济渠道的阻碍，为改进非自愿合成亲密影像救济机制提供人机交互视角。
-
-📚 IJHCS · 2026 · 引用 0
-👤 John G. Twomey, Sarah Foley, Sarah Robinson, Michael Quayle, Matthew P. Aylett
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://www.sciencedirect.com/science/article/pii/S1071581926001746/pdf</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <category>伦理</category><category>人机交互(HCI)</category><category>AI治理</category><category>多模态交互</category><category>图像生成</category><category>多模态</category><category>GenAI</category>
     </item>
   </channel>
 </rss>
