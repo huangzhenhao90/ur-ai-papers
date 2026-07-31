@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-30T04:54:09.456407Z",
+  "generated_at": "2026-07-31T05:29:14.884618Z",
   "totals": {
-    "papers_indexed": 9073,
-    "papers_scored": 1701,
-    "papers_ai_relevant": 315
+    "papers_indexed": 9077,
+    "papers_scored": 1705,
+    "papers_ai_relevant": 316
   },
   "journals": [
     {
@@ -18,7 +18,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 320,
+      "papers_indexed": 321,
       "papers_ai_relevant": 22
     },
     {
@@ -46,7 +46,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 612,
+      "papers_indexed": 613,
       "papers_ai_relevant": 68
     },
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 570,
-      "papers_ai_relevant": 51
+      "papers_indexed": 571,
+      "papers_ai_relevant": 52
     },
     {
       "abbr": "DI",
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 634,
+      "papers_indexed": 635,
       "papers_ai_relevant": 7
     },
     {
@@ -562,11 +562,11 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 135
+      "2026": 136
     },
     "journals": {
       "IJHCS": 68,
-      "BIT": 51,
+      "BIT": 52,
       "arXiv:cs.HC": 42,
       "TiiS": 24,
       "JSR": 22,
@@ -594,10 +594,10 @@
     "topic_tags": {
       "人机交互": 72,
       "用户体验(UX)": 68,
-      "消费者行为": 67,
+      "消费者行为": 68,
+      "人机交互(HCI)": 56,
       "人机协作": 56,
-      "人机交互(HCI)": 55,
-      "信任": 48,
+      "信任": 49,
       "用户研究方法": 44,
       "可解释性": 36,
       "可用性": 30,
@@ -645,8 +645,8 @@
     },
     "ai_type_tags": {
       "LLM": 68,
+      "GenAI": 49,
       "对话式AI": 48,
-      "GenAI": 48,
       "AI 助手": 43,
       "智能体/Agent": 42,
       "对话式 AI": 40,

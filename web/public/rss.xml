@@ -6,9 +6,26 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 04:54:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 05:29:14 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>线索与行动路径对AI新闻信任的影响：一项两波跨文化面板研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15371</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15371</guid>
+      <description>📝 线索与行动路径对AI新闻信任的影响：一项两波跨文化面板研究
+EN: Cue and action routes to trust in AI news: results from a two-wave cross-cultural panel study
+
+💡 研究通过美国、西班牙、智利三国两波面板调查，探究用户对AI生成新闻的信任机制。发现AI新闻使用与信任度均较低，但使用频率能预测信任增长。基于HAII-TIME模型揭示两条路径：线索路径（AI启发式/客观性感知）和社会实体路径（AI社交性感知），后者跨文化一致性更强。实际互动频率影响路径差异，文化与媒体系统差异或可解释国家间分歧。
+
+📚 BIT · 2026 · 引用 0
+👤 Sonja Utz, Manuel Goyanes, Homero Gil de Zúñiga
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1080/0144929x.2026.2705877</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互(HCI)</category><category>消费者行为</category><category>跨文化研究</category><category>GenAI</category><category>AI新闻</category>
+    </item>    <item>
       <title>前线管理者AI准备度与AI在前线的实施</title>
       <link>https://ur-ai-papers.vercel.app/papers/15366</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15366</guid>
@@ -485,21 +502,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2607.24601v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>可解释性</category><category>信任</category><category>人机协作</category><category>用户研究方法</category><category>LLM</category><category>可解释 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>人工代理中的自动化社会临场感：一项常规与定性比较元分析</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15293</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15293</guid>
-      <description>📝 人工代理中的自动化社会临场感：一项常规与定性比较元分析
-EN: Automated social presence in artificial agents: A conventional and qualitative comparative meta-analysis
-
-💡 该研究采用常规与定性比较的元分析方法，探讨人工代理中自动社会临场感的形成机制与表现差异，揭示技术特性、交互设计对社会临场感的影响。
-
-📚 JAMS · 2026 · 引用 0
-👤 Antoine Juquelier, Simon Hazée, Yves Van Vaerenbergh, Ingrid Poncin
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <category>社交临场感</category><category>人机交互</category><category>元分析</category><category>对话式 AI</category><category>智能体</category><category>对话式 AI</category>
     </item>
   </channel>
 </rss>
