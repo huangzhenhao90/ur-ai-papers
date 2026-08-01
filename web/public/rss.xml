@@ -6,9 +6,56 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 05:29:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:57:00 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>“就像玩传话游戏一样”：探索对话式智能体作为数字健康干预可信中介的认知研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15379</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15379</guid>
+      <description>📝 “就像玩传话游戏一样”：探索对话式智能体作为数字健康干预可信中介的认知研究
+EN: ‘It's like when you play the whispering game’: exploring perceptions of conversational agents as trustworthy mediators in digital wellbeing interventions
+
+💡 研究通过访谈与焦点小组探讨用户对对话式智能体作为数字健康干预中介的信任感知，发现“耳语游戏”隐喻影响信任形成，角色可信度与信息透明度是关键因素。
+
+📚 BIT · 2026 · 引用 0
+👤 Mengyan Hou, Janine Porter-Steele, Sarah Balaam, Vivian Chiu, Sandie Alexandra L. McCarthy
+
+AI 分: 3.0 / 领域分: 4.0
+
+📄 PDF: https://doi.org/10.1080/0144929x.2026.2706669</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <category>用户信任</category><category>对话式AI</category><category>数字健康</category><category>人机交互</category><category>对话式AI</category><category>AI助手</category>
+    </item>    <item>
+      <title>对AI与人类专家的信任：不同教育AI应用用户偏好的比较研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15377</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15377</guid>
+      <description>📝 对AI与人类专家的信任：不同教育AI应用用户偏好的比较研究
+EN: Trust in AI versus human experts: a comparative study of user preferences between different educational AI applications
+
+💡 该研究对比用户在教育AI应用与人类专家之间的信任差异，采用问卷与实验收集偏好数据，结果显示用户对复杂解释任务更信任人类，而对个性化练习反馈则倾向AI，信任受专业感与交互体验调节。
+
+📚 BIT · 2026 · 引用 0
+👤 Janne Kauttonen, Lili Aunimo, Ari Alamäki, David Gálvez Ruiz
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <category>用户信任</category><category>教育AI</category><category>人机交互</category><category>用户偏好</category><category>AI教育</category><category>AI助手</category>
+    </item>    <item>
+      <title>理解、发现与缓解年轻成年人的习惯性智能手机使用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15372</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15372</guid>
+      <description>📝 理解、发现与缓解年轻成年人的习惯性智能手机使用
+EN: Understanding, Discovering, and Mitigating Habitual Smartphone Use in Young Adults
+
+💡 提出基于聚类与关联规则挖掘的自动化方法，从13万+手机使用会话中识别青年人的情境‑行为关联习惯，并将其集成到数字健康应用Socialize，实现实时监测与即时提醒，帮助用户降低无意识过度使用。
+
+📚 TiiS · 2021 · 引用 30
+👤 Alberto Monge Roffarello, Luigi De Russis
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <category>智能手机使用习惯</category><category>数据挖掘</category><category>数字健康</category><category>行为干预</category><category>机器学习</category><category>AI助手</category>
+    </item>    <item>
       <title>线索与行动路径对AI新闻信任的影响：一项两波跨文化面板研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/15371</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15371</guid>
@@ -451,57 +498,6 @@ AI 分: 4.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2607.21886v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>可视化</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>可用性测试</category><category>LLM</category><category>对话式AI</category>
-    </item>    <item>
-      <title>计划以神秘方式运作：电子表格智能体计划模式评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15303</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15303</guid>
-      <description>📝 计划以神秘方式运作：电子表格智能体计划模式评估
-EN: Plans Work in Mysterious Ways: Evaluating a Plan Mode for Spreadsheet Agents
-
-💡 针对电子表格编程环境，评估计划模式是否对终端用户有益。通过原型实现和24名用户的受试内实验，发现计划模式与基线任务完成度相当，但能降低后续细化次数，提升工具在创意支持和人与机器协作维度的感知。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Aayush Kumar, Avik Dutta, Sumit Gulwani, Gustavo Soares, Advait Sarkar
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2607.23670v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>人机协作</category><category>智能体</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>RemiAssist：用于痴呆症护理中基于照片怀旧疗法的治疗师支持系统</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15301</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15301</guid>
-      <description>📝 RemiAssist：用于痴呆症护理中基于照片怀旧疗法的治疗师支持系统
-EN: RemiAssist: A Therapist-Supporting System for Photo-Based Reminiscence Therapy in Dementia Care
-
-💡 现有回忆疗法 AI 主要关注患者，忽视治疗师角色。提出 RemiAssist 系统，通过记忆图谱组织患者照片为层级结构以辅助主题干预规划，并提供情境感知引导策略实时帮助治疗师指导对话。8 对治疗师‑患者现场实验显示，规划效率提升 44%，对话时长增加 54%，并能及时应对敏感情境。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Shuchang Xu, Minglong Tang, Junyan Mao, Xiaofu Jin, Wazeer Zulfikar
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2607.24536v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>AI 助手</category><category>服务设计</category><category>人机协作</category><category>老人/无障碍</category><category>AI 助手</category><category>人机协作</category><category>多模态</category>
-    </item>    <item>
-      <title>评估可解释人工智能对人工智能辅助代码审查信任度的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15300</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15300</guid>
-      <description>📝 评估可解释人工智能对人工智能辅助代码审查信任度的影响
-EN: Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review
-
-💡 在 AI 代码审查中，解释水平对开发者信任和同意度的影响尚不明确。对比三种 XAI 条件（详细解释、仅反馈、无解释），34 名开发者实验发现：完整解释最高信任（3.99/5），但同意率非最高；仅反馈达成最高同意率（89.22%）；无解释时信任和同意均最低。解释程度未显著影响审查时间。
-
-📚 arXiv:cs.SE · 2026 · 引用 0
-👤 Zhenhan Gao, Marvin Muñoz Barón, Umm-e Habiba, Daniel Graziotin, Stefan Wagner
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2607.24601v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>信任</category><category>人机协作</category><category>用户研究方法</category><category>LLM</category><category>可解释 AI</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>
