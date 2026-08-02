@@ -73,7 +73,7 @@ jobs:
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_BASE_URL: https://api.minimaxi.com/v1
-          MINIMAX_MODEL: MiniMax-M2.5-lightning
+          MINIMAX_MODEL: MiniMax-M3
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           DB_PATH: ./data/papers.db
           LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}

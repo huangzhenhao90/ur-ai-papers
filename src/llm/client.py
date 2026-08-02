@@ -1,7 +1,7 @@
 """
-MiniMax-M2.7 LLM client (OpenAI 兼容接口)。
+MiniMax-M3 LLM client (OpenAI 兼容接口)。
 
-注意：M2.7 是 thinking model，每次调用会消耗大量 reasoning tokens。
+注意：M3 是 thinking model，每次调用会消耗大量 reasoning tokens。
 为降低单篇成本，业务层应使用「批量打分」（一次喂多篇）。
 """
 
@@ -17,7 +17,7 @@ class MiniMaxClient:
     def __init__(self):
         self.api_key = os.environ["MINIMAX_API_KEY"]
         self.base_url = os.environ.get("MINIMAX_BASE_URL", "https://api.minimaxi.com/v1")
-        self.model = os.environ.get("MINIMAX_MODEL", "MiniMax-M2.7")
+        self.model = os.environ.get("MINIMAX_MODEL", "MiniMax-M3")
         self.client = httpx.Client(
             timeout=180,
             headers={

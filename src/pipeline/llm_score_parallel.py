@@ -93,7 +93,7 @@ def score_one_batch(client: MiniMaxClient, papers: list[dict]) -> tuple[list[dic
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": user},
     ]
-    # M2.7 推理 ~1500 + 每篇输出 ~80 字符 ≈ 100 token，留 1.5 倍冗余
+    # M3 推理 ~1500 + 每篇输出 ~80 字符 ≈ 100 token，留 1.5 倍冗余
     max_tok = 2500 + 200 * len(papers)
     data = client.chat(messages, max_tokens=max_tok, temperature=0.0)
     usage = client.usage(data)
