@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-01T05:57:00.037261Z",
+  "generated_at": "2026-08-02T05:22:04.166882Z",
   "totals": {
-    "papers_indexed": 9085,
-    "papers_scored": 1713,
+    "papers_indexed": 9094,
+    "papers_scored": 1722,
     "papers_ai_relevant": 319
   },
   "journals": [
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 575,
+      "papers_indexed": 578,
       "papers_ai_relevant": 54
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1015,
+      "papers_indexed": 1016,
       "papers_ai_relevant": 7
     },
     {
@@ -164,7 +164,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 772,
+      "papers_indexed": 774,
       "papers_ai_relevant": 5
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 635,
+      "papers_indexed": 636,
       "papers_ai_relevant": 7
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1111,
+      "papers_indexed": 1113,
       "papers_ai_relevant": 62
     }
   ],
