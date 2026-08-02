@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T05:22:04.166882Z",
+  "generated_at": "2026-08-02T13:20:26.769606Z",
   "totals": {
-    "papers_indexed": 9094,
-    "papers_scored": 1722,
+    "papers_indexed": 9096,
+    "papers_scored": 1724,
     "papers_ai_relevant": 319
   },
   "journals": [
@@ -178,7 +178,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 510,
+      "papers_indexed": 511,
       "papers_ai_relevant": 2
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 636,
+      "papers_indexed": 637,
       "papers_ai_relevant": 7
     },
     {
