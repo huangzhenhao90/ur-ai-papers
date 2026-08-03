@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T13:20:26.769606Z",
+  "generated_at": "2026-08-03T05:36:22.803433Z",
   "totals": {
-    "papers_indexed": 9096,
-    "papers_scored": 1724,
+    "papers_indexed": 9100,
+    "papers_scored": 1728,
     "papers_ai_relevant": 319
   },
   "journals": [
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 578,
+      "papers_indexed": 579,
       "papers_ai_relevant": 54
     },
     {
@@ -134,7 +134,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1016,
+      "papers_indexed": 1017,
       "papers_ai_relevant": 7
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 297,
+      "papers_indexed": 298,
       "papers_ai_relevant": 22
     },
     {
@@ -550,7 +550,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1113,
+      "papers_indexed": 1114,
       "papers_ai_relevant": 62
     }
   ],
