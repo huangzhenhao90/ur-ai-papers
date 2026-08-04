@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 05:36:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 04:59:22 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>“就像玩传话游戏一样”：探索对话式智能体作为数字健康干预可信中介的认知研究</title>

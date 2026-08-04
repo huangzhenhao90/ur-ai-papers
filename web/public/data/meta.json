@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T05:36:22.803433Z",
+  "generated_at": "2026-08-04T04:59:22.616413Z",
   "totals": {
-    "papers_indexed": 9100,
-    "papers_scored": 1728,
+    "papers_indexed": 9101,
+    "papers_scored": 1729,
     "papers_ai_relevant": 319
   },
   "journals": [
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 201,
+      "papers_indexed": 202,
       "papers_ai_relevant": 3
     },
     {
