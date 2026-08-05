@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 04:59:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 05:00:12 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>EXPRESS:利用生成式人工智能评估新型非结构化干预:因果预测框架</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15403</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15403</guid>
+      <description>📝 EXPRESS:利用生成式人工智能评估新型非结构化干预:因果预测框架
+EN: EXPRESS: Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework
+
+💡 针对营销管理者难以评估AI生成的海量新内容这一难题，构建基于预训练大语言模型的因果预测框架，将历史投放内容表征为特征并学习其与效果的因果关系，通过拒绝采样筛选新内容以避免超出历史数据支撑的外推。3.3百万条邮件营销数据验证显示，框架在样本外预测和实际投放中均优于标准方法，并能依据相似度阈值区分可因果预测与需直接实验的情形，实现面向效果优化的AI内容生成与部署决策。
+
+📚 JMR · 2026 · 引用 0
+👤 Paul B. Ellickson, Wreetabrata Kar, James C. Reeder, Guang Zeng
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <category>营销</category><category>AI 采用</category><category>可解释性</category><category>人机协作</category><category>GenAI</category><category>LLM</category>
+    </item>    <item>
+      <title>企业LLM采纳中整合信息系统成功与开放式创新:净收益与使用增长的双路径模型</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15401</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15401</guid>
+      <description>📝 企业LLM采纳中整合信息系统成功与开放式创新:净收益与使用增长的双路径模型
+EN: Integrating is success and open innovation in enterprise LLM adoption: a dual-path model of net benefits and usage growth
+
+💡 基于信息系统成功、开放式创新与组织学习理论，探究企业LLM应用中模型质量与学习创新能力如何共同影响财务绩效感知并进而促进使用增长。通过261家企业代表问卷与148名企业员工的补充实验，结合PLS-SEM与结构方程分析，发现信息质量对LLM用户满意度的作用机制有别于传统假设，强调组织学习与创新基础能力是LLM持续创造价值的关键，为企业推进可持续的LLM落地提供实践指引。
+
+📚 BIT · 2026 · 引用 0
+👤 Taekyung Kim, Ohbyung Kwon, Sujin Bae, Kyung Young Lee
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <category>AI 采用</category><category>用户研究方法</category><category>问卷</category><category>信任</category><category>LLM</category>
+    </item>    <item>
       <title>“就像玩传话游戏一样”：探索对话式智能体作为数字健康干预可信中介的认知研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/15379</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15379</guid>
@@ -466,38 +496,6 @@ AI 分: 3.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2607.18628v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       
-    </item>    <item>
-      <title>Mammal：通过身体间感知计算服装支持母乳喂养监测</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15308</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15308</guid>
-      <description>📝 Mammal：通过身体间感知计算服装支持母乳喂养监测
-EN: Mammal: Supporting Breastfeeding Monitoring Through Computational Garments with Inter-Body Sensing
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Yanfeng Zhao, Morgan Geck, Kate Fernandez, Madison Nicole Jones, Xia Zhou
-
-AI 分: 3.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2607.19796v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>VisCanvas：基于节点的大语言模型探索性可视化创作界面</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15305</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15305</guid>
-      <description>📝 VisCanvas：基于节点的大语言模型探索性可视化创作界面
-EN: VisCanvas: A Node-based Interface for Exploratory Visualization Authoring with LLMs
-
-💡 VisCanvas是结合LLM的节点式可视化编辑界面，支持创建、修改、分支与合并可视化，探索多个分析方向。20名参与者的用户实验表明，相比线性聊天界面，VisCanvas实现更多样化的数据交互，同时认知负荷与可用性相当。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Yuki Ueno, Bretho Danzy, Zhuojun Jiang, Chris Bryan
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2607.21886v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>可视化</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>可用性测试</category><category>LLM</category><category>对话式AI</category>
     </item>
   </channel>
 </rss>
