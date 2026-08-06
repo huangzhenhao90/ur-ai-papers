@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T05:00:12.182638Z",
+  "generated_at": "2026-08-06T04:59:53.817072Z",
   "totals": {
-    "papers_indexed": 9114,
-    "papers_scored": 1742,
+    "papers_indexed": 9119,
+    "papers_scored": 1747,
     "papers_ai_relevant": 321
   },
   "journals": [
@@ -90,7 +90,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 583,
+      "papers_indexed": 585,
       "papers_ai_relevant": 55
     },
     {
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 637,
+      "papers_indexed": 639,
       "papers_ai_relevant": 7
     },
     {
@@ -297,7 +297,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 181,
+      "papers_indexed": 182,
       "papers_ai_relevant": 5
     },
     {
