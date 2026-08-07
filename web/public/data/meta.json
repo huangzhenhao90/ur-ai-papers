@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-06T04:59:53.817072Z",
+  "generated_at": "2026-08-07T04:24:10.184910Z",
   "totals": {
-    "papers_indexed": 9119,
-    "papers_scored": 1747,
-    "papers_ai_relevant": 321
+    "papers_indexed": 9137,
+    "papers_scored": 1765,
+    "papers_ai_relevant": 328
   },
   "journals": [
     {
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 585,
-      "papers_ai_relevant": 55
+      "papers_indexed": 587,
+      "papers_ai_relevant": 56
     },
     {
       "abbr": "DI",
@@ -193,8 +193,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 398,
-      "papers_ai_relevant": 5
+      "papers_indexed": 399,
+      "papers_ai_relevant": 6
     },
     {
       "abbr": "JAMS",
@@ -207,7 +207,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 639,
+      "papers_indexed": 640,
       "papers_ai_relevant": 7
     },
     {
@@ -252,7 +252,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 203,
+      "papers_indexed": 204,
       "papers_ai_relevant": 3
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1117,
-      "papers_ai_relevant": 62
+      "papers_indexed": 1130,
+      "papers_ai_relevant": 67
     }
   ],
   "facets": {
@@ -562,11 +562,11 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 140
+      "2026": 147
     },
     "journals": {
       "IJHCS": 68,
-      "BIT": 55,
+      "BIT": 56,
       "arXiv:cs.HC": 42,
       "TiiS": 25,
       "JSR": 22,
@@ -576,45 +576,46 @@
       "JAMS": 7,
       "JIM": 7,
       "JCR": 7,
+      "JCP": 6,
       "JMR": 6,
       "THMS": 6,
+      "arXiv:cs.SE": 6,
       "JAR": 5,
       "arXiv:cs.CY": 5,
-      "JCP": 5,
+      "arXiv:cs.AI": 4,
       "arXiv:cs.CL": 4,
       "JCA": 3,
-      "arXiv:cs.AI": 3,
-      "arXiv:cs.SE": 3,
       "MktSci": 2,
       "arXiv:econ.GN": 2,
       "arXiv:cs.RO": 2,
       "arXiv:cs.SI": 1,
+      "arXiv:cs.CV": 1,
       "JR": 1
     },
     "topic_tags": {
       "人机交互": 74,
+      "消费者行为": 69,
       "用户体验(UX)": 68,
-      "消费者行为": 68,
-      "人机协作": 57,
-      "人机交互(HCI)": 56,
+      "人机协作": 61,
+      "人机交互(HCI)": 60,
+      "用户研究方法": 51,
       "信任": 50,
-      "用户研究方法": 45,
       "可解释性": 37,
-      "可用性": 30,
+      "可用性": 31,
       "情感计算": 28,
       "AI采用": 28,
-      "AI 采用": 25,
+      "AI 采用": 28,
+      "AI 助手": 24,
       "对话式 AI": 22,
-      "AI 助手": 22,
+      "多模态交互": 20,
       "用户体验": 20,
       "服务体验": 19,
       "AI治理": 19,
-      "多模态交互": 19,
       "服务设计": 15,
       "对话式AI": 15,
       "伦理": 14,
+      "AI 治理": 14,
       "可视化": 14,
-      "AI 治理": 13,
       "推荐系统": 12,
       "营销": 12,
       "AI伦理": 9,
@@ -632,34 +633,34 @@
       "语音交互": 5,
       "医疗AI": 5,
       "AI助手": 5,
+      "可访问性": 4,
       "认知负荷": 4,
       "隐私": 4,
       "生成式AI": 4,
       "决策支持": 4,
       "教育技术": 4,
+      "眼动追踪": 4,
       "在线社区": 4,
-      "用户行为": 4,
-      "服务机器人": 4,
-      "可访问性": 3,
-      "元分析": 3
+      "访谈": 4,
+      "用户行为": 4
     },
     "ai_type_tags": {
-      "LLM": 70,
-      "GenAI": 50,
+      "LLM": 73,
+      "GenAI": 55,
       "对话式AI": 49,
-      "AI 助手": 43,
+      "AI 助手": 47,
+      "智能体/Agent": 43,
       "AI助手": 42,
-      "智能体/Agent": 42,
-      "对话式 AI": 40,
-      "人机协作": 35,
-      "多模态": 32,
+      "对话式 AI": 41,
+      "人机协作": 37,
+      "多模态": 34,
       "可解释AI": 26,
       "人机交互": 20,
-      "可解释 AI": 16,
+      "可解释 AI": 17,
       "推荐算法": 15,
+      "情感识别": 14,
       "机器学习": 13,
       "AI 推荐": 13,
-      "情感识别": 13,
       "AI治理": 12,
       "情感计算": 9,
       "智能体": 9,
