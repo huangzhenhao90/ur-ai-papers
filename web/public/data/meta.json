@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T03:21:57.770187Z",
+  "generated_at": "2026-08-09T03:29:51.278256Z",
   "totals": {
-    "papers_indexed": 9139,
-    "papers_scored": 1767,
-    "papers_ai_relevant": 328
+    "papers_indexed": 9144,
+    "papers_scored": 1772,
+    "papers_ai_relevant": 330
   },
   "journals": [
     {
@@ -32,7 +32,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
-      "papers_indexed": 125,
+      "papers_indexed": 126,
       "papers_ai_relevant": 0
     },
     {
@@ -46,8 +46,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 614,
-      "papers_ai_relevant": 68
+      "papers_indexed": 615,
+      "papers_ai_relevant": 69
     },
     {
       "abbr": "IwC",
@@ -90,8 +90,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 587,
-      "papers_ai_relevant": 56
+      "papers_indexed": 590,
+      "papers_ai_relevant": 57
     },
     {
       "abbr": "DI",
@@ -562,11 +562,11 @@
       "2023": 53,
       "2024": 52,
       "2025": 72,
-      "2026": 147
+      "2026": 149
     },
     "journals": {
-      "IJHCS": 68,
-      "BIT": 56,
+      "IJHCS": 69,
+      "BIT": 57,
       "arXiv:cs.HC": 42,
       "TiiS": 25,
       "JSR": 22,
@@ -596,18 +596,18 @@
       "人机交互": 74,
       "消费者行为": 69,
       "用户体验(UX)": 68,
+      "人机交互(HCI)": 62,
       "人机协作": 61,
-      "人机交互(HCI)": 60,
       "用户研究方法": 51,
       "信任": 50,
       "可解释性": 37,
-      "可用性": 31,
-      "情感计算": 28,
+      "可用性": 32,
+      "情感计算": 29,
       "AI采用": 28,
       "AI 采用": 28,
-      "AI 助手": 24,
+      "AI 助手": 25,
       "对话式 AI": 22,
-      "多模态交互": 20,
+      "多模态交互": 21,
       "用户体验": 20,
       "服务体验": 19,
       "AI治理": 19,
@@ -621,19 +621,19 @@
       "AI伦理": 9,
       "客户体验(CX)": 9,
       "用户画像": 8,
+      "智能体": 8,
       "可解释AI": 8,
       "广告": 7,
       "个性化": 7,
-      "智能体": 7,
       "儿童/老人/无障碍": 7,
       "用户信任": 6,
       "客户体验": 6,
       "智能体/Agent": 6,
       "可用性测试": 6,
+      "可访问性": 5,
       "语音交互": 5,
       "医疗AI": 5,
       "AI助手": 5,
-      "可访问性": 4,
       "认知负荷": 4,
       "隐私": 4,
       "生成式AI": 4,
@@ -645,20 +645,20 @@
       "用户行为": 4
     },
     "ai_type_tags": {
-      "LLM": 73,
-      "GenAI": 55,
+      "LLM": 75,
+      "GenAI": 56,
       "对话式AI": 49,
       "AI 助手": 47,
-      "智能体/Agent": 43,
+      "智能体/Agent": 44,
       "AI助手": 42,
       "对话式 AI": 41,
       "人机协作": 37,
-      "多模态": 34,
+      "多模态": 35,
       "可解释AI": 26,
-      "人机交互": 20,
+      "人机交互": 21,
       "可解释 AI": 17,
       "推荐算法": 15,
-      "情感识别": 14,
+      "情感识别": 15,
       "机器学习": 13,
       "AI 推荐": 13,
       "AI治理": 12,

@@ -6,9 +6,43 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Aug 2026 03:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 03:29:51 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>从自然语言到可执行过滤代码：触发-动作平台中LLM辅助的行为定制</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15438</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15438</guid>
+      <description>📝 从自然语言到可执行过滤代码：触发-动作平台中LLM辅助的行为定制
+EN: From natural language to executable filter code: LLM-Assisted behavioural customisation in trigger–Action Platforms
+
+💡 研究如何利用大语言模型将用户的自然语言描述自动转换为触发-动作平台（如 IFTTT 类工具）中的可执行过滤代码，降低终端用户进行行为定制的编程门槛，使用户无需掌握专业语法即可实现个性化自动化规则的创建与修改。
+
+📚 BIT · 2026 · 引用 0
+👤 Gaetano Cimino, Laura De Santis, Vincenzo Deufemia
+
+AI 分: 4.0 / 领域分: 3.0
+
+📄 PDF: https://doi.org/10.1080/0144929x.2026.2711012</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>AI 助手</category><category>可用性</category><category>可访问性</category><category>LLM</category><category>GenAI</category><category>人机交互</category>
+    </item>    <item>
+      <title>面向社会可接受的XR智能体：模块化用户交互方法</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15435</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15435</guid>
+      <description>📝 面向社会可接受的XR智能体：模块化用户交互方法
+EN: Towards socially acceptable XR agents: A modular approach for user interaction
+
+💡 针对扩展现实(XR)中虚拟代理在社交与公共场景的社会可接受性挑战，提出模块化交互架构：检测模块负责用户意图识别、群体动态监测与情绪状态推断；通信模块结合大语言模型生成个性化语言回应，并识别手势与肢体语言以丰富非语言交互，实现情境适配、个性化且具情感智能的人机互动。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Silvia Proia, Luca Capra, Oya Çeliktutan, Andrea Coppari, Filippo Favali
+
+AI 分: 3.0 / 领域分: 4.0
+
+📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103907</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>多模态交互</category><category>情感计算</category><category>智能体</category><category>LLM</category><category>智能体/Agent</category><category>多模态</category><category>情感识别</category>
+    </item>    <item>
       <title>AI开发工具中视觉可访问性问题的表征：一项实证研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/15425</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15425</guid>
@@ -464,40 +498,6 @@ AI 分: 5.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2607.13798v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>AI采用</category><category>角色迁移</category><category>公共部门</category><category>期望重新校准</category><category>生成式AI</category><category>Microsoft 365 Copilot</category><category>LLM</category>
-    </item>    <item>
-      <title>PACE：人机交互中基于对话引导的人格适应</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15335</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15335</guid>
-      <description>📝 PACE：人机交互中基于对话引导的人格适应
-EN: PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction
-
-💡 如何在人形机器人中实现动态、个性化的身份人格。研究提出PACE框架，通过交互式问答流程从用户处获取信息，合成心理学的多维结构化人格提示词，并集成到Ameca人形机器人中产生多模态行为。实证评估表明，动态生成的人格在信任度、拟人化感知、人格一致性、个人相关性和交互质量上均优于通用基线，为可扩展的个性化人形助手部署提供了可行路径。
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Peizhen Li, Longbing Cao, Megani Rajendran, Timothy Liu, Aik Beng Ng
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2607.15579v2</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>用户体验(UX)</category><category>信任</category><category>人机交互(HCI)</category><category>对话式AI</category><category>智能体/Agent</category><category>多模态</category>
-    </item>    <item>
-      <title>回归博物馆：有无情绪模拟的Android Andrea在博物馆中的接受度研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15334</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15334</guid>
-      <description>📝 回归博物馆：有无情绪模拟的Android Andrea在博物馆中的接受度研究
-EN: Back to the museum: Investigation of the acceptance of Android Andrea with and without emotion simulation in a museum
-
-💡 在德国博物馆场景下考察访客对人形机器人Andrea的情感模拟接受度，设置无情感、ChatGPT 4.1驱动情感和WASABI情感模拟架构三种条件，用扩展TAM2问卷调研73名访客。结果显示，前两种情感注入方式均未对访客主观评价产生正向效应，情感模拟效果未能被访客在意识层面察觉。
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Marcel Heisler, Christian Becker-Asano
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2607.16428v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>消费者行为</category><category>AI采用</category><category>情感计算</category><category>对话式AI</category><category>GenAI</category><category>LLM</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>
