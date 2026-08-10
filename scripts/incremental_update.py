@@ -23,13 +23,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from dotenv import load_dotenv
-from sqlalchemy.exc import IntegrityError
 
-from src.db.schema import get_session, SourceRun, RawRecord, init_db
+from src.db.schema import get_session, SourceRun, init_db
 from src.utils.journals import english_journals
 from src.connectors import openalex as oa
 from src.connectors import crossref as cr
-from src.connectors.arxiv import fetch_category, UR_KEYWORDS
+from src.connectors.arxiv import fetch_category
 from src.pipeline.normalize import normalize as normalize_english
 from src.pipeline.ingest_arxiv import normalize_arxiv
 from src.pipeline.coverage_audit import audit
@@ -37,6 +36,11 @@ from src.pipeline.export_web_data import main as export_data
 from src.pipeline.llm_score_parallel import run as llm_score_run
 from src.pipeline.llm_tldr import run as llm_tldr_run
 from src.pipeline.llm_title_zh import run as llm_title_zh_run
+from src.pipeline.raw_ingest import (
+    assert_run_record_count,
+    count_run_records,
+    insert_raw_record,
+)
 
 load_dotenv()
 DB_PATH = os.getenv("DB_PATH", "./data/papers.db")
@@ -82,34 +86,43 @@ def step_fetch_english_incremental():
                 run = SourceRun(source=src_name, journal_abbr=j["abbr"],
                                 params={"mode": "incremental", "since": since})
                 session.add(run); session.flush()
-                count = 0
+                seen = 0
+                inserted = 0
+                duplicates = 0
                 try:
                     for w in fetch():
                         slim = (cr.slim_record(w) if src_name == "crossref" else oa.slim_record(w))
                         sid = slim.get("doi") if src_name == "crossref" else slim.get("id")
                         if not sid:
                             continue
-                        rec = RawRecord(run_id=run.id, source=src_name, source_record_id=sid, payload=slim)
-                        session.add(rec)
-                        try:
-                            session.flush()
-                            count += 1
-                        except IntegrityError:
-                            session.rollback()
-                            continue
+                        seen += 1
+                        if insert_raw_record(
+                            session,
+                            run_id=run.id,
+                            source=src_name,
+                            source_record_id=sid,
+                            payload=slim,
+                        ):
+                            inserted += 1
+                        else:
+                            duplicates += 1
                     session.commit()
+                    assert_run_record_count(session, run.id, expected=inserted)
                     run.status = "success"
                 except Exception as e:
                     session.rollback()
+                    inserted = count_run_records(session, run.id)
                     run.status = "failed"
                     run.error_message = str(e)[:500]
                     print(f"  [{src_name}] {j['abbr']} 失败: {e}")
                 finally:
-                    run.records_fetched = count
+                    run.records_fetched = inserted
                     run.finished_at = datetime.utcnow()
                     session.merge(run); session.commit()
-                if count:
-                    print(f"  [{src_name}] {j['abbr']}: +{count}")
+                print(
+                    f"  [{src_name}] {j['abbr']}: "
+                    f"API {seen} / 新增 {inserted} / 重复 {duplicates}"
+                )
     finally:
         session.close()
 
@@ -124,29 +137,39 @@ def step_fetch_arxiv_incremental():
             run = SourceRun(source="arxiv", journal_abbr=None,
                             params={"mode": "incremental", "category": cat, "since": since})
             session.add(run); session.flush()
-            count = 0
+            seen = 0
+            inserted = 0
+            duplicates = 0
             try:
                 for rec in fetch_category(cat, from_date=since):
-                    raw = RawRecord(run_id=run.id, source="arxiv",
-                                    source_record_id=rec["arxiv_id"], payload=rec)
-                    session.add(raw)
-                    try:
-                        session.flush(); count += 1
-                    except IntegrityError:
-                        session.rollback(); continue
+                    seen += 1
+                    if insert_raw_record(
+                        session,
+                        run_id=run.id,
+                        source="arxiv",
+                        source_record_id=rec["arxiv_id"],
+                        payload=rec,
+                    ):
+                        inserted += 1
+                    else:
+                        duplicates += 1
                 session.commit()
+                assert_run_record_count(session, run.id, expected=inserted)
                 run.status = "success"
             except Exception as e:
                 session.rollback()
+                inserted = count_run_records(session, run.id)
                 run.status = "failed"
                 run.error_message = str(e)[:500]
                 print(f"  arXiv {cat} 失败: {e}")
             finally:
-                run.records_fetched = count
+                run.records_fetched = inserted
                 run.finished_at = datetime.utcnow()
                 session.merge(run); session.commit()
-            if count:
-                print(f"  arXiv {cat}: +{count}")
+            print(
+                f"  arXiv {cat}: "
+                f"API {seen} / 新增 {inserted} / 重复 {duplicates}"
+            )
     finally:
         session.close()
 

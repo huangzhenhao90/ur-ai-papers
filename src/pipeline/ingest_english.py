@@ -5,19 +5,22 @@
 
 import os
 import sys
-import json
 from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from dotenv import load_dotenv
-from sqlalchemy.exc import IntegrityError
 
-from src.db.schema import get_session, SourceRun, RawRecord
+from src.db.schema import get_session, SourceRun
 from src.utils.journals import by_abbr
 from src.connectors import openalex as oa
 from src.connectors import crossref as cr
+from src.pipeline.raw_ingest import (
+    assert_run_record_count,
+    count_run_records,
+    insert_raw_record,
+)
 
 load_dotenv()
 DB_PATH = os.getenv("DB_PATH", "./data/papers.db")
@@ -37,41 +40,44 @@ def ingest_openalex(session, journal: dict, from_date: str, to_date: str | None 
     session.add(run)
     session.flush()
 
-    count = 0
+    seen = 0
+    inserted = 0
+    duplicates = 0
     try:
         for w in oa.fetch_works_by_source(sid, from_date=from_date, to_date=to_date):
             slim = oa.slim_record(w)
-            rec = RawRecord(
+            seen += 1
+            was_inserted = insert_raw_record(
+                session,
                 run_id=run.id,
                 source="openalex",
                 source_record_id=slim["id"],
                 payload=slim,
             )
-            session.add(rec)
-            count += 1
-            if count % 100 == 0:
-                try:
-                    session.commit()
-                except IntegrityError:
-                    session.rollback()
-                print(f"    已入库 {count} 条")
-        try:
-            session.commit()
-        except IntegrityError:
-            session.rollback()
+            if was_inserted:
+                inserted += 1
+            else:
+                duplicates += 1
+            if was_inserted and inserted % 100 == 0:
+                session.commit()
+                print(f"    已新增 {inserted} 条")
+        session.commit()
+        assert_run_record_count(session, run.id, expected=inserted)
         run.status = "success"
     except Exception as e:
         session.rollback()
+        inserted = count_run_records(session, run.id)
         run.status = "failed"
         run.error_message = str(e)
         print(f"  [openalex] 失败: {e}")
     finally:
         run.finished_at = datetime.utcnow()
-        run.records_fetched = count
+        run.records_fetched = inserted
         session.merge(run)
         session.commit()
 
-    return count
+    print(f"  [openalex] API {seen} / 新增 {inserted} / 重复 {duplicates}")
+    return inserted
 
 
 def ingest_crossref(session, journal: dict, from_date: str, until_date: str | None = None) -> int:
@@ -84,43 +90,47 @@ def ingest_crossref(session, journal: dict, from_date: str, until_date: str | No
     session.add(run)
     session.flush()
 
-    count = 0
+    seen = 0
+    inserted = 0
+    duplicates = 0
     try:
         for w in cr.fetch_works_by_issn(issn, from_pub_date=from_date, until_pub_date=until_date):
             slim = cr.slim_record(w)
             doi = slim.get("doi")
             if not doi:
                 continue
-            rec = RawRecord(
+            seen += 1
+            was_inserted = insert_raw_record(
+                session,
                 run_id=run.id,
                 source="crossref",
                 source_record_id=doi,
                 payload=slim,
             )
-            session.add(rec)
-            try:
-                session.flush()
-            except IntegrityError:
-                session.rollback()
-                continue
-            count += 1
-            if count % 100 == 0:
+            if was_inserted:
+                inserted += 1
+            else:
+                duplicates += 1
+            if was_inserted and inserted % 100 == 0:
                 session.commit()
-                print(f"    已入库 {count} 条")
+                print(f"    已新增 {inserted} 条")
         session.commit()
+        assert_run_record_count(session, run.id, expected=inserted)
         run.status = "success"
     except Exception as e:
         session.rollback()
+        inserted = count_run_records(session, run.id)
         run.status = "failed"
         run.error_message = str(e)
         print(f"  [crossref] 失败: {e}")
     finally:
         run.finished_at = datetime.utcnow()
-        run.records_fetched = count
+        run.records_fetched = inserted
         session.merge(run)
         session.commit()
 
-    return count
+    print(f"  [crossref] API {seen} / 新增 {inserted} / 重复 {duplicates}")
+    return inserted
 
 
 def main(abbr: str, from_date: str = "2023-01-01", to_date: str | None = None):

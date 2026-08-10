@@ -22,6 +22,14 @@ ARXIV_API = "https://export.arxiv.org/api/query"
 PER_PAGE = 200       # 实际每次拉 200，太大易超时
 RATE_SLEEP = 3.0     # arXiv 官方限速建议
 
+SYNTHETIC_USER_KEYWORDS = [
+    "simulated user", "simulated users",
+    "synthetic user", "synthetic users",
+    "user simulation", "user simulator",
+    "persona agent", "persona agents",
+    "virtual user", "virtual users",
+]
+
 # 用户研究 / HCI / UX / CX 强信号关键词
 # 砍掉在 AI 论文里被滥用的词：user（太宽）、model、performance 等。
 # 这套词强调「人在 AI 系统中的体验、研究方法、行为」。
@@ -36,6 +44,7 @@ UR_KEYWORDS = [
     "eye-tracking", "eye tracking",
     "survey design", "questionnaire",
     "persona", "personas", "customer journey", "user journey", "journey map",
+    *SYNTHETIC_USER_KEYWORDS,
     # UX / UCD
     "user experience", "UX design",
     "user-centered design", "user-centred design",
@@ -106,8 +115,10 @@ def fetch_category(
                 try:
                     r = get_with_retry(client, ARXIV_API, params=params)
                 except Exception as e:
-                    print(f"    ! API error: {e}")
-                    break
+                    raise RuntimeError(
+                        f"arXiv API failed for category={category} "
+                        f"keyword_chunk={chunk_idx + 1} start={start}: {e}"
+                    ) from e
                 feed = feedparser.parse(r.text)
                 entries = feed.entries
                 if not entries:
