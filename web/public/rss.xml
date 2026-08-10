@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 09 Aug 2026 03:29:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 03:48:34 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>传统文本分析与大语言模型在服务失败与恢复中的应用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15439</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15439</guid>
+      <description>📝 传统文本分析与大语言模型在服务失败与恢复中的应用
+EN: Using Traditional Text Analysis and Large Language Models in Service Failure and Recovery
+
+💡 服务失败与恢复(SFR)场景中对话与文本是核心载体，但现有研究对文本分析方法的运用尚不充分。本文作为方法论教程，系统梳理传统文本分析（如词频、情感、主题建模）与大型语言模型在SFR研究中的适用路径，提供Python与KNIME可视化工作流，便于有无编程经验的学者复用，旨在推动SFR领域文本分析方法普及并指明未来研究方向。
+
+📚 JSR · 2025 · 引用 5
+👤 Francisco Villarroel Ordenes, Grant Packard, Jochen Hartmann, Davide Proserpio
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <category>服务设计</category><category>服务体验</category><category>用户研究方法</category><category>人机交互(HCI)</category><category>LLM</category><category>GenAI</category><category>AI 访谈分析</category>
+    </item>    <item>
       <title>从自然语言到可执行过滤代码：触发-动作平台中LLM辅助的行为定制</title>
       <link>https://ur-ai-papers.vercel.app/papers/15438</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15438</guid>
@@ -481,23 +496,6 @@ AI 分: 4.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2607.13179v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>原型设计</category><category>可用性评估</category><category>多智能体系统</category><category>人机协作</category><category>LLM</category><category>多智能体/Agent</category><category>AI辅助设计</category>
-    </item>    <item>
-      <title>生成式AI采用中的角色迁移与期望重新校准：州交通部门的纵向研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15338</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15338</guid>
-      <description>📝 生成式AI采用中的角色迁移与期望重新校准：州交通部门的纵向研究
-EN: Persona Migration and Expectation Recalibration in Generative AI Adoption: A Longitudinal Study at a State Department of Transportation
-
-💡 在州交通部门的8周Microsoft 365 Copilot试点中，124名员工的调查发现，使用后感知有用性显著下降，表明期望被重新校准；易用性、行为意向和信任仅小幅变化。识别出三种基线接受角色——怀疑者、谨慎乐观者、冠军，个体流动显著，40%怀疑者转向谨慎乐观，68%冠军向较低热情迁移；上升与有用性、意向和信任提升相关。通信与摘要保持稳定，数据、图表和演示任务下降，准确性是主要顾虑。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Omidreza Shoghli, Fatemeh Banani Ardecani, Amin Mohamadi Hezaveh
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2607.13798v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>AI采用</category><category>角色迁移</category><category>公共部门</category><category>期望重新校准</category><category>生成式AI</category><category>Microsoft 365 Copilot</category><category>LLM</category>
     </item>
   </channel>
 </rss>
