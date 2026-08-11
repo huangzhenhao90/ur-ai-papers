@@ -67,6 +67,52 @@ class IncrementalIngestTests(unittest.TestCase):
         finally:
             session.close()
 
+    def test_arxiv_increment_uses_openalex_fallback_after_api_failure(self):
+        fallback_records = [
+            {
+                "arxiv_id": "2608.04205",
+                "title": "MatrAIx",
+                "abstract": "simulated user evaluation",
+            }
+        ]
+
+        with (
+            patch.object(incremental_update, "DB_PATH", self.db_path),
+            patch.object(incremental_update, "ARXIV_CATEGORIES", ["cs.AI"]),
+            patch.object(incremental_update, "LOOKBACK_DAYS", 30),
+            patch.object(
+                incremental_update,
+                "fetch_category",
+                side_effect=RuntimeError("arXiv API unavailable"),
+            ),
+            patch.object(
+                incremental_update,
+                "fetch_arxiv_via_openalex",
+                return_value=fallback_records,
+            ) as fallback,
+        ):
+            incremental_update.step_fetch_arxiv_incremental()
+
+        session = get_session(self.db_path)
+        try:
+            fallback_run = session.execute(
+                select(SourceRun)
+                .where(SourceRun.params.contains("openalex_fallback"))
+                .order_by(SourceRun.id.desc())
+            ).scalars().first()
+            persisted_ids = session.execute(
+                select(RawRecord.source_record_id).where(
+                    RawRecord.run_id == fallback_run.id
+                )
+            ).scalars().all()
+
+            fallback.assert_called_once()
+            self.assertEqual(fallback_run.status, "success")
+            self.assertEqual(fallback_run.records_fetched, 1)
+            self.assertEqual(persisted_ids, ["2608.04205"])
+        finally:
+            session.close()
+
 
 if __name__ == "__main__":
     unittest.main()
