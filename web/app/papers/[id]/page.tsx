@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { markRead } from "@/lib/read";
 import { track } from "@/lib/analytics";
+import DataLoadError from "@/components/DataLoadError";
+import { errorMessage, fetchJson } from "@/lib/fetchJson";
 
 type Paper = {
   id: number;
@@ -36,6 +38,8 @@ export default function PaperDetail() {
   const id = Number(params.id);
   const [p, setP] = useState<Paper | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
   // 检测是否有"上一页"可回，否则 fallback 到 /
   const [canGoBack, setCanGoBack] = useState(false);
   useEffect(() => {
@@ -47,12 +51,15 @@ export default function PaperDetail() {
   };
 
   useEffect(() => {
-    fetch("/data/papers_full.json")
-      .then((r) => r.json())
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+
+    fetchJson<Paper[]>("/data/papers_full.json")
       .then((all: Paper[]) => {
+        if (cancelled) return;
         const found = all.find((x) => x.id === id) || null;
         setP(found);
-        setLoading(false);
         if (found) {
           markRead(found.id);
           track("paper_open", {
@@ -62,10 +69,21 @@ export default function PaperDetail() {
             ai_score: found.ai_score || 0,
           });
         }
+      })
+      .catch((reason) => {
+        if (!cancelled) setError(errorMessage(reason));
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
       });
-  }, [id]);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [id, reloadKey]);
 
   if (loading) return <div className="text-stone-500 text-sm py-20 text-center">加载中…</div>;
+  if (error) return <DataLoadError detail={error} onRetry={() => setReloadKey((key) => key + 1)} />;
   if (!p) return (
     <div className="text-center py-20">
       <p className="text-stone-500">未找到。</p>

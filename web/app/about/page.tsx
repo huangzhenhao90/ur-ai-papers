@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import DataLoadError from "@/components/DataLoadError";
+import { errorMessage, fetchJson } from "@/lib/fetchJson";
 
 type Meta = {
   totals: { papers_indexed: number; papers_scored: number; papers_ai_relevant: number };
@@ -10,12 +12,34 @@ type Meta = {
 
 export default function AboutPage() {
   const [meta, setMeta] = useState<Meta | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
-    fetch("/data/meta.json").then((r) => r.json()).then(setMeta);
-  }, []);
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
 
-  if (!meta) return <div className="text-stone-500 text-sm py-20 text-center">加载中…</div>;
+    fetchJson<Meta>("/data/meta.json")
+      .then((value) => {
+        if (!cancelled) setMeta(value);
+      })
+      .catch((reason) => {
+        if (!cancelled) setError(errorMessage(reason));
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [reloadKey]);
+
+  if (loading) return <div className="text-stone-500 text-sm py-20 text-center">加载中…</div>;
+  if (error) return <DataLoadError detail={error} onRetry={() => setReloadKey((key) => key + 1)} />;
+  if (!meta) return null;
 
   return (
     <div className="max-w-4xl mx-auto space-y-10">

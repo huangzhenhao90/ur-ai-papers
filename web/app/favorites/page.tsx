@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import PaperList, { type Paper } from "@/components/PaperList";
+import DataLoadError from "@/components/DataLoadError";
+import { errorMessage, fetchJson } from "@/lib/fetchJson";
 import { readFavorites } from "@/lib/favorites";
 import { toCsv, toMarkdown, toBibtex, downloadFile } from "@/lib/export";
 import { track } from "@/lib/analytics";
@@ -12,17 +14,31 @@ export default function FavoritesPage() {
   const [meta, setMeta] = useState<any>(null);
   const [favIds, setFavIds] = useState<Set<number>>(new Set());
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+
     Promise.all([
-      fetch("/data/papers.json").then((r) => r.json()),
-      fetch("/data/meta.json").then((r) => r.json()),
+      fetchJson<Paper[]>("/data/papers.json"),
+      fetchJson<any>("/data/meta.json"),
     ]).then(([p, m]) => {
+      if (cancelled) return;
       setAllPapers(p);
       setMeta(m);
-      setLoading(false);
+    }).catch((reason) => {
+      if (!cancelled) setError(errorMessage(reason));
+    }).finally(() => {
+      if (!cancelled) setLoading(false);
     });
-  }, []);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [reloadKey]);
 
   // 监听 favorites 变化（卡片上 ★ 切换时实时同步）
   useEffect(() => {
@@ -37,6 +53,7 @@ export default function FavoritesPage() {
   }, []);
 
   if (loading) return <div className="text-stone-500 text-sm py-20 text-center">加载中…</div>;
+  if (error) return <DataLoadError detail={error} onRetry={() => setReloadKey((key) => key + 1)} />;
 
   const favPapers = allPapers.filter((p) => favIds.has(p.id));
 
