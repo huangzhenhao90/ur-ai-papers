@@ -6,9 +6,43 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Aug 2026 03:48:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 03:32:23 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>人们如何评估AI、专家及同伴风格的金融建议</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15457</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15457</guid>
+      <description>📝 人们如何评估AI、专家及同伴风格的金融建议
+EN: How People Evaluate AI-, Expert-, and Peer-Style Financial Advice
+
+💡 研究通过预注册情景实验(N=285)，在金融建议事实与内容一致的前提下，操纵AI助手、注册理财师与在线社区三种沟通风格及来源标签（正确/无/错标），考察用户评价差异。结果显示：专家风格在10项指标中9项优于AI，无标签时仍保持优势；AI风格最易受标签影响，错标可提升其适用性与质量评价。研究表明金融建议评估由来源归属与沟通风格共同塑造。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Aryan Ramchandra Kapadia, Eshwar Chandrasekharan, Koustuv Saha
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2608.09019v1</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>信任</category><category>AI 采用</category><category>用户研究方法</category><category>GenAI</category><category>LLM</category><category>AI 助手</category><category>对话式 AI</category>
+    </item>    <item>
+      <title>思维的情感工具：迈向AI辅助思考中的共享注意与情感重定向</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15447</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15447</guid>
+      <description>📝 思维的情感工具：迈向AI辅助思考中的共享注意与情感重定向
+EN: Affective Tools for Thought: Towards Shared Attention and Affective Reorienting in AI-Supported Thinking
+
+💡 借鉴具身认知科学，论证情感是认知的构成性要素而非干扰或可优化信号。识别情感型思维工具的两大核心障碍：共享注意（对用户参与方式的关怀性关注）与情感重定向（利用情感时刻开启新思维轨迹而非强化既定路径）。提出三项设计策略：情感链×思维链、情感镜像、提示重定向，并以触感感知对话式智能体在手工学习中的实证研究为基础。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Yifu Liu, Raffaele Andrea Buono, Nadia Bianchi-Berthouze
+
+AI 分: 4.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2607.26731v1</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>情感计算</category><category>AI 助手</category><category>人机协作</category><category>对话式 AI</category><category>多模态</category><category>AI 助手</category><category>人机协作</category>
+    </item>    <item>
       <title>传统文本分析与大语言模型在服务失败与恢复中的应用</title>
       <link>https://ur-ai-papers.vercel.app/papers/15439</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15439</guid>
@@ -462,40 +496,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2607.23309v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>可解释性</category><category>人机交互(HCI)</category><category>多模态交互</category><category>生成式AI</category>
-    </item>    <item>
-      <title>让我看看你：用于对话语音合成的高级面部表情建模</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15340</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15340</guid>
-      <description>📝 让我看看你：用于对话语音合成的高级面部表情建模
-EN: Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis
-
-💡 在对话语音合成中忽视面部表情导致情感表达不足。提出 FacialTalker 框架，基于大语言模型并引入 AUTokenizer 将面部动作离散为视觉 token，结合双直接偏好优化（DualDPO）提升多模态对话中视觉与语音一致性。构建 VSDD‑1K 数据集（超 1033 小时同步音视频），实验表明模型能更自然地生成情感匹配的语音与表情。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Yifan Hu, Shuwei He, Rui Liu, Haizhou Li
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2607.24430v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>多模态交互</category><category>情感计算</category><category>对话式 AI</category><category>人机交互</category><category>LLM</category><category>多模态</category><category>情感识别</category>
-    </item>    <item>
-      <title>SoftBoard：用于创建与评估低保真原型的多Agent工具</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15339</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15339</guid>
-      <description>📝 SoftBoard：用于创建与评估低保真原型的多Agent工具
-EN: SoftBoard: A Multi-Agent Tool for the Creation and Evaluation of Low-Fidelity Prototypes
-
-💡 针对软件初创公司MVP开发中低 fidelity原型创建工具缺乏方法论指导与AI支持的现状，研究开发SoftBoard——一个集成原型编辑器、团队协作与LLM多智能体的Web工具。该系统可辅助需求获取与细化、自动生成原型、并基于可用性启发式规则评估界面质量，旨在降低UX专业门槛、标准化原型流程，支持团队快速构建符合用户需求的MVP。目前正开展可行性研究。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Gabriel R. S. Scapim, Gislaine C. L. Leal, Guilherme C. Guerino
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2607.13179v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>原型设计</category><category>可用性评估</category><category>多智能体系统</category><category>人机协作</category><category>LLM</category><category>多智能体/Agent</category><category>AI辅助设计</category>
     </item>
   </channel>
 </rss>

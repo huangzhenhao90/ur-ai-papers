@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-10T03:48:34.034294Z",
+  "generated_at": "2026-08-11T03:32:23.010435Z",
   "totals": {
-    "papers_indexed": 9145,
-    "papers_scored": 1773,
-    "papers_ai_relevant": 331
+    "papers_indexed": 9163,
+    "papers_scored": 1791,
+    "papers_ai_relevant": 333
   },
   "journals": [
     {
@@ -149,7 +149,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 908,
+      "papers_indexed": 912,
       "papers_ai_relevant": 8
     },
     {
@@ -222,7 +222,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 299,
+      "papers_indexed": 300,
       "papers_ai_relevant": 23
     },
     {
@@ -237,7 +237,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
-      "papers_indexed": 217,
+      "papers_indexed": 218,
       "papers_ai_relevant": 7
     },
     {
@@ -550,8 +550,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 1130,
-      "papers_ai_relevant": 67
+      "papers_indexed": 1142,
+      "papers_ai_relevant": 69
     }
   ],
   "facets": {
@@ -562,12 +562,12 @@
       "2023": 53,
       "2024": 52,
       "2025": 73,
-      "2026": 149
+      "2026": 151
     },
     "journals": {
       "IJHCS": 69,
       "BIT": 57,
-      "arXiv:cs.HC": 42,
+      "arXiv:cs.HC": 44,
       "TiiS": 25,
       "JSR": 23,
       "TOCHI": 22,
@@ -594,18 +594,18 @@
     },
     "topic_tags": {
       "人机交互": 74,
-      "消费者行为": 69,
+      "消费者行为": 70,
       "用户体验(UX)": 68,
-      "人机交互(HCI)": 63,
-      "人机协作": 61,
-      "用户研究方法": 52,
-      "信任": 50,
+      "人机交互(HCI)": 64,
+      "人机协作": 62,
+      "用户研究方法": 53,
+      "信任": 51,
       "可解释性": 37,
       "可用性": 32,
-      "情感计算": 29,
+      "情感计算": 30,
+      "AI 采用": 29,
       "AI采用": 28,
-      "AI 采用": 28,
-      "AI 助手": 25,
+      "AI 助手": 26,
       "对话式 AI": 22,
       "多模态交互": 21,
       "服务体验": 20,
@@ -645,15 +645,15 @@
       "用户行为": 4
     },
     "ai_type_tags": {
-      "LLM": 76,
-      "GenAI": 57,
+      "LLM": 77,
+      "GenAI": 58,
+      "AI 助手": 49,
       "对话式AI": 49,
-      "AI 助手": 47,
       "智能体/Agent": 44,
+      "对话式 AI": 43,
       "AI助手": 42,
-      "对话式 AI": 41,
-      "人机协作": 37,
-      "多模态": 35,
+      "人机协作": 38,
+      "多模态": 36,
       "可解释AI": 26,
       "人机交互": 21,
       "可解释 AI": 17,
