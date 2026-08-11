@@ -18,10 +18,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from dotenv import load_dotenv
 from sqlalchemy import select
-from sqlalchemy.exc import IntegrityError
 
 from src.db.schema import get_session, SourceRun, RawRecord, Paper, PaperSource
-from src.connectors.arxiv import fetch_category
+from src.connectors.arxiv import SYNTHETIC_USER_KEYWORDS, fetch_category
+from src.pipeline.raw_ingest import (
+    assert_run_record_count,
+    count_run_records,
+    insert_raw_record,
+)
 
 load_dotenv()
 DB_PATH = os.getenv("DB_PATH", "./data/papers.db")
@@ -43,6 +47,7 @@ STRONG_KEYWORDS = [
     "card sorting", "think-aloud", "eye-tracking", "eye tracking",
     "A/B testing", "survey design", "questionnaire",
     "persona", "personas", "customer journey", "user journey", "journey map",
+    *SYNTHETIC_USER_KEYWORDS,
     # UX / UCD
     "user experience", "UX design", "UX",
     "user-centered design", "user-centred design",
@@ -76,12 +81,14 @@ _STRONG_RE = re.compile(
     r"\b(" + "|".join(re.escape(k) for k in STRONG_KEYWORDS) + r")\b",
     re.IGNORECASE,
 )
+_HYPHEN_RE = re.compile(r"[-‐‑‒–—]")
 
 
 def passes_strong_filter(title: str | None, abstract: str | None) -> bool:
     """abstract+title 命中至少一个强信号词才返回 True。"""
     text = (title or "") + " " + (abstract or "")
-    return bool(_STRONG_RE.search(text))
+    normalized_text = _HYPHEN_RE.sub(" ", text)
+    return bool(_STRONG_RE.search(text) or _STRONG_RE.search(normalized_text))
 
 
 def ingest():
@@ -97,40 +104,44 @@ def ingest():
             session.add(run)
             session.flush()
 
-            count = 0
+            seen = 0
+            inserted = 0
+            duplicates = 0
             try:
                 for rec in fetch_category(cat, from_date=FROM_DATE):
-                    raw = RawRecord(
+                    seen += 1
+                    was_inserted = insert_raw_record(
+                        session,
                         run_id=run.id,
                         source="arxiv",
                         source_record_id=rec["arxiv_id"],
                         payload=rec,
                     )
-                    session.add(raw)
-                    try:
-                        session.flush()
-                    except IntegrityError:
-                        # 同一 arxiv_id 在多个分类里出现 = 重复，跳过
-                        session.rollback()
-                        continue
-                    count += 1
-                    if count % 50 == 0:
+                    if was_inserted:
+                        inserted += 1
+                    else:
+                        duplicates += 1
+                    if was_inserted and inserted % 50 == 0:
                         session.commit()
-                        print(f"    已入库 {count} 条")
+                        print(f"    已新增 {inserted} 条")
                 session.commit()
+                assert_run_record_count(session, run.id, expected=inserted)
                 run.status = "success"
             except Exception as e:
                 session.rollback()
+                inserted = count_run_records(session, run.id)
                 run.status = "failed"
                 run.error_message = str(e)[:500]
                 print(f"  ! {e}")
             finally:
-                run.records_fetched = count
+                run.records_fetched = inserted
                 run.finished_at = datetime.utcnow()
                 session.merge(run)
                 session.commit()
 
-            print(f"  -> 入库 {count} 条")
+            print(
+                f"  -> API {seen} / 新增 {inserted} / 重复 {duplicates}"
+            )
     finally:
         session.close()
 

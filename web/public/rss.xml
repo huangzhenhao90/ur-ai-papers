@@ -6,9 +6,26 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 11 Aug 2026 03:32:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 04:23:32 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>MatrAIx：基于83亿角色化智能体的世界模拟</title>
+      <link>https://ur-ai-papers.vercel.app/papers/15610</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15610</guid>
+      <description>📝 MatrAIx：基于83亿角色化智能体的世界模拟
+EN: MatrAIx: Simulating the World with 8.3 Billion Persona Agents
+
+💡 MatrAIx提出基于83亿人格代理的群体级模拟用户评估基础设施：Persona 8B含1290个分类维度与依赖图采样，配套Survey/AI Chatbot/Web/App四类Playground环境及1010个跨25+领域任务；使用Claude Opus 4.8、GPT 5.5、Claude Haiku 4.5驱动18189次评估试验，捕捉不同人格在涨价后犹豫、AI失败后留存意愿、延迟容忍度等行为差异，并以400人研究进行验证，为AI与数字产品评测提供可扩展且具多样性的替代方案。
+
+📚 arXiv · 2026 · 引用 0
+👤 Xiaomin Li, Yuexing Hao, Jianheng Hou, Jintao Huang, Qianfeng Wen
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2608.04205</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>用户画像</category><category>AI 采用</category><category>人机交互(HCI)</category><category>LLM</category><category>智能体/Agent</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
       <title>人们如何评估AI、专家及同伴风格的金融建议</title>
       <link>https://ur-ai-papers.vercel.app/papers/15457</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15457</guid>
@@ -479,23 +496,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2607.20773v1</description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>用户研究方法</category><category>可用性</category><category>研究方法论</category><category>LLM</category><category>对话式AI</category><category>AI助手</category><category>人机协作</category>
-    </item>    <item>
-      <title>物质能动性视角下的可解释人工智能：基于神经音频模型赋能音乐界面设计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/15341</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/15341</guid>
-      <description>📝 物质能动性视角下的可解释人工智能：基于神经音频模型赋能音乐界面设计
-EN: Explainable AI through the Lens of Material Agency: Enabling Musical Interface Design with Neural Audio Models
-
-💡 将AI模型视为设计材料，探索艺术家如何在工作中‘玩转’模型并揭示其创作空间。提出‘材料可解释性’概念，将其转化为让艺术家、设计师和创客可及的AI材料；通过神经音频模型的NIME案例，构建资源库并提出三条建议，以启发面向艺术家的可解释AI设计。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Shuoyang Jasper Zheng, Anna Xambó Sedó, Nick Bryan-Kinns
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2607.23309v1</description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>人机交互(HCI)</category><category>多模态交互</category><category>生成式AI</category>
     </item>
   </channel>
 </rss>

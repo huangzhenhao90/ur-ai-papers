@@ -16,11 +16,23 @@ import time
 import re
 from typing import Iterator
 import feedparser
+from src.connectors.openalex import reconstruct_abstract
 from src.utils.http import make_client, get_with_retry
 
 ARXIV_API = "https://export.arxiv.org/api/query"
+OPENALEX_WORKS = "https://api.openalex.org/works"
+OPENALEX_ARXIV_SOURCE_ID = "S4306400194"
 PER_PAGE = 200       # 实际每次拉 200，太大易超时
 RATE_SLEEP = 3.0     # arXiv 官方限速建议
+OPENALEX_RATE_SLEEP = 0.2
+
+SYNTHETIC_USER_KEYWORDS = [
+    "simulated user", "simulated users",
+    "synthetic user", "synthetic users",
+    "user simulation", "user simulator",
+    "persona agent", "persona agents",
+    "virtual user", "virtual users",
+]
 
 # 用户研究 / HCI / UX / CX 强信号关键词
 # 砍掉在 AI 论文里被滥用的词：user（太宽）、model、performance 等。
@@ -36,6 +48,7 @@ UR_KEYWORDS = [
     "eye-tracking", "eye tracking",
     "survey design", "questionnaire",
     "persona", "personas", "customer journey", "user journey", "journey map",
+    *SYNTHETIC_USER_KEYWORDS,
     # UX / UCD
     "user experience", "UX design",
     "user-centered design", "user-centred design",
@@ -62,6 +75,118 @@ UR_KEYWORDS = [
     # 众包 / 在线社区
     "crowdsourcing", "crowdworker", "online community",
 ]
+
+_TEXT_HYPHEN_RE = re.compile(r"[-‐‑‒–—]")
+_UR_KEYWORD_PATTERNS = [
+    re.compile(
+        r"(?<![a-z0-9])" + re.escape(keyword.lower()) + r"(?![a-z0-9])"
+    )
+    for keyword in UR_KEYWORDS
+]
+_ARXIV_DOI_RE = re.compile(
+    r"10\.48550/arxiv\.([a-z.\-]+/\d{7}|\d{4}\.\d{4,5})",
+    re.IGNORECASE,
+)
+_ARXIV_URL_RE = re.compile(
+    r"arxiv\.org/(?:abs|pdf)/([a-z.\-]+/\d{7}|\d{4}\.\d{4,5})(?:v\d+)?",
+    re.IGNORECASE,
+)
+
+
+def matches_ur_keywords(title: str | None, abstract: str | None) -> bool:
+    text = f"{title or ''} {abstract or ''}".lower()
+    normalized_text = _TEXT_HYPHEN_RE.sub(" ", text)
+    return any(
+        pattern.search(text) or pattern.search(normalized_text)
+        for pattern in _UR_KEYWORD_PATTERNS
+    )
+
+
+def _extract_arxiv_id(work: dict) -> str | None:
+    candidates = [work.get("doi") or ""]
+    for location in work.get("locations") or []:
+        candidates.extend([
+            location.get("landing_page_url") or "",
+            location.get("pdf_url") or "",
+        ])
+    for candidate in candidates:
+        match = _ARXIV_DOI_RE.search(candidate) or _ARXIV_URL_RE.search(candidate)
+        if match:
+            return match.group(1)
+    return None
+
+
+def _openalex_work_to_arxiv_record(work: dict) -> dict | None:
+    arxiv_id = _extract_arxiv_id(work)
+    if not arxiv_id:
+        return None
+    publication_date = work.get("publication_date") or ""
+    return {
+        "arxiv_id": arxiv_id,
+        "doi": f"10.48550/arxiv.{arxiv_id}",
+        "title": work.get("title") or "",
+        "abstract": reconstruct_abstract(work.get("abstract_inverted_index")),
+        "authors": [
+            {"name": (authorship.get("author") or {}).get("display_name")}
+            for authorship in (work.get("authorships") or [])
+            if (authorship.get("author") or {}).get("display_name")
+        ],
+        "publication_date": publication_date,
+        "updated_date": publication_date,
+        "publication_year": work.get("publication_year"),
+        "categories": [],
+        "primary_category": None,
+        "pdf_url": f"https://arxiv.org/pdf/{arxiv_id}",
+        "landing_page_url": f"https://arxiv.org/abs/{arxiv_id}",
+    }
+
+
+def fetch_arxiv_via_openalex(
+    from_date: str,
+    until_date: str | None = None,
+) -> Iterator[dict]:
+    """Fallback discovery for arXiv when its Query API is unavailable."""
+    filters = [
+        f"primary_location.source.id:{OPENALEX_ARXIV_SOURCE_ID}",
+        f"from_publication_date:{from_date}",
+    ]
+    if until_date:
+        filters.append(f"to_publication_date:{until_date}")
+    chunks = [UR_KEYWORDS[i : i + 10] for i in range(0, len(UR_KEYWORDS), 10)]
+    seen_ids: set[str] = set()
+
+    with make_client(timeout=60) as client:
+        for chunk_index, chunk in enumerate(chunks, 1):
+            search = " OR ".join(f'"{keyword}"' for keyword in chunk)
+            cursor = "*"
+            print(
+                f"  [OpenAlex fallback {chunk_index}/{len(chunks)}] "
+                f"kw={chunk[:3]}..."
+            )
+            while cursor:
+                response = get_with_retry(
+                    client,
+                    OPENALEX_WORKS,
+                    params={
+                        "search": search,
+                        "filter": ",".join(filters),
+                        "per-page": PER_PAGE,
+                        "cursor": cursor,
+                        "mailto": os.getenv("CONTACT_EMAIL", "anonymous@example.com"),
+                    },
+                )
+                data = response.json()
+                for work in data.get("results", []):
+                    record = _openalex_work_to_arxiv_record(work)
+                    if not record or record["arxiv_id"] in seen_ids:
+                        continue
+                    if not matches_ur_keywords(record["title"], record["abstract"]):
+                        continue
+                    seen_ids.add(record["arxiv_id"])
+                    yield record
+                cursor = data.get("meta", {}).get("next_cursor")
+                if cursor:
+                    time.sleep(OPENALEX_RATE_SLEEP)
 
 
 def _build_query(category: str, kw_chunk: list[str]) -> str:
@@ -106,8 +231,10 @@ def fetch_category(
                 try:
                     r = get_with_retry(client, ARXIV_API, params=params)
                 except Exception as e:
-                    print(f"    ! API error: {e}")
-                    break
+                    raise RuntimeError(
+                        f"arXiv API failed for category={category} "
+                        f"keyword_chunk={chunk_idx + 1} start={start}: {e}"
+                    ) from e
                 feed = feedparser.parse(r.text)
                 entries = feed.entries
                 if not entries:
