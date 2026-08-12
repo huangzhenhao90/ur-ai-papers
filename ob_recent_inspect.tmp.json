@@ -1,42 +1,93 @@
 {
-  "fetched": "2026-08-12T05:28:34.953Z",
+  "now": "2026-08-12T05:29:29.685Z",
+  "sinceStr": "2026-08-05",
+  "untilStr": "2026-08-12",
   "total": 1841,
-  "picks3": [
+  "inWindow": 17,
+  "firstIds": [
+    53665,
+    53662,
+    53659,
+    32160,
+    32073
+  ],
+  "first5": [
     {
-      "id": 52644,
-      "tldr": "检验AI幻觉在在线社区聊天机器人中的'砖玉效应'，即AI生成看似权威但事实错误的回答如何影响用户信任与社区互动。揭示幻觉内容从被忽视到被采纳的转化机制及对信息可信度的潜在危害。",
-      "tldrLen": 88,
-      "title_zh": "AI幻觉的砖玉效应：来自在线社区聊天机器人的证据",
-      "ai_score": 5,
-      "domain_score": 3,
+      "id": 53665,
+      "date": "2026-08-11",
+      "journal": "arXiv:cs.HC",
+      "tldr": null,
+      "title": "What We Know about Responsible AI Practices in Industry: A H"
+    },
+    {
+      "id": 53662,
+      "date": "2026-08-10",
+      "journal": "arXiv:cs.LG",
+      "tldr": null,
+      "title": "Detecting Soft Skills in ML Engineering Roles CVs"
+    },
+    {
+      "id": 53659,
+      "date": "2026-08-10",
+      "journal": "arXiv:stat.AP",
+      "tldr": null,
+      "title": "Status Association Does Not Reliably Predict Decision Leakag"
+    },
+    {
+      "id": 32160,
+      "date": "2026-08-10",
+      "journal": "arXiv:cs.CY",
+      "tldr": "研究通过实验比较四种创意产出条件（互补角色AI-AI、相同角色AI-AI、单一AI、人人协作），收集1212个创意并由训",
+      "title": "AI-AI co-creation outperforms human pairs in creative tasks"
+    },
+    {
+      "id": 32073,
+      "date": "2026-08-10",
+      "journal": "arXiv:cs.AI",
+      "tldr": "研究构建层级博弈（公共物品博弈扩展管理权、选举和私下沟通），测试六款前沿大模型在十二项依次引入制度（言论、同伴、政府、薪",
+      "title": "The Politician, the Liar, and the Obedient Worker: Emerging "
+    }
+  ],
+  "allDatesSample": [
+    {
+      "id": 51886,
       "date": "2027-01",
-      "journal": "CHB",
-      "url": "https://doi.org/10.1016/j.chb.2026.109144",
-      "doi": "10.1016/j.chb.2026.109144"
+      "journal": "CHB"
     },
     {
       "id": 52146,
-      "tldr": "探究领导者是否愿意将沟通任务委托给AI，分析角色期待如何塑造管理者对AI沟通工具的使用意愿。研究揭示不同角色定位下，领导者对AI沟通的接受度、信任度与担忧存在显著差异，为组织AI沟通采纳策略提供启示。",
-      "tldrLen": 100,
-      "title_zh": "委托（或不委托）于机器：角色期望如何塑造领导者使用AI进行沟通的意愿",
-      "ai_score": 5,
-      "domain_score": 5,
       "date": "2027-01",
-      "journal": "CHB",
-      "url": "https://doi.org/10.1016/j.chb.2026.109139",
-      "doi": "10.1016/j.chb.2026.109139"
+      "journal": "CHB"
     },
     {
-      "id": 51886,
-      "tldr": "考察用户如何解读AI辅助撰写的评论，聚焦披露方式对真实性感知的影响。比较不同披露策略（如标注AI参与程度、披露方式措辞等）下，消费者对评论可信度与作者真诚性的评价差异，为平台评论透明化设计提供依据。",
-      "tldrLen": 99,
-      "title_zh": "用户如何解读AI辅助评论：披露设计与真实性感知",
-      "ai_score": 5,
-      "domain_score": 4,
+      "id": 52644,
       "date": "2027-01",
-      "journal": "CHB",
-      "url": "https://doi.org/10.1016/j.chb.2026.109148",
-      "doi": "10.1016/j.chb.2026.109148"
+      "journal": "CHB"
+    },
+    {
+      "id": 411,
+      "date": "2026-04-08",
+      "journal": "AMJ"
+    },
+    {
+      "id": 453,
+      "date": "2026-04",
+      "journal": "AMJ"
+    },
+    {
+      "id": 11694,
+      "date": "2026-06-12",
+      "journal": "AMJ"
+    },
+    {
+      "id": 575,
+      "date": "2026-04",
+      "journal": "AMR"
+    },
+    {
+      "id": 644,
+      "date": "2026-01",
+      "journal": "AMR"
     }
   ]
 }
