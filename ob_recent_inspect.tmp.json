@@ -1,4 +1,3 @@
 {
-  "dispatch": "https://github.com/huangzhenhao90/ob-ai-papers/actions/runs/31567099159\n",
-  "runs": "queued\t\tDaily Incremental Update\tDaily Incremental Update\tmain\tworkflow_dispatch\t31567099159\t0s\t2026-08-12T05:36:20Z\ncompleted\tsuccess\tDaily Incremental Update\tDaily Incremental Update\tmain\tschedule\t31561841515\t26m39s\t2026-08-12T04:00:11Z\ncompleted\tsuccess\tDaily Incremental Update\tDaily Incremental Update\tmain\tschedule\t31455952523\t6m0s\t2026-08-11T03:37:41Z\n"
+  "runStatus": "{\"conclusion\":\"\",\"createdAt\":\"2026-08-12T05:36:20Z\",\"status\":\"in_progress\",\"updatedAt\":\"2026-08-12T05:36:32Z\"}\n"
 }
