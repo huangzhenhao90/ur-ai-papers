@@ -1,102 +1,42 @@
 {
-  "top": [
+  "fetched": "2026-08-12T05:28:34.953Z",
+  "total": 1841,
+  "picks3": [
     {
       "id": 52644,
-      "date": "2027-01",
-      "journal": "CHB",
-      "title": "The brick-to-jade effect of AI hallucination: Evidence from chatbots i",
-      "hasTldr": true,
-      "tldrLen": 88,
-      "hasTitleZh": true
-    },
-    {
-      "id": 52146,
-      "date": "2027-01",
-      "journal": "CHB",
-      "title": "Delegating (or not) to machines: How role expectations shape leaders’ ",
-      "hasTldr": true,
-      "tldrLen": 100,
-      "hasTitleZh": true
-    },
-    {
-      "id": 51886,
-      "date": "2027-01",
-      "journal": "CHB",
-      "title": "How users interpret AI-assisted reviews: Disclosure design and authent",
-      "hasTldr": true,
-      "tldrLen": 99,
-      "hasTitleZh": true
-    },
-    {
-      "id": 52628,
-      "date": "2026-12",
-      "journal": "CHB",
-      "title": "Substratism: Conceptualizing and measuring moral bias against AI",
-      "hasTldr": true,
-      "tldrLen": 101,
-      "hasTitleZh": true
-    },
-    {
-      "id": 52566,
-      "date": "2026-12",
-      "journal": "CHB",
-      "title": "Too tired to be judged by humans: Social jetlag increases preference f",
-      "hasTldr": true,
-      "tldrLen": 119,
-      "hasTitleZh": false
-    },
-    {
-      "id": 52162,
-      "date": "2026-12",
-      "journal": "CHB",
-      "title": "Empathy in leadership communication: Experimental evidence from two vi",
-      "hasTldr": true,
-      "tldrLen": 116,
-      "hasTitleZh": false
-    }
-  ],
-  "topFull": [
-    {
-      "id": 52644,
-      "hasTldr": true,
       "tldr": "检验AI幻觉在在线社区聊天机器人中的'砖玉效应'，即AI生成看似权威但事实错误的回答如何影响用户信任与社区互动。揭示幻觉内容从被忽视到被采纳的转化机制及对信息可信度的潜在危害。",
-      "ai": 5,
-      "dom": 3
+      "tldrLen": 88,
+      "title_zh": "AI幻觉的砖玉效应：来自在线社区聊天机器人的证据",
+      "ai_score": 5,
+      "domain_score": 3,
+      "date": "2027-01",
+      "journal": "CHB",
+      "url": "https://doi.org/10.1016/j.chb.2026.109144",
+      "doi": "10.1016/j.chb.2026.109144"
     },
     {
       "id": 52146,
-      "hasTldr": true,
       "tldr": "探究领导者是否愿意将沟通任务委托给AI，分析角色期待如何塑造管理者对AI沟通工具的使用意愿。研究揭示不同角色定位下，领导者对AI沟通的接受度、信任度与担忧存在显著差异，为组织AI沟通采纳策略提供启示。",
-      "ai": 5,
-      "dom": 5
+      "tldrLen": 100,
+      "title_zh": "委托（或不委托）于机器：角色期望如何塑造领导者使用AI进行沟通的意愿",
+      "ai_score": 5,
+      "domain_score": 5,
+      "date": "2027-01",
+      "journal": "CHB",
+      "url": "https://doi.org/10.1016/j.chb.2026.109139",
+      "doi": "10.1016/j.chb.2026.109139"
     },
     {
       "id": 51886,
-      "hasTldr": true,
       "tldr": "考察用户如何解读AI辅助撰写的评论，聚焦披露方式对真实性感知的影响。比较不同披露策略（如标注AI参与程度、披露方式措辞等）下，消费者对评论可信度与作者真诚性的评价差异，为平台评论透明化设计提供依据。",
-      "ai": 5,
-      "dom": 4
-    },
-    {
-      "id": 52628,
-      "hasTldr": true,
-      "tldr": "提出\"亚斯特主义\"(substratism)概念，用以描述人们对AI的道德偏见，即因对方是AI而非人类而系统性贬损其道德地位。研究对该概念进行理论界定并开发测量量表，验证其结构与对AI伦理评价的预测力。",
-      "ai": 5,
-      "dom": 4
-    },
-    {
-      "id": 52566,
-      "hasTldr": true,
-      "tldr": "研究社交时差(social jetlag)如何影响个体对AI的偏好选择。论证当人们因作息与社会节律错位而疲劳时,社交焦虑上升,从而更倾向选择AI而非人类作为互动对象,以规避被人类评价的社交压力,揭示生理节律紊乱如何间接驱动AI接受度提升。",
-      "ai": 5,
-      "dom": 4
-    },
-    {
-      "id": 52162,
-      "hasTldr": true,
-      "tldr": "探讨AI在领导力沟通中提升信息共情水平的作用及其对观察者印象的影响。通过两项情景实验发现,AI辅助能增强领导消息的共情表达,但观察者对AI介入后的信息在可信度、领导真诚度等维度的评价会发生变化,涉及AI辅助沟通的透明性与接受度问题。",
-      "ai": 5,
-      "dom": 5
+      "tldrLen": 99,
+      "title_zh": "用户如何解读AI辅助评论：披露设计与真实性感知",
+      "ai_score": 5,
+      "domain_score": 4,
+      "date": "2027-01",
+      "journal": "CHB",
+      "url": "https://doi.org/10.1016/j.chb.2026.109148",
+      "doi": "10.1016/j.chb.2026.109148"
     }
   ]
 }
