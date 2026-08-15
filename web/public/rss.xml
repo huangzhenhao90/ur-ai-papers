@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Aug 2026 04:05:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 03:01:08 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>我的公平AI：AI内容推荐中的准确性公平与策略性身份披露</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20438</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20438</guid>
+      <description>📝 我的公平AI：AI内容推荐中的准确性公平与策略性身份披露
+EN: My Fair AI: Accuracy Parity and Strategic Identity Disclosure in AI Content Recommendation
+
+💡 研究消费者在AI准确性均等政策下的身份信息披露策略如何与企业AI推荐及AI学习投资决策交互，揭示公平AI框架下供需双方的最优博弈行为与市场均衡。
+
+📚 MktSci · 2026 · 引用 0
+👤 Evelyn O. Smith, Jeffrey D. Shulman, Antino Kim
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>推荐系统</category><category>个性化</category><category>AI治理</category><category>AI推荐</category><category>推荐算法</category>
+    </item>    <item>
+      <title>LLMs早期与晚期采纳及适应存在性别、年龄与技术教育差异</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20370</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20370</guid>
+      <description>📝 LLMs早期与晚期采纳及适应存在性别、年龄与技术教育差异
+EN: Early and late adoption and appropriation of LLMs differs by gender, age, and technology education
+
+💡 研究LLM早期与晚期采纳及使用方式的差异如何随用户性别、年龄和技术教育背景而变化，揭示不同人群在AI技术采纳与适应性使用（appropriation）上的分化特征。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Fiona Draxler, Daniel Buschek, Mikke Tavast, Juhi Kulshrestha, Robin Welsch
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <category>AI采用</category><category>用户研究方法</category><category>消费者行为</category><category>LLM</category>
+    </item>    <item>
       <title>Data and analysis code for: Does Explanation Correctness Matter? Linking Computational XAI Evaluation to Human Understanding</title>
       <link>https://ur-ai-papers.vercel.app/papers/20301</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20301</guid>
@@ -161,7 +191,9 @@ AI 分: 5.0 / 领域分: 4.0
 📚 IJHCS · 2026 · 引用 0
 👤 Rodrigo Lima, Alice Chirico, Andrea Gaggioli, Hugo Gamboa, Sergi Bermúdez i Badia
 
-AI 分: 3.0 / 领域分: 5.0</description>
+AI 分: 3.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103916</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       
     </item>    <item>
@@ -400,34 +432,6 @@ AI 分: 4.0 / 领域分: 5.0
 AI 分: 4.0 / 领域分: 4.0
 
 📄 PDF: https://arxiv.org/pdf/2608.08884v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>ITO: Real-time Browser Tab Orchestration Through Intent Detection</title>
-      <link>https://ur-ai-papers.vercel.app/papers/19990</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/19990</guid>
-      <description>📝 ITO: Real-time Browser Tab Orchestration Through Intent Detection
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Elvin Hu, Jasmine Sumpter, Takatoshi Yoshida, Mauricio Sousa, Kouta Minamizawa
-
-AI 分: 3.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2608.09107v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>VeriForge: Mitigating Latent Knowledge Gaps in Narrative Drafting via Mixed-Initiative Scaffolding</title>
-      <link>https://ur-ai-papers.vercel.app/papers/19987</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/19987</guid>
-      <description>📝 VeriForge: Mitigating Latent Knowledge Gaps in Narrative Drafting via Mixed-Initiative Scaffolding
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Ruqi Sun, Jiaping Li, Wenhui Tao, Ximing Zheng, Yuefeng Tan
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2608.09698v1</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
       
     </item>
