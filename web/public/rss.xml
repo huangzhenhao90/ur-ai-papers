@@ -6,9 +6,57 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 15 Aug 2026 03:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 03:00:14 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>From Metrics to Meaning: Time to Rethink Evaluation in Human–AI Collaborative Design</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20522</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20522</guid>
+      <description>📝 From Metrics to Meaning: Time to Rethink Evaluation in Human–AI Collaborative Design
+
+📚 TiiS · 2026 · 引用 2
+👤 Sean P. Walton, Ben J. Evans, Alma A. M. Rahat, James Stovold, Jakub Vincalek
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>Same trust, different paths: how older adults reach similar AI trust through use and non-use</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20519</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20519</guid>
+      <description>📝 Same trust, different paths: how older adults reach similar AI trust through use and non-use
+
+📚 IwC · 2026 · 引用 0
+👤 Yimeng Wang, Alicia Hong, Yixuan Zhang
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>The effect of Augmented Reality on Pedestrians’ Gaze Patterns and Crossing Probability while Interacting with Automated Vehicles.</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20517</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20517</guid>
+      <description>📝 The effect of Augmented Reality on Pedestrians’ Gaze Patterns and Crossing Probability while Interacting with Automated Vehicles.
+
+📚 IJHCS · 2026 · 引用 0
+👤 Yue Yang, Yee Mun Lee, Wilbert Tabone, Jorge García de Pedro, Riender Happee
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>Effects of Environmental Perception and Planned Maneuver Visualization on Takeover Performance in Silent Failure Scenarios</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20513</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20513</guid>
+      <description>📝 Effects of Environmental Perception and Planned Maneuver Visualization on Takeover Performance in Silent Failure Scenarios
+
+📚 IJHCS · 2026 · 引用 0
+👤 Song Yan, Haichao Liu, Jiaohao Zhang, Jiyao Wang, Jun Ma
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
       <title>我的公平AI：AI内容推荐中的准确性公平与策略性身份披露</title>
       <link>https://ur-ai-papers.vercel.app/papers/20438</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20438</guid>
@@ -197,6 +245,18 @@ AI 分: 3.0 / 领域分: 5.0
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       
     </item>    <item>
+      <title>The mediating effects of emotions on trust through risk perception and system performance in automated driving</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20163</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20163</guid>
+      <description>📝 The mediating effects of emotions on trust through risk perception and system performance in automated driving
+
+📚 IJHCS · 2025 · 引用 4
+👤 Lilit Avetisyan, Emmanuel Abolarin, Vanik Zakarian, X. Jessie Yang, Feng Zhou
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
       <title>CyberAGENTS: Structured Autonomy for Agentic Gamified Learning in Cybersecurity</title>
       <link>https://ur-ai-papers.vercel.app/papers/20062</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20062</guid>
@@ -362,76 +422,6 @@ AI 分: 4.0 / 领域分: 4.0
 AI 分: 5.0 / 领域分: 4.0
 
 📄 PDF: https://arxiv.org/pdf/2608.11322v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>Philosophical vertigo with artificial intelligence</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20013</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20013</guid>
-      <description>📝 Philosophical vertigo with artificial intelligence
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Thomas A. Pollak, Hamilton Morrin, Murray Shanahan
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2608.11955v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>"Always Want to Use it for Everything": Understanding Young Adults' Perceptions of AI Dependence</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20007</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20007</guid>
-      <description>📝 "Always Want to Use it for Everything": Understanding Young Adults' Perceptions of AI Dependence
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Ashlee Milton, Leah Ajmani, Amy Heger, Forough Poursabzi-Sangdeh, Mihaela Vorvoreanu
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2608.07592v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>Findings of the First Teaching Monster Challenge: A Benchmark of Pedagogical Content Knowledge in AI Agents</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20004</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20004</guid>
-      <description>📝 Findings of the First Teaching Monster Challenge: A Benchmark of Pedagogical Content Knowledge in AI Agents
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Yi-Cheng Lin, Yu-Kai Guo, Szu-Chi Chen, Bo-Han Feng, Yun-Man Hsu
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2608.08852v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews</title>
-      <link>https://ur-ai-papers.vercel.app/papers/19999</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/19999</guid>
-      <description>📝 When the Interviewer Is a Bot: Behavior, Breakdowns, and Trust in MLLM-Led Interviews
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 He Zhang, Kambinachi Chukwuma, ChanMin Kim, John M. Carroll
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2608.10412v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>SHRIMP: Iterative Refinement of Robot Task Plans</title>
-      <link>https://ur-ai-papers.vercel.app/papers/19991</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/19991</guid>
-      <description>📝 SHRIMP: Iterative Refinement of Robot Task Plans
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Mya Schroder, Yuna Hwang, Callie Y. Kim, Leqian Cheng, Jeffrey Li-cheng Liu
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2608.08884v1</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
       
     </item>

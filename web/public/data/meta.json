@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T03:01:08.023101Z",
+  "generated_at": "2026-08-16T03:00:14.808797Z",
   "totals": {
-    "papers_indexed": 14178,
-    "papers_scored": 2353,
-    "papers_ai_relevant": 487
+    "papers_indexed": 14275,
+    "papers_scored": 2550,
+    "papers_ai_relevant": 561
   },
   "journals": [
     {
@@ -20,8 +20,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/computers-in-human-behavior",
-      "papers_indexed": 1844,
-      "papers_ai_relevant": 15
+      "papers_indexed": 1877,
+      "papers_ai_relevant": 40
     },
     {
       "abbr": "TOCHI",
@@ -35,8 +35,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 397,
-      "papers_ai_relevant": 25
+      "papers_indexed": 398,
+      "papers_ai_relevant": 29
     },
     {
       "abbr": "HCI",
@@ -49,7 +49,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
-      "papers_indexed": 150,
+      "papers_indexed": 151,
       "papers_ai_relevant": 0
     },
     {
@@ -63,8 +63,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 791,
-      "papers_ai_relevant": 80
+      "papers_indexed": 799,
+      "papers_ai_relevant": 97
     },
     {
       "abbr": "IwC",
@@ -77,8 +77,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 221,
-      "papers_ai_relevant": 12
+      "papers_indexed": 225,
+      "papers_ai_relevant": 13
     },
     {
       "abbr": "TiiS",
@@ -92,8 +92,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 130,
-      "papers_ai_relevant": 26
+      "papers_indexed": 131,
+      "papers_ai_relevant": 27
     },
     {
       "abbr": "BIT",
@@ -107,8 +107,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 765,
-      "papers_ai_relevant": 59
+      "papers_indexed": 771,
+      "papers_ai_relevant": 68
     },
     {
       "abbr": "DI",
@@ -122,7 +122,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 134,
+      "papers_indexed": 136,
       "papers_ai_relevant": 0
     },
     {
@@ -136,8 +136,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 332,
-      "papers_ai_relevant": 12
+      "papers_indexed": 339,
+      "papers_ai_relevant": 14
     },
     {
       "abbr": "JCR",
@@ -151,7 +151,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1367,
+      "papers_indexed": 1369,
       "papers_ai_relevant": 7
     },
     {
@@ -166,8 +166,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 1194,
-      "papers_ai_relevant": 8
+      "papers_indexed": 1197,
+      "papers_ai_relevant": 10
     },
     {
       "abbr": "JMR",
@@ -181,7 +181,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 1085,
+      "papers_indexed": 1091,
       "papers_ai_relevant": 6
     },
     {
@@ -195,8 +195,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 749,
-      "papers_ai_relevant": 3
+      "papers_indexed": 756,
+      "papers_ai_relevant": 4
     },
     {
       "abbr": "JCP",
@@ -210,8 +210,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 541,
-      "papers_ai_relevant": 6
+      "papers_indexed": 545,
+      "papers_ai_relevant": 7
     },
     {
       "abbr": "JAMS",
@@ -224,7 +224,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 817,
+      "papers_indexed": 819,
       "papers_ai_relevant": 7
     },
     {
@@ -239,7 +239,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 391,
+      "papers_indexed": 393,
       "papers_ai_relevant": 24
     },
     {
@@ -255,7 +255,7 @@
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-interactive-marketing",
       "papers_indexed": 303,
-      "papers_ai_relevant": 7
+      "papers_ai_relevant": 9
     },
     {
       "abbr": "JCA",
@@ -284,7 +284,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/journal-of-retailing",
-      "papers_indexed": 460,
+      "papers_indexed": 461,
       "papers_ai_relevant": 1
     },
     {
@@ -299,8 +299,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mre",
-      "papers_indexed": 151,
-      "papers_ai_relevant": 0
+      "papers_indexed": 153,
+      "papers_ai_relevant": 1
     },
     {
       "abbr": "JAR",
@@ -328,7 +328,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 192,
+      "papers_indexed": 197,
       "papers_ai_relevant": 0
     },
     {
@@ -568,7 +568,7 @@
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
       "papers_indexed": 1624,
-      "papers_ai_relevant": 181
+      "papers_ai_relevant": 189
     }
   ],
   "facets": {
@@ -578,40 +578,41 @@
       "2022": 1,
       "2023": 53,
       "2024": 52,
-      "2025": 73,
-      "2026": 297,
+      "2025": 104,
+      "2026": 340,
       "2027": 8
     },
     "journals": {
-      "arXiv": 87,
-      "IJHCS": 80,
-      "BIT": 59,
+      "IJHCS": 97,
+      "arXiv": 95,
+      "BIT": 68,
       "arXiv:cs.HC": 54,
-      "TiiS": 26,
-      "TOCHI": 25,
+      "CHB": 40,
+      "TOCHI": 29,
+      "TiiS": 27,
       "JSR": 24,
-      "CHB": 15,
-      "IwC": 12,
-      "THMS": 12,
+      "THMS": 14,
+      "IwC": 13,
       "arXiv:cs.AI": 11,
-      "JM": 8,
+      "JM": 10,
+      "JIM": 9,
       "arXiv:cs.CY": 8,
       "JAMS": 7,
-      "JIM": 7,
+      "JCP": 7,
       "JCR": 7,
-      "JCP": 6,
       "JMR": 6,
       "arXiv:cs.SE": 6,
       "JAR": 5,
       "arXiv:cs.CL": 5,
+      "MktSci": 4,
       "JCA": 3,
-      "MktSci": 3,
       "arXiv:econ.GN": 3,
       "arXiv:cs.RO": 3,
       "arXiv:cs.IR": 1,
       "arXiv:cs.SI": 1,
       "arXiv:cs.CV": 1,
       "arXiv:cs.LG": 1,
+      "IJMR": 1,
       "JR": 1
     },
     "topic_tags": {
