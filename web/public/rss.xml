@@ -6,9 +6,61 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 Aug 2026 03:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 02:57:52 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>Reading Between The Lines: Modeling and Evaluating Behavioral Realism in Legal Simulation</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20643</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20643</guid>
+      <description>📝 Reading Between The Lines: Modeling and Evaluating Behavioral Realism in Legal Simulation
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Divya Vetticaden, Arya Gupta, Julian Nyarko, Megan Ma
+
+AI 分: 4.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2608.13712v1</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics to AI Agents</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20640</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20640</guid>
+      <description>📝 Cross-Disciplinary Taxonomy and Modeling of Misunderstanding Generation, Amplification, and Detection, from Pragmatics to AI Agents
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Babak Abbaschian
+
+AI 分: 3.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2608.13604v1</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>Discovering AI-driven purposeful political brand content to influence the voters’ attitude</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20628</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20628</guid>
+      <description>📝 Discovering AI-driven purposeful political brand content to influence the voters’ attitude
+
+📚 IJMR · 2024 · 引用 4
+👤 Varsha Jain, Himani Sharma
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>Revitalizing wellbeing: App design for stress reduction through artificial intelligence and persuasive technology</title>
+      <link>https://ur-ai-papers.vercel.app/papers/20603</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20603</guid>
+      <description>📝 Revitalizing wellbeing: App design for stress reduction through artificial intelligence and persuasive technology
+
+📚 IJHCS · 2025 · 引用 2
+👤 Joseph Orji, Gerry Chan, Rita Orji
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
       <title>From Metrics to Meaning: Time to Rethink Evaluation in Human–AI Collaborative Design</title>
       <link>https://ur-ai-papers.vercel.app/papers/20522</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20522</guid>
@@ -366,62 +418,6 @@ AI 分: 5.0 / 领域分: 3.0
 AI 分: 5.0 / 领域分: 5.0
 
 📄 PDF: https://arxiv.org/pdf/2608.11164v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20017</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20017</guid>
-      <description>📝 Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Nguyen-Truong Thinh, Yuxuan Du, Phongsakon Mark Konrad, Arpit Narechania
-
-AI 分: 3.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2608.06804v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>The Signal Rail: A Deterministic Motion Grammar for Communicating Conversational Agent State in Terminal Interfaces</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20016</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20016</guid>
-      <description>📝 The Signal Rail: A Deterministic Motion Grammar for Communicating Conversational Agent State in Terminal Interfaces
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Matteo Grella
-
-AI 分: 3.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2608.10689v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>Private Etymology: Designing Relational Reuse of Shared Symbols in Long-Term Human-AI Interaction</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20015</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20015</guid>
-      <description>📝 Private Etymology: Designing Relational Reuse of Shared Symbols in Long-Term Human-AI Interaction
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Miki Ueno
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2608.08443v1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>Socioduality: A Relational Process Framework for Human-AI Interaction</title>
-      <link>https://ur-ai-papers.vercel.app/papers/20014</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/20014</guid>
-      <description>📝 Socioduality: A Relational Process Framework for Human-AI Interaction
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Mehmed Zahid Çögenli
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2608.11322v1</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
       
     </item>
