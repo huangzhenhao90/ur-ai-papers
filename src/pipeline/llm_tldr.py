@@ -138,7 +138,13 @@ def run(min_ai: float = 3.0, min_dom: float = 3.0, batch_size: int = BATCH_SIZE,
     session = get_session(DB_PATH)
     client = MiniMaxClient()
     try:
-        existing = set(session.execute(select(LlmOutput.paper_id)).scalars().all())
+        # 仅当 TL;DR 非空才算完成；空/NULL 行要重跑，否则一次空响应就永久跳过
+        existing = set(session.execute(
+            select(LlmOutput.paper_id).where(
+                LlmOutput.tldr_zh.is_not(None),
+                LlmOutput.tldr_zh != "",
+            )
+        ).scalars().all())
         wanted_ids = None
         wanted_order = {}
         if candidate_ids is not None:
