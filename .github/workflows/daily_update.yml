@@ -19,6 +19,10 @@ on:
         description: "每日 LLM 处理上限"
         required: false
         default: "200"
+      llm_backfill_daily_limit:
+        description: "补全队列每日上限（缺 TL;DR/中文标题的论文，独立于打分队列）"
+        required: false
+        default: "100"
       llm_candidate_lookback_days:
         description: "LLM 候选回看天数"
         required: false
@@ -79,6 +83,7 @@ jobs:
           LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
           LLM_SAFETY_LIMIT: ${{ inputs.llm_safety_limit || '500' }}
           LLM_DAILY_LIMIT: ${{ inputs.llm_daily_limit || '200' }}
+          LLM_BACKFILL_DAILY_LIMIT: ${{ inputs.llm_backfill_daily_limit || '100' }}
           LLM_CANDIDATE_LOOKBACK_DAYS: ${{ inputs.llm_candidate_lookback_days || '14' }}
         run: python scripts/incremental_update.py
 
