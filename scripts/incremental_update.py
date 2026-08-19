@@ -249,40 +249,86 @@ def step_normalize():
     normalize_arxiv()
 
 
-def select_recent_llm_candidate_ids(limit: int) -> tuple[int, int, list[int], str]:
-    """Return recent pending LLM candidates without letting old backlog block daily updates."""
-    from sqlalchemy import text
-
+def _window():
+    """返回候选时间窗口 (since_dt, since_date, today)。"""
     days = int(os.getenv("LLM_CANDIDATE_LOOKBACK_DAYS", str(LOOKBACK_DAYS)))
     since_dt_obj = datetime.utcnow() - timedelta(days=days)
     since_dt = since_dt_obj.strftime("%Y-%m-%d %H:%M:%S")
     since_date = since_dt_obj.strftime("%Y-%m-%d")
     today = datetime.utcnow().strftime("%Y-%m-%d")
+    return since_dt, since_date, today
 
-    pending_where = """
-        FROM papers p
-        LEFT JOIN paper_scores s ON s.paper_id = p.id
-        WHERE (s.paper_id IS NULL OR s.ai_relevance IS NULL)
+
+def select_enrichment_candidate_ids(limit: int) -> tuple[int, list[int]]:
+    """已打分(双≥3)但缺 TL;DR 或中文标题的论文，独立配额，优先补全。
+
+    与打分队列分开，避免新论文每天占满 LLM 限额导致积压永不消减。
+    缺 TL;DR 的排在前面（这是页面上直接可见的内容）。
     """
-    recent_where = pending_where + """
-          AND (
-            (p.pub_date IS NOT NULL AND p.pub_date >= :since_date)
-            OR (p.created_at IS NOT NULL AND p.created_at >= :since_dt)
-          )
-    """
+    from sqlalchemy import text
 
     session = get_session(DB_PATH)
     try:
-        total_pending = session.execute(
-            text(f"SELECT COUNT(*) {pending_where}")
-        ).scalar() or 0
-        candidate_total = session.execute(
-            text(f"SELECT COUNT(*) {recent_where}"),
-            {"since_date": since_date, "since_dt": since_dt},
-        ).scalar() or 0
-        ids = session.execute(text(f"""
+        total = session.execute(text("""
+            SELECT COUNT(*)
+            FROM papers p
+            JOIN paper_scores s ON s.paper_id = p.id
+            LEFT JOIN llm_outputs o ON o.paper_id = p.id
+            WHERE s.ai_relevance >= 3 AND s.domain_relevance >= 3
+              AND (
+                o.paper_id IS NULL
+                OR o.tldr_zh IS NULL
+                OR o.tldr_zh = ''
+                OR p.title_zh IS NULL
+                OR p.title_zh = ''
+              )
+        """)).scalar() or 0
+        ids = session.execute(text("""
             SELECT p.id
-            {recent_where}
+            FROM papers p
+            JOIN paper_scores s ON s.paper_id = p.id
+            LEFT JOIN llm_outputs o ON o.paper_id = p.id
+            WHERE s.ai_relevance >= 3 AND s.domain_relevance >= 3
+              AND (
+                o.paper_id IS NULL
+                OR o.tldr_zh IS NULL
+                OR o.tldr_zh = ''
+                OR p.title_zh IS NULL
+                OR p.title_zh = ''
+              )
+            ORDER BY
+              CASE
+                WHEN o.paper_id IS NULL OR o.tldr_zh IS NULL OR o.tldr_zh = '' THEN 0
+                ELSE 1
+              END,
+              COALESCE(p.pub_date, '') DESC,
+              COALESCE(p.created_at, '') DESC,
+              p.id DESC
+            LIMIT :limit
+        """), {"limit": limit}).scalars().all()
+        return total, [int(pid) for pid in ids]
+    finally:
+        session.close()
+
+
+def select_scoring_candidate_ids(limit: int) -> tuple[int, list[int]]:
+    """尚未打分的新论文（近窗口优先），用独立的打分配额。"""
+    from sqlalchemy import text
+
+    since_dt, since_date, today = _window()
+    session = get_session(DB_PATH)
+    try:
+        total = session.execute(text("""
+            SELECT COUNT(*)
+            FROM papers p
+            LEFT JOIN paper_scores s ON s.paper_id = p.id
+            WHERE s.paper_id IS NULL OR s.ai_relevance IS NULL
+        """)).scalar() or 0
+        ids = session.execute(text("""
+            SELECT p.id
+            FROM papers p
+            LEFT JOIN paper_scores s ON s.paper_id = p.id
+            WHERE s.paper_id IS NULL OR s.ai_relevance IS NULL
             ORDER BY
               CASE
                 WHEN p.pub_date >= :since_date AND p.pub_date <= :today THEN 0
@@ -293,50 +339,76 @@ def select_recent_llm_candidate_ids(limit: int) -> tuple[int, int, list[int], st
               COALESCE(p.created_at, '') DESC,
               p.id DESC
             LIMIT :limit
-        """), {
-            "since_date": since_date,
-            "since_dt": since_dt,
-            "today": today,
-            "limit": limit,
-        }).scalars().all()
-        return total_pending, candidate_total, [int(pid) for pid in ids], since_date
+        """), {"since_date": since_date, "since_dt": since_dt,
+               "today": today, "limit": limit}).scalars().all()
+        return total, [int(pid) for pid in ids]
     finally:
         session.close()
 
 
 def step_llm():
-    """打分新增论文 + 生成 TL;DR。如果没有 API key 则跳过 LLM 步骤。"""
+    """两阶段 LLM：
+    1) 补全队列：已打分但缺 TL;DR/中文标题的论文（独立配额，优先跑）
+    2) 打分队列：新论文打分 + 为刚打分的生成 TL;DR/标题
+    """
     if not os.getenv("MINIMAX_API_KEY"):
         print("\n[skip] 无 MINIMAX_API_KEY，跳过 LLM 步骤")
         return
 
     SAFETY_LIMIT = int(os.getenv("LLM_SAFETY_LIMIT", "500"))
     DAILY_LIMIT = int(os.getenv("LLM_DAILY_LIMIT", "200"))
+    BACKFILL_LIMIT = int(os.getenv("LLM_BACKFILL_DAILY_LIMIT", "100"))
+    backfill_enabled = os.getenv("LLM_BACKFILL_ENRICHMENT", "true").lower() in {
+        "1", "true", "yes", "on"
+    }
     if DAILY_LIMIT <= 0:
         print("\n[skip] LLM_DAILY_LIMIT <= 0，跳过 LLM 步骤")
         return
-    run_limit = min(DAILY_LIMIT, SAFETY_LIMIT)
 
-    total_pending, candidate_total, candidate_ids, since_date = select_recent_llm_candidate_ids(run_limit)
+    llm_workers = int(os.getenv("LLM_WORKERS", "4"))
+    title_batch_size = int(os.getenv("LLM_TITLE_BATCH_SIZE", "3"))
+    print(f"[LLM] 并发数: {llm_workers}")
+
+    # ---------- 阶段 1：补全已打分论文的 TL;DR / 中文标题 ----------
+    if backfill_enabled:
+        backfill_limit = min(BACKFILL_LIMIT, SAFETY_LIMIT)
+        enrich_total, enrich_ids = select_enrichment_candidate_ids(backfill_limit)
+        print(
+            f"\n[补全队列] 缺 TL;DR/中文标题 {enrich_total} 篇；"
+            f"本次上限 {backfill_limit} 篇"
+        )
+        if enrich_ids:
+            print("\n=== LLM TL;DR（补全）===")
+            llm_tldr_run(batch_size=3, n_workers=llm_workers, candidate_ids=enrich_ids)
+            print("\n=== LLM 中文标题翻译（补全）===")
+            llm_title_zh_run(batch_size=title_batch_size, n_workers=llm_workers,
+                             candidate_ids=enrich_ids)
+        else:
+            print("[skip] 补全队列为空")
+    else:
+        print("\n[skip] LLM_BACKFILL_ENRICHMENT=false，跳过补全队列")
+
+    # ---------- 阶段 2：新论文打分 ----------
+    run_limit = min(DAILY_LIMIT, SAFETY_LIMIT)
+    score_total, score_ids = select_scoring_candidate_ids(run_limit)
     print(
-        f"\n[LLM 候选] 待处理 {total_pending} 篇；"
-        f"近 {os.getenv('LLM_CANDIDATE_LOOKBACK_DAYS', str(LOOKBACK_DAYS))} 天候选 {candidate_total} 篇；"
-        f"本次上限 {run_limit} 篇"
+        f"\n[打分队列] 待打分 {score_total} 篇；本次上限 {run_limit} 篇"
     )
-    if not candidate_ids:
-        print(f"[skip] {since_date} 以来没有新的 LLM 候选，跳过 LLM")
+    if not score_ids:
+        print("[skip] 打分队列为空")
         return
-    if candidate_total > len(candidate_ids):
-        print(f"⚠️  候选超过本次上限，仅处理前 {len(candidate_ids)} 篇；历史积压请单独 backfill")
+    if score_total > len(score_ids):
+        print(f"⚠️  待打分超过本次上限，仅处理前 {len(score_ids)} 篇")
 
     print("\n=== LLM 双打分 ===")
-    llm_score_run(batch_size=12, n_workers=50, candidate_ids=candidate_ids)
+    llm_score_run(batch_size=12, n_workers=llm_workers, candidate_ids=score_ids)
 
-    print("\n=== LLM TL;DR ===")
-    llm_tldr_run(batch_size=3, n_workers=20, candidate_ids=candidate_ids)
+    print("\n=== LLM TL;DR（新打分）===")
+    llm_tldr_run(batch_size=3, n_workers=llm_workers, candidate_ids=score_ids)
 
-    print("\n=== LLM 中文标题翻译 ===")
-    llm_title_zh_run(batch_size=10, n_workers=50, candidate_ids=candidate_ids)
+    print("\n=== LLM 中文标题翻译（新打分）===")
+    llm_title_zh_run(batch_size=title_batch_size, n_workers=llm_workers,
+                     candidate_ids=score_ids)
 
 
 def step_audit_export():
