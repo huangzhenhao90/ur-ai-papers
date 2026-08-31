@@ -6,13 +6,114 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 30 Aug 2026 07:47:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 07:59:49 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
-      <title>Investigating the mediating role of willingness to use enterprise bots on white-collar teleworker productivity: an extended job demands-resources (JD-R) perspective</title>
+      <title>SETU：面向多语言与角色感知的智能体式沟通辅导生态系统</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25232</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25232</guid>
+      <description>📝 SETU：面向多语言与角色感知的智能体式沟通辅导生态系统
+EN: SETU: An Agentic Ecosystem for Multilingual, Persona-Aware Communication Coaching
+
+💡 提出SETU——面向企业沟通辅导的多智能体生态系统，专为多语言场景下的招聘电话与销售推介设计。系统将分析任务分解为视频、音频-语音、文本相关性、评分、通知与报告等多个专用智能体，通过可信编排协同工作，生成可追溯至具体模态的辅导报告供人工审核。设计理念强调多语言适配与受众画像感知，旨在弥合跨地区语言及沟通期望差异。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Jonnalagadda Maruthi Tejas, Uponika Barman Roy, Tilottama Goswami, Samir Goswami, Mousita Dhar
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2608.27524v1</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>服务设计</category><category>AI助手</category><category>可解释性</category><category>人机交互(HCI)</category><category>智能体/Agent</category><category>对话式 AI</category><category>多模态</category>
+    </item>    <item>
+      <title>InstructMesh：面向制造的三维生成模型选择性精修</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25230</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25230</guid>
+      <description>📝 InstructMesh：面向制造的三维生成模型选择性精修
+EN: InstructMesh: Selective Refinement of Generative 3D Models for Fabrication
+
+💡 针对生成式AI产出的3D模型常存在几何缺陷、难以直接用于制造的问题，提出交互式后处理工具InstructMesh，允许用户通过区域选择、自然语言指令或滑块控制，对模型局部空洞封闭、厚度调节等定向修复，在潜空间直接操作以避免专业建模门槛。两轮用户研究表明，普通人可识别并完成面向制造的修复，且用户偏好滑块与自然语言结合的混合交互方式。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Faraz Faruqi, Ahmed Katary, Demircan Tas, Theresa Hradilak, Ning Zhang
+
+AI 分: 4.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2608.28534v1</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>可用性测试</category><category>人机协作</category><category>GenAI</category><category>多模态</category><category>智能体/Agent</category><category>AI 助手</category>
+    </item>    <item>
+      <title>FocusGen：基于角色代理模拟焦点小组拓展视觉设计探索</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25224</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25224</guid>
+      <description>📝 FocusGen：基于角色代理模拟焦点小组拓展视觉设计探索
+EN: FocusGen: Expanding Visual Design Exploration with a Simulated Focus Group of Persona Agents
+
+💡 面向视觉设计探索，提出FocusGen系统，通过模拟焦点小组的persona智能体引入外部视角。每个persona由人口统计数据、程序化生成背景和通过访谈获取的审美偏好构成，作为并行生成器独立驱动迭代生成循环，将单一设计简报转化为多样化的受众导向方向。实验证明persona条件生成在CLIP距离和人类感知判断上均优于通用助手基线，且开放式偏好访谈比结构化访谈产出更多样化的结果。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Jaewon Choi, Helena Vasconcelos, Hyun Lee, Carolyn Zou, Tak Yeon Lee
+
+AI 分: 4.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2608.28001v1</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户画像</category><category>AI 辅助创意设计</category><category>可用性测试</category><category>LLM</category><category>智能体/Agent</category><category>GenAI</category><category>多模态</category>
+    </item>    <item>
+      <title>Graphionale：LLM推理依据的图形可视化如何影响人类决策</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25223</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25223</guid>
+      <description>📝 Graphionale：LLM推理依据的图形可视化如何影响人类决策
+EN: Graphionale: How Graph Visualizations of LLM Rationales Affect Human Decision Making
+
+💡 针对LLM生成的文本推理链认知负荷大、可读性差的问题，开发Graphionale系统，将线性推理理由转化为多层级交互式图结构，显式标注结论、前提、支持与反对等逻辑关系，并抽取实体关系构建节点链接表示。204人大规模在线实验对比图形与文本两种理由格式在口头/视觉推理任务中的效果，发现图形理由在口头推理中提升信任校准但更费力，在视觉推理中损害校准却更吸引人，揭示了理由格式需与任务模态匹配才能有效支持AI解释设计。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Xinru Wang, Zhexuan Ma, Ming Yin, Shuai Ma, Thomas W Malone
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2608.27932v1</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可解释性</category><category>可视化</category><category>用户研究方法</category><category>LLM</category><category>可解释 AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>同质化之困：从算法偏见到人类偏见的学习延迟研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25222</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25222</guid>
+      <description>📝 同质化之困：从算法偏见到人类偏见的学习延迟研究
+EN: Too Much of the Same: From Algorithmic to Human Bias in Learning to Defer
+
+💡 研究人机协作中的Learning to Defer(LtD)策略。发现标准LtD在不平衡数据集上存在类别依赖的采样偏差，可能将更多少数类样本分配给人类专家。226人用户实验表明，当被试接收到的拒绝集类别高度不平衡时，无论哪一类占多数，其在该多数类上的分类准确率均显著低于接收平衡集的组别。探索性分析指向测试者效应：人类判断受实际类别分布与自身预期之间错配的影响，提示部署LtD算法时需关注算法偏差如何级联放大人类认知偏差。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Dario Pesenti, Alessandro Bogani, Stefano Teso, Andrea Pugnana
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2608.28050v1</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>AI采用</category><category>用户研究方法</category><category>可用性测试</category><category>人机交互(HCI)</category><category>人机协作</category><category>人机交互</category>
+    </item>    <item>
+      <title>具身对话代理采集患者报告数据：多发性硬化症护理横断面研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/25194</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25194</guid>
+      <description>📝 具身对话代理采集患者报告数据：多发性硬化症护理横断面研究
+EN: Embodied conversational agents for collecting patient-reported data: effective for some, challenging for others – results of a cross-sectional study in multiple sclerosis care
+
+💡 在多发性硬化症护理场景中，对具身对话式智能体收集患者自报告数据的效果进行横断面调查。结果显示该技术对部分患者有效，但对另一些患者存在挑战，提示在临床数据采集应用中需关注用户异质性、可用性及可接受性差异。
+
+📚 BIT · 2026 · 引用 2
+👤 Thure Georg Weimann, Hannes Schlieter, Urszula Konofalska, Tjalf Ziemssen
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>可用性</category><category>用户体验(UX)</category><category>人机交互(HCI)</category><category>AI采用</category><category>可访问性</category><category>对话式 AI</category><category>AI 助手</category><category>多模态</category>
+    </item>    <item>
+      <title>探究企业机器人使用意愿对白领远程办公者生产力的中介作用：基于扩展的工作要求-资源(JD-R)模型</title>
       <link>https://ur-ai-papers.vercel.app/papers/25114</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25114</guid>
-      <description>📝 Investigating the mediating role of willingness to use enterprise bots on white-collar teleworker productivity: an extended job demands-resources (JD-R) perspective
+      <description>📝 探究企业机器人使用意愿对白领远程办公者生产力的中介作用：基于扩展的工作要求-资源(JD-R)模型
+EN: Investigating the mediating role of willingness to use enterprise bots on white-collar teleworker productivity: an extended job demands-resources (JD-R) perspective
 
 💡 基于扩展的工作要求-资源(JD-R)模型，考察企业聊天机器人使用意愿对白领远程办公员工生产力的中介作用，分析哪些工作资源与要求影响员工采纳企业机器人。
 
@@ -38,10 +139,11 @@ AI 分: 3.0 / 领域分: 3.0</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <category>AI 采用</category><category>用户体验(UX)</category><category>信任</category><category>人机交互(HCI)</category><category>AI 助手</category><category>对话式 AI</category>
     </item>    <item>
-      <title>Guilty apology and trust repair in generative artificial intelligence: the role of mind perception</title>
+      <title>生成式人工智能中的愧疚式道歉与信任修复：心智感知的作用</title>
       <link>https://ur-ai-papers.vercel.app/papers/25109</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25109</guid>
-      <description>📝 Guilty apology and trust repair in generative artificial intelligence: the role of mind perception
+      <description>📝 生成式人工智能中的愧疚式道歉与信任修复：心智感知的作用
+EN: Guilty apology and trust repair in generative artificial intelligence: the role of mind perception
 
 💡 研究生成式AI在犯错后表达愧疚式道歉对用户信任修复的效果，考察心智感知在其中的中介作用，揭示用户如何将AI拟人化以重建信任。
 
@@ -52,10 +154,11 @@ AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>人机交互(HCI)</category><category>人机协作</category><category>情感计算</category><category>GenAI</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
     </item>    <item>
-      <title>Evaluating human-based and large language model-based content analysis: A case study on negative word-of-mouth classification in social media</title>
+      <title>评估基于人工与大语言模型的内容分析：社交媒体负面口碑分类的案例研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/25098</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/25098</guid>
-      <description>📝 Evaluating human-based and large language model-based content analysis: A case study on negative word-of-mouth classification in social media
+      <description>📝 评估基于人工与大语言模型的内容分析：社交媒体负面口碑分类的案例研究
+EN: Evaluating human-based and large language model-based content analysis: A case study on negative word-of-mouth classification in social media
 
 💡 对比人工内容分析与基于大语言模型的内容分析在社交媒体负面口碑分类任务中的表现，探讨LLM能否替代或辅助人类编码员进行文本分类研究，为用户研究方法中AI辅助内容分析提供实证参考。
 
@@ -381,96 +484,6 @@ EN: Chatbots with swear words? exploring the roles of humour, aggressiveness, an
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <category>消费者行为</category><category>人机交互(HCI)</category><category>情感计算</category><category>对话式 AI</category><category>ChatGPT</category><category>AI 助手</category>
-    </item>    <item>
-      <title>AI与工业工作的未来：从满意迈向繁荣的员工体验提升框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24569</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24569</guid>
-      <description>📝 AI与工业工作的未来：从满意迈向繁荣的员工体验提升框架
-EN: AI and the future of industrial work: a framework for enhancing employee experience from satisfaction to flourishing
-
-💡 构建面向工业场景AI应用的员工体验框架，将关注点从工作满意度拓展到员工蓬勃发展（flourishing），探讨AI如何重塑工业工作并促进员工积极体验与意义感。
-
-📚 BIT · 2025 · 引用 7
-👤 Anna Viljakainen, Juho Silmukari, Virpi Roto, Martina Čaić, Susanna Aromaa
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>人机协作</category><category>AI 采用</category><category>服务体验</category><category>AI 助手</category><category>人机协作</category>
-    </item>    <item>
-      <title>员工对AI政策的意向与抵制：基于活动理论的不公正感知、道德愤慨与社会影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24566</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24566</guid>
-      <description>📝 员工对AI政策的意向与抵制：基于活动理论的不公正感知、道德愤慨与社会影响
-EN: Employee intention and resistance to AI policies: perceived injustice, moral outrage, and social influence from an activity theory perspective
-
-💡 基于活动理论探讨员工对AI政策的抵制意愿，分析感知不公、道德愤怒与社会影响如何驱动员工抗拒AI部署，揭示组织推行AI过程中的心理与群体阻力机制。
-
-📚 BIT · 2025 · 引用 4
-👤 JungJe Yoo
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>AI 治理</category><category>AI 拒绝</category><category>伦理</category><category>AI 采用</category><category>AI 治理</category><category>人机交互</category>
-    </item>    <item>
-      <title>与老年人共创伦理且包容的语音助手设计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24564</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24564</guid>
-      <description>📝 与老年人共创伦理且包容的语音助手设计
-EN: Designing ethical and inclusive voice assistants through co-creation with older adults
-
-💡 该研究通过与老年人共同设计（co-creation）的方式，探讨如何构建伦理且包容的语音助手，关注无障碍、隐私、拟人化及价值对齐等议题，输出面向老年群体的语音助手设计原则与实践启示。
-
-📚 BIT · 2025 · 引用 5
-👤 C. González-González, V. Violant-Holz, L. Colombo-Ruano, C. Rodríguez-Silva
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>儿童/老人/无障碍</category><category>伦理</category><category>服务设计</category><category>用户研究方法</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>"第四面墙"及其他AI生成人物画像的可用性问题：对话式与档案式人物画像的比较</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24563</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24563</guid>
-      <description>📝 "第四面墙"及其他AI生成人物画像的可用性问题：对话式与档案式人物画像的比较
-EN: The ‘fourth wall’ and other usability issues in AI-generated personas: comparing chat-based and profile personas
-
-💡 研究AI生成用户画像（persona）的可用性问题，对比聊天式与档案式两种呈现方式，揭示"第四面墙"等交互障碍，评估不同格式persona在用户研究中的可用性差异，为AI辅助用户画像方法提供设计启示。
-
-📚 BIT · 2025 · 引用 9
-👤 Ilkka Kaate, Joni Salminen, Soon-Gyo Jung, João M. Santos, Essi Häyhänen
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>可用性</category><category>用户研究方法</category><category>人机交互(HCI)</category><category>GenAI</category><category>对话式 AI</category><category>AI 用户画像</category>
-    </item>    <item>
-      <title>闲聊难以接受之事：向聊天机器人披露不可接受的新闻接触行为</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24557</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24557</guid>
-      <description>📝 闲聊难以接受之事：向聊天机器人披露不可接受的新闻接触行为
-EN: Chatting about the unaccepted: Self-disclosure of unaccepted news exposure behaviour to a chatbot
-
-💡 研究当用户接触了社会不接受或敏感性的新闻内容时，是否愿意向聊天机器人自我披露这一行为。方法可能涉及实验或情境访谈。核心关注聊天机器人的非评判性特征如何降低披露心理门槛，及其对用户感知、信任与后续行为的影响。
-
-📚 BIT · 2023 · 引用 9
-👤 Carolin Ischen, Janice Butler, Jakob Ohme
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>HCI</category><category>信任</category><category>对话式 AI</category><category>Chatbot</category>
-    </item>    <item>
-      <title>人机协同创造中AI心智模型的探索：框架与洞察</title>
-      <link>https://ur-ai-papers.vercel.app/papers/24523</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/24523</guid>
-      <description>📝 人机协同创造中AI心智模型的探索：框架与洞察
-EN: An Exploration of Mental Models of AI in Human–AI Co-Creativity: A Framework and Insights
-
-💡 研究人机共创中用户对AI的心智模型，通过155人调查ChatGPT与Stable Diffusion的使用，提出"伙伴型"与"工具型"心智模型框架。发现AI素养高者倾向伙伴型心智模型并持积极伦理态度；对话式AI被视为合作者，非对话式AI则被视为工具。
-
-📚 TiiS · 2025 · 引用 11
-👤 Jeba Rezwana, Mary Lou Maher
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>人机交互(HCI)</category><category>问卷</category><category>人机协作</category><category>伦理</category><category>AI 采用</category><category>GenAI</category><category>LLM</category>
     </item>
   </channel>
 </rss>
