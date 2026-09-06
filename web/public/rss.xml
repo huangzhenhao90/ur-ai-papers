@@ -6,9 +6,109 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Sep 2026 06:37:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 06:49:36 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>The effect of second screening on repeat viewing: Insights from large-scale mobile diary data</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26437</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26437</guid>
+      <description>📝 The effect of second screening on repeat viewing: Insights from large-scale mobile diary data
+
+💡 基于 1,702 名美国电视观众、2,755 部黄金时段剧集的移动日记数据，采用因果森林与潜类别分割估计"第二屏"行为对剧集回看的因果效应及其异质性。结果显示：与节目相关的第二屏提升态度并促进回看，无关的第二屏则削弱态度，但未发现其直接损害实际回看，效果在重度与低频观众中尤为突出。
+
+📚 JAMS · 2024 · 引用 4
+👤 Sarah Gelper, Mitchell J. Lovett, Renana Peres
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>田野研究</category><category>用户研究方法</category><category>推荐系统</category><category>推荐算法</category><category>AI 推荐</category>
+    </item>    <item>
+      <title>The effect of personal pronouns on users and the social role of conversational agents</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26390</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26390</guid>
+      <description>📝 The effect of personal pronouns on users and the social role of conversational agents
+
+💡 研究对话式智能体在交互中第一人称（"我"）与第二人称（"你"）等代词的使用如何影响用户对其社会角色的感知，探讨代词选择如何塑造拟人化印象、信任与互动关系，为对话代理的语言设计与角色建构提供依据。
+
+📚 BIT · 2021 · 引用 20
+👤 Jianhong Qu, Ronggang Zhou, Zhe Chen
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>对话式 AI</category><category>信任</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
+      <title>从切换标签到对话交流：LLM驱动的对话代理用于网页表单交互</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26383</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26383</guid>
+      <description>📝 从切换标签到对话交流：LLM驱动的对话代理用于网页表单交互
+EN: From tabbing to talking: LLM-driven conversational agents for web form interaction
+
+💡 研究用大语言模型驱动的对话式智能体替代传统网页表单的键盘输入方式，让用户通过自然语言对话完成表单填写。核心问题是：相比Tab键切换字段，对话式交互在效率、准确性、易用性与用户体验上是否有优势。研究将为表单交互设计与LLM对话智能体的应用提供实证依据。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Emanuele Pucci, Ludovica Piro, Maristella Matera
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>对话式 AI</category><category>用户体验(UX)</category><category>可用性</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>当技术成为团队成员：心智感知作为人类与人类-智能体团队的统一框架</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26372</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26372</guid>
+      <description>📝 当技术成为团队成员：心智感知作为人类与人类-智能体团队的统一框架
+EN: When tech makes the team: Mind perception as a unifying framework for human and human-agent teams
+
+📚 CHB · 2026 · 引用 2
+👤 Alexandra M. Harris-Watson, Lindsay E. Larson
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>生成式人工智能使用通过工作重塑与工作投入影响工作绩效：数字能力是否重要？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26370</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26370</guid>
+      <description>📝 生成式人工智能使用通过工作重塑与工作投入影响工作绩效：数字能力是否重要？
+EN: The impact of generative artificial intelligence usage on job performance through job crafting and work engagement: Does digital competence matter?
+
+💡 研究生成式AI使用对员工工作绩效的影响机制，考察工作重塑与工作投入的中介作用，并探讨数字素养是否在其中起调节作用。核心关注：GenAI如何通过改变工作方式与投入度提升绩效，以及具备何种数字能力的员工更能从GenAI中获益。
+
+📚 CHB · 2026 · 引用 3
+👤 Bui Nhat Vuong
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>AI 采用</category><category>人机协作</category><category>用户研究方法</category><category>消费者行为</category><category>GenAI</category><category>LLM</category>
+    </item>    <item>
+      <title>Social media use is predictable from app sequences: Using LSTM and transformer neural networks to model habitual behavior</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26367</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26367</guid>
+      <description>📝 Social media use is predictable from app sequences: Using LSTM and transformer neural networks to model habitual behavior
+
+💡 研究利用 LSTM 与 Transformer 神经网络对手机应用的使用序列进行建模，旨在根据先前 App 切换模式预测用户何时打开社交媒体应用，揭示习惯性社交媒体使用在序列层面具有可预测性，为数字习惯检测与干预设计提供方法基础。
+
+📚 CHB · 2024 · 引用 12
+👤 Heinrich Peters, Joseph B. Bayer, Sandra C. Matz, Yikun Chi, Sumer S. Vaid
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>推荐系统</category><category>LLM</category><category>人机交互</category><category>AI 助手</category>
+    </item>    <item>
+      <title>情感机器人叙事者：情感契合对叙事沉浸感、机器人感知与说服力的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/26359</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26359</guid>
+      <description>📝 情感机器人叙事者：情感契合对叙事沉浸感、机器人感知与说服力的影响
+EN: The emotional robotic storyteller: On the influence of affect congruency on narrative transportation, robot perception, and persuasion
+
+💡 研究情感一致的机器人讲故事者对受众叙事沉浸感、机器人感知与说服效果的影响，考察机器人表达情感与故事情感基调匹配时的传播效力，揭示情感机器人在叙事说服中的人机交互机制。
+
+📚 CHB · 2021 · 引用 61
+👤 Markus Appel, Birgit Lugrin, Mayla Kühle, Corinna Heindl
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>情感计算</category><category>信任</category><category>消费者行为</category><category>人机交互</category><category>情感识别</category>
+    </item>    <item>
       <title>消费者与AI驱动搜索引擎的互动：对搜索广告研究与实践未来的启示</title>
       <link>https://ur-ai-papers.vercel.app/papers/26334</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26334</guid>
@@ -373,109 +473,6 @@ EN: Shopper AI: Integrating Capabilities and Parasocial Skills
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <category>客户体验(CX)</category><category>服务设计</category><category>个性化</category><category>AI采用</category><category>AI助手</category><category>AI客服</category><category>AI推荐</category><category>情感识别</category>
-    </item>    <item>
-      <title>赋能GenAI利益相关者</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26114</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26114</guid>
-      <description>📝 赋能GenAI利益相关者
-EN: Empowering GenAI stakeholders
-
-💡 从营销与利益相关者视角探讨如何赋能 GenAI 生态系统中的各方主体，分析 GenAI 采纳过程中各利益相关者的角色、权力与价值共创机制，提出提升协同与治理的策略。
-
-📚 JAMS · 2025 · 引用 12
-👤 Erik Hermann, Stefano Puntoni
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>AI 治理</category><category>AI 采用</category><category>营销</category><category>消费者行为</category><category>GenAI</category><category>LLM</category><category>AI 治理</category>
-    </item>    <item>
-      <title>评估老年护理社会辅助机器人的主动性水平：用户采纳度评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26045</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26045</guid>
-      <description>📝 评估老年护理社会辅助机器人的主动性水平：用户采纳度评估
-EN: Evaluating proactivity levels in socially assistive robots for elderly care: a user adoption assessment
-
-💡 评估面向老年人护理的社会辅助机器人在不同主动交互水平下的用户采纳情况，分析主动性与接受度、使用意愿之间的关系，为老年照护场景中的机器人交互策略设计提供参考。
-
-📚 BIT · 2025 · 引用 3
-👤 Laura Villa, Ramón Hervás, Luis Cabañero, Jesús Fontecha, Gustavo López
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>AI 采用</category><category>人机交互(HCI)</category><category>儿童/老人/无障碍</category><category>服务设计</category><category>智能体/Agent</category><category>AI 助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>从控制到作者性：AI驱动VR正念中用户主体性与生成临场感及治疗自我归因</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26026</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26026</guid>
-      <description>📝 从控制到作者性：AI驱动VR正念中用户主体性与生成临场感及治疗自我归因
-EN: From Control to Authorship: Exploring How User Agency Relates to Generative Presence and Therapeutic Self-Attribution in AI-Driven VR Mindfulness
-
-💡 研究 AI 驱动的 VR 正念应用中，用户主体性（从控制到创作）与生成性在场感及治疗性自我归因之间的关系。探讨当用户在沉浸式 AI 正念情境中扮演不同角色时，对 AI 系统感知及心理疗愈效果的影响，关注主体性、临场感与自我归因的交互机制。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Kuan Zhang, Junping Xu, Yuming Wang, Kewei Zhang, Jinho Yim
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>情感计算</category><category>AI 采用</category><category>GenAI</category><category>多模态</category>
-    </item>    <item>
-      <title>展示你的关怀：多模态注意行为对机器人医疗情境中用户体验的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26024</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26024</guid>
-      <description>📝 展示你的关怀：多模态注意行为对机器人医疗情境中用户体验的影响
-EN: Show Me Your Care: The Impact of Multimodal Attentive Behaviours for Robots on User Experience in a Healthcare Context
-
-💡 探究医疗情境中机器人多模态注意行为（如视线、姿态、语音等）对用户体验的影响。考察机器人如何通过展现关怀的注意行为塑造用户感知、信任与互动质量，分析不同注意表现对患者体验的作用机制。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Chen Fang, Fu Guo, Meng Yu, Tony Belpaeme
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>多模态交互</category><category>情感计算</category><category>多模态</category><category>人机交互</category>
-    </item>    <item>
-      <title>解析多方对话：从人际交互机制到对话代理的挑战与角色设计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26023</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26023</guid>
-      <description>📝 解析多方对话：从人际交互机制到对话代理的挑战与角色设计
-EN: Unraveling multiparty conversations: From human interaction mechanisms to conversational agent challenges and persona design
-
-💡 梳理多人对话中的人际交互机制,探讨其向对话式智能体设计迁移的挑战,聚焦多方参与场景下智能体的角色(persona)设计策略,为人机多轮多角色对话体验优化提供理论参考。
-
-📚 IJHCS · 2026 · 引用 2
-👤 Shitao Fang, Xingyu Liu, Takeo Igarashi, Koji Yatani
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>对话式AI</category><category>人机交互(HCI)</category><category>智能体</category><category>对话式AI</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>机器人也会"呃"：人类如何理解类人机器人语音中的迟疑</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26022</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26022</guid>
-      <description>📝 机器人也会"呃"：人类如何理解类人机器人语音中的迟疑
-EN: To ‘errr’ is robot: How humans interpret hesitations in the speech of a humanoid robot
-
-📚 IJHCS · 2026 · 引用 1
-👤 Xinyi Chen, Yao Yao
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>乳腺影像诊断中临床医生与AI交互的个性化解释：依据专业水平调整沟通</title>
-      <link>https://ur-ai-papers.vercel.app/papers/26020</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/26020</guid>
-      <description>📝 乳腺影像诊断中临床医生与AI交互的个性化解释：依据专业水平调整沟通
-EN: Personalized explanations for clinician-AI interaction in breast imaging diagnosis by adapting communication to expertise levels
-
-💡 针对乳腺影像诊断中临床医生与AI的交互场景，研究如何根据医生专业水平自适应地调整解释内容与方式，使AI输出的解释能匹配不同专业层级用户的需求，从而提升临床AI辅助诊断的可用性与信任度。
-
-📚 IJHCS · 2025 · 引用 41
-👤 Francisco Maria Calisto, João Maria Abrantes, Carlos Santiago, Nuno J. Nunes, Jacinto C. Nascimento
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可解释性</category><category>人机协作</category><category>个性化</category><category>可解释 AI</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>
