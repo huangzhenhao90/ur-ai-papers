@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T07:16:32.395257Z",
+  "generated_at": "2026-09-14T07:39:25.659069Z",
   "totals": {
-    "papers_indexed": 21300,
-    "papers_scored": 7919,
-    "papers_ai_relevant": 1309
+    "papers_indexed": 21323,
+    "papers_scored": 8119,
+    "papers_ai_relevant": 1311
   },
   "journals": [
     {
@@ -20,7 +20,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/computers-in-human-behavior",
-      "papers_indexed": 4087,
+      "papers_indexed": 4092,
       "papers_ai_relevant": 320
     },
     {
@@ -64,7 +64,7 @@
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
       "papers_indexed": 1174,
-      "papers_ai_relevant": 171
+      "papers_ai_relevant": 172
     },
     {
       "abbr": "IwC",
@@ -77,8 +77,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 365,
-      "papers_ai_relevant": 19
+      "papers_indexed": 366,
+      "papers_ai_relevant": 20
     },
     {
       "abbr": "TiiS",
@@ -151,7 +151,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 1770,
+      "papers_indexed": 1774,
       "papers_ai_relevant": 12
     },
     {
@@ -166,7 +166,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jmx",
-      "papers_indexed": 1534,
+      "papers_indexed": 1538,
       "papers_ai_relevant": 16
     },
     {
@@ -181,7 +181,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 1550,
+      "papers_indexed": 1552,
       "papers_ai_relevant": 12
     },
     {
@@ -195,7 +195,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 1032,
+      "papers_indexed": 1035,
       "papers_ai_relevant": 9
     },
     {
@@ -210,7 +210,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 750,
+      "papers_indexed": 752,
       "papers_ai_relevant": 13
     },
     {
@@ -269,7 +269,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 407,
+      "papers_indexed": 408,
       "papers_ai_relevant": 5
     },
     {
@@ -299,7 +299,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mre",
-      "papers_indexed": 255,
+      "papers_indexed": 256,
       "papers_ai_relevant": 7
     },
     {
@@ -573,6 +573,8 @@
   ],
   "facets": {
     "years": {
+      "2004": 1,
+      "2008": 1,
       "2010": 2,
       "2012": 3,
       "2013": 3,
@@ -593,7 +595,7 @@
     },
     "journals": {
       "CHB": 320,
-      "IJHCS": 171,
+      "IJHCS": 172,
       "BIT": 151,
       "arXiv:cs.HC": 112,
       "arXiv": 99,
@@ -603,8 +605,8 @@
       "arXiv:cs.AI": 36,
       "JSR": 30,
       "arXiv:cs.CL": 26,
+      "IwC": 20,
       "arXiv:cs.CY": 20,
-      "IwC": 19,
       "JAMS": 16,
       "JAR": 16,
       "JM": 16,
@@ -632,20 +634,20 @@
       "JMMR": 1
     },
     "topic_tags": {
-      "人机交互(HCI)": 663,
+      "人机交互(HCI)": 665,
       "用户研究方法": 392,
-      "人机协作": 343,
+      "人机协作": 344,
       "信任": 331,
       "消费者行为": 287,
       "用户体验(UX)": 228,
       "AI 采用": 204,
       "情感计算": 159,
       "可解释性": 144,
-      "伦理": 123,
+      "伦理": 124,
       "AI 助手": 120,
       "AI采用": 115,
+      "对话式 AI": 114,
       "AI 治理": 113,
-      "对话式 AI": 113,
       "人机交互": 107,
       "可用性": 93,
       "可用性测试": 85,
@@ -658,7 +660,7 @@
       "服务设计": 51,
       "服务体验": 51,
       "问卷": 45,
-      "儿童/老人/无障碍": 36,
+      "儿童/老人/无障碍": 37,
       "可访问性": 35,
       "HCI": 34,
       "客户体验(CX)": 33,
@@ -684,11 +686,11 @@
       "隐私": 6
     },
     "ai_type_tags": {
-      "AI 助手": 368,
+      "AI 助手": 369,
       "LLM": 363,
-      "智能体/Agent": 319,
+      "智能体/Agent": 321,
       "GenAI": 318,
-      "对话式 AI": 279,
+      "对话式 AI": 280,
       "人机交互": 269,
       "人机协作": 238,
       "多模态": 177,

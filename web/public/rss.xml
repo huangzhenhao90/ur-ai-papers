@@ -6,7 +6,7 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 13 Sep 2026 07:16:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:39:25 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
       <title>基于人类论证行为预测的讨论中论证生成</title>
@@ -343,7 +343,9 @@ EN: Design, development, and evaluation of STI shield: A multi-chatbot mobile ap
 📚 IJHCS · 2026 · 引用 0
 👤 Hemad Fetrati, Gerry Chan, Rita Orji
 
-AI 分: 4.0 / 领域分: 5.0</description>
+AI 分: 4.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1016/j.ijhcs.2026.103944</description>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
       <category>对话式 AI</category><category>AI助手</category><category>人机交互(HCI)</category><category>服务设计</category><category>对话式 AI</category><category>AI助手</category>
     </item>    <item>
