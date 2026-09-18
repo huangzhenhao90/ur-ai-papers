@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 UR × AI <span className="text-accent">Papers</span>
               </span>
               <span className="hidden sm:inline text-xs text-stone-500 truncate">
-                用户研究 / HCI / CX AI 相关研究索引
+                用户研究 / HCI / CX +AI 研究追踪
               </span>
             </Link>
             <HeaderNav />
