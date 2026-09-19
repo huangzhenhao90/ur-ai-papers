@@ -6,9 +6,144 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 18 Sep 2026 07:02:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 06:58:34 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>算法定价工具部署的挑战：来自Airbnb的证据</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29084</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29084</guid>
+      <description>📝 算法定价工具部署的挑战：来自Airbnb的证据
+EN: The Challenges of Deploying an Algorithmic Pricing Tool: Evidence from Airbnb
+
+💡 以 Airbnb 智能定价工具的实际部署为案例，剖析算法定价系统在上线过程中面临的落地难题，涵盖模型适应性、用户接受度、市场外部性等多重挑战，并探讨可行的解决方案，为平台型 AI 定价工具的部署提供实践参考。
+
+📚 MktSci · 2026 · 引用 0
+👤 Mohsen Foroughifar, Nitin Mehta
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>AI 治理</category><category>AI 采用</category><category>消费者行为</category><category>营销</category><category>推荐算法</category><category>AI 采用</category>
+    </item>    <item>
+      <title>采用概率机器学习方法克服客户关系管理的冷启动问题</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29058</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29058</guid>
+      <description>📝 采用概率机器学习方法克服客户关系管理的冷启动问题
+EN: Overcoming the Cold Start Problem of Customer Relationship Management Using  a Probabilistic Machine Learning Approach
+
+💡 针对CRM中无法仅凭首次购买数据推断新客户差异的冷启动难题，提出基于深度指数族的概率机器学习框架，灵活捕捉获客时刻与未来购买及营销响应所共享的潜在异质性维度，可与多种需求模型集成。零售场景实证表明，该方法能在首次购买后即有效识别高价值客户与对营销动作最敏感的客户。
+
+📚 JMR · 2021 · 引用 37
+👤 Nicolas Padilla, Eva Ascarza
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>营销</category><category>用户画像</category><category>AI 用户画像</category><category>推荐算法</category>
+    </item>    <item>
+      <title>点对点市场中的视觉独特性：机器学习模型的开发、验证与应用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28993</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28993</guid>
+      <description>📝 点对点市场中的视觉独特性：机器学习模型的开发、验证与应用
+EN: Visual Uniqueness in Peer-to-Peer Marketplaces: Machine Learning Model Development, Validation, and Application
+
+💡 研究P2P市场中视觉独特性对需求的影响。基于认知心理学构建无监督机器学习模型，自动评估48万余张Airbnb房源图片的视觉独特性，并通过三项涉及不同人群的研究验证模型预测与人类判断的一致。应用于纽约市Airbnb 13个月需求数据后，发现视觉独特性与需求呈倒U型关系，响应率与总体评分起显著调节作用。
+
+📚 JCR · 2025 · 引用 2
+👤 Xiaohang (Flora) Feng, Charis X Li, Shunyuan Zhang
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>营销</category><category>用户研究方法</category><category>人机交互</category>
+    </item>    <item>
+      <title>XAIUI：用户信念驱动的可解释AI与情境感知自适应界面</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28930</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28930</guid>
+      <description>📝 XAIUI：用户信念驱动的可解释AI与情境感知自适应界面
+EN: XAIUI: User Belief-Driven Explainable AI for Context-Aware Adaptive Interfaces
+
+💡 针对增强现实中自适应界面缺乏用户认知建模的问题，提出 XAIUI 方法，将系统适配模型与用户内部表征的贝叶斯模型结合，生成贴合用户信念的个性化解释。两项在线实验（N=77, N=110）显示，用户显著偏好 XAIUI 的解释且认为其复杂度更低，能提供简洁直观的可解释交互。
+
+📚 TiiS · 2026 · 引用 1
+👤 Thomas Langerak, Kashyap Todi, Ben Lafreniere, Ruta Desai, Tanya Jonker
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>可解释性</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>个性化</category><category>可解释 AI</category><category>多模态</category>
+    </item>    <item>
+      <title>LIMEADE：从人工智能解释到建议采纳</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28928</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28928</guid>
+      <description>📝 LIMEADE：从人工智能解释到建议采纳
+EN: LIMEADE: From AI Explanations to Advice Taking
+
+💡 针对不透明AI模型缺乏有效人类反馈机制的问题，提出LIMEADE框架，将人类基于后置解释给出的正/负建议转化为对任意底层不透明模型的更新。在70个真实模型上跨图像分类与文本推荐两大领域验证：图像分类任务上准确率优于严格基线；在公网科学论文神经推荐系统的用户研究中，显著提升用户感知控制力、信任与满意度。
+
+📚 TiiS · 2023 · 引用 8
+👤 Benjamin Charles Germain Lee, Doug Downey, Kyle Lo, Daniel S. Weld
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可解释性</category><category>信任</category><category>推荐系统</category><category>可解释 AI</category><category>人机协作</category><category>推荐算法</category>
+    </item>    <item>
+      <title>思考出声测试中可用性问题的自动检测</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28927</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28927</guid>
+      <description>📝 思考出声测试中可用性问题的自动检测
+EN: Automatic Detection of Usability Problem Encounters in Think-aloud Sessions
+
+💡 针对思维发声可用性测试中人工分析耗时费力的问题，研究设计并评估了机器学习模型，利用用户在发声过程中的语言内容和语音特征自动检测可用性问题遭遇点。比较了不同输入特征、模型、测试产品和用户对检测效果的影响，揭示了技术与界面设计上的多重挑战，为可用性问题自动检测与融入UX工作流建立了基线。
+
+📚 TiiS · 2020 · 引用 30
+👤 Mingming Fan, Yue Li, Khai N. Truong
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>可用性</category><category>用户体验(UX)</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>可用性 AI</category><category>AI 访谈分析</category>
+    </item>    <item>
+      <title>大规模推荐系统教学</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28857</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28857</guid>
+      <description>📝 大规模推荐系统教学
+EN: Teaching Recommender Systems at Large Scale
+
+💡 2013年通过Coursera同步开设线上公开与校内学分开课的推荐系统入门课程，采用翻转课堂教学并开展大规模评估，包括人口统计调查、前后测知识评估及五个月后保留测试。结果显示学生跨背景获得显著知识提升与保留，努力程度是知识增长的主要预测因子，完成意向是课程完成的主要预测因子；纯概念加练习路径与编程路径的概念学习效果相当。
+
+📚 TOCHI · 2015 · 引用 30
+👤 Joseph A. Konstan, J. D. Walker, D. Christopher Brooks, Keith Brown, Michael D. Ekstrand
+
+AI 分: 3.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>推荐系统</category><category>用户体验(UX)</category><category>用户研究方法</category><category>推荐算法</category>
+    </item>    <item>
+      <title>超越算法构建信任：努力、服务速度与新颖性如何提升机器人服务信任度</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28843</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28843</guid>
+      <description>📝 超越算法构建信任：努力、服务速度与新颖性如何提升机器人服务信任度
+EN: Building trust beyond algorithm: How effort, service speed, and novelty increase trust in robot services
+
+💡 聚焦机器人服务中超越算法本身的信任建构机制，从标题推断研究检验努力程度、服务速度和新颖性三类非算法因素对用户信任机器人服务的影响，扩展了人机信任研究框架，为机器人服务设计提供策略依据。
+
+📚 CHB · 2026 · 引用 3
+👤 Ye Eun Jeon, Hee Sun Park
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互(HCI)</category><category>服务体验</category><category>人机协作</category><category>智能体/Agent</category><category>人机协作</category>
+    </item>    <item>
+      <title>基于学习风格的推荐代理：提升虚拟协作学习体验</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28817</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28817</guid>
+      <description>📝 基于学习风格的推荐代理：提升虚拟协作学习体验
+EN: A recommender agent based on learning styles for better virtual collaborative learning experiences
+
+💡 针对虚拟协作学习中学生个体差异被忽视的问题，提出一种基于学习风格的推荐代理，根据学习者风格为其推荐适配的学习资源与协作同伴，以提升虚拟协作学习体验。研究聚焦个性化推荐在学习场景中的应用，强调以学习者特征驱动的资源匹配。
+
+📚 CHB · 2015 · 引用 72
+👤 Maria-Iuliana Dascalu, Constanta-Nicoleta Bodea, Alin Moldoveanu, Anca Mohora, Miltiadis Lytras
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>推荐系统</category><category>个性化</category><category>人机协作</category><category>在线社区</category><category>推荐算法</category><category>AI 推荐</category><category>智能体/Agent</category>
+    </item>    <item>
       <title>SIMLIFE：长程人机伙伴关系中的模式理解</title>
       <link>https://ur-ai-papers.vercel.app/papers/28770</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28770</guid>
@@ -126,10 +261,11 @@ AI 分: 4.0 / 领域分: 3.0
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>情感计算</category><category>多模态交互</category><category>多模态</category><category>情感识别</category><category>人机协作</category>
     </item>    <item>
-      <title>I Care That You Don’t Share: Confidentiality in Student-Robot Interactions</title>
+      <title>我介意你不分享：学生与机器人交互中的保密性</title>
       <link>https://ur-ai-papers.vercel.app/papers/28705</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28705</guid>
-      <description>📝 I Care That You Don’t Share: Confidentiality in Student-Robot Interactions
+      <description>📝 我介意你不分享：学生与机器人交互中的保密性
+EN: I Care That You Don’t Share: Confidentiality in Student-Robot Interactions
 
 💡 针对教育场景中机器人教师的保密性问题，基于印象管理理论，通过六项田野、实验和在线实验（N=2012）发现：机器人教师不向人类教师共享学生交互时，学生使用意愿更高；社交评判担忧和互动焦虑是中介机制，预防焦点和教师善意是调节因素，挑战了人类教师必须in-the-loop的传统认知。
 
@@ -155,24 +291,41 @@ AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>AI助手</category><category>可访问性</category><category>可视化</category><category>AI助手</category><category>多模态</category>
     </item>    <item>
-      <title>Integrating Multi-Source Feedback in Computational Design</title>
+      <title>面向类人机器人的社交凝视控制系统设计与评估</title>
+      <link>https://ur-ai-papers.vercel.app/papers/28556</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28556</guid>
+      <description>📝 面向类人机器人的社交凝视控制系统设计与评估
+EN: Designing and Evaluating a Social Gaze-Control System for a Humanoid Robot
+
+💡 针对仿人机器人社交交互需求，设计并评估一套社会性凝视控制系统，通过眼动/头部协同实现自然的目光行为；通过人机交互实验评估其对用户感知、信任与交互体验的影响，验证社交凝视机制在类人机器人交互中的有效性与可用性。
+
+📚 THMS · 2014 · 引用 84
+👤 Abolfazl Zaraki, Daniele Mazzei, Manuel Giuliani, Danilo De Rossi
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>用户研究方法</category><category>智能体/Agent</category><category>多模态</category>
+    </item>    <item>
+      <title>计算设计中多源反馈的整合</title>
       <link>https://ur-ai-papers.vercel.app/papers/28527</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28527</guid>
-      <description>📝 Integrating Multi-Source Feedback in Computational Design
+      <description>📝 计算设计中多源反馈的整合
+EN: Integrating Multi-Source Feedback in Computational Design
 
 💡 研究如何在计算设计中整合多源反馈（专家意见、实证研究、计算模型），开发无代码工具 Muse 让设计师无需编程即可组合和平衡不同评价源。技术发现表明独立建模多源反馈可探索异构反馈、揭示源间分歧，并支持设计师动态调整评估配置。可视化设计研究中参与者报告了更高的信心与灵活性。
 
 📚 TiiS · 2026 · 引用 0
-👤 Francisco Erivaldo Fernandes Junior, Thomas Langerak, Mira Keränen, Danqing Shi, Ardak Alipova
+👤 Francisco Erivaldo Fernandes, Thomas Langerak, Mira Keränen, Danqing Shi, Ardak Alipova
 
 AI 分: 3.0 / 领域分: 4.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>可视化</category><category>人机协作</category><category>HCI</category><category>用户体验(UX)</category><category>人机协作</category><category>AI 助手</category>
     </item>    <item>
-      <title>Are you measuring what I am measuring? Concurrent validity of the Artificial Social Agent Questionnaire</title>
+      <title>你在测量我所测量的吗：人工社交智能体问卷的同期效度</title>
       <link>https://ur-ai-papers.vercel.app/papers/28525</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28525</guid>
-      <description>📝 Are you measuring what I am measuring? Concurrent validity of the Artificial Social Agent Questionnaire
+      <description>📝 你在测量我所测量的吗：人工社交智能体问卷的同期效度
+EN: Are you measuring what I am measuring? Concurrent validity of the Artificial Social Agent Questionnaire
 
 💡 为检验人工社会智能体问卷（ASAQ）的同时效度，666 名参与者对 10 个智能体进行评价，将 ASAQ 与 Godspeed、UTAUT、工作联盟量表等 8 个成熟量表对比。结果显示 ASAQ 的 24 个构念与维度中超过 80% 呈中到高相关，验证了其作为评估人与人工社会智能体交互体验工具的可靠性。
 
@@ -198,10 +351,11 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>对话式AI</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>情感计算</category><category>对话式AI</category><category>AI助手</category><category>情感识别</category>
     </item>    <item>
-      <title>Evaluating the effect of co-speech gesture prediction on Human–Robot Interaction</title>
+      <title>评估伴随语音手势预测对人机交互的影响</title>
       <link>https://ur-ai-papers.vercel.app/papers/28519</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28519</guid>
-      <description>📝 Evaluating the effect of co-speech gesture prediction on Human–Robot Interaction
+      <description>📝 评估伴随语音手势预测对人机交互的影响
+EN: Evaluating the effect of co-speech gesture prediction on Human–Robot Interaction
 
 💡 研究评估共语手势预测技术对人与机器人交互的影响，考察机器人能否通过预测并生成配合人类语音的手势来提升交互自然度、沟通效果和用户体验，为社交机器人多模态交互设计提供依据。
 
@@ -227,10 +381,11 @@ AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>推荐系统</category><category>个性化</category><category>用户研究方法</category><category>消费者行为</category><category>推荐算法</category><category>AI推荐</category>
     </item>    <item>
-      <title>Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust</title>
+      <title>沟通与对抗算法偏见：数据多样性、标注者多样性、性能偏差及用户反馈对AI信任的影响</title>
       <link>https://ur-ai-papers.vercel.app/papers/28491</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28491</guid>
-      <description>📝 Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust
+      <description>📝 沟通与对抗算法偏见：数据多样性、标注者多样性、性能偏差及用户反馈对AI信任的影响
+EN: Communicating and combating algorithmic bias: effects of data diversity, labeler diversity, performance bias, and user feedback on AI trust
 
 💡 研究探讨数据多样性、标注者多样性、性能偏差和用户反馈等因素对AI信任的影响，分析如何有效沟通和应对算法偏见以提升用户对AI系统的信任，揭示不同偏差因素在AI信任形成中的作用机制。
 
@@ -241,13 +396,14 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>伦理</category><category>AI治理</category><category>人机交互(HCI)</category><category>可解释AI</category><category>AI治理</category>
     </item>    <item>
-      <title>xAARA: Explainable and Augmented Automated Rehabilitation Assessment</title>
+      <title>xAARA：可解释与增强的自动化康复评估</title>
       <link>https://ur-ai-papers.vercel.app/papers/28487</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28487</guid>
-      <description>📝 xAARA: Explainable and Augmented Automated Rehabilitation Assessment
+      <description>📝 xAARA：可解释与增强的自动化康复评估
+EN: xAARA: Explainable and Augmented Automated Rehabilitation Assessment
 
 📚 TOCHI · 2026 · 引用 0
-👤 Tamim Ahmed, Thanassis Rikakis, Aisling Kelliher, Mohammod Shaikh Sadid Khan, Zhaoyi Guo
+👤 Tamim Ahmed, Thanassis Rikakis, Aisling Kelliher, Md Jahir Uddin Khan, Zhaoyi Guo
 
 AI 分: 3.0 / 领域分: 5.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
@@ -316,174 +472,6 @@ AI 分: 5.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2609.15129v1</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
       <category>可访问性</category><category>用户体验(UX)</category><category>人机交互(HCI)</category><category>AI 助手</category><category>LLM</category><category>GenAI</category><category>AI 助手</category><category>可用性 AI</category>
-    </item>    <item>
-      <title>营销研究中的合成数据：如何评估与何时信任</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28386</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28386</guid>
-      <description>📝 营销研究中的合成数据：如何评估与何时信任
-EN: Synthetic Data in Marketing Research: How to Evaluate and When to Trust
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Oded Netzer, Rajan Sambandam
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.13995v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>提示分叉之园：用户如何在故事生成中探索叙事空间</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28382</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28382</guid>
-      <description>📝 提示分叉之园：用户如何在故事生成中探索叙事空间
-EN: The Garden of Forking Prompts: How Users Explore Narrative Space in Story Generation
-
-💡 研究用户如何在大语言模型中迭代修改故事生成提示以探索叙事空间。基于公开聊天日志构建WildStories（275,635条提示）和WildEdits编辑树（24,291棵），提出涵盖四个编辑方向（增、删、改、扩展）与14个目标（如情节、人物、类型）的编辑类型框架，并展示如何将其用于故事生成基准测试。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Advait Deshmukh, Nora Benedict, Melanie Walsh, Maria Antoniak
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.14677v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户研究方法</category><category>消费者行为</category><category>GenAI</category><category>LLM</category><category>对话式AI</category>
-    </item>    <item>
-      <title>过于完美以至不真实？AI偏好与真实用户参与度差距的诊断与缩减</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28381</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28381</guid>
-      <description>📝 过于完美以至不真实？AI偏好与真实用户参与度差距的诊断与缩减
-EN: Too Good to Be Real? Diagnosing and Reducing the Gap Between AI Preference and Real User Engagement
-
-💡 研究LLM偏好的内容特征与真实用户参与度之间的差距。基于知乎、Quora、Reddit的117万条回答，提出本体论偏好测量框架（逻辑、情感、表达三维度），发现LLM过度绑定逻辑结构（logic overbinding），而真实用户更受情感和表达显著性驱动。提出OMRA方法，跨4个LLM家族平均缩小差距54.4%，人类评估中62.4%胜出。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Xinglang Zhang, Yuanmeng Xiang, Yunyao Zhang, Zeliang Chen, Junqing Yu
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2609.18282v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>用户研究方法</category><category>在线社区</category><category>LLM</category><category>GenAI</category>
-    </item>    <item>
-      <title>AI诗歌的作者归属与审美评价：俳句案例研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28373</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28373</guid>
-      <description>📝 AI诗歌的作者归属与审美评价：俳句案例研究
-EN: Authorship attribution and aesthetic evaluation of AI poetry: a case study with Haiku
-
-💡 研究通过问卷调查日本大学生能否区分AI生成的俳句与人类作品，并考察美学评价对作者归属判断的影响。发现不同模型识别准确率差异显著，GPT-5、Gemini 2.5等接近随机水平；流畅度、诗意等美学评分影响"像人类写"的感知但与正确分类无关，揭示美学评价与真实作者识别之间存在分离现象。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Livia Oddi, Simone Scardapane, Toru Sugimoto, Donatella Genovese
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.15511v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>问卷</category><category>人机交互(HCI)</category><category>LLM</category><category>GenAI</category><category>多模态</category>
-    </item>    <item>
-      <title>"如果只能买一个：Galaxy S26 Ultra"：对AI生成产品推荐的审计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28366</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28366</guid>
-      <description>📝 "如果只能买一个：Galaxy S26 Ultra"：对AI生成产品推荐的审计
-EN: "If I Had to Buy Just ONE: Galaxy S26 Ultra": Auditing AI-Generated Product Recommendations
-
-💡 对AI聊天机器人在商业产品推荐中的偏见进行审计。构建2528条真实商业咨询查询数据集，评估ChatGPT、Google Gemini及AI Overviews共1536条回复。发现ChatGPT在79%推荐中表达第一人称偏好，重复查询结果不稳定；不同接口与API之间引用源域名重合度极低。研究强调独立审计须考虑重复响应、消费者面向条件及源层差异。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Lucas G. Uberti-Bona Marin, Thales Bertaglia, Giovanni Astante, Bram Rijsbosch, Gijs van Dijck
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.18729v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>AI治理</category><category>伦理</category><category>推荐系统</category><category>消费者行为</category><category>ChatGPT</category><category>LLM</category><category>对话式AI</category><category>AI推荐</category>
-    </item>    <item>
-      <title>使用LLM进行民调之前：一种审慎诊断框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28365</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28365</guid>
-      <description>📝 使用LLM进行民调之前：一种审慎诊断框架
-EN: Before You Poll with LLMs: A Deliberative Diagnostic Framework
-
-💡 提出"审议式民意调查诊断框架"，检验大语言模型角色在接收到新信息后能否像人类一样动态更新观点。基于美国America in One Room项目数据，在五款前沿模型上对比人与模型的信念变化，发现模型均存在独特失败：GPT-5.1出现反向极化，Gemini等出现5-7倍过冲，DeepSeek几乎不变。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Ahmed Wali, Hassaan Tayyab
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2609.15849v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>人机交互(HCI)</category><category>AI 治理</category><category>信任</category><category>LLM</category><category>智能体/Agent</category><category>可解释 AI</category><category>AI 治理</category>
-    </item>    <item>
-      <title>有备而来还是措手不及？尼日利亚医疗人员临床应用人工智能的就绪度评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28362</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28362</guid>
-      <description>📝 有备而来还是措手不及？尼日利亚医疗人员临床应用人工智能的就绪度评估
-EN: Prepared Or Unprepared? Evaluating Healthcare Workforce Readiness for Clinical Adoption of Artificial Intelligence in Nigeria
-
-💡 针对尼日利亚医疗系统AI临床落地的人力准备度开展横断面调查，761名多学科医务人员参与。92.6%知晓AI，但仅40.9%知识水平较低、63%自评准备充分，区域和专业群体间差异显著。主要障碍为培训缺失(84.7%)、基础设施薄弱、成本高、岗位替代担忧及伦理与隐私顾虑。92.5%愿意接受培训，78.7%支持AI纳入本科课程。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Abbas M. Rabiu, Abdulrazaq A. Zubair, Um-mulkhairi Ibrahim, Tolulope Olusuyi, Shaheeda Farouq
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.19096v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>问卷</category><category>AI 采用</category><category>信任</category><category>伦理</category><category>AI 助手</category><category>AI 治理</category>
-    </item>    <item>
-      <title>评估既有设计建议对AI陪伴设计的适用性：一项多方法研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28360</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28360</guid>
-      <description>📝 评估既有设计建议对AI陪伴设计的适用性：一项多方法研究
-EN: Assessing the Applicability of Existing Design Recommendations to AI Companion Design: A Multi-Method Study
-
-💡 评估现有设计建议在AI伴侣设计中的适用性。通过文献综述、实践者共分析、内部启发式评估和外部专家评估四阶段多方法研究，综合出9个设计原则领域，揭示伦理与UX考量深度交织、需情境敏感应用，并系统分析为何现有建议无法直接迁移到AI伴侣场景。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Soobin Cho, Deveshi Modi, Divya Mavinkurve, Jieqiong Ding, Mark Zachry
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.14236v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>人机交互(HCI)</category><category>伦理</category><category>服务设计</category><category>GenAI</category><category>LLM</category><category>对话式AI</category><category>AI助手</category>
-    </item>    <item>
-      <title>意义建构作为人工制品：AI中介信息环境中的累积影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28359</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28359</guid>
-      <description>📝 意义建构作为人工制品：AI中介信息环境中的累积影响
-EN: Sensemaking as Artifact: Accumulated Influence in AI-Mediated Information Environments
-
-💡 探讨生成式AI如何改变视觉信息传播：观看者的意义建构可被外部化为衍生制品并进入后续传播环境，分析即时交互、传播承诺、转化可读性与信息素养要求，并扩展到AI中介长期累积影响，提出AI中介视觉传播的新研究方向。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Manling Yang, Remco Chang
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2609.14911v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可视化</category><category>AI 治理</category><category>用户研究方法</category><category>GenAI</category><category>多模态</category>
-    </item>    <item>
-      <title>个性化个人健康界面：与生成式AI的协同设计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28357</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28357</guid>
-      <description>📝 个性化个人健康界面：与生成式AI的协同设计
-EN: Personalizing Personal Health Interfaces: Co-Design with Generative AI
-
-💡 14名参与者使用Figma Make共创设计重新构想Google与Apple健康界面，生成式AI帮助将模糊想法具象化但受模型默认值与延迟制约，设计更易操作可解释性与问责性而非隐私、信任与情感安全，模糊了用户意图与模型默认的边界，探讨用户能动性与个性化界面的设计启示。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Karthik S. Bhat, Vidhi Shah, Vedika Agnihotri, Dong Whi Yoo, Koustuv Saha
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.15046v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>个性化</category><category>服务设计</category><category>GenAI</category><category>人机协作</category>
     </item>
   </channel>
 </rss>
