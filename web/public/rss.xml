@@ -6,9 +6,54 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 19 Sep 2026 06:58:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 07:24:30 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>从搜索代理到传播界面：理解人类对对话式搜索健康信息的信任</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29280</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29280</guid>
+      <description>📝 从搜索代理到传播界面：理解人类对对话式搜索健康信息的信任
+EN: From search agents to dissemination interfaces: understanding human trust in health information from conversational search
+
+💡 聚焦健康场景下对话式搜索（如对话代理）作为信息分发界面时，用户对其提供健康信息的信任机制与影响因素，探索从搜索工具到传播接口的信任转变。
+
+📚 BIT · 2026 · 引用 0
+👤 Xin Sun, Rongjun Ma, Xiaochang Zhao, Janne Lindqvist, Jan de Wit
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>对话式 AI</category><category>人机交互(HCI)</category><category>AI 助手</category><category>对话式 AI</category><category>AI 助手</category><category>LLM</category>
+    </item>    <item>
+      <title>视觉决策过程中用户置信度的预测</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29268</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29268</guid>
+      <description>📝 视觉决策过程中用户置信度的预测
+EN: Predicting User Confidence During Visual Decision Making
+
+💡 研究用户视觉决策过程中置信度的隐式预测问题。通过眼动仪采集被试完成视觉决策任务时的注视行为，并让其以5点Likert量表自报置信度，随后用传统机器学习与深度学习方法从行为特征中建模预测用户置信度，旨在替代显式询问以减少交互干扰、感知用户认知状态，可为智能辅导、医疗等智能交互系统提供支持。
+
+📚 TiiS · 2018 · 引用 16
+👤 Jim Smith, Phil Legg, Milos Matovic, Kristofer Kinsey
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>情感计算</category><category>眼动追踪</category><category>人机协作</category><category>人机交互</category><category>可用性 AI</category>
+    </item>    <item>
+      <title>车载代理功能与设计特征的系统综述</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29254</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29254</guid>
+      <description>📝 车载代理功能与设计特征的系统综述
+EN: A systematic review of functions and design features of in-vehicle agents
+
+💡 对车载智能代理（如车内语音助手）的功能与设计特征进行系统综述，梳理其在驾驶场景下的交互方式、任务支持与用户体验设计要点。
+
+📚 IJHCS · 2022 · 引用 43
+👤 Seul Chan Lee, Myounghoon Jeon
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>智能体</category><category>用户体验(UX)</category><category>服务设计</category><category>智能体/Agent</category><category>AI 助手</category><category>对话式 AI</category>
+    </item>    <item>
       <title>算法定价工具部署的挑战：来自Airbnb的证据</title>
       <link>https://ur-ai-papers.vercel.app/papers/29084</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29084</guid>
@@ -23,6 +68,21 @@ EN: The Challenges of Deploying an Algorithmic Pricing Tool: Evidence from Airbn
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
       <category>AI 治理</category><category>AI 采用</category><category>消费者行为</category><category>营销</category><category>推荐算法</category><category>AI 采用</category>
+    </item>    <item>
+      <title>撰写更具说服力的创意诉求：一种基于深度学习的方法</title>
+      <link>https://ur-ai-papers.vercel.app/papers/29081</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/29081</guid>
+      <description>📝 撰写更具说服力的创意诉求：一种基于深度学习的方法
+EN: Writing More Compelling Creative Appeals: A Deep Learning-Based Approach
+
+💡 提出基于深度学习的决策支持工具，辅助个人撰写更具说服力的创意诉求文案，结合营销传播场景，评估其对创意效果与受众反应的提升作用。
+
+📚 MktSci · 2022 · 引用 26
+👤 Jiyeon Hong, Paul R. Hoban
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>营销</category><category>消费者行为</category><category>AI 助手</category><category>人机协作</category><category>GenAI</category><category>LLM</category><category>人机协作</category>
     </item>    <item>
       <title>采用概率机器学习方法克服客户关系管理的冷启动问题</title>
       <link>https://ur-ai-papers.vercel.app/papers/29058</link>
@@ -402,76 +462,14 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <description>📝 xAARA：可解释与增强的自动化康复评估
 EN: xAARA: Explainable and Augmented Automated Rehabilitation Assessment
 
+💡 xAARA是面向中风康复评估的可解释增强系统，通过与10位临床医生30个月协同设计，将任务分解为动作片段与质量要素并建立本体。在107名患者的常规评估中部署，计算专家推荐与高置信度专家评分一致率超90%，解决92%的模糊案例。系统以评估熵为度量提升可观测性并局部化不确定性以指导治疗。
+
 📚 TOCHI · 2026 · 引用 0
 👤 Tamim Ahmed, Thanassis Rikakis, Aisling Kelliher, Md Jahir Uddin Khan, Zhaoyi Guo
 
 AI 分: 3.0 / 领域分: 5.0</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      
-    </item>    <item>
-      <title>关税代理</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28482</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28482</guid>
-      <description>📝 关税代理
-EN: Tariff Agent
-
-💡 通过两项田野研究评估两款能源资费自动切换智能体原型。系统提供三级灵活自主性：仅建议、半自主、全自主，用户可随时调整。主题分析发现，灵活自主性有助于维持用户对智能系统的参与度并容忍其失误；用户也会对自动化结果承担责任，体现人机之间可调的责任分担。
-
-📚 TOCHI · 2016 · 引用 57
-👤 Alper T. Alan, Enrico Costanza, Sarvapali D. Ramchurn, Joel Fischer, Tom Rodden
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>信任</category><category>AI采用</category><category>田野研究</category><category>智能体/Agent</category><category>人机协作</category>
-    </item>    <item>
-      <title>组织责任归因：公众对政府服务中AI与人为失误的回应</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28475</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28475</guid>
-      <description>📝 组织责任归因：公众对政府服务中AI与人为失误的回应
-EN: Organizational Responsibility Attribution: Public Responses to AI versus Human Failures in Government Services
-
-💡 探讨公众在政府服务中遭遇AI失败与人类失败时，如何将责任归因于组织机构，比较两种失误情境下公众态度与责任归因模式的差异，涉及AI治理与公共服务信任议题。
-
-📚 CHB · 2026 · 引用 0
-👤 Di Zhou, Zepeng Gong
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>AI治理</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>AI助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>AI智能体为谁服务？角色分配诱发LLM推荐系统的赞助偏差</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28401</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28401</guid>
-      <description>📝 AI智能体为谁服务？角色分配诱发LLM推荐系统的赞助偏差
-EN: Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders
-
-💡 研究LLM购物助手在平台广告利益冲突下的偏见问题。通过受控选择实验操控系统提示中的角色指派（用户vs平台为委托人），发现当LLM被指派为平台代理时，对赞助商列表的惩罚显著降低，推理链中的怀疑态度也减弱。更严格的披露术语无法缩小此差距，表明为人类消费者设计的披露规则难以保护AI中介商务中的消费者。
-
-📚 arXiv:econ.GN · 2026 · 引用 0
-👤 Davood Wadi, Yu Ma
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.17989v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>AI治理</category><category>信任</category><category>伦理</category><category>消费者行为</category><category>推荐系统</category><category>LLM</category><category>AI助手</category><category>对话式AI</category>
-    </item>    <item>
-      <title>LLM时代患者医疗知识简化：以糖尿病为例</title>
-      <link>https://ur-ai-papers.vercel.app/papers/28398</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/28398</guid>
-      <description>📝 LLM时代患者医疗知识简化：以糖尿病为例
-EN: Medical Knowledge Simplification for Patients in the Era of LLMs: A Case Study on Diabetes
-
-💡 研究MediClear系统，基于大语言模型与检索增强生成（RAG）技术，从权威机构获取糖尿病知识并简化为患者易懂语言。通过Flesch-Kincaid可读性指标和10人用户研究评估，发现该系统能将文本降至推荐患者阅读水平，同时获得较高用户满意度与未来使用意愿，展示了LLM在患者教育中的实用性。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Pallika Kafle, Yipeng Zhou, Guanfeng Liu, Quan Z. Sheng, Cheng-Hsin Hsu
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.15129v1</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>可访问性</category><category>用户体验(UX)</category><category>人机交互(HCI)</category><category>AI 助手</category><category>LLM</category><category>GenAI</category><category>AI 助手</category><category>可用性 AI</category>
+      <category>人机交互(HCI)</category><category>可解释性</category><category>人机协作</category><category>可用性测试</category><category>用户研究方法</category><category>可解释AI</category><category>人机协作</category><category>多模态交互</category>
     </item>
   </channel>
 </rss>
