@@ -6,13 +6,44 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Sep 2026 06:56:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:26:27 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
-      <title>Social media use, social bot literacy, perceived threats from bots, and perceived bot control: a moderated-mediation model</title>
+      <title>视频内容营销：片段的创作</title>
+      <link>https://ur-ai-papers.vercel.app/papers/32256</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/32256</guid>
+      <description>📝 视频内容营销：片段的创作
+EN: Video Content Marketing: The Making of Clips
+
+💡 针对数字渠道视频内容推广难题，以喜剧电影预告片为对象，通过网页端面部表情追踪捕捉观众实时情绪反应，预测观影意愿与票房表现，并提出从预告片中截取短片段的优化流程。经在线实验与田野实验验证，该方法生成的短片段能有效提升电影及其他在线内容的营销效果。
+
+📚 JM · 2018 · 引用 125
+👤 Xuan Liu, Savannah Wei Shi, Thales Teixeira, Michel Wedel
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>营销</category><category>消费者行为</category><category>情感计算</category><category>眼动追踪</category><category>情感识别</category>
+    </item>    <item>
+      <title>利用视频自动检测计算机辅助教室中学习者的情感</title>
+      <link>https://ur-ai-papers.vercel.app/papers/32206</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/32206</guid>
+      <description>📝 利用视频自动检测计算机辅助教室中学习者的情感
+EN: Using Video to Automatically Detect Learner Affect in Computer-Enabled Classrooms
+
+💡 面向智能教育界面，基于计算机视觉与机器学习，通过面部表情（主通道）与身体动作（次通道）自动检测学生在物理教育游戏中的情感状态。在真实教室环境中同时采集多达30名学生的数据，并在个体层面交叉验证。结果显示对无聊、困惑、愉悦、投入、挫败及离题行为等状态的检测AUC均高于随机水平，且具备时间、种族与性别上的泛化能力。
+
+📚 TiiS · 2016 · 引用 96
+👤 Nigel Bosch, Sidney K. D'mello, Jaclyn Ocumpaugh, Ryan S. Baker, Valerie Shute
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>情感计算</category><category>人机交互(HCI)</category><category>多模态交互</category><category>用户研究方法</category><category>情感识别</category><category>多模态</category>
+    </item>    <item>
+      <title>社交媒体使用、社交机器人素养、感知机器人威胁与感知机器人控制：有调节的中介模型</title>
       <link>https://ur-ai-papers.vercel.app/papers/31900</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31900</guid>
-      <description>📝 Social media use, social bot literacy, perceived threats from bots, and perceived bot control: a moderated-mediation model
+      <description>📝 社交媒体使用、社交机器人素养、感知机器人威胁与感知机器人控制：有调节的中介模型
+EN: Social media use, social bot literacy, perceived threats from bots, and perceived bot control: a moderated-mediation model
 
 💡 基于调节-中介模型，考察社交媒体使用、社交机器人素养对感知机器人威胁与感知机器人控制的影响，揭示社交机器人素养在不同社交媒体使用程度下的调节作用，为理解用户对社交机器人的风险感知与掌控感提供理论框架。
 
@@ -23,10 +54,11 @@ AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
       <category>AI 治理</category><category>在线社区</category><category>用户研究方法</category><category>信任</category><category>AI 治理</category><category>对话式 AI</category>
     </item>    <item>
-      <title>How Do Users Experience Traceability of AI Systems? Examining Subjective Information Processing Awareness in Automated Insulin Delivery (AID) Systems</title>
+      <title>用户如何体验人工智能系统的可追溯性：自动化胰岛素输送系统中主观信息处理觉知研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/31887</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31887</guid>
-      <description>📝 How Do Users Experience Traceability of AI Systems? Examining Subjective Information Processing Awareness in Automated Insulin Delivery (AID) Systems
+      <description>📝 用户如何体验人工智能系统的可追溯性：自动化胰岛素输送系统中主观信息处理觉知研究
+EN: How Do Users Experience Traceability of AI Systems? Examining Subjective Information Processing Awareness in Automated Insulin Delivery (AID) Systems
 
 💡 针对医疗AI自动决策不透明问题，以自动胰岛素输送(AID)系统为载体，提出主观信息处理意识(SIPA)概念。通过80人对照实验，比较三档信息披露水平对SIPA与绩效的影响，发现SIPA随重复观察呈下降趋势，且与信任、解释满意度强相关，高披露可能引发SIPA误校准，提示需多次重复才能显现披露效果差异。
 
@@ -52,10 +84,11 @@ AI 分: 3.0 / 领域分: 5.0</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>可用性测试</category><category>多模态交互</category><category>用户研究方法</category><category>对话式 AI</category><category>智能体/Agent</category><category>多模态</category>
     </item>    <item>
-      <title>Knowledge Graph-Based Integration of Conversational Advisors and Faceted Filtering</title>
+      <title>基于知识图谱的对话式顾问与分面过滤集成</title>
       <link>https://ur-ai-papers.vercel.app/papers/31885</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31885</guid>
-      <description>📝 Knowledge Graph-Based Integration of Conversational Advisors and Faceted Filtering
+      <description>📝 基于知识图谱的对话式顾问与分面过滤集成
+EN: Knowledge Graph-Based Integration of Conversational Advisors and Faceted Filtering
 
 💡 面向电商场景，提出基于知识图谱的对话式顾问与分面过滤集成方案，二者通过知识图谱双向联动，并以可视化方式揭示答案与产品特征的关系以增强推荐透明度。通过两项共448人的用户研究及交互日志序列分析发现，集成系统相比独立组件基线能降低用户认知负荷、改善搜索体验。
 
@@ -410,10 +443,11 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>可解释性</category><category>人机交互(HCI)</category><category>可视化</category><category>用户研究方法</category><category>可解释AI</category><category>多模态</category><category>人机交互</category>
     </item>    <item>
-      <title>Personalizing AI Voice Agents: How Voice Agents with Similar Voices Shape Trust, Self-Congruency, and Behavior</title>
+      <title>AI语音代理的个性化：声音相似的语音代理如何塑造信任、自我一致性与行为</title>
       <link>https://ur-ai-papers.vercel.app/papers/31436</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31436</guid>
-      <description>📝 Personalizing AI Voice Agents: How Voice Agents with Similar Voices Shape Trust, Self-Congruency, and Behavior
+      <description>📝 AI语音代理的个性化：声音相似的语音代理如何塑造信任、自我一致性与行为
+EN: Personalizing AI Voice Agents: How Voice Agents with Similar Voices Shape Trust, Self-Congruency, and Behavior
 
 💡 研究AI语音助手的声音与用户自身声音相似时，如何影响用户的信任感、自我一致性(self-congruency)及后续使用行为。基于标题推断：探讨语音个性化设计通过自我匹配机制塑造用户对语音智能体的态度与互动意愿。
 
@@ -424,10 +458,11 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>信任</category><category>个性化</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category>
     </item>    <item>
-      <title>Bridging or broadening Gaps? AI-Assisted professional writing among native and non-native English Writers</title>
+      <title>弥合还是扩大差距？母语与非母语英语写作者的AI辅助专业写作</title>
       <link>https://ur-ai-papers.vercel.app/papers/31435</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31435</guid>
-      <description>📝 Bridging or broadening Gaps? AI-Assisted professional writing among native and non-native English Writers
+      <description>📝 弥合还是扩大差距？母语与非母语英语写作者的AI辅助专业写作
+EN: Bridging or broadening Gaps? AI-Assisted professional writing among native and non-native English Writers
 
 💡 研究AI辅助专业写作对母语与非母语英语写作者产生的差异化影响。基于标题推断：探讨AI写作工具究竟是缩小了不同语言背景写作者之间的能力差距，还是反而拉大了鸿沟，及其对公平性、生产力的潜在影响。
 
@@ -437,36 +472,6 @@ AI 分: 5.0 / 领域分: 5.0</description>
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>AI 采用</category><category>可访问性</category><category>人机交互(HCI)</category><category>LLM</category><category>GenAI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>机器分配行为的社会后果：公平性、人际感知与绩效</title>
-      <link>https://ur-ai-papers.vercel.app/papers/31427</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31427</guid>
-      <description>📝 机器分配行为的社会后果：公平性、人际感知与绩效
-EN: The social consequences of Machine Allocation Behavior: Fairness, interpersonal perceptions and performance
-
-💡 探讨算法/机器在资源或任务分配中的分配行为所产生的社会后果，分析其公平性如何影响用户对相关人际关系（如决策者、同事）的感知以及团队或个体的工作表现。
-
-📚 CHB · 2023 · 引用 19
-👤 Houston Claure, Seyun Kim, René F. Kizilcec, Malte Jung
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>AI治理</category><category>人机交互(HCI)</category><category>推荐算法</category><category>人机交互</category>
-    </item>    <item>
-      <title>人机协作中协商与互惠的交换结构</title>
-      <link>https://ur-ai-papers.vercel.app/papers/31414</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/31414</guid>
-      <description>📝 人机协作中协商与互惠的交换结构
-EN: Negotiated and reciprocal exchange structures in human-agent cooperation
-
-💡 研究人类与智能体合作中两种典型的交换结构——协商式与互惠式。探讨在人与AI代理协作过程中，双方如何通过不同类型的资源与回报交换建立合作关系，分析两种结构在信任建立、任务分配和持续协作方面的特征与差异，为人机协作机制的设计与理论建构提供框架。
-
-📚 CHB · 2019 · 引用 22
-👤 Erin K. Chiou, John D. Lee, Tianshuo Su
-
-AI 分: 3.0 / 领域分: 3.0</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>信任</category><category>智能体/Agent</category><category>人机协作</category>
     </item>
   </channel>
 </rss>
