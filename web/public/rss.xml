@@ -6,9 +6,114 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Oct 2026 07:52:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 07:23:49 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>新一代飞机驾驶舱虚拟助手设计的先导研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34207</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34207</guid>
+      <description>📝 新一代飞机驾驶舱虚拟助手设计的先导研究
+EN: Pilot study on virtual assistant design for new generation aircraft cockpit
+
+💡 针对新一代飞机驾驶舱，试点设计虚拟助手界面与交互范式，探讨飞行员在高负荷航空场景下与AI助手的协作方式、任务适配性及可用性挑战。
+
+📚 BIT · 2025 · 引用 1
+👤 Marlène Gilles, Cédric Bach, Mathieu Quentel, Nico Pallamin, Guillaume Jégou
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>用户体验(UX)</category><category>可用性测试</category><category>AI助手</category><category>对话式AI</category><category>人机协作</category><category>人机交互</category>
+    </item>    <item>
+      <title>生成式人工智能引导的用户研究：空中出租车服务应用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34206</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34206</guid>
+      <description>📝 生成式人工智能引导的用户研究：空中出租车服务应用
+EN: Generative artificial intelligence-guided user studies: an application for air taxi services
+
+💡 探索用生成式AI辅助用户研究流程的方法，以空中出租车服务为应用场景，评估GenAI在生成研究材料、模拟用户反馈与支持设计决策中的可行性与效果。
+
+📚 BIT · 2025 · 引用 7
+👤 Shengdi Xiao, Jingjing Li, Tatsuki Fushimi, Yoichi Ochiai
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>用户体验(UX)</category><category>人机协作</category><category>服务设计</category><category>GenAI</category><category>LLM</category><category>人机协作</category><category>AI助手</category>
+    </item>    <item>
+      <title>医疗与健康福祉对话代理特刊</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34189</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34189</guid>
+      <description>📝 医疗与健康福祉对话代理特刊
+EN: Special Issue on Conversational Agents for Healthcare and Wellbeing
+
+💡 作为 TiiS 特刊序言，聚焦用于医疗健康与福祉的对话式智能体（conversational agents），汇集该跨学科领域的研究进展，涵盖健康咨询、心理支持、慢病管理等场景下的对话 AI 设计、评估与应用，探讨其促进健康行为与提升福祉的潜力与挑战。
+
+📚 TiiS · 2022 · 引用 6
+👤 A. Baki Kocaballi, Liliana Laranjo, Leigh Clark, Rafał Kocielnik, Robert J. Moore
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>AI 助手</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category><category>LLM</category>
+    </item>    <item>
+      <title>创建基于文本的AI自我克隆：感知、开发策略与挑战</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34167</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34167</guid>
+      <description>📝 创建基于文本的AI自我克隆：感知、开发策略与挑战
+EN: Creating text-based AI clones of myself: Exploring perceptions, development strategies, and challenges
+
+💡 研究个人文本型AI克隆（数字分身）的创建过程，通过探索用户对自身被AI模拟的感知、开发策略与面临的挑战，揭示人们在让大模型扮演自己时的态度倾向、设计权衡及伦理与可信度问题。
+
+📚 IJHCS · 2026 · 引用 3
+👤 Donggun Lee, Suyoun Lee, Hyunseung Lim, Hwajung Hong
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>AI助手</category><category>信任</category><category>用户体验(UX)</category><category>GenAI</category><category>LLM</category><category>对话式AI</category><category>AI助手</category>
+    </item>    <item>
+      <title>生成概率尚显不足：AI代码补全中的不确定性凸显</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34149</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34149</guid>
+      <description>📝 生成概率尚显不足：AI代码补全中的不确定性凸显
+EN: Generation Probabilities Are Not Enough: Uncertainty Highlighting in AI Code Completions
+
+💡 针对 AI 代码补全工具易引入错误的问题，研究通过 30 名程序员的混合方法实验，比较三种条件：无高亮、基于生成概率最低高亮 token、基于程序员最可能编辑高亮 token。结果显示，按被编辑可能性高亮能加快任务完成、引导更精准修改且主观更受偏好；而按生成概率高亮相比无高亮无显著优势。进一步探索设计空间发现，程序员偏好细粒度、信息丰富、可解释且不过载的不确定性呈现方式。
+
+📚 TOCHI · 2024 · 引用 13
+👤 Helena Vasconcelos, Gagan Bansal, Adam Fourney, Q. Vera Liao, Jennifer Wortman Vaughan
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>可解释性</category><category>用户研究方法</category><category>GenAI</category><category>LLM</category><category>AI 助手</category><category>人机协作</category>
+    </item>    <item>
+      <title>身体康复技术支持中情感的检测与表征</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34148</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34148</guid>
+      <description>📝 身体康复技术支持中情感的检测与表征
+EN: How Can Affect Be Detected and Represented in Technological Support for Physical Rehabilitation?
+
+💡 聚焦慢性疼痛康复中情感状态的自动检测与技术支持。研究分析疼痛、恐惧/焦虑、低落/抑郁三类情感对日常功能的影响，论证利用身体运动行为自动识别情感状态的可行性：基于两组运动数据集，三种疼痛水平分类 F1=0.9，两种情绪困扰水平 F1=0.86；减少传感器后两种疼痛水平仍达 F1=0.78。讨论了如何据此对技术提供的鼓励与反馈进行个性化设计，以克服情感对康复的阻碍。
+
+📚 TOCHI · 2019 · 引用 41
+👤 Temitayo A. Olugbade, Aneesha Singh, Nadia Bianchi-Berthouze, Nicolai Marquardt, Min S. H. Aung
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>情感计算</category><category>个性化</category><category>人机交互(HCI)</category><category>可用性</category><category>用户研究方法</category><category>情感识别</category><category>多模态</category><category>AI 助手</category>
+    </item>    <item>
+      <title>言出必行？：框架化社交意图与自主代理行为对信任过程的综合效应</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34143</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34143</guid>
+      <description>📝 言出必行？：框架化社交意图与自主代理行为对信任过程的综合效应
+EN: “Do what you say?” The combined effects of framed social intent and autonomous agent behavior on the trust process
+
+💡 研究探讨框架化社会意图与自主智能体行为对信任过程的联合影响，关注当智能体口头承诺与其实际自主行为是否一致时，用户信任如何形成与变化。考察言行一致/不一致情境下用户对自主代理的信任动态，为可信自主系统设计提供启示。
+
+📚 CHB · 2023 · 引用 17
+👤 August Capiola, Joseph B. Lyons, Krista N. Harris, Izz aldin Hamdan, Siva Kailas
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>人机协作</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
       <title>RealCompanion：基于纵向真实对话推理的人类理解能力基准评测</title>
       <link>https://ur-ai-papers.vercel.app/papers/34105</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34105</guid>
@@ -379,111 +484,6 @@ AI 分: 3.0 / 领域分: 4.0
 📄 PDF: https://doi.org/10.1080/0144929x.2026.2738388</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>个性化</category><category>推荐系统</category><category>用户体验(UX)</category><category>对话式 AI</category><category>推荐算法</category><category>AI 推荐</category>
-    </item>    <item>
-      <title>通过具身对话代理基于用户信念与目标提供解释以改变其健康行为意向</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33550</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33550</guid>
-      <description>📝 通过具身对话代理基于用户信念与目标提供解释以改变其健康行为意向
-EN: Changing users’ health behaviour intentions through an embodied conversational agent delivering explanations based on users’ beliefs and goals
-
-💡 研究具身对话代理（ECA）如何基于用户信念与目标提供个性化解释，以改变其健康行为意向，关注解释机制对健康说服效果的影响，为健康干预中对话式AI的个性化设计提供启示。
-
-📚 BIT · 2022 · 引用 10
-👤 Amal Abdulrahman, Deborah Richards, Ayse Aysin Bilgin
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>个性化</category><category>人机交互(HCI)</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>开发用于刑事调查的对话代理</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33523</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33523</guid>
-      <description>📝 开发用于刑事调查的对话代理
-EN: Developing Conversational Agents for Use in Criminal Investigations
-
-💡 针对刑侦情报分析中高风险决策场景下AI系统透明度不足、易脆性强的问题，通过认知任务分析、主题涌现分析以及原型对话代理交互实验三项研究，设计并实现名为Pan的对话式AI系统。Pan以人因原则编码交互、提供结果可解释与目标可查验机制，并能在使用中演化新意图，从而缓解系统脆性，促进警务场景对AI技术的采纳。
-
-📚 TiiS · 2021 · 引用 24
-👤 Sam Hepenstal, Leishi Zhang, Neesha Kodagoda, B. l. william Wong
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>对话式 AI</category><category>可解释性</category><category>信任</category><category>AI 采用</category><category>对话式 AI</category><category>AI 助手</category><category>可解释 AI</category>
-    </item>    <item>
-      <title>超越触摸屏</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33521</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33521</guid>
-      <description>📝 超越触摸屏
-EN: Beyond the Touchscreen
-
-💡 针对智能手机输入仍局限于触摸屏的问题，提出BeyondTouch系统，利用内置加速度计、陀螺仪、麦克风等传感器，结合机器学习与轻量规则方法识别手机壳及邻近表面的敲击与手势，扩展输入方式，并通过实验验证其有效性与可用性。
-
-📚 TiiS · 2016 · 引用 11
-👤 Cheng Zhang, Anhong Guo, Dingtian Zhang, Yang Li, Caleb Southern
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>多模态交互</category><category>可用性测试</category><category>人机交互</category>
-    </item>    <item>
-      <title>伪造之真实：deepfake人物形象对设计任务中用户感知效应的初步证据</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33501</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33501</guid>
-      <description>📝 伪造之真实：deepfake人物形象对设计任务中用户感知效应的初步证据
-EN: The realness of fakes: Primary evidence of the effect of deepfake personas on user perceptions in a design task
-
-💡 研究深度伪造（deepfake）生成的虚拟人物形象在设计协作任务中对用户感知（如真实感、信任与可信度）的影响，通过实验提供深度伪造角色如何改变人机交互体验与用户判断的初步证据。
-
-📚 IJHCS · 2023 · 引用 34
-👤 Ilkka Kaate, Joni Salminen, Joao Santos, Soon-Gyo Jung, Rami Olkkonen
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>信任</category><category>伦理</category><category>多模态</category><category>GenAI</category><category>人机交互</category>
-    </item>    <item>
-      <title>Prompt2Task：基于文本提示的智能手机UI任务自动化</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33465</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33465</guid>
-      <description>📝 Prompt2Task：基于文本提示的智能手机UI任务自动化
-EN: Prompt2Task: Automating UI Tasks on Smartphones from Textual Prompts
-
-💡 研究智能手机UI任务自动化：用户通过文本提示（目标或步骤）描述任务，Prompt2Task借助多智能体分别解析意图、管理外部信息并执行操作，且能从用户反馈中持续学习。实验显示任务成功率由基线22.28%提升至95.24%，平均仅需0.69次人工干预，可应用于教程生成、智能辅助与客服场景。
-
-📚 TOCHI · 2025 · 引用 10
-👤 Tian Huang, Chun Yu, Weinan Shi, Zijian Peng, David Yang
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>智能体</category><category>人机协作</category><category>AI 助手</category><category>智能体/Agent</category><category>LLM</category><category>人机协作</category><category>AI 助手</category>
-    </item>    <item>
-      <title>视听微笑对协作型人-代理交互任务中社交影响的作用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33459</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33459</guid>
-      <description>📝 视听微笑对协作型人-代理交互任务中社交影响的作用
-EN: The Effect of Audio-Visual Smiles on Social Influence in a Cooperative Human–Agent Interaction Task
-
-💡 通过在线感知评估与博物馆实地实验，考察虚拟角色在视听双通道情感表达一致（同时微笑）与否对合作任务中社会影响与决策的影响，发现多模态情感表达与单模态表达被感知和反应的方式不同，支持视听整合理论。
-
-📚 TOCHI · 2021 · 引用 14
-👤 Ilaria Torre, Emma Carrigan, Katarina Domijan, Rachel McDonnell, Naomi Harte
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>情感计算</category><category>多模态交互</category><category>人机协作</category><category>智能体/Agent</category><category>多模态</category>
-    </item>    <item>
-      <title>虚拟现实中与人工智能体互动的社会压力：排斥效应与潜在精神病理学</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33440</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33440</guid>
-      <description>📝 虚拟现实中与人工智能体互动的社会压力：排斥效应与潜在精神病理学
-EN: Social stress in an interaction with artificial agents in virtual reality: Effects of ostracism and underlying psychopathology
-
-💡 研究虚拟现实中用户与AI智能体互动时遭受社交排斥（ostracism）所引发的社会压力反应，并考察用户潜在精神病理学特质对该压力体验的调节作用，揭示AI代理引发的社会心理影响机制。
-
-📚 CHB · 2024 · 引用 12
-👤 Marius Rubo, Simone Munsch
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>情感计算</category><category>AI 助手</category><category>消费者行为</category><category>智能体/Agent</category><category>人机交互</category><category>情感识别</category>
     </item>
   </channel>
 </rss>
