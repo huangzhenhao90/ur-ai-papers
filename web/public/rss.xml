@@ -6,9 +6,84 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 03 Oct 2026 07:23:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 08:07:52 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>语音助手技术在发育障碍与肢体残障人群中的应用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34579</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34579</guid>
+      <description>📝 语音助手技术在发育障碍与肢体残障人群中的应用
+EN: Voice assistant technology applied to populations with developmental and physical disabilities
+
+💡 针对发育障碍与身体残障人群，评估语音助手技术的可用性与应用效果，探讨语音交互在特殊群体中的可访问性优势、交互障碍及适配策略。
+
+📚 BIT · 2023 · 引用 13
+👤 Ana Vitória Lachowski Volochtchuk, Higor Leite, Alessandro Diogo Vieira
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>可访问性</category><category>儿童/老人/无障碍</category><category>可用性</category><category>人机交互(HCI)</category><category>对话式 AI</category><category>AI 助手</category><category>多模态</category>
+    </item>    <item>
+      <title>语音对话智能体在情感障碍患者幸福感自我报告中的应用：一项实地研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34566</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34566</guid>
+      <description>📝 语音对话智能体在情感障碍患者幸福感自我报告中的应用：一项实地研究
+EN: Experiences of a Speech-enabled Conversational Agent for the Self-report of Well-being among People Living with Affective Disorders: An In-the-Wild Study
+
+💡 20名情感障碍患者在家庭环境中使用智能音箱对话代理"Sofia"进行为期4周的健康日记记录及WHO-5幸福感自评。访谈主题分析揭示用户为克服CA局限所采取的行动、对代理的多样化人格化投射，以及系统在个人和社交圈中的独特价值形式，证实对话代理支持心理健康自报的潜力，同时指出对话模式匹配和填补人际缺口等设计挑战。
+
+📚 TiiS · 2022 · 引用 30
+👤 Raju Maharjan, Kevin Doherty, Darius Adam Rohani, Per Bækgaard, Jakob E. Bardram
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>田野研究</category><category>访谈</category><category>AI 助手</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>人工智能应用决策中的伦理缺口与权力动态：以教育领域学生学业监测 AI 为例</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34550</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34550</guid>
+      <description>📝 人工智能应用决策中的伦理缺口与权力动态：以教育领域学生学业监测 AI 为例
+EN: Ethical gaps and power dynamics in decision-making about AI adoption: The case of AI for monitoring student learning in education
+
+💡 探讨在教育领域采用AI监测学生学习时，决策过程中存在的伦理缺口与权力动态问题。研究聚焦于谁有权决定AI部署、如何平衡教育收益与隐私、公平等伦理风险，揭示利益相关者间的权力博弈与制度性伦理漏洞。
+
+📚 IJHCS · 2026 · 引用 1
+👤 Bingyi Han, Simon Coghlan, George Buchanan, Dana Mckay
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>AI 治理</category><category>伦理</category><category>AI 采用</category><category>人机交互(HCI)</category><category>AI 助手</category><category>AI 治理</category>
+    </item>    <item>
+      <title>不同阴谋论信念群体对平衡性新闻聊天机器人的信任与效用感知研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34507</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34507</guid>
+      <description>📝 不同阴谋论信念群体对平衡性新闻聊天机器人的信任与效用感知研究
+EN: Investigating perceived trust and utility of balanced news chatbots among individuals with varying conspiracy beliefs
+
+💡 研究不同阴谋论信念水平的用户对平衡型新闻聊天机器人的信任度与有用性感知差异，探讨聊天机器人在新闻分发场景下如何影响用户判断，以及如何在事实呈现与中立性之间取得平衡。
+
+📚 CHB · 2026 · 引用 2
+👤 Shreya Dubey, Paul E. Ketelaar, Tilman Dingler, Hannah K. Peetz, Hein T. van Schie
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>对话式 AI</category><category>可解释性</category><category>用户研究方法</category><category>对话式 AI</category><category>ChatGPT</category>
+    </item>    <item>
+      <title>自主技术的社会认知视角</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34503</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34503</guid>
+      <description>📝 自主技术的社会认知视角
+EN: A social cognition perspective on autonomous technology
+
+💡 从社会认知理论视角探讨人类如何感知、理解和与自主技术交互，分析社会认知机制（如归因、心智推断、社会规范）在塑造人对AI系统态度与行为中的作用，倡导将社会认知框架引入人机交互研究与设计。
+
+📚 CHB · 2021 · 引用 38
+👤 Ruth Frischknecht
+
+AI 分: 3.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>人机协作</category><category>信任</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
       <title>新一代飞机驾驶舱虚拟助手设计的先导研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/34207</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34207</guid>
@@ -403,87 +478,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2609.38782v1</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <category>儿童/老人/无障碍</category><category>对话式 AI</category><category>人机交互(HCI)</category><category>AI 助手</category><category>LLM</category><category>GenAI</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>正面评价与隐忧：AI中介组织倾听中的员工意见披露</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33721</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33721</guid>
-      <description>📝 正面评价与隐忧：AI中介组织倾听中的员工意见披露
-EN: Positive Ratings, Hidden Concerns: Employee Voice Disclosure in AI-Mediated Organizational Listening
-
-💡 在全球管理咨询公司开展实地研究，对比结构化问卷与AI语音访谈中员工对同一议题的表达。44次访谈中发现20-41%会话出现"高评分与实质顾虑并存"。基于158条保护性引语的Gioia分析揭示员工通过软化措辞、推卸责任、限定披露范围进行"有边界披露"，保护性表达随感知倾听结构合法性而变化。研究提出沉默可在表达内部持续存在的理论模型并推导四项命题。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Thilo Tamme, Michael Saatkamp, Alma Bonte, Daniel Weiss, Anton Hantel
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38788v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>人机交互(HCI)</category><category>AI 治理</category><category>用户研究方法</category><category>LLM</category><category>对话式 AI</category><category>AI 访谈分析</category><category>AI 助手</category>
-    </item>    <item>
-      <title>突破过滤气泡：生成式AI搜索如何多元化集体注意力并提升共享信息消费</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33720</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33720</guid>
-      <description>📝 突破过滤气泡：生成式AI搜索如何多元化集体注意力并提升共享信息消费
-EN: Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption
-
-💡 在《华盛顿邮报》对37,561名读者开展随机实地实验，比较传统搜索与生成式AI搜索的信息消费。AI搜索扩大了热门话题覆盖面，提升读者话题重叠度，同时使消费更分散、转向小众话题。AI答案（无需点击）贡献了大部分共享信息增量，引导读者从点击传统结果转向引用文章和后续搜索。人均文章消费量与每分钟信息总量均小幅上升。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee, Dongwon Lee
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38946v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>推荐系统</category><category>个性化</category><category>消费者行为</category><category>人机交互(HCI)</category><category>GenAI</category><category>LLM</category><category>AI 推荐</category><category>推荐算法</category>
-    </item>    <item>
-      <title>驾驶员机动时机：智能车辆定制化安全系统中感知-反应时间的实验探究与推断</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33580</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33580</guid>
-      <description>📝 驾驶员机动时机：智能车辆定制化安全系统中感知-反应时间的实验探究与推断
-EN: When Do Drivers Maneuver: Experimental Investigation and Inference of Perception-Response Time for Tailored Safety Systems in Intelligent Vehicles
-
-💡 通过实验探究智能车辆中驾驶员执行变道等操控动作的时机，测量并推断其感知-反应时间，为面向不同驾驶员特征的定制化安全系统设计提供依据。
-
-📚 THMS · 2025 · 引用 3
-👤 Detong Qin, Qingfan Wang, Quan Li, Tianle Lu, Chen Chen
-
-AI 分: 3.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>用户体验(UX)</category><category>人机交互</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>利用语义自动生成面向可穿戴虚拟与增强现实应用的语音界面</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33566</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33566</guid>
-      <description>📝 利用语义自动生成面向可穿戴虚拟与增强现实应用的语音界面
-EN: Using Semantics to Automatically Generate Speech Interfaces for Wearable Virtual and Augmented Reality Applications
-
-💡 研究如何利用语义信息自动为可穿戴VR/AR应用生成语音交互界面，旨在降低语音接口设计门槛与开发成本，提升人机交互的自然性与效率。
-
-📚 THMS · 2017 · 引用 22
-👤 Fabrizio Lamberti, Federico Manuri, Gianluca Paravati, Giovanni Piumatti, Andrea Sanna
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>AI 助手</category><category>可用性</category><category>对话式 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>探究对话式新闻推荐系统中的信任：基于感知愉悦度与个性化</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33556</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33556</guid>
-      <description>📝 探究对话式新闻推荐系统中的信任：基于感知愉悦度与个性化
-EN: Exploring trust in a conversational news recommender through perceived enjoyment and personalisation
-
-💡 探索对话式新闻推荐系统中，感知愉悦度与个性化对用户信任的影响机制，结合新闻推荐场景考察信任建立路径。
-
-📚 BIT · 2026 · 引用 0
-👤 Valeria Reséndez, Theo Araujo, Natali Helberger, Claes De Vreese
-
-AI 分: 3.0 / 领域分: 4.0
-
-📄 PDF: https://doi.org/10.1080/0144929x.2026.2738388</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>个性化</category><category>推荐系统</category><category>用户体验(UX)</category><category>对话式 AI</category><category>推荐算法</category><category>AI 推荐</category>
     </item>
   </channel>
 </rss>
