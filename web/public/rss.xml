@@ -6,9 +6,105 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Oct 2026 08:07:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 08:00:47 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>生成式AI用户反馈的未来设计</title>
+      <link>https://ur-ai-papers.vercel.app/papers/35190</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35190</guid>
+      <description>📝 生成式AI用户反馈的未来设计
+EN: Designing the Future of User Feedback for Generative AI
+
+💡 与eBay合作开展多阶段研究，评估当前GenAI部署后用户反馈机制的常见问题（不易发现、术语模糊、用户价值不足），据此提炼设计最佳实践，并开发原型反馈收集工具，使用户高效灵活地反馈，为产品团队提供可用的高质量性能与问题数据。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Alisa Frik, Julia Bernd, Amitis Karami, Mohammad Tahaei
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.02631v1</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>用户研究方法</category><category>人机交互(HCI)</category><category>AI治理</category><category>GenAI</category><category>LLM</category><category>人机交互</category>
+    </item>    <item>
+      <title>相同表现，不同过程：AI介导教育中的认知所有权</title>
+      <link>https://ur-ai-papers.vercel.app/papers/35184</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35184</guid>
+      <description>📝 相同表现，不同过程：AI介导教育中的认知所有权
+EN: Same Performance, Different Process: Epistemic Ownership in AI-Mediated Education
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Jorge Fábrega
+
+AI 分: 4.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2610.02731v1</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>与有色人种青年共同设计心理健康支持AI：需求、期望与AI素养启示</title>
+      <link>https://ur-ai-papers.vercel.app/papers/35183</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35183</guid>
+      <description>📝 与有色人种青年共同设计心理健康支持AI：需求、期望与AI素养启示
+EN: Co-Designing AI For Mental Health Support With Young Adults of Color (YOC): Needs, Expectations, and Implications for AI Literacy
+
+💡 研究通过两日协同设计工作坊（13名亚裔、黑人、拉丁裔青年）探讨有色人种青年对AI心理健康聊天的使用与期望。发现通用建议抹平其生活经验，参与者期望身份认同导向的披露与个性化，强调隐私与AI素养缺口，呼吁AI问责与用户自主权，倡导将AI素养与心理健康素养整合。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Elaine Dabin Jeon, John Bosco S. Bunyi, Hannah Kim, Renkai Ma, Yaman Yu
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.02812v1</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>信任</category><category>伦理</category><category>AI 采用</category><category>对话式 AI</category><category>AI 助手</category><category>ChatGPT</category>
+    </item>    <item>
+      <title>自动化应用HCI原则：按需UI构建能力、人机AI思考空间与HCI的未来</title>
+      <link>https://ur-ai-papers.vercel.app/papers/35182</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35182</guid>
+      <description>📝 自动化应用HCI原则：按需UI构建能力、人机AI思考空间与HCI的未来
+EN: Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI
+
+💡 论文提出"思考空间"框架，将LLM按需生成用户界面的过程视为用户与AI共享的结构化认知工作空间。主张将Nielsen启发式、Norman可供性、WCAG及认知负荷约束等HCI经典知识编码为机器可读、可版本化的技能文件，使可访问性等成为生成过程的内在属性而非事后修补。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Nathan Conklin, Miranda Capra, Chris North
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2610.02369v1</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>可访问性</category><category>人机协作</category><category>LLM</category><category>GenAI</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
+      <title>无论是否知晓，我们都在悄然与AI智能体建立友谊</title>
+      <link>https://ur-ai-papers.vercel.app/papers/35167</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35167</guid>
+      <description>📝 无论是否知晓，我们都在悄然与AI智能体建立友谊
+EN: Whether We Know It or Not, We’re All Slowly Befriending AI Agents
+
+💡 论文探讨用户与AI智能体之间悄然形成的类友谊关系，分析人们在日常生活中日益增长地对AI代理进行社会化、情感化使用的趋势及其对人与AI关系认知的影响，并讨论相关设计启示。
+
+📚 JAR · 2025 · 引用 2
+👤 Colin Campbell
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>人机协作</category><category>情感计算</category><category>智能体/Agent</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>可信赖的医疗AI福祉：AI特征与信息敏感度如何影响隐私披露</title>
+      <link>https://ur-ai-papers.vercel.app/papers/34967</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34967</guid>
+      <description>📝 可信赖的医疗AI福祉：AI特征与信息敏感度如何影响隐私披露
+EN: Trustworthy healthcare AI for wellbeing: how AI characteristics and information sensitivity shape privacy disclosure
+
+💡 聚焦医疗健康AI场景，探讨AI系统的可信赖特征（如透明度、可解释性等）与健康信息的敏感程度如何共同影响用户披露隐私的意愿，旨在构建兼顾福祉与隐私的可信健康AI设计启示。
+
+📚 BIT · 2026 · 引用 0
+👤 Jungwon Kim, Yongjun Sung
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>AI治理</category><category>伦理</category><category>AI采用</category><category>AI助手</category><category>可解释AI</category>
+    </item>    <item>
       <title>语音助手技术在发育障碍与肢体残障人群中的应用</title>
       <link>https://ur-ai-papers.vercel.app/papers/34579</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/34579</guid>
@@ -378,106 +474,6 @@ EN: Facilitator or Hallucination Trap? A Social-Cognitive Account of AI-Generate
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>AI 依赖</category><category>人机交互(HCI)</category><category>可解释性</category><category>GenAI</category><category>LLM</category><category>ChatGPT</category>
-    </item>    <item>
-      <title>医生与基于LLM的聊天机器人交互评估：基于ChatGPT的希腊全国医疗研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33819</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33819</guid>
-      <description>📝 医生与基于LLM的聊天机器人交互评估：基于ChatGPT的希腊全国医疗研究
-EN: Evaluating the interactions of Medical Doctors with chatbots based on large language models: Insights from a nationwide study in the Greek healthcare sector using ChatGPT
-
-💡 基于希腊全国性调查，评估医生与ChatGPT等大语言模型聊天机器人的交互体验，探讨医疗场景下LLM的可用性、医生采纳态度、使用障碍及对临床工作的潜在影响。
-
-📚 CHB · 2024 · 引用 21
-👤 Loukas Triantafyllopoulos, Georgios Feretzakis, Lazaros Tzelves, Aikaterini Sakagianni, Vassilios S. Verykios
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI采用</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>ChatGPT</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>余晖：面向AI介导宠物哀伤的在地纪念生态</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33732</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33732</guid>
-      <description>📝 余晖：面向AI介导宠物哀伤的在地纪念生态
-EN: Afterglow: A Place-Based Memorial Ecology for AI-Mediated Pet Bereavement
-
-💡 研究宠物丧失后AI纪念场景的设计伦理。通过Research through Design方法，构建Afterglow移动应用，融合私人纪念、人际见证与宠物象征性消息。基于57人问卷与20人两轮圆桌工作坊，提出Legible Restraint跨层设计原则，剖析陪伴回响与情感义务、可识别形象与本体清晰、保护干预与监控权威之间的张力，主张为告别而设计。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Hanjing Shi, Dominic DiFranzo
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38729v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>服务设计</category><category>AI 伦理</category><category>情感计算</category><category>GenAI</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>人们如何使用ChatGPT：来自印度、尼日利亚、巴西和巴基斯坦的对话级证据</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33731</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33731</guid>
-      <description>📝 人们如何使用ChatGPT：来自印度、尼日利亚、巴西和巴基斯坦的对话级证据
-EN: How People Use ChatGPT: Conversation-Level Evidence from India, Nigeria, Brazil, and Pakistan
-
-💡 基于印度、尼日利亚、巴西、巴基斯坦四国1252名用户共20万余条ChatGPT对话数据，跨期三年，分析其使用目的、话题与互动模式，发现个人用途占比超半数，且各国呈现健康、宗教、翻译、自我反思等本土化主题，补充平台聚合报告之外的会话级人口学证据。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Shreyasi Roy Chowdhury, Kiran Garimella
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38279v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI 采用</category><category>消费者行为</category><category>用户研究方法</category><category>用户画像</category><category>LLM</category><category>ChatGPT</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>人机协作中的指称不确定性</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33730</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33730</guid>
-      <description>📝 人机协作中的指称不确定性
-EN: Referential Uncertainty in Human--AI Collaboration
-
-💡 研究人机协作中的指称不确定性。协作拼图任务发现，VLM原始行动token概率严重过度自信（ECE 0.44），而独立引出的信念分布校准更优（ECE 0.15）。GPT-4.1/5/5.5几乎不主动表达不确定性（澄清请求仅3.5–16.7%）。210人对照实验表明，精确描述与针对性犹豫可将错误放置接受率从78%降至36%，补偿共享感知的缺失。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Christian Poelitz, Finale Doshi-Velez, Siân Lindley
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.39518v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>可解释性</category><category>信任</category><category>LLM</category><category>多模态</category><category>人机协作</category>
-    </item>    <item>
-      <title>AIfred：基于功能性机器人具身的桌面增强学习</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33723</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33723</guid>
-      <description>📝 AIfred：基于功能性机器人具身的桌面增强学习
-EN: AIfred: Augmented Learning through Functional Robotic Embodiment at the Desk
-
-💡 设计桌面机器人手臂AIfred，将AI生成指导投影到手写工作旁以弥合屏幕与思考空间的距离。36人用户研究对比笔记本电脑版ChatGPT：辅助可用时两者效果相当，撤除辅助后AIfred短期学习迁移提升60%。艺术与设计教授在33/36件作品中偏好AIfred绘画，验证空间共位AI辅助对共享空间框架任务更有效。
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Gregorio Orlando, Milan Groshev, Eduardo Castelló Ferrer
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38737v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>可用性测试</category><category>服务设计</category><category>GenAI</category><category>LLM</category><category>智能体/Agent</category><category>图像生成</category>
-    </item>    <item>
-      <title>AI语音代理中的角色与说服性框架：基于儿童的2×2田野实验</title>
-      <link>https://ur-ai-papers.vercel.app/papers/33722</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/33722</guid>
-      <description>📝 AI语音代理中的角色与说服性框架：基于儿童的2×2田野实验
-EN: Persona and Persuasive Framing in AI Voice Agents: A $2\times2$ Field Experiment with Children
-
-💡 2×2随机实地实验嵌入德国圣诞老人热线，测试LLM语音代理对儿童（中位年龄6岁）亲社会愿望的影响。劝说性框架使亲社会愿望概率从11.6%升至45.7%，而角色权威（圣诞老人vs助手）效应近零，仅影响参与度——儿童更早挂断助手电话。结论：当情境已赋予代理合法性时，"如何说"比"声称是谁"更塑造儿童顺从。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Thilo Tamme, David Steck, Anton Hantel
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2609.38782v1</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <category>儿童/老人/无障碍</category><category>对话式 AI</category><category>人机交互(HCI)</category><category>AI 助手</category><category>LLM</category><category>GenAI</category><category>对话式 AI</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>
