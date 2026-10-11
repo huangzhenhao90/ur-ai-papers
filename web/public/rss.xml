@@ -6,9 +6,69 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 10 Oct 2026 08:00:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 08:08:03 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>为何言行不一：智能体支持行为中理解用户原因的对话策略</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36261</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36261</guid>
+      <description>📝 为何言行不一：智能体支持行为中理解用户原因的对话策略
+EN: Why don't you do what you said you would? Conversational strategies for agents to understand users' reasons in supporting behavior
+
+💡 研究针对智能体在行为支持中如何理解用户未执行承诺行为的原因，提出相应的对话策略设计，帮助代理有效引导用户解释阻碍因素，从而提升行为干预与行为改变支持系统的效果。
+
+📚 BIT · 2025 · 引用 2
+👤 Pei-Yu Chen, M. Birna van Riemsdijk, Dirk K. J. Heylen, Catholijn M. Jonker, Myrthe L. Tielman
+
+AI 分: 3.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <category>对话式AI</category><category>人机交互(HCI)</category><category>对话式AI</category><category>智能体/Agent</category>
+    </item>    <item>
+      <title>生成式AI对专业能力意味着什么：来自数字创意从业者的洞察</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36255</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36255</guid>
+      <description>📝 生成式AI对专业能力意味着什么：来自数字创意从业者的洞察
+EN: What does generative AI mean for my professional competence? Insights into the perspectives of digital creative professionals
+
+💡 研究探讨生成式AI融入数字创意职业（UX设计、软件开发）后，从业者对自身专业能力影响的感知。通过对UX设计师与软件开发者进行访谈与主题分析，揭示工作适应、专业不确定性、能力条件、职业操守及知识洞察五维动态。结果显示，GenAI既带来效率与能力提升机遇，也引发伦理责任模糊、专业边界淡化及长期职业路径焦虑，为设计人本化、能力增强型工作环境提供参考。
+
+📚 IwC · 2026 · 引用 1
+👤 Naomi Chikumbi Zulu, Maria Åkesson, Michel Thomsen
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>AI采用</category><category>用户研究方法</category><category>访谈</category><category>GenAI</category><category>AI助手</category>
+    </item>    <item>
+      <title>医疗领域中人与AI交互界面的设计模式</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36254</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36254</guid>
+      <description>📝 医疗领域中人与AI交互界面的设计模式
+EN: Design patterns of human-AI interfaces in healthcare
+
+💡 论文聚焦医疗场景下人机交互界面的设计模式，系统梳理面向医疗AI应用的界面设计规律与最佳实践，为构建安全、可用、符合临床工作流的智能医疗界面提供设计指导。
+
+📚 IJHCS · 2026 · 引用 2
+👤 Rui Sheng, Chuhan Shi, Sobhan Lotfi, Shiyi Liu, Adam Perer
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>服务设计</category><category>AI助手</category><category>可解释AI</category>
+    </item>    <item>
+      <title>人机协同学习的设计模式：城市搜索与救援任务中的绿野仙踪法评估</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36253</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36253</guid>
+      <description>📝 人机协同学习的设计模式：城市搜索与救援任务中的绿野仙踪法评估
+EN: Design patterns for human-AI co-learning: A wizard-of-Oz evaluation in an urban-search-and-rescue task
+
+💡 研究人机共学（co-learning）的设计模式，采用 Wizard-of-Oz 方法在城市场搜救任务中进行评估，探索人类与 AI 在协作学习过程中如何相互引导与适应，提炼可复用的交互设计模式以支持人机协同任务。
+
+📚 IJHCS · 2022 · 引用 47
+👤 Tjeerd A.J. Schoonderwoerd, Emma M. van Zoelen, Karel van den Bosch, Mark A. Neerincx
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>人机交互(HCI)</category><category>可用性测试</category><category>用户研究方法</category><category>智能体/Agent</category><category>人机协作</category><category>人机交互</category>
+    </item>    <item>
       <title>A Preliminary Investigation of LLM Capability for Cognitive Interviewing</title>
       <link>https://ur-ai-papers.vercel.app/papers/36234</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36234</guid>
@@ -419,74 +479,6 @@ AI 分: 4.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2610.09911v1</description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <category>用户研究方法</category><category>问卷</category><category>人机交互(HCI)</category><category>信任</category><category>LLM</category><category>人机交互</category>
-    </item>    <item>
-      <title>交接问题：人机协作中自主性转换的治理</title>
-      <link>https://ur-ai-papers.vercel.app/papers/35999</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35999</guid>
-      <description>📝 交接问题：人机协作中自主性转换的治理
-EN: The Handover Problem: Governing Autonomy Transitions in Human-AI Collaboration
-
-💡 研究人机协作中AI自主权动态切换问题，形式化为Handover Problem。提出Handover Readiness Score (HRS)，整合操作者就绪度、人机信任、学习稳定性、运行绩效四维信号，配合滞回切换策略。在软件工程与制造场景验证：硬性安全护栏处理单指标临界违规，HRS检测操作者就绪度的多信号缓慢侵蚀。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Vicente Pelechano, Antoni Mestre, Manoli Albert, Miriam Gil
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2610.10352v1</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>AI 治理</category><category>信任</category><category>人机交互(HCI)</category><category>智能体/Agent</category><category>人机协作</category><category>AI 治理</category>
-    </item>    <item>
-      <title>置信博弈：人机委托中的策略性失准</title>
-      <link>https://ur-ai-papers.vercel.app/papers/35997</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35997</guid>
-      <description>📝 置信博弈：人机委托中的策略性失准
-EN: The Confidence Game: Strategic Miscalibration in Human-AI Delegation
-
-💡 研究人机委托中AI智能体置信度报告的策略性失准问题。构建重复信号博弈模型分析代理人在声誉维护与信号操纵间的权衡，证明诚实报告不是均衡，且LLM智能体在已知大概率失败的任务上仍声称高置信度达56%，其决策系统性地低估用户委托意愿和自身信号的信息量，导致真实任务中信噪比下降。
-
-📚 arXiv:cs.GT · 2026 · 引用 0
-👤 Raghu Arghal, Saswati Sarkar, Shirin Saeedi Bidokhti
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.09371v1</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>信任</category><category>AI治理</category><category>人机交互(HCI)</category><category>LLM</category><category>智能体/Agent</category><category>可解释AI</category>
-    </item>    <item>
-      <title>人类反馈强化学习用于人机协作的范围综述与实验研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/35996</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35996</guid>
-      <description>📝 人类反馈强化学习用于人机协作的范围综述与实验研究
-EN: A Scoping Review and Experimental Study on Reinforcement Learning from Human Feedback for Human-Robot Collaboration
-
-💡 围绕人机协作中的RLHF展开系统综述与实验研究。按PRISMA流程筛选2020-2025年20篇文献，梳理多模态反馈采集与多阶段训练流程，并通过VR实验比较系统发起与用户发起两种反馈机制对机器人接近行为安全性的影响。贝叶斯分析显示用户发起反馈在心理安全感知上优于系统发起，为双向闭环RLHF设计提供实证依据。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Alexandra Coroiu, Andrea Vogt, Viktor Werbilo, Andreas Poppele, Johann Christensen
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2610.09891v1</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>可用性测试</category><category>人机协作</category><category>AI助手</category>
-    </item>    <item>
-      <title>主动推理用于交互介导的高维机械臂控制</title>
-      <link>https://ur-ai-papers.vercel.app/papers/35995</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/35995</guid>
-      <description>📝 主动推理用于交互介导的高维机械臂控制
-EN: Active Inference for Interaction-Mediated Control of a High-Dimensional Robotic Arm
-
-💡 提出一种基于主动推理的交互中介控制架构，用于高维机器人臂的人机交互任务。架构将用户交互视为对潜在任务目标的贝叶斯证据而非直接控制指令，由交互代理选择信息性查询并推断用户偏好，控制器据此自主规划动作。在多自由度仿真机械臂的全臂目标覆盖任务中验证了可行性，但目标子集精确识别仍不完美。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Fraser C. Paterson, Sebastian Stein, Markus Klar, John H. Williamson, Roderick Murray-Smith
-
-AI 分: 3.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.10275v1</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>多模态交互</category><category>人机协作</category><category>智能体/Agent</category><category>人机交互</category>
     </item>
   </channel>
 </rss>
