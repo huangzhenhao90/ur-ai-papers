@@ -6,9 +6,69 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Oct 2026 06:41:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:44:25 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>当AI设定价格：消费者如何解读价格形式与意图</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36922</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36922</guid>
+      <description>📝 当AI设定价格：消费者如何解读价格形式与意图
+EN: When
+                    &amp;lt;scp&amp;gt;AI&amp;lt;/scp&amp;gt;
+                    Sets the Price: How Consumers Interpret Price Formats and Intent
+
+📚 JCA · 2026 · 引用 0
+👤 Alvaro Chacon, Ricardo Limongi
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      
+    </item>    <item>
+      <title>人类信任模型能否迁移至人工智能：大语言模型教练中人际信任前因的必要条件分析</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36885</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36885</guid>
+      <description>📝 人类信任模型能否迁移至人工智能：大语言模型教练中人际信任前因的必要条件分析
+EN: Do human trust models transfer to AI? a necessary condition analysis of interpersonal trust antecedents in large language model-based coaching
+
+💡 探讨人际关系中的信任前置因素能否迁移到AI场景，聚焦大语言模型驱动的辅导情境。通过必要条件分析，检验人际信任的经典前提条件在LLM教练交互中是否依然成立，对比人-人信任与人-AI信任的边界，为AI信任理论建构与人机交互中的信任设计提供依据。
+
+📚 BIT · 2026 · 引用 1
+👤 Sophia Meywirth, Andreas Janson, Matthias Söllner
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互(HCI)</category><category>人机协作</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>智能体人格对生成式对话搜索中信息源点击、依赖与信任的影响及健康素养的调节作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36884</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36884</guid>
+      <description>📝 智能体人格对生成式对话搜索中信息源点击、依赖与信任的影响及健康素养的调节作用
+EN: The effect of agent persona on source-clicking, reliance and trust in generative conversational search and the moderating role of health literacy
+
+💡 考察生成式对话搜索中智能体人格（agent persona）对用户信息源点击、依赖与信任的影响，并探究健康素养的调节作用。研究揭示不同AI人格特征如何塑造用户对信息来源的选择与依赖程度，以及具备不同健康素养水平的用户在对话式AI搜索情境下的差异化反应，应用于健康信息获取场景。
+
+📚 BIT · 2026 · 引用 1
+👤 Shatha Degachi, Evangelos Niforatos, Gerd Kortuem
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互(HCI)</category><category>AI 采用</category><category>可访问性</category><category>GenAI</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>RadarHand：腕戴式雷达的肤触本体感觉手势识别</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36868</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36868</guid>
+      <description>📝 RadarHand：腕戴式雷达的肤触本体感觉手势识别
+EN: RadarHand: A Wrist-Worn Radar for On-Skin Touch-Based Proprioceptive Gestures
+
+💡 研究手腕佩戴的毫米波雷达设备RadarHand，用于检测手背敲击式本体感觉手势。先评估手背各关节的本体感觉与触觉感知特性（拇指误差最小），再基于深度学习模型对通用手势与离散手势分类，在7-8种手势上分别达到92%与93%准确率。最后在主动与被动两种实时交互模式下实时测试，分别取得87%与74%的准确率。
+
+📚 TOCHI · 2024 · 引用 23
+👤 Ryo Hajika, Tamil Selvan Gunasekaran, Chloe Dolma Si Ying Haigh, Yun Suen Pai, Eiji Hayashi
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>可穿戴设备</category><category>多模态交互</category><category>深度学习</category><category>人机交互</category><category>手势识别</category>
+    </item>    <item>
       <title>Agentic-Priors：利用大语言模型解决偏好引导中的冷启动问题</title>
       <link>https://ur-ai-papers.vercel.app/papers/36843</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36843</guid>
@@ -89,7 +149,9 @@ EN: Marketing misinformation in the age of
 📚 JCP · 2026 · 引用 0
 👤 Gita Venkataramani Johar, Amna Kirmani
 
-AI 分: 5.0 / 领域分: 4.0</description>
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jcpy.70043</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <category>营销</category><category>伦理</category><category>AI 治理</category><category>消费者行为</category><category>GenAI</category><category>LLM</category><category>多模态</category><category>图像生成</category>
     </item>    <item>
@@ -177,7 +239,9 @@ EN: The Reflection Penalty: when managers accept leadership coaching from a huma
 📚 HCI · 2026 · 引用 0
 👤 Tessa Forshaw, Jacob Hale, Mari Longmire
 
-AI 分: 5.0 / 领域分: 4.0</description>
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://www.tandfonline.com/doi/pdf/10.1080/07370024.2026.2744236?needAccess=true</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       
     </item>    <item>
@@ -407,68 +471,6 @@ EN: Skeptik: A Hybrid Framework for Combating Potential Misinformation in Journa
 AI 分: 4.0 / 领域分: 3.0</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>可解释性</category><category>在线社区</category><category>AI 治理</category><category>LLM</category><category>GenAI</category><category>可解释 AI</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>以AAR/AI方法发现AI的缺陷：一项实证研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36653</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36653</guid>
-      <description>📝 以AAR/AI方法发现AI的缺陷：一项实证研究
-EN: Finding AI’s Faults with AAR/AI: An Empirical Study
-
-💡 提出AAR/AI(AI事后回顾)评估流程并与可解释AI系统集成。面向具备领域知识的用户开展实证研究，发现AAR/AI参与者在AI缺陷定位上比对照组召回率与精确率均显著更高，发现任一缺陷的概率约为对照组的六倍；标签机制可能促进用户从具体实例抽象出一般性认识。
-
-📚 TiiS · 2022 · 引用 8
-👤 Roli Khanna, Jonathan Dodge, Andrew Anderson, Rupika Dikkala, Jed Irvine
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>人机交互(HCI)</category><category>信任</category><category>用户研究方法</category><category>可解释 AI</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>为BCI专家设计XAI界面：特定情境下基于领域知识的实用解释界面设计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36646</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36646</guid>
-      <description>📝 为BCI专家设计XAI界面：特定情境下基于领域知识的实用解释界面设计
-EN: Designing an XAI interface for BCI experts: A contextual design for pragmatic explanation interface based on domain knowledge in a specific context
-
-💡 针对脑机接口(BCI)领域专家，采用语境化设计方法构建可解释AI(XAI)界面。基于特定情境下的领域知识，设计面向专家用户的务实解释界面，探讨如何将XAI与BCI专业工作流有效结合。
-
-📚 IJHCS · 2023 · 引用 21
-👤 Sangyeon Kim, Sanghyun Choo, Donghyun Park, Hoonseok Park, Chang S. Nam
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>可解释 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>为何选择此AI应用：生成式人工智能对教育者教育应用选择的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36637</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36637</guid>
-      <description>📝 为何选择此AI应用：生成式人工智能对教育者教育应用选择的影响
-EN: Why this AI app? The impact of generative artificial intelligence on educators’ choices in educational apps
-
-💡 研究生成式AI如何影响教育工作者在挑选教育类应用时的选择行为与决策逻辑，探讨教育者面对GenAI赋能的应用时如何权衡、筛选与采纳。
-
-📚 CHB · 2026 · 引用 0
-👤 Emma Liptrot, Adam Kenneth Dubé
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI采用</category><category>消费者行为</category><category>人机交互</category><category>GenAI</category><category>LLM</category><category>AI助手</category>
-    </item>    <item>
-      <title>RALI@iKAT 2026：基于个性化对话式密集检索的检索感知用户画像去噪</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36587</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36587</guid>
-      <description>📝 RALI@iKAT 2026：基于个性化对话式密集检索的检索感知用户画像去噪
-EN: RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval
-
-💡 针对对话式信息检索中用户画像随时间累积产生噪声的问题，提出个性化对话密集检索方法 PCDR，将对话历史与用户画像联合映射到面向检索的潜在嵌入空间，实现检索感知的画像去噪，仅需少量个性化相关性标注即可训练，在 iKAT 2026 任务中作为对话 AI 智能体的核心检索组件进行验证。
-
-📚 arXiv:cs.IR · 2026 · 引用 0
-👤 Yuchen Hui, Fengran Mo, Jia Ao Sun, Yuxing Tian, Wenhao Xu
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.17673v1</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>个性化</category><category>推荐系统</category><category>人机交互(HCI)</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category><category>AI 推荐</category>
     </item>
   </channel>
 </rss>
