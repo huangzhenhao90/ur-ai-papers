@@ -6,9 +6,54 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 06:44:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 06:53:52 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>时间序列中人机协同异常检测的可靠框架</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36994</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36994</guid>
+      <description>📝 时间序列中人机协同异常检测的可靠框架
+EN: A Reliable Framework for Human-in-the-Loop Anomaly Detection in Time Series
+
+💡 针对时序异常检测模型缺乏可扩展且双向人机协作的问题，提出HILAD框架，通过可视化界面让领域专家在大规模数据上检测、解释并即时修正模型的异常行为，经多数据集用户研究验证可提升模型理解与可靠性。
+
+📚 TiiS · 2026 · 引用 6
+👤 Ziquan Deng, Xiwei Xuan, Kwan-Liu Ma, Zhaodan Kong
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>可解释性</category><category>可视化</category><category>HCI</category><category>可解释 AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>高等教育学生使用生成式AI聊天机器人应对心理健康问题的流行率及相关因素</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36978</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36978</guid>
+      <description>📝 高等教育学生使用生成式AI聊天机器人应对心理健康问题的流行率及相关因素
+EN: Prevalence and Correlates of GenerativeAI Chatbot Use for Mental Health Concerns in Higher Education Students
+
+💡 针对高等教育学生群体，调查使用生成式AI聊天机器人应对心理健康问题的普遍程度及其相关因素，揭示大学生在心理健康支持场景下采纳GenAI的现状、动机与潜在风险。
+
+📚 CHB · 2026 · 引用 0
+👤 Elyse J. Thulin
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>问卷</category><category>AI 采用</category><category>消费者行为</category><category>GenAI</category><category>ChatGPT</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
+      <title>从像素到感知：通过评论和元数据预测电子游戏评级</title>
+      <link>https://ur-ai-papers.vercel.app/papers/36966</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36966</guid>
+      <description>📝 从像素到感知：通过评论和元数据预测电子游戏评级
+EN: From pixels to perceptions: Predicting video game ratings through reviews and metadata
+
+💡 基于游戏评论文本与元数据，利用自然语言处理与机器学习方法预测电子游戏的用户评分，探索从用户感知文本到量化评级的映射，为游戏推荐与市场分析提供支持。
+
+📚 CHB · 2026 · 引用 1
+👤 Yavuz Selim Balcioğlu, Erkut Altindağ
+
+AI 分: 3.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>推荐系统</category><category>消费者行为</category><category>用户研究方法</category><category>LLM</category><category>推荐算法</category><category>多模态</category>
+    </item>    <item>
       <title>当AI设定价格：消费者如何解读价格形式与意图</title>
       <link>https://ur-ai-papers.vercel.app/papers/36922</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36922</guid>
@@ -17,12 +62,14 @@ EN: When
                     &amp;lt;scp&amp;gt;AI&amp;lt;/scp&amp;gt;
                     Sets the Price: How Consumers Interpret Price Formats and Intent
 
+💡 研究AI与人类定价对消费者反应的影响。两项实验（智利学生165人、美国消费者631人）发现：消费者对AI定价反应更消极；AI定价时偏好整数价格而非尾数价格；机制为尾数价格加剧了消费者对AI定价意图的操控感，进而降低推荐意愿与购买意向。
+
 📚 JCA · 2026 · 引用 0
 👤 Alvaro Chacon, Ricardo Limongi
 
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      
+      <category>消费者行为</category><category>定价策略</category><category>AI采用</category><category>心理定价</category><category>算法定价</category><category>AI定价</category>
     </item>    <item>
       <title>人类信任模型能否迁移至人工智能：大语言模型教练中人际信任前因的必要条件分析</title>
       <link>https://ur-ai-papers.vercel.app/papers/36885</link>
@@ -164,7 +211,7 @@ EN: Social robots in the real world: an analysis of social robot use based on co
 💡 基于在线消费者评论数据，对真实场景中社交机器人的使用情况进行实证分析，探讨用户的使用模式、场景、满意度与痛点，揭示消费者对社交机器人的接受度与实际体验差异，为产品迭代与市场推广提供依据。
 
 📚 BIT · 2026 · 引用 0
-👤 Katarzyna Kabacińska, Gabriella Guerra, Mallorie T. Tam, Julie M. Robillard
+👤 Katarzyna Kabacińska, Gabriella K. Guerra, Mallorie T. Tam, Julie M. Robillard
 
 AI 分: 3.0 / 领域分: 4.0</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
@@ -236,6 +283,8 @@ AI 分: 4.0 / 领域分: 3.0</description>
       <description>📝 反思惩罚：管理者接受人类而非AI代理领导力辅导的现象
 EN: The Reflection Penalty: when managers accept leadership coaching from a human but not an AI agent
 
+💡 在全球咨询公司开展设计研究，8名管理者先后接受同一反思协议下的人类教练与AI文本教练辅导。结果显示尽管协议一致，管理者抗拒AI教练的发问式反思，期望其直接给答案。由此提出"反思惩罚"理论，并绘制人机协作的jobs-to-be-done地图，划分教练任务在人机间的分工。
+
 📚 HCI · 2026 · 引用 0
 👤 Tessa Forshaw, Jacob Hale, Mari Longmire
 
@@ -243,7 +292,7 @@ AI 分: 5.0 / 领域分: 4.0
 
 📄 PDF: https://www.tandfonline.com/doi/pdf/10.1080/07370024.2026.2744236?needAccess=true</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      
+      <category>人机协作</category><category>HCI</category><category>AI拒绝</category><category>服务设计</category><category>AI助手</category><category>对话式AI</category>
     </item>    <item>
       <title>理解AI队友礼仪的影响与设计</title>
       <link>https://ur-ai-papers.vercel.app/papers/36776</link>
@@ -345,6 +394,8 @@ AI 分: 5.0 / 领域分: 5.0
       <description>📝 任务状态治理：可验证且可恢复的 GUI 智能体执行虚拟机
 EN: Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution
 
+💡 针对GUI智能体执行漂移的治理难题，提出"任务状态治理"范式，将任务表达为可编辑契约。实例化系统TaskVM把实时应用状态投射为可编辑任务控件，将用户编辑转化为真实操作，独立验证结果并标注可逆/可补偿/不可逆。自动化基准、受控用户研究与开放探索显示其提升了契约合规性、用户恢复控制与信任。
+
 📚 arXiv:cs.HC · 2026 · 引用 0
 👤 Wenkui Yang, Yiming Hao, Kai Zhou, Chengyu Pu, Yuzhe Zhang
 
@@ -352,7 +403,7 @@ AI 分: 5.0 / 领域分: 4.0
 
 📄 PDF: https://arxiv.org/pdf/2610.20100v1</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      
+      <category>人机协作</category><category>HCI</category><category>AI治理</category><category>信任</category><category>智能体/Agent</category><category>AI治理</category><category>可解释AI</category>
     </item>    <item>
       <title>服务企业是否应向现有客户引入算法建议：服务关系的调节效应</title>
       <link>https://ur-ai-papers.vercel.app/papers/36720</link>
@@ -426,51 +477,6 @@ EN: Evaluating chatbots’ adherence to the integrated model of advice giving: p
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>对话式 AI</category><category>可用性测试</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category><category>Chatbot</category>
-    </item>    <item>
-      <title>常见心理健康障碍的筛查：聊天机器人系统的心理测量学评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36663</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36663</guid>
-      <description>📝 常见心理健康障碍的筛查：聊天机器人系统的心理测量学评估
-EN: Screening for common mental health disorders: a psychometric evaluation of a chatbot system
-
-💡 研究对用于常见心理健康障碍筛查的聊天机器人系统进行心理测量学评估，检验其在抑郁、焦虑等量表施测中的信效度与测量等价性，探讨对话式 AI 作为低成本、可扩展心理筛查工具的可行性与局限。
-
-📚 BIT · 2023 · 引用 10
-👤 Ioana R. Podina, Ana-Maria Bucur, Liviu Fodor, Rareș Boian
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>情感计算</category><category>可用性测试</category><category>用户研究方法</category><category>AI 采用</category><category>对话式 AI</category><category>AI 助手</category><category>Chatbot</category>
-    </item>    <item>
-      <title>旁观者眼中的公平：性别偏见对齐如何影响人机团队中的公平感知与依赖</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36655</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36655</guid>
-      <description>📝 旁观者眼中的公平：性别偏见对齐如何影响人机团队中的公平感知与依赖
-EN: Fairness in the Eye of the Beholder: How Gender Bias Alignment Influences Fairness Perceptions and Reliance in Human–AI Teams
-
-💡 研究人机协作中AI与人类决策者的性别偏见一致性如何影响用户对公平性的感知及对AI建议的依赖程度。通过两项2×2被试间实验，发现即使AI系统在形式上满足公平性标准，当其偏见方向与用户自身不一致时，用户倾向于推翻AI建议；偏见对齐显著调节公平感知、自我信心与依赖行为。
-
-📚 TiiS · 2026 · 引用 0
-👤 Domenique Zipperling, Luca Deck, Julia Lanzl, Niklas Kühl
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>信任</category><category>可解释性</category><category>伦理</category><category>可解释 AI</category><category>人机协作</category><category>人机交互</category>
-    </item>    <item>
-      <title>Skeptik：打击新闻业潜在错误信息的混合框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/36654</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/36654</guid>
-      <description>📝 Skeptik：打击新闻业潜在错误信息的混合框架
-EN: Skeptik: A Hybrid Framework for Combating Potential Misinformation in Journalism
-
-💡 针对新闻中逻辑谬误导致的事实误导问题，提出 Skeptik 混合框架，将 LLM 与启发式方法结合，以浏览器插件形式自动高亮可疑句子并给出多层干预解释。通过案例研究、可用性实验与专家评估验证其在促进批判性阅读与媒介素养方面的有效性，并提供可扩展的谬误分类体系。
-
-📚 TiiS · 2026 · 引用 1
-👤 Arlen Fan, Fan Lei, Steven R. Corman, Ross Maciejewski
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>可解释性</category><category>在线社区</category><category>AI 治理</category><category>LLM</category><category>GenAI</category><category>可解释 AI</category><category>对话式 AI</category>
     </item>
   </channel>
 </rss>
