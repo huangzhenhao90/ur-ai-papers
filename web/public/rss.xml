@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 06:49:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 06:49:20 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>大数据与情感分析凸显决策行为：学生群体案例研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37572</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37572</guid>
+      <description>📝 大数据与情感分析凸显决策行为：学生群体案例研究
+EN: Big data and sentiment analysis to highlight decision behaviours: a case study for student population
+
+💡 一项学生群体案例研究结合大数据与情感分析识别并凸显决策行为，探索利用大规模行为与情绪数据刻画学生选择模式的方法。
+
+📚 BIT · 2018 · 引用 35
+👤 Orlando Troisi, Mara Grimaldi, Francesca Loia, Gennaro Maione
+
+AI 分: 3.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <category>决策行为</category><category>情感计算</category><category>大数据分析</category><category>学生群体</category><category>情感分析</category><category>情感识别</category>
+    </item>    <item>
+      <title>语音 UX 操控检验的解构</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37568</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37568</guid>
+      <description>📝 语音 UX 操控检验的解构
+EN: Unboxing Manipulation Checks for Voice UX
+
+💡 三项案例展示语音UX研究为何必须严谨验证计算机生成声音确为被操控变量：应检验假设，审慎设计回答选项和测量，并结合探索性方法理解用户感知与体验，避免把未成立的操控当作既定事实。
+
+📚 IwC · 2025 · 引用 9
+👤 Katie Seaborn, Katja Rogers, Maximilian Altmeyer, Mizuki Watanabe, Yuto Sawa
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>用户研究方法</category><category>可用性</category><category>语音交互</category><category>对话式 AI</category><category>LLM</category>
+    </item>    <item>
       <title>UserArena：面向长周期购物代理的交互式用户模拟基准测试</title>
       <link>https://ur-ai-papers.vercel.app/papers/37519</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37519</guid>
@@ -219,6 +249,8 @@ AI 分: 5.0 / 领域分: 4.0
       <description>📝 透过表征工作：面向人-智能体知识协作的可塑工作空间
 EN: Working Through Representation: Malleable Workspaces for Human-Agent Knowledge Work
 
+💡 针对对话历史难以承载并持续组织知识工作的问题，构建可塑工作空间模型，让人类与智能体共同形成、修订工作表征。通过58篇论文比较及7名资深用户三个月纵向研究，揭示多数系统仅支持局部纳入智能体输出，较少支持表征重构及改变工作环境，为表示中心的人机设计提供基础。
+
 📚 arXiv:cs.HC · 2026 · 引用 0
 👤 Nan Chen, Long Ling, Luna K. Qiu, Zilong Wang, Yuqing Yang
 
@@ -226,13 +258,15 @@ AI 分: 5.0 / 领域分: 5.0
 
 📄 PDF: https://arxiv.org/pdf/2610.30893v1</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      
+      <category>人机交互(HCI)</category><category>人机协作</category><category>知识工作</category><category>工作空间</category><category>GenAI</category><category>智能体/Agent</category><category>人机交互</category>
     </item>    <item>
       <title>CoWriter：引导方法性与协同性的人-LLM 共同写作</title>
       <link>https://ur-ai-papers.vercel.app/papers/37497</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37497</guid>
       <description>📝 CoWriter：引导方法性与协同性的人-LLM 共同写作
 EN: CoWriter: Guiding Methodological and Synergetic Human-LLM Co-Authoring
+
+💡 面向标准聊天—画布界面易使长文写作沦为被动监督并引发审查疲劳与过度依赖的问题，将认知科学中的写作方法转化为贯穿全流程的主动式LLM协同方案。探索性研究显示，该方案使用户与智能体的成功互动达到基线的2.2倍，同时增强观点表达、文档归属感以及文本的故事性和个人经验。
 
 📚 arXiv:cs.CL · 2026 · 引用 0
 👤 Shmuel Amar, Benjamin Lieber, Ori Shapira, Debanjana Kar, Sebastian Maximilian Dennerlein
@@ -241,7 +275,7 @@ AI 分: 5.0 / 领域分: 5.0
 
 📄 PDF: https://arxiv.org/pdf/2610.31277v1</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      
+      <category>人机协作</category><category>人机交互(HCI)</category><category>长文写作</category><category>用户研究</category><category>LLM</category><category>智能体/Agent</category><category>人机协作</category>
     </item>    <item>
       <title>浏览器内人-AI 反话共写：自主性、感知质量与时间的探索性用户研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/37496</link>
@@ -464,40 +498,6 @@ EN: Gain-loss separability in human- but not computer-based changes of mind
 AI 分: 3.0 / 领域分: 3.0</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>消费者行为</category><category>可解释性</category><category>人机交互</category><category>人机协作</category>
-    </item>    <item>
-      <title>面向老年人主观认知衰退筛查的对话式人工智能</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37292</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37292</guid>
-      <description>📝 面向老年人主观认知衰退筛查的对话式人工智能
-EN: Conversational AI for Perceived Cognitive Decline Screening in Older Adults
-
-💡 针对老年人认知衰退筛查资源消耗大的问题，研究评估基于聊天机器人的智能认知助手（ICA）通过问答访谈进行感知认知衰退及相关认知、功能与人格结局筛查的效果。比较传统机器学习、冻结Transformer嵌入、微调Transformer及LLM推理等多种策略，结果显示Gemini Flash Lite在聚合问答流程中取得最高文本分类准确率（0.742），但结构化问卷与认知任务模型整体优于纯文本方法。
-
-📚 arXiv:cs.IR · 2026 · 引用 0
-👤 Nikita Gautam, Moana Sargent, Kaitlyn Sievers, Ashley Sylvara, Doina Caragea
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.27344v1</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI 助手</category><category>对话式 AI</category><category>情感计算</category><category>人机协作</category><category>可用性</category><category>LLM</category><category>对话式 AI</category><category>ChatGPT</category>
-    </item>    <item>
-      <title>AutoSim：面向对话搜索评估的自改进用户模拟器</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37291</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37291</guid>
-      <description>📝 AutoSim：面向对话搜索评估的自改进用户模拟器
-EN: AutoSim: A Self-Improving User Simulator for Conversational Search Evaluation
-
-💡 研究对话搜索系统中用户模拟器评估的真实性问题。AutoSim通过微调自身权重（而非仅依赖提示工程）逼近真实用户行为，在TREC iKAT三个年份上与NIST评估达成高Kendall τ一致性（0.66–0.91）。微调后模拟会话与真实会话的分类AUC从0.85降至0.45，人类判读者亦无法区分。仅用提示的模拟器会高估检索效果达0.136 nDCG，足以改变部署决策；只有权重级模拟器能规避此偏差。
-
-📚 arXiv:cs.IR · 2026 · 引用 0
-👤 Saber Zerhoudi, Jelena Mitrovic, Michael Granitzer
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.28054v1</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>可用性测试</category><category>人机交互(HCI)</category><category>推荐系统</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
     </item>
   </channel>
 </rss>
