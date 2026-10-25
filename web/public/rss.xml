@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 06:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 07:16:05 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>基于人格与价值观预测用户电影偏好及评分行为</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37642</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37642</guid>
+      <description>📝 基于人格与价值观预测用户电影偏好及评分行为
+EN: Predicting Users’ Movie Preference and Rating Behavior from Personality and Values
+
+💡 整合Twitter与IMDb中的社交语言、评论及观影数据，从推文提取人格与价值观特征，预测电影类型偏好和评分行为。融合人格与价值观的模型显著优于单一因素模型及传统预测方法，可提升电影推荐与评分预测的准确性。
+
+📚 TiiS · 2020 · 引用 30
+👤 Euna Mehnaz Khan, Md. Saddam Hossain Mukta, Mohammed Eunus Ali, Jalal Mahmud
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>推荐系统</category><category>个性化</category><category>消费者行为</category><category>用户画像</category><category>AI 推荐</category><category>推荐算法</category><category>自然语言处理</category><category>心理计算</category>
+    </item>    <item>
+      <title>如乡音般交流：机器人的区域语言适应如何增强信任与支付意愿</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37607</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37607</guid>
+      <description>📝 如乡音般交流：机器人的区域语言适应如何增强信任与支付意愿
+EN: Speaking Like Home: How Regional Language Adaptations in Robots Enhance Trust and Willingness to Pay
+
+💡 针对语言流失或国语能力下降的老年人，比较机器人使用区域语言与国语的互动效果，并结合照护者支付意愿和语音流畅性分析。结果显示，老年人更偏好区域语言；采用类人声线可提升信任，并支持照护者为陪伴机器人支付30%溢价；机械式声线则适得其反。
+
+📚 JSR · 2026 · 引用 2
+👤 Jenny van Doorn, Giovanni Telussa
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <category>老年人</category><category>信任</category><category>服务机器人</category><category>语言适应</category><category>对话式 AI</category><category>语音机器人</category><category>人机交互</category>
+    </item>    <item>
       <title>大数据与情感分析凸显决策行为：学生群体案例研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/37572</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37572</guid>
@@ -468,36 +498,6 @@ EN: AutoRL X: Automated Reinforcement Learning on the Web
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>可视化</category><category>可用性</category><category>用户研究方法</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>基于对话的混合用户界面与构念网格法：定性调查自动化的实验室实验</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37319</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37319</guid>
-      <description>📝 基于对话的混合用户界面与构念网格法：定性调查自动化的实验室实验
-EN: Conversation-based hybrid UI for the repertory grid technique: A lab experiment into automation of qualitative surveys
-
-💡 研究对话式混合用户界面在自动化定性调查中的应用：将对话式AI与图形界面结合以复刻repertory grid（ repertory grid）这一质性研究方法，通过实验室实验比较其与传统人工实施方式的差异，探讨AI辅助定性研究的可行性与用户体验。
-
-📚 IJHCS · 2024 · 引用 12
-👤 Yunxing Liu, Jean-Bernard Martens
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>人机交互(HCI)</category><category>可用性测试</category><category>问卷</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>人类而非计算机驱动的认知改变中的得失分离性</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37310</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37310</guid>
-      <description>📝 人类而非计算机驱动的认知改变中的得失分离性
-EN: Gain-loss separability in human- but not computer-based changes of mind
-
-💡 研究探讨人类与计算机系统在"改变主意"过程中对收益与损失的可分性差异。结果表明人类在信念更新时能区分增益与损失情境（可分性），而基于计算机的决策过程则不表现出此特征，揭示人机在决策机制上的本质差异，对算法决策建模与人机协作设计具有启示意义。
-
-📚 CHB · 2023 · 引用 12
-👤 Yongling Lin, Pengfei Xu, Jiayu Fan, Ruolei Gu, Yue-jia Luo
-
-AI 分: 3.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>消费者行为</category><category>可解释性</category><category>人机交互</category><category>人机协作</category>
     </item>
   </channel>
 </rss>
