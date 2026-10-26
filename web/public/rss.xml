@@ -6,9 +6,119 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 07:16:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 07:25:55 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>MusicTwins: Training Audio-Language Models to Listen like Their Persona</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37707</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37707</guid>
+      <description>📝 MusicTwins: Training Audio-Language Models to Listen like Their Persona
+
+💡 针对音频语言模型难以模拟特定个人音乐反应的问题，MusicTwins从个人文本构建含背景、观点、人格、写作风格和音乐偏好的画像，并结合个人记忆，以监督微调和强化学习后训练Audio Flamingo Next。十个留出画像评测显示，其人格、写作风格及音乐回答的画像一致性显著提升。
+
+📚 arXiv:cs.SD · 2026 · 引用 0
+👤 Milan Liessens Dujardin, Kevin Miao
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.32495v1</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>个性化</category><category>音乐感知</category><category>多模态交互</category><category>多模态</category><category>音频语言模型</category><category>个性化 AI</category><category>强化学习</category>
+    </item>    <item>
+      <title>Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37706</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37706</guid>
+      <description>📝 Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication
+
+💡 面向地方缺乏制图专业能力的问题，Agentic Hazard Mapper以多智能体模拟专家制图流程和迭代设计权衡，并适配数据、地点与灾害情境。专家和灾害从业者参与设计研究、用户研究及访谈；生成地图提升空间理解与疏散规划表现，降低工作负载和完成时间，且总体优于市政地图。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Sidi Wu, Lifeng Lin, Yizi Chen, Anna Yokokubo, Lorenz Hurni
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.32738v1</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>风险沟通</category><category>灾害制图</category><category>可视化</category><category>人机协作</category><category>智能体/Agent</category><category>多智能体系统</category><category>地理空间 AI</category><category>生成式 AI</category>
+    </item>    <item>
+      <title>Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37705</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37705</guid>
+      <description>📝 Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues
+
+💡 为解决金融营销任务型对话数据受隐私、成本和专家需求限制的问题，ProfileSim融合人口特征、大五人格及真实通话意图构建用户与业务画像，以真实语音数据微调，并用分层奖励GRPO强化学习优化。配合SOP约束和RAG客服智能体后，模拟对话更口语化、用户画像更贴合、发言更短，且业务合规相当。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Juan Li, Fangshu Chang, Xinyi Jiang, Ling Huang, Yunzhang Chen
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.32435v1</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>对话式 AI</category><category>语音交互</category><category>金融营销</category><category>对话式 AI</category><category>用户模拟</category><category>强化学习</category><category>RAG</category>
+    </item>    <item>
+      <title>何时应信任此内容：面向 LLM 聊天机器人的事实性指标设计与评估</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37703</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37703</guid>
+      <description>📝 何时应信任此内容：面向 LLM 聊天机器人的事实性指标设计与评估
+EN: When Should I Trust This? Designing and Evaluating Factuality Indicators for LLM-based Chatbots
+
+💡 结合访谈、千人问卷与5,151人实验，考察用户核验聊天机器人答案的方式及置信度、来源提示的影响。提示会改变初始评价，但得知答案正误后效应消失；医疗问题始终更受怀疑，需改善置信度解释并整合来源，支持校准信任。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Greta Warren, Jessica Heal, Sila Eser, Denise M. Leto, Christine M. Lehane
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.32883v1</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>可解释性</category><category>信息核验</category><category>LLM</category><category>对话式 AI</category><category>可解释 AI</category>
+    </item>    <item>
+      <title>动态与一次性检测：年轻与年长成年人如何借助 AI 判断虚假信息</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37684</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37684</guid>
+      <description>📝 动态与一次性检测：年轻与年长成年人如何借助 AI 判断虚假信息
+EN: Dynamic vs. One-time detection: How younger and older adults judge misinformation with AI?
+
+💡 比较年轻人与老年人面对 AI 错误信息时，对动态持续检测和一次性检测提示的判断差异，重点关注年龄如何影响错误信息识别、信任及决策。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Honglian Xiang, Jia Zhou, Xiaoru Sun, Bingjun Xie
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>错误信息</category><category>年龄差异</category><category>信任</category><category>人机交互(HCI)</category><category>AI 辅助判断</category><category>错误信息检测</category>
+    </item>    <item>
+      <title>Pika：设计社会支持型智能体以改善零工驾驶者的工作体验</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37683</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37683</guid>
+      <description>📝 Pika：设计社会支持型智能体以改善零工驾驶者的工作体验
+EN: Pika: Designing a social-support agent to improve drivers’ experience in gig work
+
+💡 Pika 旨在设计面向零工司机的社会支持智能体，通过支持性交互与资源协助改善其工作体验；具体功能、机制及效果仍需实证评估。
+
+📚 IJHCS · 2026 · 引用 1
+👤 Wei Xiang, Xinli Chen, Tianhui Guo, Min Zhou, Shi Chen
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>众包</category><category>社会支持</category><category>司机体验</category><category>情感计算</category><category>智能体/Agent</category><category>对话式 AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>APECKS：使用并评估支持内部和外部KA的本体构建工具</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37676</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37676</guid>
+      <description>📝 APECKS：使用并评估支持内部和外部KA的本体构建工具
+EN: APECKS: using and evaluating a tool for ontology construction with internal and external KA support
+
+💡 APECKS面向本体构建中的知识获取需求，集成内部与外部知识获取支持并评估其工具体验；因无摘要，具体知识获取方式、交互机制及评估结果仅能依据标题推断。
+
+📚 IJHCS · 2002 · 引用 8
+👤 JENI TENNISON, KIERON O'HARA, NIGEL SHADBOLT
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>本体构建</category><category>知识获取</category><category>知识工程</category><category>工具评估</category><category>本体工程</category><category>知识获取</category><category>知识图谱</category>
+    </item>    <item>
       <title>基于人格与价值观预测用户电影偏好及评分行为</title>
       <link>https://ur-ai-papers.vercel.app/papers/37642</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37642</guid>
@@ -23,6 +133,36 @@ EN: Predicting Users’ Movie Preference and Rating Behavior from Personality an
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
       <category>推荐系统</category><category>个性化</category><category>消费者行为</category><category>用户画像</category><category>AI 推荐</category><category>推荐算法</category><category>自然语言处理</category><category>心理计算</category>
+    </item>    <item>
+      <title>kalas的设计与评估</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37632</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37632</guid>
+      <description>📝 kalas的设计与评估
+EN: Designing and evaluating kalas
+
+💡 构建集推荐、实时用户活动、评论投票、下载量和聊天于一体的食谱系统Kalas。六个月302人参与、73人问卷显示，用户喜欢社会行为线索并据此改变选择，18%的所选食谱来自推荐，但仅约半数正确理解推荐依据。
+
+📚 TOCHI · 2005 · 引用 65
+👤 Martin Svensson, Kristina Höök, Rickard Cöster
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>社会导航</category><category>推荐系统</category><category>在线社区</category><category>用户体验</category><category>推荐算法</category><category>用户行为建模</category>
+    </item>    <item>
+      <title>利用调整后的用户行为检测和防范Android设备外发恶意短信</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37620</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37620</guid>
+      <description>📝 利用调整后的用户行为检测和防范Android设备外发恶意短信
+EN: Leveraging adjusted user behavior in the detection and prevention of outgoing malicious SMSs in Android devices
+
+💡 面向Android设备外发恶意短信风险，利用调整后的用户行为识别异常发送行为，以检测并阻止恶意SMS；因无摘要，具体特征、模型与实验结果仅能依据标题推断。
+
+📚 CHB · 2016 · 引用 2
+👤 Abdelouahid Derhab, Kashif Saleem, Jalal Al-Muhtadi, Mehmet A. Orgun
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户行为建模</category><category>Android安全</category><category>恶意软件检测</category><category>网络安全</category><category>异常检测</category><category>恶意软件检测</category>
     </item>    <item>
       <title>如乡音般交流：机器人的区域语言适应如何增强信任与支付意愿</title>
       <link>https://ur-ai-papers.vercel.app/papers/37607</link>
@@ -353,151 +493,6 @@ EN: Cognitive and emotional engagement design factors in text-based pedagogical 
 AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>情感计算</category><category>多模态交互</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category><category>LLM</category>
-    </item>    <item>
-      <title>修复恋人：人机浪漫互动中的关系破裂与修复</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37425</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37425</guid>
-      <description>📝 修复恋人：人机浪漫互动中的关系破裂与修复
-EN: Repairing the Lover: Relational Breakdown and Restoration in Human–AI Romantic Interaction
-
-💡 探讨人机浪漫关系中的关系破裂与修复过程，分析用户在与AI伴侣（如Replika等）互动时经历的情感冲突、信任受损及后续的修复策略，揭示AI情感关系中的依恋动态与脆弱性。
-
-📚 CHB · 2026 · 引用 0
-👤 Yuqing Liu, Siyue Ren, Huizi Han, Yan Luximon
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>情感计算</category><category>用户体验(UX)</category><category>AI依赖</category><category>对话式 AI</category><category>AI 助手</category><category>GenAI</category><category>LLM</category>
-    </item>    <item>
-      <title>LLMs作为调查受访者：与简单语义基线的比较</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37392</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37392</guid>
-      <description>📝 LLMs作为调查受访者：与简单语义基线的比较
-EN: LLMs as survey respondents: Comparison to simple semantic baselines
-
-💡 探究大语言模型在问卷调查中是否真正推断问题与答案间的语义关系，还是仅依赖表层相似度。以三项 LLM 在两份态度量表（自动驾驶与轻型电动车）上预测被遮蔽条目，对比基于嵌入相似度的简单基线。结果显示 LLM 整体优于基线，但随已知答案比例下降而性能下滑，在一份量表中甚至与基线持平，表明数据稀缺时 LLM 可能退化为嵌入相似度启发式，数据增强效力有限。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Esko Lehtonen, Tommi Buder-Gröndahl
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.29645v1</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>问卷</category><category>AI 拒绝</category><category>LLM</category><category>GenAI</category><category>AI 问卷生成</category>
-    </item>    <item>
-      <title>从无AI门槛到AI优先就业：印度工科学生在缺乏AI准则下的大学教育与校园招聘</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37390</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37390</guid>
-      <description>📝 从无AI门槛到AI优先就业：印度工科学生在缺乏AI准则下的大学教育与校园招聘
-EN: From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines
-
-💡 围绕印度工科学生在缺乏AI使用规范的环境下如何应对课程、考试与校园招聘，对23名学生与近期毕业生进行访谈并采用反思性主题分析，归纳出AI优先职场与AI-free招聘筛选的张力、备考方式、AI在课程中的使用、教师权威与执行、就业准备焦虑五大主题，借助信号理论探讨AI可代为产出时成绩与测评分数的认证意涵。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Samhitha Goutham, Ziwei Gu
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2610.29140v1</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>HCI</category><category>用户研究方法</category><category>访谈</category><category>AI采用</category><category>AI治理</category><category>教育</category><category>GenAI</category><category>LLM</category>
-    </item>    <item>
-      <title>智能体系统的隐私偏好控制</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37389</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37389</guid>
-      <description>📝 智能体系统的隐私偏好控制
-EN: Privacy Preference Controls for Agentic Systems
-
-💡 在 AI 智能体代用户执行网络行为的趋势下，探讨智能体网络中隐私偏好控制应如何设计。通过梳理法律法规与现有隐私工具实证研究，并审计 30 个主流 AI 助手与智能体平台，构建可执行的智能体隐私偏好分类法。进一步设计 8 个开源原型，演示该分类法在 MCP 与 A2A 协议中的结构化集成方式，为智能体时代用户隐私与自主性保护提供基础。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Shreya Kochar, Peeranat Sugsavanvit, Vidur Gupta, Joseph A. Calandrino, Deepak Kumar
-
-AI 分: 4.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.29929v1</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>伦理</category><category>AI 治理</category><category>智能体</category><category>人机交互</category><category>智能体/Agent</category><category>AI 助手</category>
-    </item>    <item>
-      <title>Scriptorium：多人类与多AI协作的数字图书馆搜索平台系统设计与实现</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37384</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37384</guid>
-      <description>📝 Scriptorium：多人类与多AI协作的数字图书馆搜索平台系统设计与实现
-EN: Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform
-
-💡 技术报告详述Scriptorium数字图书馆搜索平台的设计与实现：采用Manager-Worker架构与七个角色化生成式AI智能体，支持用户间搜索活动的全透明协作，文档涵盖系统架构、数据模型、协作交互逻辑、AI编排、提示词与确定性护栏、模型与检索配置，并规划用于检验"协作透明+受限多智能体辅助能否促进跨研究线索意外交叉"的用户研究。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Abbas Pirmoradi, Milad Momeni, Anna Chu, Orland Hoeber
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.28929v1</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>HCI</category><category>信息检索</category><category>服务设计</category><category>GenAI</category><category>LLM</category><category>智能体/Agent</category><category>人机协作</category>
-    </item>    <item>
-      <title>人工智能投资回报（RoAI）：营销组织中AI投资评估框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37357</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37357</guid>
-      <description>📝 人工智能投资回报（RoAI）：营销组织中AI投资评估框架
-EN: Return on AI (RoAI): A framework for assessing AI investments in the marketing organization
-
-💡 基于营销问责理论与资源基础观提出"AI投资回报"（RoAI）框架，从人员、流程与能力三维度刻画AI部署与治理，识别"委托判断"机制——AI提升当下表现却削弱营销人员通过实践积累判断力的过程，据此解释企业间AI回报异质性，并给出七条可检验命题与未来议程。
-
-📚 JAMS · 2026 · 引用 0
-👤 Vamsi Krishna Kanuri, Adithya Pattabhiramaiah, Shrihari Sridhar
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://doi.org/10.1007/s11747-026-01217-6</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>营销</category><category>AI治理</category><category>AI采用</category><category>人机协作</category><category>组织行为</category><category>AI采用</category><category>AI治理</category><category>人机协作</category>
-    </item>    <item>
-      <title>对主要由AI生成的新闻感到不适：探讨其对新闻信任与假新闻担忧的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37331</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37331</guid>
-      <description>📝 对主要由AI生成的新闻感到不适：探讨其对新闻信任与假新闻担忧的影响
-EN: Feeling discomfort with primarily AI-generated news: exploring its influence on news trust and fake news concern
-
-💡 研究受众对主要由AI生成的新闻所产生的不适感（discomfort）如何影响其对新闻的信任以及对虚假新闻的担忧态度，探讨AI生成内容在新闻消费场景下引发的心理反应及其对信息可信度判断的潜在作用。
-
-📚 BIT · 2026 · 引用 0
-👤 Bingbing Zhang, Qing Xiao
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>消费者行为</category><category>AI采用</category><category>AI拒绝</category><category>GenAI</category><category>LLM</category>
-    </item>    <item>
-      <title>大型科技公司、国家还是你？谁应为生成式人工智能成瘾负责？</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37328</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37328</guid>
-      <description>📝 大型科技公司、国家还是你？谁应为生成式人工智能成瘾负责？
-EN: Big tech, the state, or you? Who is responsible for generative AI addiction?
-
-💡 探讨生成式AI成瘾问题的责任归属：通过分析大科技公司、国家/政府与个人三方主体的角色，考察在GenAI成瘾现象中应由谁承担责任，揭示现有问责机制的不足与治理困境。
-
-📚 BIT · 2026 · 引用 2
-👤 Bernd Carsten Stahl, Raian Ali, Lucy Hitcham, Magnus Liebherr, Rachael Murray
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI治理</category><category>伦理</category><category>可解释性</category><category>GenAI</category>
-    </item>    <item>
-      <title>AutoRL X：基于网络的自动化强化学习</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37324</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37324</guid>
-      <description>📝 AutoRL X：基于网络的自动化强化学习
-EN: AutoRL X: Automated Reinforcement Learning on the Web
-
-💡 推出开源Web平台AutoRL X以可视化强化学习过程，基于AutoDOViz用户反馈与专家访谈构建RL可视化分类法，并应用于医疗脑刺激轨迹优化场景；用户研究对比人类操作者与RL智能体在2D界面下优化电场的表现，验证自动化RL的实用性。
-
-📚 TiiS · 2024 · 引用 3
-👤 Loraine Franke, Daniel Karl I. Weidele, Nima Dehmamy, Lipeng Ning, Daniel Haehn
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可视化</category><category>可用性</category><category>用户研究方法</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>
