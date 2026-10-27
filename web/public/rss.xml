@@ -6,13 +6,150 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 07:25:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 07:17:04 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
-      <title>MusicTwins: Training Audio-Language Models to Listen like Their Persona</title>
+      <title>人类如何学习陌生世界：ARC-AGI-3出声思维数据集</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37801</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37801</guid>
+      <description>📝 人类如何学习陌生世界：ARC-AGI-3出声思维数据集
+EN: How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3
+
+💡 构建ARC-AGI-3人类出声思考数据集，采集64名参与者的144条轨迹，并与250条LLM智能体轨迹对比。成功人类轨迹更常形成质性表征（50.0%对14.3%），且更倾向无具体假设地探索，揭示人类与智能体在探索、世界模型修正及错误恢复上的差异。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Shuzhi Liu, Archana Warrier, Dat Nguyen, Chengqi Zheng, Kevin Ellis
+
+AI 分: 3.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34523v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>人机协作</category><category>认知过程</category><category>LLM</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>iPrefBench：面向用户的个性化移动使用智能体基准</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37793</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37793</guid>
+      <description>📝 iPrefBench：面向用户的个性化移动使用智能体基准
+EN: iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents
+
+💡 iPrefBench在可交互iOS环境中以130个欠明确任务评估移动智能体能否从历史推断信息、必要时向用户追问。七个前沿智能体虽最高完成91.6%的操作，但完整任务成功率仅47.7%，尤其难以识别只能询问的信息。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Yuting Ning, Ruijia Cheng, Sushobhan Ghosh, Peitong Duan, HungShi Lin
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34735v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>个性化</category><category>AI 助手</category><category>智能体/Agent</category><category>AI 助手</category><category>计算机操作智能体</category><category>个性化 AI</category>
+    </item>    <item>
+      <title>语言模型理解Igbo文化吗：超越多项选择</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37790</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37790</guid>
+      <description>📝 语言模型理解Igbo文化吗：超越多项选择
+EN: Do Language Models Understand Igbo Culture? Beyond Multiple Choice
+
+💡 CAB-Igbo基于本土文化资料并经母语者验证，评估多类语言模型对伊博文化的理解。结果显示语言流畅不等于文化知识；模型在英语中的文化缺陷已很严重，转用伊博语还会降低语言与语用表现，自动评审也难以判断文化忠实度。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Blessing Ngozi Uzor, Valdini Douglace Lemofouet, Paula Chikaodinaka Anyanwu, Tassallah Abdullahi, Clemencia Siro
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.35168v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>文化计算</category><category>多语言处理</category><category>AI 伦理</category><category>模型评估</category><category>LLM</category><category>多语言模型</category><category>文化对齐</category><category>AI 评估</category>
+    </item>    <item>
+      <title>开发者向LLMs委派任务与信任因素：一项混合方法研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37788</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37788</guid>
+      <description>📝 开发者向LLMs委派任务与信任因素：一项混合方法研究
+EN: Developer Task Delegation to LLMs and the Trust Factor: A Mixed Methods Study
+
+💡 通过22次访谈和160名软件从业者调查，归纳开发者向LLM委派任务的完全委派、部分委派、自我委派和任务规避四种模式，并分析任务难度、风险、动机与信任的影响。信任与任务委派显著相关，凸显按风险及能力边界分配任务的重要性。
+
+📚 arXiv:cs.SE · 2026 · 引用 0
+👤 Samuel Ferino, Rashina Hoda, John Grundy, Christoph Treude, Hashini Gunatilake
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34317v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>访谈</category><category>问卷</category><category>信任</category><category>LLM</category><category>人机协作</category><category>AI 采用</category>
+    </item>    <item>
+      <title>AI使用中的情感与功能需求：用户模式及其与现实支持和福祉的关系</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37787</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37787</guid>
+      <description>📝 AI使用中的情感与功能需求：用户模式及其与现实支持和福祉的关系
+EN: Affective and Functional Needs in AI Use: User Patterns and Their Relation to Real-Life Support and Well-Being
+
+💡 基于社会支持理论，AI-Support量表通过1,090名参与者区分情感/尊重、陪伴、信息和工具性支持。研究发现用户常同时追求功能与情感型AI使用，感知支持还与现实社会支持和福祉相关，凸显AI采用及收益的个体差异。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Jessy Wang-Sun, Estelle Yiyuan Sun, Hualin Zhang, Zihan Xu
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34732v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>AI 采用</category><category>人机交互(HCI)</category><category>用户画像</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
+      <title>重写自我：用户对AI介导认知重构的感知</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37784</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37784</guid>
+      <description>📝 重写自我：用户对AI介导认知重构的感知
+EN: Rewriting the Self: User Perceptions of AI-Mediated Cognitive Reframing
+
+💡 28名参与者使用AI自动重写压力事件中的负面想法。重写虽普遍降低消极情绪，却削弱了叙事的所有权与真实性；用户将其视为镜像、另一个自我或社会行动者，强调设计应保留用户能动性。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Yuewen Yang, Olzhas Yessenbayev, Anna R. Van Meter, Tanzeem Choudhury, Daniel A. Adler
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34647v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>人机交互(HCI)</category><category>心理健康</category><category>用户能动性</category><category>生成式 AI</category><category>自然语言处理</category><category>心理健康 AI</category><category>人机协作</category>
+    </item>    <item>
+      <title>个性化AI回复建议对内容创作者私信的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37782</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37782</guid>
+      <description>📝 个性化AI回复建议对内容创作者私信的影响
+EN: The Impact of Personalized AI Response Suggestions on Content Creators' Direct Messaging
+
+💡 针对内容创作者私信回复负担，结合15人访谈与13人对照研究设计了个性化AI回复建议。该系统能提高回复效率、缓和潜在无礼并维护人设，但核验输出真实性增加了监控劳动，可能削弱创作者与粉丝的实质互动。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Eun Jeong Kang, Jingruo Chen, Jadon Geathers, Susan Fussell
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.34770v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>访谈</category><category>内容创作者</category><category>人机协作</category><category>GenAI</category><category>个性化</category><category>AI 助手</category><category>人机协作</category>
+    </item>    <item>
+      <title>直接控制再评估：鸟瞰视角下全尺寸自动驾驶车辆遥操作中传感器融合效能的实地评测</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37780</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37780</guid>
+      <description>📝 直接控制再评估：鸟瞰视角下全尺寸自动驾驶车辆遥操作中传感器融合效能的实地评测
+EN: Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View
+
+💡 在18人操控真车规模自动驾驶车辆的实地实验中，融合激光雷达与摄像头数据的鸟瞰视图比单一视图具有更高可用性、更低认知负荷和更短任务时间，优于传统摄像头及原始点云界面。
+
+📚 arXiv:cs.RO · 2026 · 引用 0
+👤 Stanisław Kuczma, Sławomir K. Tadeja, Michał R. Nowicki
+
+AI 分: 3.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.35630v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>可视化</category><category>人机交互(HCI)</category><category>可用性测试</category><category>自动驾驶</category><category>多模态</category><category>传感器融合</category><category>自动驾驶</category><category>机器人远程操作</category>
+    </item>    <item>
+      <title>MusicTwins：训练音频语言模型依角色设定进行聆听</title>
       <link>https://ur-ai-papers.vercel.app/papers/37707</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37707</guid>
-      <description>📝 MusicTwins: Training Audio-Language Models to Listen like Their Persona
+      <description>📝 MusicTwins：训练音频语言模型依角色设定进行聆听
+EN: MusicTwins: Training Audio-Language Models to Listen like Their Persona
 
 💡 针对音频语言模型难以模拟特定个人音乐反应的问题，MusicTwins从个人文本构建含背景、观点、人格、写作风格和音乐偏好的画像，并结合个人记忆，以监督微调和强化学习后训练Audio Flamingo Next。十个留出画像评测显示，其人格、写作风格及音乐回答的画像一致性显著提升。
 
@@ -25,10 +162,11 @@ AI 分: 5.0 / 领域分: 3.0
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>用户画像</category><category>个性化</category><category>音乐感知</category><category>多模态交互</category><category>多模态</category><category>音频语言模型</category><category>个性化 AI</category><category>强化学习</category>
     </item>    <item>
-      <title>Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication</title>
+      <title>Agentic Hazard Mapper：AI 智能体模拟专家制图开展风险沟通</title>
       <link>https://ur-ai-papers.vercel.app/papers/37706</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37706</guid>
-      <description>📝 Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication
+      <description>📝 Agentic Hazard Mapper：AI 智能体模拟专家制图开展风险沟通
+EN: Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication
 
 💡 面向地方缺乏制图专业能力的问题，Agentic Hazard Mapper以多智能体模拟专家制图流程和迭代设计权衡，并适配数据、地点与灾害情境。专家和灾害从业者参与设计研究、用户研究及访谈；生成地图提升空间理解与疏散规划表现，降低工作负载和完成时间，且总体优于市政地图。
 
@@ -41,10 +179,11 @@ AI 分: 5.0 / 领域分: 5.0
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>风险沟通</category><category>灾害制图</category><category>可视化</category><category>人机协作</category><category>智能体/Agent</category><category>多智能体系统</category><category>地理空间 AI</category><category>生成式 AI</category>
     </item>    <item>
-      <title>Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues</title>
+      <title>面向任务导向对话的用户画像驱动模拟：基于强化学习与分层奖励</title>
       <link>https://ur-ai-papers.vercel.app/papers/37705</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37705</guid>
-      <description>📝 Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues
+      <description>📝 面向任务导向对话的用户画像驱动模拟：基于强化学习与分层奖励
+EN: Profile-Driven User Simulation via Reinforcement Learning with Hierarchical Rewards for Task-Oriented Dialogues
 
 💡 为解决金融营销任务型对话数据受隐私、成本和专家需求限制的问题，ProfileSim融合人口特征、大五人格及真实通话意图构建用户与业务画像，以真实语音数据微调，并用分层奖励GRPO强化学习优化。配合SOP约束和RAG客服智能体后，模拟对话更口语化、用户画像更贴合、发言更短，且业务合规相当。
 
@@ -361,138 +500,6 @@ AI 分: 4.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2610.31149v1</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <category>儿童/老人/无障碍</category><category>人机交互(HCI)</category><category>服务设计</category><category>可访问性</category><category>智能体/Agent</category><category>人机交互</category><category>多模态</category>
-    </item>    <item>
-      <title>生成式人工智能技能发展对大学生学业适应与学习效果的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37503</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37503</guid>
-      <description>📝 生成式人工智能技能发展对大学生学业适应与学习效果的影响
-EN: Impacts of generative AI skill development on academic adaptation and learning outcomes among university students
-
-💡 调查大学生 GenAI 技能发展轨迹与学业成效的关系。整合问卷（n=313）与访谈（n=18），结合 SEM 与主题分析，识别出快速-平台、稳步增长、延迟加速三类异质轨迹及不均衡的技能提升，访谈揭示提示、验证与任务委派策略的细化。SEM 表明感知技能增长通过作业过程适应对学业收获产生正向间接效应。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Lei Fan, Fangxue Liu
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2610.30599v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI 采用</category><category>用户研究方法</category><category>问卷</category><category>访谈</category><category>人机协作</category><category>GenAI</category><category>LLM</category><category>ChatGPT</category>
-    </item>    <item>
-      <title>PATH:面向越野导航机器人遥操作的偏好感知可通行性估计</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37502</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37502</guid>
-      <description>📝 PATH:面向越野导航机器人遥操作的偏好感知可通行性估计
-EN: PATH: Preference-Aware Traversability Estimation for Robotic Teleoperation in Off-Road Navigation
-
-💡 提出 PATH-Net，一种面向越野遥操作的可通行性估计分层网络，融合视觉、几何鸟瞰特征与短期车辆状态，通过最大熵逆强化学习生成偏好条件化的代价图与速度曲线。15 名操作员、225 条轨迹实验表明，该方法能匹配激进与保守两类导航策略，将 NASA-TLX 工作量评分从 34.7 降至 22.2。
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Xianghao Meng, Wenshuo Wang, Cheng Shao, Lewei Feng, Qingxiao Liu
-
-AI 分: 3.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2610.30605v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>可用性测试</category><category>个性化</category><category>智能体/Agent</category><category>人机交互</category><category>AI 助手</category>
-    </item>    <item>
-      <title>CARL:对话辅助强化学习</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37500</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37500</guid>
-      <description>📝 CARL:对话辅助强化学习
-EN: CARL: Chat Assisted Reinforcement Learning
-
-💡 提出 CARL（Chat Assisted Reinforcement Learning），一种聊天辅助的人机协同 RL 设计架构，通过结构化十步工作流、领域感知 AI 助手 Trillian 与紧凑决策摘要弥合规范与性能差距。用户确认 MDP 后，自主工具调用循环自动生成、测试、执行并调试端到端 RL 训练管线，并提供训练后交互式诊断与参数迭代修改。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Sanjiv Das, Harshad Khadilkar, Sukrit Mittal, Daniel Ostrov, Jacob Sisk
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2610.31014v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>可解释性</category><category>AI 治理</category><category>对话式 AI</category><category>LLM</category><category>智能体/Agent</category><category>人机协作</category>
-    </item>    <item>
-      <title>透过表征工作：面向人-智能体知识协作的可塑工作空间</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37498</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37498</guid>
-      <description>📝 透过表征工作：面向人-智能体知识协作的可塑工作空间
-EN: Working Through Representation: Malleable Workspaces for Human-Agent Knowledge Work
-
-💡 针对对话历史难以承载并持续组织知识工作的问题，构建可塑工作空间模型，让人类与智能体共同形成、修订工作表征。通过58篇论文比较及7名资深用户三个月纵向研究，揭示多数系统仅支持局部纳入智能体输出，较少支持表征重构及改变工作环境，为表示中心的人机设计提供基础。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Nan Chen, Long Ling, Luna K. Qiu, Zilong Wang, Yuqing Yang
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2610.30893v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>知识工作</category><category>工作空间</category><category>GenAI</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>CoWriter：引导方法性与协同性的人-LLM 共同写作</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37497</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37497</guid>
-      <description>📝 CoWriter：引导方法性与协同性的人-LLM 共同写作
-EN: CoWriter: Guiding Methodological and Synergetic Human-LLM Co-Authoring
-
-💡 面向标准聊天—画布界面易使长文写作沦为被动监督并引发审查疲劳与过度依赖的问题，将认知科学中的写作方法转化为贯穿全流程的主动式LLM协同方案。探索性研究显示，该方案使用户与智能体的成功互动达到基线的2.2倍，同时增强观点表达、文档归属感以及文本的故事性和个人经验。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Shmuel Amar, Benjamin Lieber, Ori Shapira, Debanjana Kar, Sebastian Maximilian Dennerlein
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2610.31277v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>长文写作</category><category>用户研究</category><category>LLM</category><category>智能体/Agent</category><category>人机协作</category>
-    </item>    <item>
-      <title>浏览器内人-AI 反话共写：自主性、感知质量与时间的探索性用户研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37496</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37496</guid>
-      <description>📝 浏览器内人-AI 反话共写：自主性、感知质量与时间的探索性用户研究
-EN: In-Browser Human-AI Co-Writing for Counterspeech: An Exploratory User Study of Agency, Perceived Response Quality, and Time
-
-💡 针对反仇恨言论写作的认知与情感负担，构建浏览器内人机协同写作工具，从CONAN数据集中动态检索示例并由LLM生成三条可编辑建议。十人参与的被试内研究表明，用户评价积极，辅助响应在共情、无毒、相关性、具体性和说服力上均高于未辅助版本，共情提升最显著但耗时由2.52增至3.88分钟；质性分析揭示共情导向输出与用户表达愤怒/反对意愿之间的张力。
-
-📚 arXiv:cs.SI · 2026 · 引用 0
-👤 Tammy Schmidt, Luise Koch
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2610.31357v1</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>在线社区</category><category>用户研究方法</category><category>LLM</category><category>人机协作</category>
-    </item>    <item>
-      <title>在何种影响下：决策中匹配用户画像的人工智能影响测度</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37437</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37437</guid>
-      <description>📝 在何种影响下：决策中匹配用户画像的人工智能影响测度
-EN: Under what influence: Measuring AI influence to fit user profiles in decision-making
-
-💡 研究不同用户画像下AI对决策的影响程度，构建衡量AI影响力的方法框架，以匹配不同决策场景中的用户特征，揭示AI介入决策时的个体差异与适配机制。
-
-📚 IJHCS · 2026 · 引用 5
-👤 Andrea Campagner, Caterina Fregosi, Chiara Natali, Federico Cabitza
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>人机交互(HCI)</category><category>人机协作</category><category>AI采用</category><category>AI 推荐</category><category>推荐算法</category><category>可解释 AI</category>
-    </item>    <item>
-      <title>文本式教学对话智能体的认知与情感投入设计因素：对学习与动机的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37436</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37436</guid>
-      <description>📝 文本式教学对话智能体的认知与情感投入设计因素：对学习与动机的影响
-EN: Cognitive and emotional engagement design factors in text-based pedagogical conversational agents: Impacts on student learning and motivation
-
-💡 探究文本型教学对话代理中促进认知与情感投入的设计要素，分析其对学生学习成效与学习动机的影响，为教育对话代理的交互设计提供实证依据。
-
-📚 IJHCS · 2026 · 引用 2
-👤 Sunhyo Oh, Taejun Park, Gahgene Gweon
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>情感计算</category><category>多模态交互</category><category>用户体验(UX)</category><category>对话式 AI</category><category>AI 助手</category><category>LLM</category>
     </item>
   </channel>
 </rss>
