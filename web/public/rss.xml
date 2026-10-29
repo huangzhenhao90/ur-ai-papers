@@ -6,9 +6,69 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 07:53:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 07:56:12 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>解构学生与AI的互动：论证在塑造行为与认知学习过程中的作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37962</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37962</guid>
+      <description>📝 解构学生与AI的互动：论证在塑造行为与认知学习过程中的作用
+EN: Unpacking student-AI engagement: the role of argumentation in shaping behavioural and cognitive learning processes
+
+💡 聚焦学生与AI互动中的论证如何影响参与度及行为、认知学习过程，提示教育AI应支持观点表达、理由建构与反馈引导；具体作用机制仍待实证检验。
+
+📚 BIT · 2026 · 引用 0
+👤 Yeonji Jung, Soyeon Mun, Gyeoun Jeong
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互</category><category>教育技术</category><category>论证学习</category><category>教育 AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>拟人化与风险感知：信任和领域知识在决策支持AI中的作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37950</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37950</guid>
+      <description>📝 拟人化与风险感知：信任和领域知识在决策支持AI中的作用
+EN: Anthropomorphism and risk perception: The role of trust and domain knowledge in decision-support AI
+
+💡 考察决策支持AI的拟人化特征如何影响用户风险感知，并分析信任与领域知识的调节作用。研究有助于解释用户为何可能高估或低估AI建议风险，为风险敏感场景中的AI设计、信任校准与专业分工提供依据。
+
+📚 IJHCS · 2026 · 引用 0
+👤 Manuele Reani, Xiangyang He, Zhoulan Bao
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>风险感知</category><category>决策支持</category><category>决策支持AI</category><category>AI拟人化</category><category>信任建模</category>
+    </item>    <item>
+      <title>当人们认为AI能提供共情时，便将共情外包</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37946</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37946</guid>
+      <description>📝 当人们认为AI能提供共情时，便将共情外包
+EN: People Offload Empathy When They Think AI Can Give It Instead
+
+💡 探讨人们认为AI能够提供共情时，是否会将原本应给予他人的理解与关怀转移给AI。该“共情卸载”可能减少人际投入、弱化责任承担并影响关系质量，提示情感型AI应避免替代而非补充人的关怀。
+
+📚 CHB · 2026 · 引用 0
+👤 Madhulika Shastry, Kurt Gray
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>情感计算</category><category>AI依赖</category><category>人际关系</category><category>情感型AI</category><category>情感计算</category><category>人机交互</category><category>AI助手</category>
+    </item>    <item>
+      <title>现实的幻象：AI生成图像（AIGIs）如何误导社交媒体用户</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37943</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37943</guid>
+      <description>📝 现实的幻象：AI生成图像（AIGIs）如何误导社交媒体用户
+EN: The illusion of reality: How AI-generated images (AIGIs) are fooling social media users
+
+💡 考察AI生成图像如何以逼真效果误导社交媒体用户，揭示“现实错觉”带来的信任受损、错误认知与不当传播风险，提示需加强来源标识、验证机制和用户AI素养。
+
+📚 CHB · 2026 · 引用 5
+👤 Márk Miskolczi
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <category>社交媒体</category><category>内容真实性</category><category>信任</category><category>AI伦理</category><category>图像生成</category><category>生成式 AI</category>
+    </item>    <item>
       <title>但它本应有益健康：预期与实际营养价值如何影响食品在线评论的内容与语言特征</title>
       <link>https://ur-ai-papers.vercel.app/papers/37883</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37883</guid>
@@ -66,6 +126,21 @@ AI 分: 5.0 / 领域分: 3.0</description>
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <category>对话式 AI</category><category>人机交互</category><category>可读性</category><category>用户感知</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
+      <title>车载对话界面的语音导向</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37847</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37847</guid>
+      <description>📝 车载对话界面的语音导向
+EN: Voice orientation of conversational interfaces in vehicles
+
+💡 聚焦车辆环境中的语音导向对话式界面，探讨其对驾驶任务、注意力及交互体验的影响，强调语音设计应兼顾操作效率、反馈清晰度与驾驶安全。
+
+📚 BIT · 2023 · 引用 10
+👤 Kwan Min Lee, Yohan Moon, Inyoung Park, Jae-gil Lee
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <category>车载交互</category><category>语音交互</category><category>驾驶安全</category><category>可用性</category><category>对话式 AI</category><category>语音识别</category><category>人机交互</category>
     </item>    <item>
       <title>信任解释还是我的预期？输出准确性与解释对AI辅助决策中预期违背及信任的影响</title>
       <link>https://ur-ai-papers.vercel.app/papers/37838</link>
@@ -132,6 +207,23 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2610.35168v1</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <category>文化计算</category><category>多语言处理</category><category>AI 伦理</category><category>模型评估</category><category>LLM</category><category>多语言模型</category><category>文化对齐</category><category>AI 评估</category>
+    </item>    <item>
+      <title>HerHealthGPT：循证女性生殖健康对话式AI系统</title>
+      <link>https://ur-ai-papers.vercel.app/papers/37789</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37789</guid>
+      <description>📝 HerHealthGPT：循证女性生殖健康对话式AI系统
+EN: HerHealthGPT: An Evidence-Grounded Conversational AI System for Women's Reproductive Health Copy title
+
+💡 面向女性生殖健康信息不完整、回答缺乏循证依据的问题，HerHealthGPT结合检索增强生成、上下文追问与来源验证。实验显示，证据检索将关注类别准确率由54.1%提升至59.3%；83.3%参与者更偏好检索增强配置，25人认为追问具有相关性。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Hassan Saeed Hassan Albattra, Mazen Mohammed Bahgat, Rahatara Ferdousi, Hana Essam Sayed Ahmed Amrya, Mariam Mousa
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.33931v1</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>女性健康</category><category>人机交互(HCI)</category><category>信息透明性</category><category>用户体验(UX)</category><category>GenAI</category><category>对话式AI</category><category>RAG</category><category>AI助手</category>
     </item>    <item>
       <title>开发者向LLMs委派任务与信任因素：一项混合方法研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/37788</link>
@@ -389,96 +481,6 @@ EN: Pika: Designing a social-support agent to improve drivers’ experience in g
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       <category>众包</category><category>社会支持</category><category>司机体验</category><category>情感计算</category><category>智能体/Agent</category><category>对话式 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>APECKS：使用并评估支持内部和外部KA的本体构建工具</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37676</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37676</guid>
-      <description>📝 APECKS：使用并评估支持内部和外部KA的本体构建工具
-EN: APECKS: using and evaluating a tool for ontology construction with internal and external KA support
-
-💡 APECKS面向本体构建中的知识获取需求，集成内部与外部知识获取支持并评估其工具体验；因无摘要，具体知识获取方式、交互机制及评估结果仅能依据标题推断。
-
-📚 IJHCS · 2002 · 引用 8
-👤 JENI TENNISON, KIERON O'HARA, NIGEL SHADBOLT
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <category>本体构建</category><category>知识获取</category><category>知识工程</category><category>工具评估</category><category>本体工程</category><category>知识获取</category><category>知识图谱</category>
-    </item>    <item>
-      <title>基于人格与价值观预测用户电影偏好及评分行为</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37642</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37642</guid>
-      <description>📝 基于人格与价值观预测用户电影偏好及评分行为
-EN: Predicting Users’ Movie Preference and Rating Behavior from Personality and Values
-
-💡 整合Twitter与IMDb中的社交语言、评论及观影数据，从推文提取人格与价值观特征，预测电影类型偏好和评分行为。融合人格与价值观的模型显著优于单一因素模型及传统预测方法，可提升电影推荐与评分预测的准确性。
-
-📚 TiiS · 2020 · 引用 30
-👤 Euna Mehnaz Khan, Md. Saddam Hossain Mukta, Mohammed Eunus Ali, Jalal Mahmud
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>推荐系统</category><category>个性化</category><category>消费者行为</category><category>用户画像</category><category>AI 推荐</category><category>推荐算法</category><category>自然语言处理</category><category>心理计算</category>
-    </item>    <item>
-      <title>kalas的设计与评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37632</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37632</guid>
-      <description>📝 kalas的设计与评估
-EN: Designing and evaluating kalas
-
-💡 构建集推荐、实时用户活动、评论投票、下载量和聊天于一体的食谱系统Kalas。六个月302人参与、73人问卷显示，用户喜欢社会行为线索并据此改变选择，18%的所选食谱来自推荐，但仅约半数正确理解推荐依据。
-
-📚 TOCHI · 2005 · 引用 65
-👤 Martin Svensson, Kristina Höök, Rickard Cöster
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>社会导航</category><category>推荐系统</category><category>在线社区</category><category>用户体验</category><category>推荐算法</category><category>用户行为建模</category>
-    </item>    <item>
-      <title>利用调整后的用户行为检测和防范Android设备外发恶意短信</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37620</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37620</guid>
-      <description>📝 利用调整后的用户行为检测和防范Android设备外发恶意短信
-EN: Leveraging adjusted user behavior in the detection and prevention of outgoing malicious SMSs in Android devices
-
-💡 面向Android设备外发恶意短信风险，利用调整后的用户行为识别异常发送行为，以检测并阻止恶意SMS；因无摘要，具体特征、模型与实验结果仅能依据标题推断。
-
-📚 CHB · 2016 · 引用 2
-👤 Abdelouahid Derhab, Kashif Saleem, Jalal Al-Muhtadi, Mehmet A. Orgun
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-      <category>用户行为建模</category><category>Android安全</category><category>恶意软件检测</category><category>网络安全</category><category>异常检测</category><category>恶意软件检测</category>
-    </item>    <item>
-      <title>如乡音般交流：机器人的区域语言适应如何增强信任与支付意愿</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37607</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37607</guid>
-      <description>📝 如乡音般交流：机器人的区域语言适应如何增强信任与支付意愿
-EN: Speaking Like Home: How Regional Language Adaptations in Robots Enhance Trust and Willingness to Pay
-
-💡 针对语言流失或国语能力下降的老年人，比较机器人使用区域语言与国语的互动效果，并结合照护者支付意愿和语音流畅性分析。结果显示，老年人更偏好区域语言；采用类人声线可提升信任，并支持照护者为陪伴机器人支付30%溢价；机械式声线则适得其反。
-
-📚 JSR · 2026 · 引用 2
-👤 Jenny van Doorn, Giovanni Telussa
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>老年人</category><category>信任</category><category>服务机器人</category><category>语言适应</category><category>对话式 AI</category><category>语音机器人</category><category>人机交互</category>
-    </item>    <item>
-      <title>大数据与情感分析凸显决策行为：学生群体案例研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37572</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37572</guid>
-      <description>📝 大数据与情感分析凸显决策行为：学生群体案例研究
-EN: Big data and sentiment analysis to highlight decision behaviours: a case study for student population
-
-💡 一项学生群体案例研究结合大数据与情感分析识别并凸显决策行为，探索利用大规模行为与情绪数据刻画学生选择模式的方法。
-
-📚 BIT · 2018 · 引用 35
-👤 Orlando Troisi, Mara Grimaldi, Francesca Loia, Gennaro Maione
-
-AI 分: 3.0 / 领域分: 3.0</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>决策行为</category><category>情感计算</category><category>大数据分析</category><category>学生群体</category><category>情感分析</category><category>情感识别</category>
     </item>
   </channel>
 </rss>
