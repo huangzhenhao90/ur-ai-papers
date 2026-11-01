@@ -6,9 +6,131 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 07:50:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:30:29 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>MALACHITE—Enabling Users to Teach GUI-Aware Natural Language Interfaces</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38172</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38172</guid>
+      <description>📝 MALACHITE—Enabling Users to Teach GUI-Aware Natural Language Interfaces
+
+💡 MALACHITE让普通用户通过数据可视化工具的当前界面状态，教会自然语言接口处理新的输入语法与语义。基于建议的交互式任务学习显著提升用户完成界面依赖型指令的准确性，效果达到无建议条件的2.3倍。
+
+📚 TiiS · 2025 · 引用 1
+👤 Marcel Ruoff, Brad A. Myers, Alexander Maedche
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互</category><category>自然语言界面</category><category>交互式任务学习</category><category>可视化</category><category>多模态</category><category>自然语言接口</category><category>人机交互</category>
+    </item>    <item>
+      <title>-generAItor：用于语言模型可解释性与适应的树在环文本生成</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38171</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38171</guid>
+      <description>📝 -generAItor：用于语言模型可解释性与适应的树在环文本生成
+EN: -generAItor: Tree-in-the-loop Text Generation for Language Model Explainability and Adaptation
+
+💡 将束搜索树作为大语言模型文本生成的可视化分析核心，支持探索比较候选输出、分析性别偏差并用适配数据微调；案例与用户研究表明其能增进解释和发现，模型也具备少样本适应能力。
+
+📚 TiiS · 2024 · 引用 4
+👤 Thilo Spinner, Rebecca Kehlbeck, Rita Sevastjanova, Tobias Stähle, Daniel A. Keim
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>可解释性</category><category>可视化</category><category>人机交互(HCI)</category><category>LLM</category><category>GenAI</category><category>可解释 AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>TableTalk: Scaffolding Spreadsheet Development with a Language Agent</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38152</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38152</guid>
+      <description>📝 TableTalk: Scaffolding Spreadsheet Development with a Language Agent
+
+💡 TableTalk将专业工作流转化为结构化计划，为电子表格编程者提供多个可调整的后续步骤，并通过预定义工具增量构建表格。20名程序员实验表明，其产出质量与偏好显著优于基线，思考时间和认知负荷下降12.6%。
+
+📚 TOCHI · 2025 · 引用 4
+👤 Jenny T. Liang, Aayush Kumar, Yasharth Bajpai, Sumit Gulwani, Vu Le
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>端用户编程</category><category>AI 辅助编程</category><category>可用性</category><category>智能体/Agent</category><category>LLM</category><category>自然语言接口</category><category>人机交互</category>
+    </item>    <item>
+      <title>自然情境下的数字行为可预测认知能力</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38150</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38150</guid>
+      <description>📝 自然情境下的数字行为可预测认知能力
+EN: Naturalistic Digital Behavior Predicts Cognitive Abilities
+
+💡 采集20名成人两周的全天候屏幕、输入与系统数据，并关联认知测试；回归、路径建模和机器学习表明，自然数字行为能反映认知差异，并以较小误差预测个体认知能力。
+
+📚 TOCHI · 2024 · 引用 10
+👤 Tung Vuong, Giulio Jacucci, Tuukka Ruotsalo
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>个性化</category><category>人机交互(HCI)</category><category>认知能力</category><category>机器学习</category><category>AI 用户画像</category><category>人机交互</category>
+    </item>    <item>
+      <title>面向语音用户界面的多模态纠错</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38145</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38145</guid>
+      <description>📝 面向语音用户界面的多模态纠错
+EN: Multimodal error correction for speech user interfaces
+
+💡 针对语音识别错误难以高效纠正的问题，设计无需键盘的多模态纠错方法与上下文识别算法。实验显示，多模态纠错比单一复述更准确、更快；系统主动纠错未必提速，用户会依据识别表现选择模态。
+
+📚 TOCHI · 2001 · 引用 145
+👤 Bernhard Suhm, Brad Myers, Alex Waibel
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>语音交互</category><category>错误恢复</category><category>语音识别</category><category>多模态</category><category>自然语言处理</category><category>人机交互</category>
+    </item>    <item>
+      <title>Frontiers：缩小LLMs与人类的差距：最优LLM样本校准</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38126</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38126</guid>
+      <description>📝 Frontiers：缩小LLMs与人类的差距：最优LLM样本校准
+EN: Frontiers: Reducing Disparity Between LLMs and Humans: Optimal LLM Sample Calibration
+
+💡 针对大语言模型测得的人类偏好常偏离真人回答的问题，提出模型无关的后处理方法HuMCal，以人类基准数据学习跨提示词、角色和模型检查点的组合权重。在消费交易与民意调查中，其一致性优于常规聚合，且权重可跨时间、地域、行业及问题簇复用。
+
+📚 MktSci · 2026 · 引用 0
+👤 Yan Leng, Yunxin Sang, Ashish Agarwal
+
+AI 分: 5.0 / 领域分: 3.0</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户模拟</category><category>模型校准</category><category>消费者偏好</category><category>民意调查</category><category>LLM</category><category>人格模拟</category><category>模型校准</category>
+    </item>    <item>
+      <title>讲述并非看见：文本人物画像很少使视觉语言模型如被描述者般作答</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38086</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38086</guid>
+      <description>📝 讲述并非看见：文本人物画像很少使视觉语言模型如被描述者般作答
+EN: Telling Is Not Seeing: Textual Personas Rarely Make Vision-Language Models Answer Like the People They Describe
+
+💡 在14个视觉语言模型中检验“低视力、色盲、听力损失”等角色提示能否模拟真实人群。与实测用户和仅采用人格事实的简单规则相比，角色提示从未胜出，反而抹平群体与个体差异；描述模糊不改变识别，实际模糊图像才降低表现，表明模型能陈述影响机制却不能据此“看见”。
+
+📚 arXiv:cs.CV · 2026 · 引用 0
+👤 Jiawei Chen
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.39331v1</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>无障碍</category><category>用户研究方法</category><category>用户模拟</category><category>视觉感知</category><category>多模态</category><category>视觉语言模型（VLM）</category><category>人格模拟</category>
+    </item>    <item>
+      <title>LLMs能否无视其所知：基于人物画像的用户模拟知识泄漏测量</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38083</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38083</guid>
+      <description>📝 LLMs能否无视其所知：基于人物画像的用户模拟知识泄漏测量
+EN: Can LLMs Ignore What They Know? Measuring Knowledge Leakage in Persona-Based User Simulation
+
+💡 定义角色模拟中的“知识泄漏”，并以真实题目及表面匹配、经筛查降低先验知识的虚构孪生题构成诊断量表。跨三种知识处理条件、五个API端点和两个模型家族，低知识及明确无知提示仍无法消除真实题的熟悉度偏差；不利题的泄漏方向还随领域改变，显示模型知识与角色知识难以分离。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Sangmin Lee, Sangwon Lee, Sungbeom Choi, Jeeseung Park, Kibeom Myoung
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.39939v1</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>用户模拟</category><category>知识泄漏</category><category>模型评测</category><category>LLM</category><category>人格条件化生成</category><category>模型评测</category>
+    </item>    <item>
       <title>从 Gettier Machine 到正当真实输出：生成式AI理性信任的三步论述</title>
       <link>https://ur-ai-papers.vercel.app/papers/38081</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38081</guid>
@@ -76,6 +198,23 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2610.37916v1</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机协作</category><category>创造性写作</category><category>人机交互(HCI)</category><category>GenAI</category><category>人机协作</category>
+    </item>    <item>
+      <title>Inkitiate：通过墨迹在空间工作区中启动并引导智能体协助</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38073</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38073</guid>
+      <description>📝 Inkitiate：通过墨迹在空间工作区中启动并引导智能体协助
+EN: Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace
+
+💡 面向知识工作中的材料检索、理解与整理，探索以手写和草图发起并引导智能体。Inkitiate支持导入材料、围绕内容协作及重组画布；18人评估显示可用性良好、工作负荷低，用户会保留墨迹与材料，继续组合语言和图形查询。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Liangwei Wang, Nan Chen, Luna K. Qiu, Zilong Wang, Fugee Tsung
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.39905v1</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>人机协作</category><category>空间工作区</category><category>智能体/Agent</category><category>AI 助手</category><category>人机交互</category><category>多模态交互</category>
     </item>    <item>
       <title>人工人格模型：会话智能体的理论、实现、测量与实验验证</title>
       <link>https://ur-ai-papers.vercel.app/papers/38070</link>
@@ -145,6 +284,23 @@ AI 分: 5.0 / 领域分: 3.0
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>AI 治理</category><category>伦理</category><category>人机交互(HCI)</category><category>情感计算</category><category>对话式 AI</category><category>LLM</category><category>LLM-as-a-Judge</category><category>情感识别</category>
     </item>    <item>
+      <title>“会让Geordie有宾至如归之感”：语音AI中的地域口音感知与言语适应</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38065</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38065</guid>
+      <description>📝 “会让Geordie有宾至如归之感”：语音AI中的地域口音感知与言语适应
+EN: "It Would Make a Geordie Feel at Home": Regional Accent Perceptions and Speech Accommodation in Voice AI
+
+💡 通过模拟使用纽卡斯尔口音或标准英式南部的语音助手并开展半结构访谈，发现地区口音语音助手虽带来熟悉、温暖和地方归属感，却缺乏职业与权威感；用户还会转向主流口音、放慢语速或清晰发音，以适应识别失败，反映双向社会语言偏见。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Dana Serditova, Kevin Tang, Jochen Steffens
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.38005v1</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>访谈</category><category>语音交互</category><category>社会语言学</category><category>语音识别(ASR)</category><category>对话式 AI</category><category>语音助手</category><category>算法偏见</category>
+    </item>    <item>
       <title>利用眼动追踪评估AI生成视频的视觉真实性</title>
       <link>https://ur-ai-papers.vercel.app/papers/38064</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38064</guid>
@@ -203,7 +359,7 @@ EN: The Sound of Good Service: How Dominant and Submissive Language in AI Voice 
 💡 六项实验显示，AI语音助手采用顺从式语言可通过提升融洽感与舒适感，提高使用意愿和互动价值，且在权威型服务中仍成立；时间压力下，两类语言对融洽感的影响相当，舒适感的中介作用失效。
 
 📚 JSR · 2026 · 引用 0
-👤 Daniel Ruiz-Equihua, Jano Jiménez-Barreto, Jaime Romero, Francisco Villarroel Ordenes
+👤 Daniel Ruiz‐Equihua, Jano Jiménez‐Barreto, Jaime Romero, Francisco Javier Villarroel Ordenes
 
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
@@ -329,155 +485,6 @@ EN: Unpacking student-AI engagement: the role of argumentation in shaping behavi
 AI 分: 4.0 / 领域分: 5.0</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <category>人机交互</category><category>教育技术</category><category>论证学习</category><category>教育 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>拟人化与风险感知：信任和领域知识在决策支持AI中的作用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37950</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37950</guid>
-      <description>📝 拟人化与风险感知：信任和领域知识在决策支持AI中的作用
-EN: Anthropomorphism and risk perception: The role of trust and domain knowledge in decision-support AI
-
-💡 考察决策支持AI的拟人化特征如何影响用户风险感知，并分析信任与领域知识的调节作用。研究有助于解释用户为何可能高估或低估AI建议风险，为风险敏感场景中的AI设计、信任校准与专业分工提供依据。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Manuele Reani, Xiangyang He, Zhoulan Bao
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>信任</category><category>风险感知</category><category>决策支持</category><category>决策支持AI</category><category>AI拟人化</category><category>信任建模</category>
-    </item>    <item>
-      <title>利用语音识别与振动触觉刺激支持聋盲人士参与集体祈祷</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37949</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37949</guid>
-      <description>📝 利用语音识别与振动触觉刺激支持聋盲人士参与集体祈祷
-EN: Supporting deafblind in congregational prayer using speech recognition and vibro-tactile stimuli
-
-💡 探索利用语音识别将礼拜 spoken 内容转换为振动触觉提示，帮助聋盲参与者感知并参与集体祈祷，呈现感官替代与无障碍辅助技术的应用方向。
-
-📚 IJHCS · 2019 · 引用 12
-👤 Muhammad Azhar Hussain, Kamran Ahsan, Sarwat Iqbal, Adnan Nadeem
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可访问性</category><category>无障碍</category><category>辅助技术</category><category>宗教服务体验</category><category>语音识别</category><category>多模态</category><category>感官替代</category><category>可用性 AI</category>
-    </item>    <item>
-      <title>当人们认为AI能提供共情时，便将共情外包</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37946</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37946</guid>
-      <description>📝 当人们认为AI能提供共情时，便将共情外包
-EN: People Offload Empathy When They Think AI Can Give It Instead
-
-💡 探讨人们认为AI能够提供共情时，是否会将原本应给予他人的理解与关怀转移给AI。该“共情卸载”可能减少人际投入、弱化责任承担并影响关系质量，提示情感型AI应避免替代而非补充人的关怀。
-
-📚 CHB · 2026 · 引用 0
-👤 Madhulika Shastry, Kurt Gray
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>情感计算</category><category>AI依赖</category><category>人际关系</category><category>情感型AI</category><category>情感计算</category><category>人机交互</category><category>AI助手</category>
-    </item>    <item>
-      <title>现实的幻象：AI生成图像（AIGIs）如何误导社交媒体用户</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37943</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37943</guid>
-      <description>📝 现实的幻象：AI生成图像（AIGIs）如何误导社交媒体用户
-EN: The illusion of reality: How AI-generated images (AIGIs) are fooling social media users
-
-💡 考察AI生成图像如何以逼真效果误导社交媒体用户，揭示“现实错觉”带来的信任受损、错误认知与不当传播风险，提示需加强来源标识、验证机制和用户AI素养。
-
-📚 CHB · 2026 · 引用 5
-👤 Márk Miskolczi
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>社交媒体</category><category>内容真实性</category><category>信任</category><category>AI伦理</category><category>图像生成</category><category>生成式 AI</category>
-    </item>    <item>
-      <title>但它本应有益健康：预期与实际营养价值如何影响食品在线评论的内容与语言特征</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37883</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37883</guid>
-      <description>📝 但它本应有益健康：预期与实际营养价值如何影响食品在线评论的内容与语言特征
-EN: But it was supposed to be healthy! How expected and actual nutritional value affect the content and linguistic characteristics of online reviews for food products
-
-💡 以期望—不一致理论分析亚马逊食品评论，文本挖掘显示，购前营养预期、购后实际表现及其偏差会共同影响评论长度、用词多样性、可读性、主观性和情感；研究表明，购前预期与实际表现同样关键。
-
-📚 JCP · 2023 · 引用 11
-👤 Yiru Wang, Xun Xu, Christina A. Kuchmaner, Ran Xu
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>在线评论</category><category>期望不一致</category><category>营养感知</category><category>文本挖掘</category><category>自然语言处理</category><category>情感识别</category>
-    </item>    <item>
-      <title>评估碰撞时间约束与头部注视对走廊机器人导航可用性的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37867</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37867</guid>
-      <description>📝 评估碰撞时间约束与头部注视对走廊机器人导航可用性的影响
-EN: Evaluating the Impact of Time-to-Collision Constraint and Head Gaze on Usability for Robot Navigation in a Corridor
-
-💡 在走廊场景中，以碰撞时间约束和头部注视为关键条件，评估机器人导航的可用性。评估表明，两项因素会影响人机导航任务表现，机器人导航设计需兼顾碰撞安全边界与注视输入。
-
-📚 THMS · 2023 · 引用 4
-👤 Guilhem Buisan, Nathan Compan, Loïc Caroux, Aurélie Clodic, Ophélie Carreras
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可用性</category><category>人机交互(HCI)</category><category>机器人导航</category><category>注视交互</category><category>智能体/Agent</category><category>人机交互</category><category>头部注视交互</category>
-    </item>    <item>
-      <title>危机中的界面交互：界面思维的五个寓言</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37858</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37858</guid>
-      <description>📝 危机中的界面交互：界面思维的五个寓言
-EN: Interfacing in Crisis: Five Parables for Interface Thinking
-
-💡 生成式AI正动摇传统界面对中介、可读性与控制的支撑，使界面呈现、交互形式及“谁在思考或发声”的主体位置同时失序。文章以五个物理变形寓言为隐喻框架，重新推想生成式时代界面的可能形态。
-
-📚 DI · 2026 · 引用 0
-👤 Dave Murray-Rust, Elisa Giaccardi
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互</category><category>界面设计</category><category>生成式 AI</category><category>AI 伦理</category><category>GenAI</category><category>人机交互</category><category>自然语言界面</category><category>AI 治理</category>
-    </item>    <item>
-      <title>Conversation styles and role expectations in a large language model: effects on readability, linguistic features, and users’ perceptions in a Copilot experiment</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37849</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37849</guid>
-      <description>📝 Conversation styles and role expectations in a large language model: effects on readability, linguistic features, and users’ perceptions in a Copilot experiment
-
-💡 考察大型语言模型采用不同对话风格与角色期待时，文本可读性、语言特征及用户感知如何变化。Copilot实验表明，角色与表达方式会共同塑造输出及交互体验，LLM设计需兼顾语言表现与用户预期。
-
-📚 BIT · 2026 · 引用 1
-👤 Qian Xu, Cheng Chen
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>人机交互</category><category>可读性</category><category>用户感知</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>车载对话界面的语音导向</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37847</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37847</guid>
-      <description>📝 车载对话界面的语音导向
-EN: Voice orientation of conversational interfaces in vehicles
-
-💡 聚焦车辆环境中的语音导向对话式界面，探讨其对驾驶任务、注意力及交互体验的影响，强调语音设计应兼顾操作效率、反馈清晰度与驾驶安全。
-
-📚 BIT · 2023 · 引用 10
-👤 Kwan Min Lee, Yohan Moon, Inyoung Park, Jae-gil Lee
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>车载交互</category><category>语音交互</category><category>驾驶安全</category><category>可用性</category><category>对话式 AI</category><category>语音识别</category><category>人机交互</category>
-    </item>    <item>
-      <title>信任解释还是我的预期？输出准确性与解释对AI辅助决策中预期违背及信任的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37838</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37838</guid>
-      <description>📝 信任解释还是我的预期？输出准确性与解释对AI辅助决策中预期违背及信任的影响
-EN: Trust the Explanation or my Expectation? Effects of Output Accuracy and Explanations on Expectation Violations and Trust in AI-Supported Decisions
-
-💡 比较AI辅助决策中输出准确性与解释对预期违背和信任的影响，检验更准确或更可解释的输出是否必然获得更高信任。
-
-📚 IJHCS · 2026 · 引用 2
-👤 Tim Hunsicker, Isabel Duhl, Pascal Haubert, Linda Onnasch, Markus Langer
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>可解释性</category><category>AI 辅助决策</category><category>预期违背</category><category>可解释 AI</category><category>人机协作</category><category>AI 辅助决策</category>
     </item>
   </channel>
 </rss>
