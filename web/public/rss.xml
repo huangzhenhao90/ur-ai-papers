@@ -6,9 +6,128 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:30:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:46:08 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>AI 编程助手的认知包容性：来自 GitHub Copilot 的证据</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38219</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38219</guid>
+      <description>📝 AI 编程助手的认知包容性：来自 GitHub Copilot 的证据
+EN: Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot
+
+💡 通过20名学生的实验室任务、出声思考、半结构访谈和主题分析，比较不同认知风格开发者使用GitHub Copilot的体验，发现建议解释、验证、学习支持、功能呈现及问题解决流程可能偏向部分认知风格，增加其他用户认知负担。
+
+📚 arXiv:cs.SE · 2026 · 引用 0
+👤 Grace Kerr, Aarushi Parasrampuria, Faith Culas, Kelly Blincoe
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.41192v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>认知包容性</category><category>可用性</category><category>用户研究方法</category><category>AI 编程助手</category><category>LLM</category><category>人机交互</category><category>可解释 AI</category>
+    </item>    <item>
+      <title>谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38217</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38217</guid>
+      <description>📝 谁的价值、何种情境与何种信号：基于 Re3Culture 的文化价值对齐
+EN: Whose Values, Which Contexts, and What Signals? Grounding Cultural Value Alignment with Re3Culture
+
+💡 Re3Culture汇集四种文化700余名参与者的社区成员、自选情境及多类价值信号，分析文化价值对齐中应代表谁、在何处观察及如何识别价值。结果表明，仅靠抽象问卷或LLM模拟会产生群体偏差，价值目标需基于具代表性社区与具体情境。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Jing Yao, Hyunjin Hwang, Weihua Zheng, Bryan Chen Zhengyu Tan, Jia Wang Peh
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.41793v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>文化价值对齐</category><category>用户研究方法</category><category>数据集构建</category><category>AI 公平性</category><category>LLM</category><category>AI 价值对齐</category><category>合成数据</category>
+    </item>    <item>
+      <title>相同问题，不同答案：六个 LLM 戒烟建议中的人格依赖差异审计</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38215</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38215</guid>
+      <description>📝 相同问题，不同答案：六个 LLM 戒烟建议中的人格依赖差异审计
+EN: Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice
+
+💡 以12种用户画像向六款LLM提出相同的戒烟问题，共审计2880次回答，发现模型建议随身份显著变化：青少年更少获知处方药信息，具备医疗专业知识的画像反而常获得更少事实。设定医学事实下限的系统提示可缩小差异，但效果难以跨模型迁移。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Artin Yousefi, Aizierjiang Aiersilan, Lorien C Abroms, David A Broniatowski
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.42039v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>个性化</category><category>算法审计</category><category>医疗健康</category><category>LLM</category><category>对话式 AI</category><category>AI 健康顾问</category><category>系统提示工程</category>
+    </item>    <item>
+      <title>工具调用能泄露多少个人信息？工具调用轨迹的隐私泄漏</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38211</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38211</guid>
+      <description>📝 工具调用能泄露多少个人信息？工具调用轨迹的隐私泄漏
+EN: How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces
+
+💡 构建包含1000个合成用户画像、4000条代理轨迹和25个MCP服务的PrivacyTrace基准。实验显示，四种LLM攻击者可从工具调用轨迹推断用户属性，成功率达26.25%，高于先验猜测的17.97%；工具参数、返回结果及跨会话关联是主要泄露来源。
+
+📚 arXiv:cs.CR · 2026 · 引用 0
+👤 Donghang Duan, Qingyu Liu, Yifei Liu, Na Zou, Xia Hu
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.41885v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>隐私</category><category>用户画像</category><category>AI治理</category><category>LLM</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>PersonaChatBench：基于多样化模拟用户评估对话助手</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38210</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38210</guid>
+      <description>📝 PersonaChatBench：基于多样化模拟用户评估对话助手
+EN: PersonaChatBench: Evaluating Chat Assistants with Diverse Simulated Users
+
+💡 提出PersonaChatBench，以相同任务配对不同背景、需求和交互风格的模拟用户，评估20个语言模型在六个领域的能力、需求满足度及模拟器保真度。结果表明，综合任务得分无法反映个体需求满足，不同模型面向不同用户群体存在稳定的服务差距。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Zheyuan Deng, Taoran Li, Jingwen Zhang, Yuante Li, Dachuan Zhao
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2610.42060v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>对话式AI</category><category>个性化</category><category>用户体验(UX)</category><category>LLM</category><category>对话式AI</category><category>AI助手</category><category>AI用户画像</category>
+    </item>    <item>
+      <title>AutoAnalysis：人机协作的自动化自我更新元分析</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38208</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38208</guid>
+      <description>📝 AutoAnalysis：人机协作的自动化自我更新元分析
+EN: AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration
+
+💡 AutoAnalysis自动汇总并持续更新人机协作元分析，最新纳入420篇论文和1955个效应量。总体上，人机组合显著优于人类单独工作，却通常不及人类与AI中表现更优的一方，说明“优于人类”并不等于实现人机协同。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Michelle Vaccaro, Abdullah Almaatouq, Thomas W. Malone
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2610.42001v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>人机交互</category><category>元分析</category><category>GenAI</category><category>人机协作</category><category>智能体/Agent</category>
+    </item>    <item>
+      <title>通过人机协同纠错实现低负担图像饮食评估</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38206</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38206</guid>
+      <description>📝 通过人机协同纠错实现低负担图像饮食评估
+EN: Toward Low-Burden Image-Based Dietary Assessment Through Human-AI Collaborative Correction
+
+💡 面向图像饮食记录的纠错负担，将交互重构为“表达意图—AI重生成—用户核验”。30人被试内研究显示，相比手动搜索编辑，该方式降低任务负荷、使用时间和点击次数，改善体验与能量估算误差，并获90%用户偏好。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Darren Liu, Andrew Lu, Zhiyuan "Ryan" Wang, Hanqi Luo, Xiao Hu
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2610.41300v1</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>可用性测试</category><category>人机协作</category><category>多模态</category><category>AI助手</category><category>人机协作</category>
+    </item>    <item>
       <title>MALACHITE—Enabling Users to Teach GUI-Aware Natural Language Interfaces</title>
       <link>https://ur-ai-papers.vercel.app/papers/38172</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38172</guid>
@@ -379,112 +498,6 @@ EN: Keeping it real in human eyes: Receptivity to human vs. AI in luxury authent
 AI 分: 4.0 / 领域分: 5.0</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <category>奢侈品消费</category><category>消费者行为</category><category>信任</category><category>AI采用</category><category>人机交互</category><category>AI鉴定</category>
-    </item>    <item>
-      <title>利用生成式AI促进人类理解：新兴范式下解释型AI的元需求与设计原则</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38026</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38026</guid>
-      <description>📝 利用生成式AI促进人类理解：新兴范式下解释型AI的元需求与设计原则
-EN: Leveraging generative AI for human understanding: meta-requirements and design principles for Explanatory AI as an emerging paradigm
-
-💡 针对传统XAI偏重算法透明、难支持实践者理解与行动的问题，结合多学科理论、医疗与AI专家访谈，提出“解释型AI”：利用生成式与多模态能力充当解释伙伴，界定五个区别维度，并导出五项元需求、十项设计原则及界面原型。
-
-📚 BIT · 2026 · 引用 0
-👤 Christian Meske, Justin Brenne, Erdi Ünal, Sabahat Ölçer, Ayşegül Doğangün
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://doi.org/10.1080/0144929x.2026.2740084</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>人机交互</category><category>可用性</category><category>AI 伦理</category><category>GenAI</category><category>多模态</category><category>可解释 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>赋予发声权而不代言：对话式AI与超越人类表征在利益相关者参与中的应用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38014</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38014</guid>
-      <description>📝 赋予发声权而不代言：对话式AI与超越人类表征在利益相关者参与中的应用
-EN: Giving voice without speaking for: Conversational AI and more-than-human representation in stakeholder engagement
-
-💡 聚焦利益相关者参与中被忽视的非人类主体，探讨对话式AI如何在不由人代言时赋予其表达权。分析AI代理的代表性、话语权与责任边界，指出其可扩展参与，但需防范替人类发言及操纵。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Adrian Wong, Tram Thi Minh Tran, Joel Fredericks
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>利益相关者参与</category><category>人机交互</category><category>伦理</category><category>AI治理</category><category>对话式AI</category><category>人机协作</category><category>AI治理</category>
-    </item>    <item>
-      <title>理解是一把双刃剑：机器学习可解释说明中未明确信息的过度解读</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38010</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38010</guid>
-      <description>📝 理解是一把双刃剑：机器学习可解释说明中未明确信息的过度解读
-EN: Comprehension is a double-edged sword: Over-interpreting unspecified information in intelligible machine learning explanations
-
-💡 检验用户理解机器学习解释时，是否会将未明确呈现的信息自行补全并过度解读，从而形成错误判断。可理解性可能具有双刃剑效应：解释越易读，用户越有信心，却也更易推断模型并未支持的结论。
-
-📚 IJHCS · 2025 · 引用 11
-👤 Yueqing Xuan, Edward Small, Kacper Sokol, Danula Hettiachchi, Mark Sanderson
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>用户理解</category><category>人机交互</category><category>认知偏差</category><category>可解释 AI</category><category>机器学习</category><category>人机交互</category>
-    </item>    <item>
-      <title>生成式人工智能使用与不当育儿行为：全国性调查发现</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37999</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37999</guid>
-      <description>📝 生成式人工智能使用与不当育儿行为：全国性调查发现
-EN: Generative Artificial Intelligence Use and Inappropriate Parenting Behaviors: Findings From a Nationwide Survey
-
-💡 通过全国性调查考察生成式AI使用与不当育儿行为之间的关联，并分析不同使用情境。结果提示二者存在相关关系，但不能据此认定因果；家庭中需关注AI建议的可靠性、依赖风险与儿童福祉。
-
-📚 CHB · 2026 · 引用 0
-👤 Yousuke Imanishi, Sinchul Jwa, Masahiko Sakamoto, Takahiro Tabuchi
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>AI采用</category><category>问卷</category><category>儿童/老人/无障碍</category><category>伦理</category><category>GenAI</category><category>人机交互</category>
-    </item>    <item>
-      <title>Can professional or AI fact-checking protect trust in journalism from political attacks? The complex roles of source, transparency, ideology, and the machine heuristic</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37996</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37996</guid>
-      <description>📝 Can professional or AI fact-checking protect trust in journalism from political attacks? The complex roles of source, transparency, ideology, and the machine heuristic
-
-💡 比较专业事实核查者与AI事实核查在政治攻击情境下维持新闻信任的效果，并考察来源、透明度、意识形态与“机器启发式”的作用。结果提示，AI背书并非自动修复信任；透明度及使用者政治倾向可能决定其帮助或反噬效果。
-
-📚 CHB · 2026 · 引用 6
-👤 Rui Wang, Yotam Ophir
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>新闻业</category><category>政治传播</category><category>AI 事实核查</category><category>AI 事实核查</category><category>人机交互</category>
-    </item>    <item>
-      <title>儿童与机器人导师互动中的故障：纵向研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37988</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37988</guid>
-      <description>📝 儿童与机器人导师互动中的故障：纵向研究
-EN: Breakdowns in children's interactions with a robotic tutor: A longitudinal study
-
-💡 基于标题可推断，纵向追踪儿童与机器人导师的互动，识别并刻画互动故障及其随时间的变化，揭示机器人教学中的持续性交互问题。
-
-📚 CHB · 2018 · 引用 74
-👤 Sofia Serholt
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>儿童</category><category>人机交互(HCI)</category><category>可用性</category><category>机器人导师</category><category>人机交互</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>解构学生与AI的互动：论证在塑造行为与认知学习过程中的作用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/37962</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/37962</guid>
-      <description>📝 解构学生与AI的互动：论证在塑造行为与认知学习过程中的作用
-EN: Unpacking student-AI engagement: the role of argumentation in shaping behavioural and cognitive learning processes
-
-💡 聚焦学生与AI互动中的论证如何影响参与度及行为、认知学习过程，提示教育AI应支持观点表达、理由建构与反馈引导；具体作用机制仍待实证检验。
-
-📚 BIT · 2026 · 引用 0
-👤 Yeonji Jung, Soyeon Mun, Gyeoun Jeong
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>人机交互</category><category>教育技术</category><category>论证学习</category><category>教育 AI</category><category>人机交互</category>
     </item>
   </channel>
 </rss>
