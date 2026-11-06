@@ -6,9 +6,24 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:53:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:52:30 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>人类与LLM作为工具及队友协作时的信任、接受度与行为差异</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38560</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38560</guid>
+      <description>📝 人类与LLM作为工具及队友协作时的信任、接受度与行为差异
+EN: Exploring Trust, Acceptance, and Behavioral Differences When Humans Collaborate with Large Language Models as Tools and Teammates
+
+💡 通过778人在线实验，将同一商用LLM呈现为“工具”或“队友”，比较实时协作中的信任、接受度与行为。队友式呈现显著提高信任和积极对话情绪，整体接受度与绩效感知较高；既有AI经验仍会影响评价。
+
+📚 TiiS · 2025 · 引用 6
+👤 Christopher Flathmann, Nathan J. McNeese, Subhasree Sengupta, Ethan Johnson
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机协作</category><category>AI采用</category><category>LLM</category><category>对话式AI</category><category>人机交互</category>
+    </item>    <item>
       <title>LifeVal：评估 AI 模型在个性化智能体消费任务中的表现</title>
       <link>https://ur-ai-papers.vercel.app/papers/38541</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38541</guid>
@@ -231,7 +246,7 @@ EN: Lay representations of artificial intelligence: a scoping review informed by
 💡 聚焦公众对人工智能的通俗表征，以社会表征理论为框架开展范围综述，梳理社会群体如何共同理解AI及其社会意义；因仅有标题，具体研究主题与结论需由正文确认。
 
 📚 BIT · 2026 · 引用 0
-👤 Lu Ding, Tong Li, Sanju Gharti Chhetri G C, Ahsley Turkson
+👤 Lu Ding, Tong Li, Sanju Gharti Chhetri G. C., Ahsley Turkson
 
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
@@ -485,23 +500,6 @@ AI 分: 5.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2611.02667v1</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
       <category>个性化</category><category>用户画像</category><category>人机交互</category><category>LLM</category><category>AI 助手</category><category>偏好建模</category>
-    </item>    <item>
-      <title>Q-CamTuning：面向直播相机调优细粒度质量推理的多模态LLM</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38311</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38311</guid>
-      <description>📝 Q-CamTuning：面向直播相机调优细粒度质量推理的多模态LLM
-EN: Q-CamTuning: A Multimodal Large Language Model for Fine-Grained Quality Reasoning in Livestreaming Camera Tuning
-
-💡 面向直播相机调参中细微画质差异难辨、调参建议缺乏解释的问题，构建含细粒度偏好及全局—局部质量推理标注的FGLive-Comments，并训练Q-CamTuning按感知—证据—引导流程评分、排序画质并给出参数调整方向。实验显示其优于既有IQA模型，用户研究也验证了建议的有效性。
-
-📚 arXiv:cs.CV · 2026 · 引用 0
-👤 Yanchao Bi, Pengfei Chen, Yulong Yan, Qian Zhang, Biao Wang
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.03007v1</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <category>多模态交互</category><category>用户体验(UX)</category><category>直播画质优化</category><category>多模态大语言模型</category><category>图像质量评估</category><category>可解释 AI</category>
     </item>
   </channel>
 </rss>
