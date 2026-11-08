@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 08:09:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 08:26:10 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>人机信任现象建模</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38667</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38667</guid>
+      <description>📝 人机信任现象建模
+EN: Modeling the Human-Robot Trust Phenomenon
+
+💡 基于社会心理学与博弈论构建人机信任的计算框架，提出可检验假设，并通过实验部分验证其解释力，同时总结信任研究的方法挑战与未来方向。
+
+📚 TiiS · 2018 · 引用 49
+👤 Alan R. Wagner, Paul Robinette, Ayanna Howard
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>人机交互</category><category>机器人学</category><category>用户研究方法</category><category>人机交互</category><category>信任建模</category><category>计算建模</category>
+    </item>    <item>
+      <title>我的Siri与你的Siri相同吗：虚拟个人助理用户心智模型及其信任影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38618</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38618</guid>
+      <description>📝 我的Siri与你的Siri相同吗：虚拟个人助理用户心智模型及其信任影响
+EN: Is My Siri the Same as Your Siri? An Exploration of Users’ Mental Model of Virtual Personal Assistants, Implications for Trust
+
+💡 探索用户对 Siri 等虚拟个人助理的心智模型差异及其对信任的影响，揭示用户如何理解助理能力与行为，为改善信任和交互设计提供启示。
+
+📚 THMS · 2022 · 引用 21
+👤 Nathan L. Tenhundfeld, Hannah M. Barr, Emily H. O'Hear, Kristin Weger
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>信任</category><category>用户心智模型</category><category>AI 助手</category><category>对话式 AI</category><category>语音助手</category>
+    </item>    <item>
       <title>基于生理关联的竞争情境中情感自动分类与任务难度自适应：探索性研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/38611</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38611</guid>
@@ -120,6 +150,21 @@ EN: Exploring Trust, Acceptance, and Behavioral Differences When Humans Collabor
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>人机协作</category><category>AI采用</category><category>LLM</category><category>对话式AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>对算法感到冒犯：客户寻求AI第二意见的隐性人际成本</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38554</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38554</guid>
+      <description>📝 对算法感到冒犯：客户寻求AI第二意见的隐性人际成本
+EN: Offended by the algorithm: The hidden interpersonal costs of clients seeking AI second opinion
+
+💡 聚焦客户在获得专业意见后再向AI寻求“第二意见”时，算法回应可能带来的信任、关系与自主感受损，揭示AI辅助的隐性人际代价；具体方法与发现仍待全文验证。
+
+📚 CHB · 2026 · 引用 2
+👤 Gerri Spassova, Mauricio Palmeira
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>信任</category><category>客户体验(CX)</category><category>算法决策支持</category><category>AI助手</category><category>人机交互</category>
     </item>    <item>
       <title>LifeVal：评估 AI 模型在个性化智能体消费任务中的表现</title>
       <link>https://ur-ai-papers.vercel.app/papers/38541</link>
@@ -444,56 +489,6 @@ AI 分: 5.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2611.04708v1</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
       <category>对话式 AI</category><category>人机交互</category><category>歧义澄清</category><category>机器人</category><category>多模态</category><category>LLM</category><category>图像生成</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>Whose startup does the AI back? An algorithm audit of reputation and demographic signals in LLM-assisted crowdfunding</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38405</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38405</guid>
-      <description>📝 Whose startup does the AI back? An algorithm audit of reputation and demographic signals in LLM-assisted crowdfunding
-
-💡 基于预注册联合分析实验，审计7个LLM助手在众筹建议中的创始人性别与族裔使用。默认情况下模型很少受姓名影响；当用户表达支持弱势群体的偏好时，模型更倾向推荐黑人或女性创始人，且几乎不解释这些影响，呈现用户偏好驱动的算法歧视。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Mirza Samad Ahmed Baig, Syeda Anshrah Gillani
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.03993v1</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>算法审计</category><category>伦理</category><category>公平性</category><category>消费者行为</category><category>LLM</category><category>AI 推荐</category><category>决策支持</category><category>AI 治理</category>
-    </item>    <item>
-      <title>人物角色并非人：身份是状态而非属性</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38404</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38404</guid>
-      <description>📝 人物角色并非人：身份是状态而非属性
-EN: Personas Are Not People: Identity as State, Not Attribute
-
-💡 针对固定人格模拟无法复现具体情境中群体行为的问题，区分稳定特质、情境唤起的身份与情境本身，证明固定人格方案存在理论局限，并提出以人在情境中为核心的评价标准与设计方法，在Reddit语料及临床试验招募调查上进行了验证。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Tamunotonye Harry, Yuanyuan Feng
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.05292v1</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI 用户画像</category><category>用户研究方法</category><category>情境行为</category><category>伦理</category><category>LLM</category><category>合成人群</category><category>用户模拟</category><category>AI 评估</category>
-    </item>    <item>
-      <title>只在我们之间吗：探索共享游戏场景中可穿戴设备介导的隐秘人机交互通道</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38403</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38403</guid>
-      <description>📝 只在我们之间吗：探索共享游戏场景中可穿戴设备介导的隐秘人机交互通道
-EN: Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting
-
-💡 在共享卡牌场景中，检验耳内语音配合右倾头的可穿戴隐蔽交互通道。40人双组实验显示，40次交互中39次按预期完成，佩戴者压力低且可用性好，但旁观者察觉程度不一，并形成不同的团队与公平性认知。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Atikkhan Faridkhan Nilgar, Manuel Dietrich, Kristof Van Laerhoven
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.04692v1</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可用性测试</category><category>可穿戴交互</category><category>共享空间</category><category>对话式 AI</category><category>人机交互</category><category>可用性 AI</category>
     </item>
   </channel>
 </rss>
