@@ -6,9 +6,77 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 08:26:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:00:36 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>LLM角色模拟的关键因素：冷启动电商广告中的信号形式</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38744</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38744</guid>
+      <description>📝 LLM角色模拟的关键因素：冷启动电商广告中的信号形式
+EN: What Matters for LLM Persona Simulation: Signal Form in Cold-Start E-Commerce Advertising
+
+💡 针对冷启动电商广告缺少历史数据的问题，比较真实广告活动中的LLM用户画像模拟配置。最小人口描述、相对定性盲测信号及提示措辞效果最佳，MAE较最佳非LLM基线降低51.3%。
+
+📚 arXiv:cs.LG · 2026 · 引用 0
+👤 Jiwoo Choi, In Ik Lee, Woo Sung Seo, Minho Lee, Yun Young Choi
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.08840v1</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>广告</category><category>用户画像</category><category>冷启动预测</category><category>LLM</category><category>用户画像模拟</category><category>广告效果预测</category>
+    </item>    <item>
+      <title>相同事实，不同对策：LLM与System One决策中的语言画像与任意性</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38741</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38741</guid>
+      <description>📝 相同事实，不同对策：LLM与System One决策中的语言画像与任意性
+EN: Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions
+
+💡 以保留事实的语言改写审计LLM与概率模型处理金融投诉的补救决策。群体差异较小，但同一事实因表达风格不同而有2.6%—6.3%的决策差异；统一表达可显著缩窄教育与SES差距。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Colin Priest
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.08995v1</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>伦理</category><category>消费者行为</category><category>用户画像</category><category>服务体验</category><category>LLM</category><category>生成式AI</category><category>算法公平</category><category>语言偏差</category>
+    </item>    <item>
+      <title>关系能力框架：审视AI介导关系性的视角</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38738</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38738</guid>
+      <description>📝 关系能力框架：审视AI介导关系性的视角
+EN: The Relational Capacity Framework: A Lens for AI-Mediated Relationality
+
+💡 通过100人研究考察通用聊天机器人满足社会情感需求的方式，提出关系能力框架与八种状态，依据个体的社交技能、可用精力和信息解释AI如何扩展或压缩其建立、维持及退出关系的能力。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Emily Tseng, Patrick Gage Kelley, Renee Shelby, Ashley M. Walker
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.08877v1</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>人机协作</category><category>在线社区</category><category>LLM</category><category>对话式AI</category><category>AI助手</category>
+    </item>    <item>
+      <title>何者委派，何者保留：日常生活与工作中人类对智能体AI的偏好</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38737</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38737</guid>
+      <description>📝 何者委派，何者保留：日常生活与工作中人类对智能体AI的偏好
+EN: What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work
+
+💡 基于289名有AI使用经验的美国成年人、45个日常与工作场景，刻画用户对智能体自动化的接受边界。信任、AI领导偏好、既往使用和预期节省成本会提高委托意愿，个人成就感顾虑则降低意愿；用户总体偏好有限自主并保留监督或最终决策权。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Sarah Wheeler, Veronica Rammouz, Yaoyao Qian, Zexuan Liu, Mengyi Wei
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.09730v1</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <category>问卷</category><category>用户研究方法</category><category>人机协作</category><category>信任</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
       <title>人机信任现象建模</title>
       <link>https://ur-ai-papers.vercel.app/papers/38667</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38667</guid>
@@ -425,70 +493,6 @@ EN: Lay representations of artificial intelligence: a scoping review informed by
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI社会认知</category><category>公众认知</category><category>范围综述</category><category>社会表征理论</category><category>人工智能</category><category>AI社会表征</category>
-    </item>    <item>
-      <title>利用多模态LLMs测试Android移动端GUI动态视觉变化的可访问性</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38434</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38434</guid>
-      <description>📝 利用多模态LLMs测试Android移动端GUI动态视觉变化的可访问性
-EN: Towards Testing the Accessibility of Dynamic Visual Changes in Android Mobile GUI with Multi-Modal LLMs
-
-💡 面向盲障用户的Android动态视觉变化障碍，提出多模态大模型测试方法VisualDroid，以三跳推理识别并分类GUI变化。该方法在34款应用上F1达94.7%，并实际发现开发者待修复的可访问性问题。
-
-📚 TOCHI · 2026 · 引用 1
-👤 Mengxi Zhang, Jianlin Yu, Chen Xu, Jiqun Li, Xinglong Yin
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>可访问性</category><category>移动交互</category><category>GUI测试</category><category>多模态交互</category><category>多模态</category><category>LLM</category><category>可用性AI</category>
-    </item>    <item>
-      <title>数字语音助手用户体验：概念化与测量</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38433</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38433</guid>
-      <description>📝 数字语音助手用户体验：概念化与测量
-EN: User Experience of Digital Voice Assistant: Conceptualization and Measurement
-
-💡 针对数字语音助手用户体验缺乏系统维度与测量量表的问题，融合在线评论分析与三阶段样本检验，构建多层体验维度并完成量表开发、修订和交叉验证，为评估语音助手体验及持续优化人机交互提供统一工具。
-
-📚 TOCHI · 2023 · 引用 13
-👤 Qian Chen, Yeming Gong, Yaobin Lu
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>人机交互(HCI)</category><category>用户研究方法</category><category>量表开发</category><category>AI助手</category><category>对话式AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>协作式搜索遇上大语言模型：实证研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38413</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38413</guid>
-      <description>📝 协作式搜索遇上大语言模型：实证研究
-EN: Collaborative Search Meets Large Language Models: An Empirical Study
-
-💡 80名学生组成40组，对比问答智能体、协作搜索智能体、聊天搜索插件与人工谷歌搜索。结合问卷、报告和访谈发现，LLM智能体可降低感知负担、促进协作，并改变沟通与证据使用方式；其促进独立改写，但也可能降低报告丰富度。
-
-📚 arXiv:cs.IR · 2026 · 引用 0
-👤 Peiyuan Gong, Jiamian Li, Erhan Zhang, Fengming Liang, Kexin Liu
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.04619v1</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>协作搜索</category><category>信息检索</category><category>人机协作</category><category>LLM</category><category>智能体/Agent</category><category>对话式 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>CLARA：认知驱动的歧义请求澄清框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38409</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38409</guid>
-      <description>📝 CLARA：认知驱动的歧义请求澄清框架
-EN: CLARA: A Cognitively-Driven Clarification Framework for Grounding Ambiguous Requests
-
-💡 针对大视觉语言模型面对模糊指令时过度自信的问题，设计认知驱动的主动澄清框架，通过针对性提问将宽泛请求细化为结构化偏好，并以扩散模型生成场景供用户确认。实验与用户研究表明，该方法能获得更准确、一致的整理结果。
-
-📚 arXiv:cs.RO · 2026 · 引用 0
-👤 Dimitrios Bekris, Marios Glytsos, Panagiotis P. Filntisis, Niki Efthymiou, George Retsinas
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.04708v1</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>人机交互</category><category>歧义澄清</category><category>机器人</category><category>多模态</category><category>LLM</category><category>图像生成</category><category>对话式 AI</category>
     </item>
   </channel>
 </rss>
