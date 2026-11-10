@@ -6,9 +6,192 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Nov 2026 09:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 09:12:50 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>从用户行为到满意度判断：推理用户对 AI Overviews 的满意度</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38814</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38814</guid>
+      <description>📝 从用户行为到满意度判断：推理用户对 AI Overviews 的满意度
+EN: From User Behaviors to Satisfaction Judgments: Reasoning about User Satisfaction with AI Overviews
+
+💡 面向搜索场景中的AI概览，现有满意度评估未充分利用用户行为。STaRS让LLM先解释单项行为信号，再综合推断满意度，并以强化学习和奖励塑形优化稀疏奖励下的推理流程；两个真实数据集上，其预测表现优于对比方法。
+
+📚 arXiv:cs.IR · 2026 · 引用 0
+👤 Xingzhu Wang, Yitong Xu, Yue Li, Daiting Shi, Jingzhou He
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.10715v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>用户行为</category><category>满意度预测</category><category>信息检索</category><category>GenAI</category><category>LLM</category><category>强化学习</category>
+    </item>    <item>
+      <title>让渡与重拾判断力：软件工程学生如何体验AI依赖</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38812</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38812</guid>
+      <description>📝 让渡与重拾判断力：软件工程学生如何体验AI依赖
+EN: Surrendering and Reclaiming Judgment: How Software Engineering Students Experience AI Reliance
+
+💡 对43名高年级软件工程学生开展学期项目的探索性案例研究，结合问卷、焦点小组与主题分析，揭示AI依赖加深会让学生交出判断、陷入无法理解的代码并产生羞愧和疏离；保留或重建判断是摆脱依赖的关键。
+
+📚 arXiv:cs.SE · 2026 · 引用 0
+👤 Nathan Cassee, Umit Akirmak, Luiz Guerra, Margaret-Anne Storey, Neil Ernst
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.12646v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI依赖</category><category>用户研究方法</category><category>访谈</category><category>软件工程教育</category><category>AI助手</category><category>人机协作</category>
+    </item>    <item>
+      <title>TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38810</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38810</guid>
+      <description>📝 TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理
+EN: TurnFlow: Benchmarking User-State Reasoning in Multi-Turn LLM Agents via Scene-Guided User Simulation
+
+💡 针对多轮对话中模型难以持续追踪并执行变化后需求的问题，TurnFlow结合自适应用户模拟与可验证评判，以490个场景检验9种LLM。总体通过率为42.86%—59.59%，模型虽擅长多约束遵循，却在范围蔓延与目标转移上明显失效。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Zhixun Chen, Ming Li, Anjie Liu, Xiaoyuan Zhang, Quanyu Dai
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.10412v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>对话式 AI</category><category>用户状态推理</category><category>基准测试</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category>
+    </item>    <item>
+      <title>LiveAsset：从纠正性交互中学习意图资产以实现智能体运行时控制</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38808</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38808</guid>
+      <description>📝 LiveAsset：从纠正性交互中学习意图资产以实现智能体运行时控制
+EN: LiveAsset: Learning Intent Assets from Corrective Interactions for Agent Runtime Control
+
+💡 针对网页LLM智能体难以从纠错中持续理解未明示意图的问题，LiveAsset联合解释原始与修订结果，积累带适用条件的需求资产，并在回复前核验，保留已满足要求、修订未满足项，以支持同任务重放与跨任务迁移。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Guanming Liu, Weihang Wang, Peng Zhang, Meng Wu, Kainan Tu
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.11560v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>个性化</category><category>人机协作</category><category>LLM</category><category>智能体/Agent</category><category>对话式 AI</category>
+    </item>    <item>
+      <title>ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38806</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38806</guid>
+      <description>📝 ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型
+EN: ShopMind: A Mental World Model for Personalized and Realistic E-commerce User Simulation
+
+💡 针对电商用户模拟中个性化与行为真实性不足，构建以信念、不确定性和意图为核心的ShopMind心理世界模型，并用合成行为—心理状态数据训练MSR以推断潜在状态；相比最强基线，个性化与行为真实性分别提升18.0%和19.6%。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Peixuan Hou, Bin Chen, Li He, Jian Xu, Xiuli Ma
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.11897v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>个性化</category><category>消费者行为</category><category>推荐系统</category><category>LLM</category><category>AI用户画像</category><category>智能体/Agent</category>
+    </item>    <item>
+      <title>平均患者：模拟精神科患者的回答是否与真实患者相似？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38803</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38803</guid>
+      <description>📝 平均患者：模拟精神科患者的回答是否与真实患者相似？
+EN: The Average Patient: Do Simulated Psychiatric Patients Answer Like Real People?
+
+💡 以“信息预算”和“平均患者”假设检验17个模型模拟精神科患者的逼真度：相较8组真人样本，模型变异低1.5—11倍，常将多数症状评为中等，也较少回答“无症状”；提示、人格、模型规模与推理仅能减弱该模式，使AI治疗师对无症状的识别能力缺乏有效检验。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Weixiang Sun, Zehong Wang, Kaiwen Shi, Hong Huang, Colby Nelson
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.11679v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>心理模拟</category><category>评估效度</category><category>访谈</category><category>LLM</category><category>对话式 AI</category><category>心理模拟</category><category>评估智能体</category>
+    </item>    <item>
+      <title>不完美中的不完美：评估LLM人格模拟中的分级认知多样性</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38800</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38800</guid>
+      <description>📝 不完美中的不完美：评估LLM人格模拟中的分级认知多样性
+EN: Imperfectly Imperfect: Evaluating Graded Cognitive Diversity in LLM Persona Simulations
+
+💡 为检验LLM角色模拟能否复现人类认知差异，团队以认知反思、认知需求与大五人格设定代理，并与473名成年人完成同一套测验。模型能再现自陈人格分布，却难以反映推理任务和行为差异；Claude Sonnet 4.6无论人格设定均获CRT满分，显著偏离人类。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Sion Weatherhead, Ben Newell, Aaron Belbasis, Flora Salim
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.10508v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>用户研究方法</category><category>合成参与者</category><category>认知差异</category><category>LLM</category><category>智能体/Agent</category><category>AI 用户画像</category>
+    </item>    <item>
+      <title>预知编程：人类构建预测机器人所面临的问题</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38799</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38799</guid>
+      <description>📝 预知编程：人类构建预测机器人所面临的问题
+EN: Programming Prescience: Issues in Human Construction of Forecasting Bots
+
+💡 访谈15名AI预测竞赛获奖方案的构建者，归纳其在获取事实资料、实现连贯推理和评估机器人表现上的困难；构建者常引入无效复杂度并采取机会化、碎片化测试，凸显预测机器人开发工具、流程与人机协作设计需求。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Priya Dhawka, Benjamin Wilson, Andrew Head
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.12834v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>访谈</category><category>AI预测</category><category>人机协作</category><category>智能体/Agent</category><category>推理AI</category><category>人机协作</category>
+    </item>    <item>
+      <title>从LLM幻觉到创作灵感</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38796</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38796</guid>
+      <description>📝 从LLM幻觉到创作灵感
+EN: From LLM Hallucinations to Inspiration in Creative Work
+
+💡 基于20名创意从业者的41个幻觉案例及20次半结构访谈，归纳幻觉在目标相关性、任务阶段和内容可改造性下转化为灵感的状态及行为后果，并揭示其对角色差异化信任的重塑，提出分阶段控制、差异化标注与创意挽救等设计建议。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Xinrui Lin, Heyan Huang, Shuning Zhang, Qi Wang, Youchao Zhou
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.12337v1</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>生成式AI创作</category><category>信任</category><category>LLM幻觉</category><category>LLM</category><category>GenAI</category><category>人机交互</category>
+    </item>    <item>
+      <title>从复杂迷思到轻而易举：生成式AI聊天机器人系统主流用户复用意愿驱动因素</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38770</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38770</guid>
+      <description>📝 从复杂迷思到轻而易举：生成式AI聊天机器人系统主流用户复用意愿驱动因素
+EN: From complex myth to easy-peasy: unveiling factors driving mainstream user re-use intention of generative AI-chatbots systems
+
+💡 聚焦主流用户重复使用生成式AI聊天机器人系统的意愿，考察系统从复杂难懂转变为简单易用的过程中有哪些驱动因素；因缺少摘要，具体理论、变量及实证结论尚无法判断。
+
+📚 BIT · 2026 · 引用 0
+👤 Serge-Lopez Wamba-Taguimdje, Samuel Fosso Wamba, Maciel M. Queiroz, Hossana Twinomurinzi
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户接受</category><category>可用性</category><category>用户体验(UX)</category><category>持续使用</category><category>GenAI</category><category>对话式 AI</category><category>LLM</category>
+    </item>    <item>
+      <title>解释城市空中交通中的概念性AI推荐：叙事视频与文本式说明的呈现格式比较</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38769</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38769</guid>
+      <description>📝 解释城市空中交通中的概念性AI推荐：叙事视频与文本式说明的呈现格式比较
+EN: Explaining conceptual AI recommendations in urban air mobility: a comparison of storytelling video-based and text-based presentation formats for explanations
+
+💡 比较故事化视频与文本两种解释形式，探讨如何呈现城市空中交通中的AI概念性推荐，以增强建议依据的可理解性；因缺少摘要，哪种形式更优及其作用机制仍待验证。
+
+📚 BIT · 2026 · 引用 0
+👤 Jekaterina Basjuka, Carl Westin, Gustaf Söderholm, Jonas Lundberg
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>可解释性</category><category>信息可视化</category><category>多模态交互</category><category>智能交通</category><category>可解释 AI</category><category>AI 推荐</category><category>多模态</category>
+    </item>    <item>
       <title>LLM角色模拟的关键因素：冷启动电商广告中的信号形式</title>
       <link>https://ur-ai-papers.vercel.app/papers/38744</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38744</guid>
@@ -318,181 +501,6 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2611.06830v1</description>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <category>伦理</category><category>AI 治理</category><category>人机交互</category><category>AI 依赖</category><category>GenAI</category><category>AI 治理</category><category>人机交互</category>
-    </item>    <item>
-      <title>人格是否具有说服力：探究LLM中的人格特质提示与说服</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38531</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38531</guid>
-      <description>📝 人格是否具有说服力：探究LLM中的人格特质提示与说服
-EN: Does Personality Persuade? Investigating Personality Trait Prompting and Persuasion in Large Language Models
-
-💡 评估大模型人格提示的可控性与说服效果：先用IPIP-NEO-120测量人格复现和跨特质影响，再让32名参与者与不同人格配置的LLM智能体讨论道德困境。人格可被一定程度诱导，但人格一致性未显著改变说服、立场或信心；更高的AI说服素养与较少信心变化相关。
-
-📚 arXiv:cs.CY · 2026 · 引用 0
-👤 Ruben Boone, Gilles Eerlings, Sebe Vanbrabant, Davy Vanacken, Kris Luyten
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.06572v1</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户研究</category><category>用户画像</category><category>说服</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>自动语音识别后的个性化视觉支持</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38530</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38530</guid>
-      <description>📝 自动语音识别后的个性化视觉支持
-EN: Personalized Visual Support After Automatic Speech Recognition
-
-💡 针对语音接口仅提供转写的问题，设计四级文本与图示支持，并依据重放请求、响应延迟及近期理解情况自适应选择呈现方式；拟通过固定与自适应条件下的平衡顺序实验，比较理解度、可用性和模态依赖，尚无结果结论。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Beatriz Calero, Duarte Neves, Carlos Bruno, Luis Ricardo Santos, Mario Egea
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.05625v1</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>多模态交互</category><category>个性化呈现</category><category>可用性</category><category>语音交互</category><category>自动语音识别</category><category>多模态</category><category>自适应界面</category><category>个性化AI</category>
-    </item>    <item>
-      <title>城市中的机器人：人格化视角下对城市机器人的感知</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38529</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38529</guid>
-      <description>📝 城市中的机器人：人格化视角下对城市机器人的感知
-EN: Robots in the City: Persona-Based Perceptions of Urban Robots
-
-💡 比较首尔街道图像中无机器人、配送机器人和人形机器人的安全感判断：两个多模态大模型在500种合成人格条件下与25名人类完成成对选择。模型和人类均偏好无机器人街道、夜间更愿选择机器人，但模型低估了人类对人形机器人的相对偏好，显示其只能部分模拟人类感知。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Keonhee Jang, Kanghoon Lee, Seokwoo Yun, Namwoo Kim, Yoonjin Yoon
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.05954v1</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户研究方法</category><category>用户画像</category><category>公共空间安全</category><category>多模态</category><category>LLM</category>
-    </item>    <item>
-      <title>究竟是谁的透明度：跨利益相关者生成式AI透明度需求与差距</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38528</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38528</guid>
-      <description>📝 究竟是谁的透明度：跨利益相关者生成式AI透明度需求与差距
-EN: Whose Transparency is it Anyway? Understanding Generative AI Transparency Needs and Gaps Across Stakeholders
-
-💡 比较终端用户、AI开发者与政策制定者对生成式AI透明度的理解及实践缺口。结合400人全球调查和终端用户焦点小组，发现各方都重视准确性与隐私，但终端用户感知缺口最大、满意度仅28%，且需求随情境变化，说明应采用角色适配的透明度方案而非统一披露。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Genevieve Smith, Sahiba Chopra, Natalia Luka, Min Kyung Lee
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.05549v1</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI治理</category><category>透明度</category><category>用户研究方法</category><category>信任</category><category>GenAI</category><category>可解释AI</category><category>AI治理</category>
-    </item>    <item>
-      <title>BobFlow：利用数据流实现人机协作数据科学</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38527</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38527</guid>
-      <description>📝 BobFlow：利用数据流实现人机协作数据科学
-EN: BobFlow: Towards Human-Agent Collaborative Data Science Using Dataflows
-
-💡 针对分析师难以理解与修改智能体生成的Python或SQL分析脚本，BobFlow以数据流为共享抽象，结合ReAct让智能体迭代构建、执行分析并接受人类检查与反馈。用户研究显示其提升分析理解、检查和验证能力；多模型实验最多提高18.6分准确率，推理成本略高于脚本式ReAct智能体的三分之一。
-
-📚 arXiv:cs.DB · 2026 · 引用 0
-👤 Jiadong Bai, Yicong Huang, Chen Li
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.05761v1</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>可解释性</category><category>可视化</category><category>用户研究</category><category>LLM</category><category>智能体/Agent</category><category>人机协作</category><category>可解释 AI</category>
-    </item>    <item>
-      <title>基于动态人机轮椅协作的路缘跨越</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38494</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38494</guid>
-      <description>📝 基于动态人机轮椅协作的路缘跨越
-EN: Curb Negotiation With Dynamic Human–Robotic Wheelchair Collaboration
-
-💡 聚焦人机协作控制智能轮椅越过路缘时的动态协商，考察驾驶员与机器人如何在安全、效率和任务控制之间协调配合，以理解动态协作对无障碍出行体验及系统设计的影响。
-
-📚 THMS · 2022 · 引用 6
-👤 Jorge Candiotti, Brandon Daveler, Sivashankar Sivakanthan, Garrett Grindle, Rosemarie Cooper
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>人机交互(HCI)</category><category>无障碍</category><category>可用性</category><category>人机协作</category><category>自主机器人</category><category>人机交互</category>
-    </item>    <item>
-      <title>机器人情感表达编程：交互范式、沟通模态与情境</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38490</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38490</guid>
-      <description>📝 机器人情感表达编程：交互范式、沟通模态与情境
-EN: Programming Robots to Express Emotions: Interaction Paradigms, Communication Modalities, and Context
-
-💡 聚焦机器人如何表达情绪，从交互范式、沟通模态与使用情境三个层面梳理情绪编程方式，强调机器人情绪表达需结合互动对象、表达渠道及环境动态进行设计。
-
-📚 THMS · 2014 · 引用 19
-👤 Unknown
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>情感计算</category><category>多模态交互</category><category>人机交互</category><category>多模态</category>
-    </item>    <item>
-      <title>手势学习界面：人类教师引导模拟机器人路径规划</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38482</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38482</guid>
-      <description>📝 手势学习界面：人类教师引导模拟机器人路径规划
-EN: A Gesture Learning Interface for Simulated Robot Path Shaping With a Human Teacher
-
-💡 设计手势学习界面，使人类教师可在模拟环境中直接引导机器人路径；该方法有望降低机器人编程门槛，支持更直观的人机协作式训练。
-
-📚 THMS · 2014 · 引用 30
-👤 Paul M. Yanik, Joe Manganelli, Jessica Merino, Anthony L. Threatt, Johnell O. Brooks
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>手势交互</category><category>机器人学习</category><category>人机协作</category><category>智能体/Agent</category><category>人机协作</category><category>人机交互</category><category>交互式学习</category>
-    </item>    <item>
-      <title>混合式用户辅助增量模型自适应：动态智能家居环境中的活动识别</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38473</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38473</guid>
-      <description>📝 混合式用户辅助增量模型自适应：动态智能家居环境中的活动识别
-EN: Hybrid User-Assisted Incremental Model Adaptation for Activity Recognition in a Dynamic Smart-Home Environment
-
-💡 将用户辅助与增量模型适应结合，用于动态智能家居中的活动识别，使模型可随环境变化持续更新，并兼顾识别性能、个性化与用户参与。
-
-📚 THMS · 2013 · 引用 30
-👤 Ching-Hu Lu, Yu-Chen Ho, Yi-Han Chen, Li-Chen Fu
-
-AI 分: 5.0 / 领域分: 3.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>活动识别</category><category>智能家居</category><category>人机协作</category><category>个性化</category><category>增量学习</category><category>活动识别</category><category>人机协作</category><category>个性化 AI</category>
-    </item>    <item>
-      <title>在有人驾驶仿真中可靠生成碰撞规避建议</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38468</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38468</guid>
-      <description>📝 在有人驾驶仿真中可靠生成碰撞规避建议
-EN: Reliably Creating Collision Avoidance Advisories in Piloted Simulations
-
-💡 聚焦有人驾驶模拟中的碰撞规避建议生成，关注建议的可靠性，并通过飞行员参与的模拟检验其安全性、时机与交互有效性。
-
-📚 THMS · 2013 · 引用 7
-👤 V. Popescu, W. P. Cleveland, E. Boidot, A. R. Pritchett, E. Feron
-
-AI 分: 3.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>驾驶模拟</category><category>碰撞规避</category><category>安全关键系统</category><category>人机交互</category><category>智能决策支持</category>
-    </item>    <item>
-      <title>人工智能的外行表征：基于社会表征理论的范围综述</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38451</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38451</guid>
-      <description>📝 人工智能的外行表征：基于社会表征理论的范围综述
-EN: Lay representations of artificial intelligence: a scoping review informed by social representations theory
-
-💡 聚焦公众对人工智能的通俗表征，以社会表征理论为框架开展范围综述，梳理社会群体如何共同理解AI及其社会意义；因仅有标题，具体研究主题与结论需由正文确认。
-
-📚 BIT · 2026 · 引用 0
-👤 Lu Ding, Tong Li, Sanju Gharti Chhetri G. C., Ahsley Turkson
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI社会认知</category><category>公众认知</category><category>范围综述</category><category>社会表征理论</category><category>人工智能</category><category>AI社会表征</category>
     </item>
   </channel>
 </rss>
