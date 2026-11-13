@@ -6,9 +6,141 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:08:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:03:20 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>当双方均适应时：评估交互式 LLM 系统的挑战</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39014</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39014</guid>
+      <description>📝 当双方均适应时：评估交互式 LLM 系统的挑战
+EN: When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems
+
+💡 交互式LLM评估中，用户会依据模型回答调整提示与任务难度，导致后续评测分布内生。区分固定提示分布效应与交互诱导分布效应后发现，离线基准和在线A/B测试估计不同对象，可能给出相反的模型排名；据此可判断何时离线结果足以支持部署决策。
+
+📚 arXiv:stat.ME · 2026 · 引用 0
+👤 Hannah Li
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.17239v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>实验设计</category><category>在线实验</category><category>LLM</category><category>人机交互</category><category>AI评估</category>
+    </item>    <item>
+      <title>警惕准确性与认可度鸿沟：用户如何评估日常任务中的谄媚型 AI</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39009</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39009</guid>
+      <description>📝 警惕准确性与认可度鸿沟：用户如何评估日常任务中的谄媚型 AI
+EN: Mind the Accuracy-Approval Gap: How Users Evaluate Sycophantic AI in Everyday Tasks
+
+💡 结合基准评测与两项大规模用户研究，比较客观、软迎合、强迎合及基线LLM在日常任务中的表现。迎合倾向会随会话压力显著放大；客观人格准确率更高，却被评为更不尊重、更不满足且更不可信，表明准确性收益可能以体验和信任为代价。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Wajiha Naveed, Brandon Fain
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.16722v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>用户体验(UX)</category><category>信任</category><category>伦理</category><category>LLM</category><category>对话式AI</category><category>人机交互</category><category>AI伦理</category>
+    </item>    <item>
+      <title>规划智能体应如何 ReSHAPE 其搜索空间？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39006</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39006</guid>
+      <description>📝 规划智能体应如何 ReSHAPE 其搜索空间？
+EN: How Should Planning Agents ReSHAPE Their Search Space?
+
+💡 将规划智能体修订用户请求是否符合可接受方案空间形式化为ReSHAPE任务，并分析旅行与购物中5800次修订。揭示一个正确权衡即可使规划器找到可接受方案的概率最高提升4.6倍；现有智能体因询问偏好而非展示方案，遗漏大量可接受方案。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Yilin Zhang, Xinran Zhao, Tong Chen, Ziming Yuan, Tongshuang Wu
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.16466v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>智能体</category><category>人机协作</category><category>交互式规划</category><category>偏好获取</category><category>智能体/Agent</category><category>LLM</category><category>人机交互</category><category>规划</category>
+    </item>    <item>
+      <title>他们在提示谁（或什么）：CS学生如何理解与使用LLMs</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39004</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39004</guid>
+      <description>📝 他们在提示谁（或什么）：CS学生如何理解与使用LLMs
+EN: Who (or what) are they prompting? How CS students conceptualize and use LLMs
+
+💡 对283名计算机专业学生开展问卷与质性编码，分析其LLM认知和提示行为。学生多将LLM视为人类助手，偏好提供丰富上下文的提示；研究进一步刻画了其机制理解水平及LLM隐喻概念。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Nikitha Donekal Chandrashekar, Margaret Ellis, Sehrish Basir Nizamani, Naren Ramakrishnan
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.14798v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>计算机教育</category><category>AI素养</category><category>用户研究方法</category><category>问卷</category><category>LLM</category><category>人机交互</category><category>提示工程</category>
+    </item>    <item>
+      <title>可扩展的对话式评估：基于双智能体LLM流程的聊天式考试</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39001</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39001</guid>
+      <description>📝 可扩展的对话式评估：基于双智能体LLM流程的聊天式考试
+EN: Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline
+
+💡 口试难以扩展且难以追问。构建双智能体LLM评分系统，分离提问与隐藏评估功能，并通过能力人格、提示注入等模拟学生及AI素养课程检验，证明其可支持交互式论证评估，同时暴露出流程改进空间。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Geoffrey Challen, Craig Zilles
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.17220v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>教育技术</category><category>形成性评价</category><category>AI素养</category><category>多智能体系统</category><category>LLM</category><category>对话式AI</category><category>智能体/Agent</category><category>AI面试</category>
+    </item>    <item>
+      <title>超越好奇心：习惯与组织学习能力作为影子AI的预测因子</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38999</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38999</guid>
+      <description>📝 超越好奇心：习惯与组织学习能力作为影子AI的预测因子
+EN: Beyond Curiosity: Habit and Organizational Learning Capability as Predictors of Shadow AI
+
+💡 基于510名跨国职场用户的问卷，分析员工未经许可使用生成式AI的动因。结果显示，习惯是最强预测因素，可解释28.3%的差异；好奇心不再显著，支持学习的组织条件则发挥独立加成作用。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Nolan Lovett, Mohan Yang
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.16931v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI治理</category><category>AI采用</category><category>组织行为</category><category>问卷</category><category>GenAI</category><category>AI治理</category><category>影子AI</category>
+    </item>    <item>
+      <title>AI信任与工作意义感：AI工作塑造的中介作用及领导者AI导向变革行为的调节作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38974</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38974</guid>
+      <description>📝 AI信任与工作意义感：AI工作塑造的中介作用及领导者AI导向变革行为的调节作用
+EN: AI trust and work meaningfulness: mediating role of AI job crafting and moderating role of leaders’ AI-oriented change behaviour
+
+💡 基于中介与调节模型，考察员工对AI的信任如何影响工作意义感，并检验AI岗位塑造的中介作用及领导者AI导向变革行为的调节作用，揭示员工信任、主动适应与领导情境的联动。
+
+📚 BIT · 2026 · 引用 1
+👤 Xinxue Chang, Zhibin Chen, Zhihong Chen
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI信任</category><category>工作意义感</category><category>岗位塑造</category><category>变革领导力</category><category>AI信任</category><category>人机协作</category><category>AI采用</category>
+    </item>    <item>
+      <title>超越性别：揭示男性为何对职场中的类人级AI持更积极态度</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38972</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38972</guid>
+      <description>📝 超越性别：揭示男性为何对职场中的类人级AI持更积极态度
+EN: What goes beyond sex? Unravelling why men hold more favourable attitudes toward human-level AI in the workplace
+
+💡 聚焦职场中男性对类人AI的态度比女性更积极的现象，通过作用机制分析探究性别之外促成这一差异的个体、组织与技术因素，揭示职场类人AI接受度的性别鸿沟。
+
+📚 BIT · 2026 · 引用 1
+👤 Sebastian Hofreiter, Rudolf Kerschreiter, Matthias Spörrle
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI态度</category><category>性别差异</category><category>职场AI</category><category>类人AI</category><category>类人AI</category><category>人机交互</category><category>人机协作</category><category>AI采用</category>
+    </item>    <item>
       <title>EXPRESS：因果对齐：通过 A/B 测试增强语言模型</title>
       <link>https://ur-ai-papers.vercel.app/papers/38909</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38909</guid>
@@ -17,10 +149,12 @@ EN: EXPRESS: Causal Alignment: Augmenting Language Models with A/B Tests
 
 💡 利用A/B测试的因果信号微调语言模型，使其把低绩效营销文案改写为更优版本。36场邮件营销活动、2.83亿次曝光显示，AI辅助标题的点击率较未辅助专家高32%，参数量大30倍的通用模型却未带来改善。
 
-📚 JMR · 2026 · 引用 0
+📚 JMR · 2026 · 引用 7
 👤 Panagiotis Angelopoulos, Kevin Lee, Sanjog Misra
 
-AI 分: 5.0 / 领域分: 3.0</description>
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://doi.org/10.2139/ssrn.4781850</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>营销</category><category>广告</category><category>因果推断</category><category>A/B测试</category><category>LLM</category><category>GenAI</category><category>人机协作</category>
     </item>    <item>
@@ -364,136 +498,6 @@ AI 分: 5.0 / 领域分: 4.0
 📄 PDF: https://arxiv.org/pdf/2611.11679v1</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <category>用户研究方法</category><category>心理模拟</category><category>评估效度</category><category>访谈</category><category>LLM</category><category>对话式 AI</category><category>心理模拟</category><category>评估智能体</category>
-    </item>    <item>
-      <title>不完美中的不完美：评估LLM人格模拟中的分级认知多样性</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38800</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38800</guid>
-      <description>📝 不完美中的不完美：评估LLM人格模拟中的分级认知多样性
-EN: Imperfectly Imperfect: Evaluating Graded Cognitive Diversity in LLM Persona Simulations
-
-💡 为检验LLM角色模拟能否复现人类认知差异，团队以认知反思、认知需求与大五人格设定代理，并与473名成年人完成同一套测验。模型能再现自陈人格分布，却难以反映推理任务和行为差异；Claude Sonnet 4.6无论人格设定均获CRT满分，显著偏离人类。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Sion Weatherhead, Ben Newell, Aaron Belbasis, Flora Salim
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.10508v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>用户研究方法</category><category>合成参与者</category><category>认知差异</category><category>LLM</category><category>智能体/Agent</category><category>AI 用户画像</category>
-    </item>    <item>
-      <title>预知编程：人类构建预测机器人所面临的问题</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38799</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38799</guid>
-      <description>📝 预知编程：人类构建预测机器人所面临的问题
-EN: Programming Prescience: Issues in Human Construction of Forecasting Bots
-
-💡 访谈15名AI预测竞赛获奖方案的构建者，归纳其在获取事实资料、实现连贯推理和评估机器人表现上的困难；构建者常引入无效复杂度并采取机会化、碎片化测试，凸显预测机器人开发工具、流程与人机协作设计需求。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Priya Dhawka, Benjamin Wilson, Andrew Head
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.12834v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>访谈</category><category>AI预测</category><category>人机协作</category><category>智能体/Agent</category><category>推理AI</category><category>人机协作</category>
-    </item>    <item>
-      <title>从LLM幻觉到创作灵感</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38796</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38796</guid>
-      <description>📝 从LLM幻觉到创作灵感
-EN: From LLM Hallucinations to Inspiration in Creative Work
-
-💡 基于20名创意从业者的41个幻觉案例及20次半结构访谈，归纳幻觉在目标相关性、任务阶段和内容可改造性下转化为灵感的状态及行为后果，并揭示其对角色差异化信任的重塑，提出分阶段控制、差异化标注与创意挽救等设计建议。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Xinrui Lin, Heyan Huang, Shuning Zhang, Qi Wang, Youchao Zhou
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.12337v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>生成式AI创作</category><category>信任</category><category>LLM幻觉</category><category>LLM</category><category>GenAI</category><category>人机交互</category>
-    </item>    <item>
-      <title>从AI生成的金融教育内容中学习：对主观知识与金融福祉的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38792</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38792</guid>
-      <description>📝 从AI生成的金融教育内容中学习：对主观知识与金融福祉的影响
-EN: Learning From
-                    &amp;lt;scp&amp;gt;AI&amp;lt;/scp&amp;gt;
-                    ‐Generated Financial Educational Content: Impacts on Subjective Knowledge and Financial Well‐Being
-
-💡 实验显示，ChatGPT生成的预算、债务与投资教育内容能提升自报金融知识，但高金融素养者获益更大；知识提升未稳定转化为财务福祉，债务压力下担忧仍显著负面。AI教育需更具包容性、适配性与情绪支持。
-
-📚 JCA · 2026 · 引用 2
-👤 Inga Timmerman
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>生成式 AI 教育</category><category>金融素养</category><category>财务福祉</category><category>用户差异</category><category>GenAI</category><category>ChatGPT</category><category>LLM</category>
-    </item>    <item>
-      <title>从复杂迷思到轻而易举：生成式AI聊天机器人系统主流用户复用意愿驱动因素</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38770</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38770</guid>
-      <description>📝 从复杂迷思到轻而易举：生成式AI聊天机器人系统主流用户复用意愿驱动因素
-EN: From complex myth to easy-peasy: unveiling factors driving mainstream user re-use intention of generative AI-chatbots systems
-
-💡 聚焦主流用户重复使用生成式AI聊天机器人系统的意愿，考察系统从复杂难懂转变为简单易用的过程中有哪些驱动因素；因缺少摘要，具体理论、变量及实证结论尚无法判断。
-
-📚 BIT · 2026 · 引用 0
-👤 Serge-Lopez Wamba-Taguimdje, Samuel Fosso Wamba, Maciel Manoel de Queiroz, Hossana Twinomurinzi
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户接受</category><category>可用性</category><category>用户体验(UX)</category><category>持续使用</category><category>GenAI</category><category>对话式 AI</category><category>LLM</category>
-    </item>    <item>
-      <title>解释城市空中交通中的概念性AI推荐：叙事视频与文本式说明的呈现格式比较</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38769</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38769</guid>
-      <description>📝 解释城市空中交通中的概念性AI推荐：叙事视频与文本式说明的呈现格式比较
-EN: Explaining conceptual AI recommendations in urban air mobility: a comparison of storytelling video-based and text-based presentation formats for explanations
-
-💡 比较故事化视频与文本两种解释形式，探讨如何呈现城市空中交通中的AI概念性推荐，以增强建议依据的可理解性；因缺少摘要，哪种形式更优及其作用机制仍待验证。
-
-📚 BIT · 2026 · 引用 0
-👤 Jekaterina Basjuka, Carl Westin, Gustaf Söderholm, Jonas Lundberg
-
-AI 分: 4.0 / 领域分: 4.0
-
-📄 PDF: https://www.tandfonline.com/doi/pdf/10.1080/0144929X.2026.2756333?needAccess=true</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>信息可视化</category><category>多模态交互</category><category>智能交通</category><category>可解释 AI</category><category>AI 推荐</category><category>多模态</category>
-    </item>    <item>
-      <title>跨世代解码AI共情：感知能动性与努力如何塑造真诚性差距</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38762</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38762</guid>
-      <description>📝 跨世代解码AI共情：感知能动性与努力如何塑造真诚性差距
-EN: Decoding AI Empathy Across Generations: How Perceived Agency and Effort Shape the Sincerity Gap
-
-💡 比较不同代际对AI表达共情的真诚性判断，分析感知能动性与努力程度如何形成“真诚性落差”，揭示用户对AI自主性及付出感的评价会影响其对机器共情的信任。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Liwen Fan, Yuxuan Li, Aojie Feng, Zhifeng Zhao
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>情感计算</category><category>人机交互(HCI)</category><category>信任</category><category>情感计算</category><category>人机交互</category>
-    </item>    <item>
-      <title>面向老年人的人本生成式AI设计：跨交互情境下的个性化与可信度</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38757</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38757</guid>
-      <description>📝 面向老年人的人本生成式AI设计：跨交互情境下的个性化与可信度
-EN: Designing Human-Centered Generative AI for Older Adults: Understanding Personalization and Credibility Across Interaction Contexts
-
-💡 面向老年人设计以人为中心的生成式AI，比较不同交互情境中的个性化需求与可信度表现，强调系统应依据老年用户偏好及应用场景提供适配、可信且易用的交互。
-
-📚 CHB · 2026 · 引用 0
-👤 Mingxi Sun, Jingxi Chen
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>儿童/老人/无障碍</category><category>个性化</category><category>信任</category><category>人机交互(HCI)</category><category>GenAI</category><category>人机交互</category>
     </item>
   </channel>
 </rss>

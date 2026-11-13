@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-12T09:08:22.359777Z",
+  "generated_at": "2026-11-13T09:03:20.400765Z",
   "totals": {
-    "papers_indexed": 32628,
-    "papers_scored": 17128,
-    "papers_ai_relevant": 2174
+    "papers_indexed": 32720,
+    "papers_scored": 17167,
+    "papers_ai_relevant": 2182
   },
   "journals": [
     {
@@ -20,7 +20,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/computers-in-human-behavior",
-      "papers_indexed": 6282,
+      "papers_indexed": 6293,
       "papers_ai_relevant": 394
     },
     {
@@ -35,7 +35,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tochi",
-      "papers_indexed": 828,
+      "papers_indexed": 831,
       "papers_ai_relevant": 79
     },
     {
@@ -49,7 +49,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/hhci20",
-      "papers_indexed": 386,
+      "papers_indexed": 387,
       "papers_ai_relevant": 16
     },
     {
@@ -63,7 +63,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
-      "papers_indexed": 1940,
+      "papers_indexed": 1945,
       "papers_ai_relevant": 246
     },
     {
@@ -77,7 +77,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.sciencedirect.com/journal/interacting-with-computers",
-      "papers_indexed": 695,
+      "papers_indexed": 697,
       "papers_ai_relevant": 32
     },
     {
@@ -92,7 +92,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://dl.acm.org/journal/tiis",
-      "papers_indexed": 287,
+      "papers_indexed": 288,
       "papers_ai_relevant": 116
     },
     {
@@ -107,8 +107,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.tandfonline.com/journals/tbit20",
-      "papers_indexed": 1859,
-      "papers_ai_relevant": 215
+      "papers_indexed": 1887,
+      "papers_ai_relevant": 217
     },
     {
       "abbr": "DI",
@@ -122,7 +122,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://direct.mit.edu/desi",
-      "papers_indexed": 390,
+      "papers_indexed": 392,
       "papers_ai_relevant": 1
     },
     {
@@ -136,7 +136,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036",
-      "papers_indexed": 800,
+      "papers_indexed": 801,
       "papers_ai_relevant": 67
     },
     {
@@ -151,7 +151,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://academic.oup.com/jcr",
-      "papers_indexed": 2472,
+      "papers_indexed": 2474,
       "papers_ai_relevant": 14
     },
     {
@@ -181,7 +181,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mrj",
-      "papers_indexed": 2422,
+      "papers_indexed": 2423,
       "papers_ai_relevant": 15
     },
     {
@@ -195,7 +195,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://pubsonline.informs.org/loi/mksc",
-      "papers_indexed": 1473,
+      "papers_indexed": 1474,
       "papers_ai_relevant": 15
     },
     {
@@ -210,7 +210,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/15327663",
-      "papers_indexed": 1103,
+      "papers_indexed": 1105,
       "papers_ai_relevant": 19
     },
     {
@@ -224,7 +224,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://link.springer.com/journal/11747",
-      "papers_indexed": 1589,
+      "papers_indexed": 1591,
       "papers_ai_relevant": 19
     },
     {
@@ -239,7 +239,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/jsr",
-      "papers_indexed": 747,
+      "papers_indexed": 748,
       "papers_ai_relevant": 38
     },
     {
@@ -269,7 +269,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://onlinelibrary.wiley.com/journal/17456606",
-      "papers_indexed": 692,
+      "papers_indexed": 694,
       "papers_ai_relevant": 8
     },
     {
@@ -314,7 +314,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://www.warc.com/journalissue/JAR",
-      "papers_indexed": 1060,
+      "papers_indexed": 1063,
       "papers_ai_relevant": 18
     },
     {
@@ -328,7 +328,7 @@
       ],
       "lang": "en",
       "publisher_toc": "https://journals.sagepub.com/loi/mmr",
-      "papers_indexed": 359,
+      "papers_indexed": 360,
       "papers_ai_relevant": 1
     },
     {
@@ -567,8 +567,8 @@
       ],
       "lang": "en",
       "publisher_toc": "https://arxiv.org/",
-      "papers_indexed": 2915,
-      "papers_ai_relevant": 807
+      "papers_indexed": 2938,
+      "papers_ai_relevant": 813
     }
   ],
   "facets": {
@@ -600,22 +600,22 @@
       "2023": 202,
       "2024": 165,
       "2025": 362,
-      "2026": 1134,
+      "2026": 1142,
       "2027": 9
     },
     "journals": {
       "CHB": 394,
       "arXiv:cs.HC": 293,
       "IJHCS": 246,
-      "BIT": 215,
+      "BIT": 217,
       "arXiv:cs.SE": 129,
       "TiiS": 116,
       "arXiv": 99,
-      "arXiv:cs.AI": 96,
+      "arXiv:cs.AI": 98,
       "TOCHI": 79,
       "arXiv:cs.CL": 78,
       "THMS": 67,
-      "arXiv:cs.CY": 43,
+      "arXiv:cs.CY": 46,
       "JSR": 38,
       "IwC": 32,
       "JAMS": 19,
@@ -639,44 +639,44 @@
       "arXiv:cs.MA": 3,
       "arXiv:cs.LG": 2,
       "arXiv:cs.SD": 2,
+      "arXiv:stat.ME": 2,
       "DI": 1,
       "arXiv:cs.DB": 1,
       "arXiv:cs.ET": 1,
       "arXiv:cs.GT": 1,
       "arXiv:physics.soc-ph": 1,
       "arXiv:q-bio.NC": 1,
-      "arXiv:stat.ME": 1,
       "arXiv:stat.ML": 1,
       "arXiv:cs.CC": 1,
       "JMMR": 1
     },
     "topic_tags": {
-      "人机交互(HCI)": 1144,
-      "用户研究方法": 684,
-      "人机协作": 619,
-      "信任": 503,
+      "人机交互(HCI)": 1145,
+      "用户研究方法": 687,
+      "人机协作": 620,
+      "信任": 504,
       "消费者行为": 379,
-      "用户体验(UX)": 366,
+      "用户体验(UX)": 367,
       "AI 采用": 295,
       "可解释性": 241,
       "情感计算": 225,
-      "伦理": 192,
+      "伦理": 193,
       "AI 助手": 184,
       "AI 治理": 171,
       "可用性": 171,
       "对话式 AI": 167,
       "可用性测试": 163,
-      "AI采用": 161,
+      "AI采用": 162,
       "人机交互": 151,
       "个性化": 147,
       "多模态交互": 128,
       "推荐系统": 117,
       "可视化": 98,
-      "AI治理": 95,
+      "AI治理": 96,
       "营销": 85,
       "服务设计": 84,
+      "问卷": 80,
       "用户画像": 80,
-      "问卷": 78,
       "服务体验": 68,
       "访谈": 68,
       "可访问性": 66,
@@ -684,7 +684,7 @@
       "儿童/老人/无障碍": 61,
       "在线社区": 55,
       "AI助手": 51,
-      "智能体": 45,
+      "智能体": 46,
       "客户体验(CX)": 43,
       "广告": 40,
       "对话式AI": 36,
@@ -703,25 +703,25 @@
       "教育": 9
     },
     "ai_type_tags": {
-      "LLM": 744,
+      "LLM": 749,
       "AI 助手": 584,
-      "智能体/Agent": 563,
-      "GenAI": 558,
-      "人机交互": 488,
+      "智能体/Agent": 565,
+      "GenAI": 559,
+      "人机交互": 493,
       "对话式 AI": 457,
-      "人机协作": 413,
+      "人机协作": 415,
       "多模态": 291,
       "AI助手": 226,
       "可解释 AI": 189,
       "推荐算法": 126,
-      "对话式AI": 122,
+      "对话式AI": 124,
       "情感识别": 102,
       "可解释AI": 99,
       "ChatGPT": 88,
       "AI 推荐": 84,
       "AI 治理": 73,
       "图像生成": 50,
-      "AI治理": 37,
+      "AI治理": 38,
       "AI推荐": 35,
       "可用性 AI": 27,
       "机器学习": 24,
