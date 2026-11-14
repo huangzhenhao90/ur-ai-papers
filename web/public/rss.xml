@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 09:03:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:26:16 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39069</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39069</guid>
+      <description>📝 灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释
+EN: Robots or humans for disaster response? Impact on consumer prosociality and possible explanations
+
+💡 多项研究考察灾难救援中强调机器人而非人类参与对消费者亲社会行为的影响。结果显示，机器人助人叙事因激励感较弱且被认为勇气较低，反而减少公益捐赠；提升其勇气感知可缓解负面效应。
+
+📚 JCP · 2023 · 引用 19
+👤 Fangyuan Chen, Szu‐chi Huang
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>公益捐赠</category><category>灾害响应</category><category>机器人</category><category>人机交互</category>
+    </item>    <item>
+      <title>机器人学习参与度的自适应表达建模及其对人类教师的影响探究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39033</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39033</guid>
+      <description>📝 机器人学习参与度的自适应表达建模及其对人类教师的影响探究
+EN: Modeling Adaptive Expression of Robot Learning Engagement and Exploring Its Effects on Human Teachers
+
+💡 面向机器人模仿学习缺乏反馈的问题，设计零转一与一转零两种学习参与机制，让机器人依学习状态动态表达注意与行为。48人在线实验显示，这可改善用户对学习进度的心理模型、提升机器人评价与教学体验。
+
+📚 TOCHI · 2023 · 引用 10
+👤 Shuai Ma, Mingfei Sun, Xiaojuan Ma
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>人机协作</category><category>可解释性</category><category>用户体验(UX)</category><category>人机交互</category><category>可解释 AI</category><category>智能体/Agent</category>
+    </item>    <item>
       <title>当双方均适应时：评估交互式 LLM 系统的挑战</title>
       <link>https://ur-ai-papers.vercel.app/papers/39014</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39014</guid>
@@ -140,6 +170,21 @@ EN: What goes beyond sex? Unravelling why men hold more favourable attitudes tow
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI态度</category><category>性别差异</category><category>职场AI</category><category>类人AI</category><category>类人AI</category><category>人机交互</category><category>人机协作</category><category>AI采用</category>
+    </item>    <item>
+      <title>“我的家庭助手该是什么样？”：新兴情境下对居家虚拟助手未来及预期使用的初步认知</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38958</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38958</guid>
+      <description>📝 “我的家庭助手该是什么样？”：新兴情境下对居家虚拟助手未来及预期使用的初步认知
+EN: ‘How should my family assistant be?’: initial perceptions about prospective and anticipated use of in-home virtual assistants in an emerging context
+
+💡 聚焦新兴家庭情境，考察用户对即将及计划使用居家虚拟助手的初步认知，讨论家庭助手应承担的角色与定位；因缺少摘要，具体感知结果仍需结合原文判断。
+
+📚 BIT · 2022 · 引用 15
+👤 Aslı Günay, Gülşen Töre Yargın, Sedef Süner-Pla-Cerdà, Mert Kulaksız
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>用户画像</category><category>家庭场景</category><category>AI助手</category><category>人机交互</category>
     </item>    <item>
       <title>EXPRESS：因果对齐：通过 A/B 测试增强语言模型</title>
       <link>https://ur-ai-papers.vercel.app/papers/38909</link>
@@ -447,57 +492,6 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2611.10412v1</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>对话式 AI</category><category>用户状态推理</category><category>基准测试</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>LiveAsset：从纠正性交互中学习意图资产以实现智能体运行时控制</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38808</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38808</guid>
-      <description>📝 LiveAsset：从纠正性交互中学习意图资产以实现智能体运行时控制
-EN: LiveAsset: Learning Intent Assets from Corrective Interactions for Agent Runtime Control
-
-💡 针对网页LLM智能体难以从纠错中持续理解未明示意图的问题，LiveAsset联合解释原始与修订结果，积累带适用条件的需求资产，并在回复前核验，保留已满足要求、修订未满足项，以支持同任务重放与跨任务迁移。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Guanming Liu, Weihang Wang, Peng Zhang, Meng Wu, Kainan Tu
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.11560v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>个性化</category><category>人机协作</category><category>LLM</category><category>智能体/Agent</category><category>对话式 AI</category>
-    </item>    <item>
-      <title>ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38806</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38806</guid>
-      <description>📝 ShopMind：用于个性化且逼真的电子商务用户模拟的心理世界模型
-EN: ShopMind: A Mental World Model for Personalized and Realistic E-commerce User Simulation
-
-💡 针对电商用户模拟中个性化与行为真实性不足，构建以信念、不确定性和意图为核心的ShopMind心理世界模型，并用合成行为—心理状态数据训练MSR以推断潜在状态；相比最强基线，个性化与行为真实性分别提升18.0%和19.6%。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Peixuan Hou, Bin Chen, Li He, Jian Xu, Xiuli Ma
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.11897v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>个性化</category><category>消费者行为</category><category>推荐系统</category><category>LLM</category><category>AI用户画像</category><category>智能体/Agent</category>
-    </item>    <item>
-      <title>平均患者：模拟精神科患者的回答是否与真实患者相似？</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38803</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38803</guid>
-      <description>📝 平均患者：模拟精神科患者的回答是否与真实患者相似？
-EN: The Average Patient: Do Simulated Psychiatric Patients Answer Like Real People?
-
-💡 以“信息预算”和“平均患者”假设检验17个模型模拟精神科患者的逼真度：相较8组真人样本，模型变异低1.5—11倍，常将多数症状评为中等，也较少回答“无症状”；提示、人格、模型规模与推理仅能减弱该模式，使AI治疗师对无症状的识别能力缺乏有效检验。
-
-📚 arXiv:cs.CL · 2026 · 引用 0
-👤 Weixiang Sun, Zehong Wang, Kaiwen Shi, Hong Huang, Colby Nelson
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.11679v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>心理模拟</category><category>评估效度</category><category>访谈</category><category>LLM</category><category>对话式 AI</category><category>心理模拟</category><category>评估智能体</category>
     </item>
   </channel>
 </rss>
