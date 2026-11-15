@@ -6,9 +6,54 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 08:26:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 08:46:58 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>印度顾客对餐饮服务中服务机器人的接受度</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39125</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39125</guid>
+      <description>📝 印度顾客对餐饮服务中服务机器人的接受度
+EN: Indian customers’ acceptance of service robots in restaurant services
+
+💡 聚焦印度餐饮场景，考察顾客对服务机器人的接受意愿及其影响因素，为餐厅引入机器人、优化服务体验与部署策略提供参考。
+
+📚 BIT · 2022 · 引用 56
+👤 Smriti Pande, Kriti Priya Gupta
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI采用</category><category>消费者行为</category><category>服务体验</category><category>服务机器人</category><category>服务机器人</category><category>人机交互</category>
+    </item>    <item>
+      <title>智能家居中的隐私：机器人角色、沟通与情境如何影响用户对家用服务机器人的感知</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39119</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39119</guid>
+      <description>📝 智能家居中的隐私：机器人角色、沟通与情境如何影响用户对家用服务机器人的感知
+EN: Navigating privacy in smart homes: how robot roles, communication styles, and contextual scenarios shape user perceptions of domestic service robots
+
+💡 家庭服务机器人实验显示，自主性并非隐私顾虑主因；相较仅接受指令的机器人，自主管家反而被感知为更安全。采用高度隐晦的隐私相关沟通可提升安全感知并降低担忧，效果在监控情境中最明显，且受年龄、性别和技术背景调节。
+
+📚 IwC · 2026 · 引用 0
+👤 Yiming Luo, Shihao Liu, Hao Wang, Di Wu, Ding Wang
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>隐私</category><category>服务机器人</category><category>信任</category><category>人机交互</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>人工智能个性化界面中被动感知的知情同意：监控感知、透明度与信任</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39118</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39118</guid>
+      <description>📝 人工智能个性化界面中被动感知的知情同意：监控感知、透明度与信任
+EN: Consent to passive sensing in artificial intelligence-personalized interfaces: perceived surveillance, transparency, and trust
+
+💡 两项实验表明，AI个性化界面的被动感知比主动共享更易引发监控感与不适，并降低信任、同意意愿和行为接受；提升数据使用透明度与用户控制可缓解这些影响。眼动与皮电结果显示，被动感知会增加注意并提高决策期唤醒，透明控制具有缓冲作用。
+
+📚 IwC · 2026 · 引用 0
+👤 Stefanos Balaskas, Kyriakos Komis
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>隐私</category><category>个性化</category><category>透明度</category><category>信任</category><category>人机交互</category><category>个性化 AI</category>
+    </item>    <item>
       <title>灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释</title>
       <link>https://ur-ai-papers.vercel.app/papers/39069</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39069</guid>
@@ -23,6 +68,23 @@ EN: Robots or humans for disaster response? Impact on consumer prosociality and 
 AI 分: 4.0 / 领域分: 5.0</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>消费者行为</category><category>公益捐赠</category><category>灾害响应</category><category>机器人</category><category>人机交互</category>
+    </item>    <item>
+      <title>学生为何停止使用ChatGPT学习？负面信息对动机降低与学习中止的作用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39054</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39054</guid>
+      <description>📝 学生为何停止使用ChatGPT学习？负面信息对动机降低与学习中止的作用
+EN: Why do students discontinue learning with ChatGPT? The role of negative information in reducing motivation and learning discontinuation
+
+💡 在195名完成ChatGPT推理学习的12—13岁青少年中，负面信息的出现频率及首次暴露与更高的AI不信任相关；不信任又对应更低学习动机和更多中途放弃。回答不满会强化这种负面影响，凸显AI回应措辞与内容设计的重要性。
+
+📚 BIT · 2026 · 引用 0
+👤 Min Jung Kim, Drew P. Cingel
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1080/0144929x.2026.2756338</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>AI 拒绝</category><category>教育</category><category>儿童/青少年</category><category>ChatGPT</category><category>对话式 AI</category><category>LLM</category><category>人机交互</category>
     </item>    <item>
       <title>机器人学习参与度的自适应表达建模及其对人类教师的影响探究</title>
       <link>https://ur-ai-papers.vercel.app/papers/39033</link>
@@ -106,6 +168,23 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.14798v1</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <category>计算机教育</category><category>AI素养</category><category>用户研究方法</category><category>问卷</category><category>LLM</category><category>人机交互</category><category>提示工程</category>
+    </item>    <item>
+      <title>利用多元主体扩大AI政策公众参与规模</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39003</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39003</guid>
+      <description>📝 利用多元主体扩大AI政策公众参与规模
+EN: Scaling public input on AI policy with pluralistic agents
+
+💡 让代表不同利益者的AI智能体参与政策讨论，以扩大公众意见的代表性。实验及746人预注册研究发现，智能体能按角色偏好影响政策，但作用受提示措辞和系统设计影响；参与者认为其有用、公平，却更愿亲自参与。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Jacy Reese Anthis, Ken Burke, David Madras, Crystal Qian, Meredith Ringel Morris
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.16028v1</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI治理</category><category>公共决策</category><category>多元参与</category><category>人机协作</category><category>智能体/Agent</category><category>人机交互</category><category>对话式 AI</category>
     </item>    <item>
       <title>可扩展的对话式评估：基于双智能体LLM流程的聊天式考试</title>
       <link>https://ur-ai-papers.vercel.app/papers/39001</link>
@@ -409,89 +488,6 @@ EN: Exploring the Effects of Self-Correction Behavior of an Intelligent Virtual 
 AI 分: 4.0 / 领域分: 5.0</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>人机协作</category><category>信任</category><category>用户体验(UX)</category><category>智能体/Agent</category><category>人机交互</category><category>可用性 AI</category>
-    </item>    <item>
-      <title>沟通AI关系风险如何影响AI辅助决策中的信任感知</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38835</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38835</guid>
-      <description>📝 沟通AI关系风险如何影响AI辅助决策中的信任感知
-EN: How communicating an AI’s relational risk influences trust perceptions in AI-assisted decision-making
-
-💡 通过操纵AI关联风险的沟通方式，考察其在AI辅助决策中对用户信任感知的影响，揭示风险说明如何改变人们对AI可靠性与决策价值的判断。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Sarah Schömbs, Saumya Pareek, Jorge Gonçalves, Wafa Johal
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://doi.org/10.2139/ssrn.6253741</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>AI辅助决策</category><category>风险沟通</category><category>人机交互(HCI)</category><category>AI决策支持</category><category>人机交互</category><category>可解释AI</category>
-    </item>    <item>
-      <title>探索午间睡眠诱导场景中情绪感知型音乐推荐的强化策略</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38832</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38832</guid>
-      <description>📝 探索午间睡眠诱导场景中情绪感知型音乐推荐的强化策略
-EN: Exploring enhanced strategies for emotionally-perceptive music recommendations in mid-day sleep induction scenarios
-
-💡 探索午睡诱导场景中的情感感知音乐推荐策略，利用情绪识别与推荐机制匹配用户状态，以提升音乐推荐的情境适应性和助眠效果。
-
-📚 IJHCS · 2025 · 引用 2
-👤 Shirao Yang, Hui Zhang, Ruixiao Zheng, Zepeng Lin, Huafeng Shan
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>推荐系统</category><category>个性化</category><category>情感计算</category><category>睡眠辅助</category><category>AI 推荐</category><category>推荐算法</category><category>情感识别</category>
-    </item>    <item>
-      <title>从用户行为到满意度判断：推理用户对 AI Overviews 的满意度</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38814</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38814</guid>
-      <description>📝 从用户行为到满意度判断：推理用户对 AI Overviews 的满意度
-EN: From User Behaviors to Satisfaction Judgments: Reasoning about User Satisfaction with AI Overviews
-
-💡 面向搜索场景中的AI概览，现有满意度评估未充分利用用户行为。STaRS让LLM先解释单项行为信号，再综合推断满意度，并以强化学习和奖励塑形优化稀疏奖励下的推理流程；两个真实数据集上，其预测表现优于对比方法。
-
-📚 arXiv:cs.IR · 2026 · 引用 0
-👤 Xingzhu Wang, Yitong Xu, Yue Li, Daiting Shi, Jingzhou He
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.10715v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户体验(UX)</category><category>用户行为</category><category>满意度预测</category><category>信息检索</category><category>GenAI</category><category>LLM</category><category>强化学习</category>
-    </item>    <item>
-      <title>让渡与重拾判断力：软件工程学生如何体验AI依赖</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38812</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38812</guid>
-      <description>📝 让渡与重拾判断力：软件工程学生如何体验AI依赖
-EN: Surrendering and Reclaiming Judgment: How Software Engineering Students Experience AI Reliance
-
-💡 对43名高年级软件工程学生开展学期项目的探索性案例研究，结合问卷、焦点小组与主题分析，揭示AI依赖加深会让学生交出判断、陷入无法理解的代码并产生羞愧和疏离；保留或重建判断是摆脱依赖的关键。
-
-📚 arXiv:cs.SE · 2026 · 引用 0
-👤 Nathan Cassee, Umit Akirmak, Luiz Guerra, Margaret-Anne Storey, Neil Ernst
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.12646v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI依赖</category><category>用户研究方法</category><category>访谈</category><category>软件工程教育</category><category>AI助手</category><category>人机协作</category>
-    </item>    <item>
-      <title>TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38810</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38810</guid>
-      <description>📝 TurnFlow：通过场景引导的用户模拟评测多轮LLM智能体用户状态推理
-EN: TurnFlow: Benchmarking User-State Reasoning in Multi-Turn LLM Agents via Scene-Guided User Simulation
-
-💡 针对多轮对话中模型难以持续追踪并执行变化后需求的问题，TurnFlow结合自适应用户模拟与可验证评判，以490个场景检验9种LLM。总体通过率为42.86%—59.59%，模型虽擅长多约束遵循，却在范围蔓延与目标转移上明显失效。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Zhixun Chen, Ming Li, Anjie Liu, Xiaoyuan Zhang, Quanyu Dai
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.10412v1</description>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>对话式 AI</category><category>用户状态推理</category><category>基准测试</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category>
     </item>
   </channel>
 </rss>
