@@ -6,9 +6,72 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Nov 2026 08:46:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 08:56:06 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39205</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39205</guid>
+      <description>📝 Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care
+
+💡 对80名老年人开展3天远程研究，完成473次ARC语音对话会话，评估个性化、循证干预执行保真度与隐私期待。结果显示可用性、可接受性和使用意愿良好；系统能复用领域情境但个体化有限，保真度主要受干预组件缺失影响，隐私期待随数据类型和接收方而异。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Thalia Viranda, Shupeng Wang, Jia Bo, Yuchen Yang, Hongjiao Zhang
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.18385v1</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>对话式 AI</category><category>个性化</category><category>儿童/老人/无障碍</category><category>隐私</category><category>GenAI</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
+    </item>    <item>
+      <title>Alleviating Interview Stress: Effects of Robot Persona and Reactive Backchanneling on High-Pressure Mock Interviews</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39204</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39204</guid>
+      <description>📝 Alleviating Interview Stress: Effects of Robot Persona and Reactive Backchanneling on High-Pressure Mock Interviews
+
+💡 通过2×2被试间实验（N=28），让参与者与NAO机器人完成高压模拟面试，操纵支持/挑战型人格与主动/负向附和反馈，结合问卷和面部情绪识别。支持型人格降低任务负荷并提升温暖感；主动反馈增加非中性及紧张表情，并与人格共同影响社会临场感；主客观指标一致率为67.9%。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Haochen Yang, Zhuoran Gao, Geqing Tao, Yusi Dong, Pei-Luen Patrick Rau
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.17830v1</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>用户研究方法</category><category>情感计算</category><category>社会机器人</category><category>人机交互</category><category>情感识别</category><category>社会机器人</category>
+    </item>    <item>
+      <title>LLM控制型助手机器人的基本与道德价值观个性化</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39203</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39203</guid>
+      <description>📝 LLM控制型助手机器人的基本与道德价值观个性化
+EN: Personalization of Basic and Moral Values Guiding LLM-Controlled Assistant Robots
+
+💡 比较22名潜在用户自身及期望助手机器人的基本与道德价值观，并评测三种心理量表及15个LLM。用户希望机器人强化社会价值、弱化个人价值，道德取向近似；提示工程影响有限，显式价值个性化更有效。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Mateusz Wozniak, Qi Gao, Agnieszka Wykowska
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.18230v1</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>用户画像</category><category>价值对齐</category><category>个性化</category><category>LLM</category><category>AI 助手</category><category>人机交互</category><category>价值对齐</category>
+    </item>    <item>
+      <title>Media attention and public acceptance of robotaxis: A moderated mediation of risk perception and perceived social approval in embodied AI</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39191</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39191</guid>
+      <description>📝 Media attention and public acceptance of robotaxis: A moderated mediation of risk perception and perceived social approval in embodied AI
+
+💡 以无人驾驶出租车为情境，采用有调节的中介模型，考察媒体关注度如何通过风险感知影响公众接受度，以及感知社会认同的调节作用；标题指向媒体曝光与群体认可共同塑造具身AI服务接受判断，因无摘要，效应方向无法确定。
+
+📚 BIT · 2026 · 引用 0
+👤 Haodong Liu, Yi-Hui Christine Huang
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI 采用</category><category>信任</category><category>消费者行为</category><category>具身智能</category><category>自动驾驶</category>
+    </item>    <item>
       <title>印度顾客对餐饮服务中服务机器人的接受度</title>
       <link>https://ur-ai-papers.vercel.app/papers/39125</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39125</guid>
@@ -54,6 +117,21 @@ AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <category>隐私</category><category>个性化</category><category>透明度</category><category>信任</category><category>人机交互</category><category>个性化 AI</category>
     </item>    <item>
+      <title>社交网络服务用户的隐私、风险认知与互动动机关联：基于可观测特征的动机预测</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39086</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39086</guid>
+      <description>📝 社交网络服务用户的隐私、风险认知与互动动机关联：基于可观测特征的动机预测
+EN: Associations between privacy, risk awareness, and interactive motivations of social networking service users, and motivation prediction from observable features
+
+💡 考察社交网络服务用户的隐私态度、风险感知与互动动机之间的关系，并检验能否依据可观测特征预测动机，为识别互动需求和开展隐私感知设计提供依据。
+
+📚 CHB · 2015 · 引用 4
+👤 Basilisa Mvungi, Mizuho Iwaihara
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>隐私</category><category>风险感知</category><category>用户动机</category><category>在线社区</category><category>用户建模</category><category>行为预测</category>
+    </item>    <item>
       <title>灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释</title>
       <link>https://ur-ai-papers.vercel.app/papers/39069</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39069</guid>
@@ -85,6 +163,21 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://doi.org/10.1080/0144929x.2026.2756338</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
       <category>信任</category><category>AI 拒绝</category><category>教育</category><category>儿童/青少年</category><category>ChatGPT</category><category>对话式 AI</category><category>LLM</category><category>人机交互</category>
+    </item>    <item>
+      <title>仪器化博物馆中的移动剧场实验：诱导小组对话</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39045</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39045</guid>
+      <description>📝 仪器化博物馆中的移动剧场实验：诱导小组对话
+EN: Experiments with Mobile Drama in an Instrumented Museum for Inducing Conversation in Small Groups
+
+💡 提出博物馆移动叙事系统DRAMATRIC：利用传感器持续分析小组行为，按位置投放带互补差异的剧情，引导成员补全信息并交谈；两项实验检验差异叙事能否增加讨论及真实博物馆中的效果。
+
+📚 TiiS · 2014 · 引用 25
+👤 Charles Callaway, Oliviero Stock, Elyon Dekoven
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>移动交互</category><category>博物馆体验</category><category>小组协作</category><category>情境感知</category><category>行为识别</category><category>自适应交互</category><category>多模态交互</category>
     </item>    <item>
       <title>机器人学习参与度的自适应表达建模及其对人类教师的影响探究</title>
       <link>https://ur-ai-papers.vercel.app/papers/39033</link>
@@ -297,6 +390,21 @@ AI 分: 4.0 / 领域分: 5.0</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
       <category>隐私</category><category>用户焦虑</category><category>信任</category><category>人机交互</category><category>智能体/Agent</category><category>人机交互</category><category>拟人化交互</category>
     </item>    <item>
+      <title>隐私决策</title>
+      <link>https://ur-ai-papers.vercel.app/papers/38900</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38900</guid>
+      <description>📝 隐私决策
+EN: Making Decisions about Privacy
+
+💡 针对情境感知推荐系统中用户不愿提供情境与人口统计信息的问题，构建以系统感知和体验为中介的统一隐私决策框架。493人在线实验显示，隐私担忧与披露理由信息会经系统感知和体验影响披露；披露理由虽被认为有价值，却降低信任与满意度，未能促进披露。
+
+📚 TiiS · 2013 · 引用 99
+👤 Bart P. Knijnenburg, Alfred Kobsa
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>隐私</category><category>推荐系统</category><category>用户决策</category><category>信任</category><category>AI 推荐</category><category>推荐算法</category><category>隐私保护</category>
+    </item>    <item>
       <title>追踪大型语言模型中的心理测量推断</title>
       <link>https://ur-ai-papers.vercel.app/papers/38887</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38887</guid>
@@ -381,113 +489,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.13211v1</description>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
       <category>用户研究方法</category><category>人机交互(HCI)</category><category>人机协作</category><category>组织治理</category><category>GenAI</category><category>自然语言生成</category><category>交互式设计工具</category>
-    </item>    <item>
-      <title>面向静态分析漏洞发现结果的代码依据型智能体解释</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38879</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38879</guid>
-      <description>📝 面向静态分析漏洞发现结果的代码依据型智能体解释
-EN: Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings
-
-💡 SAFE将静态分析漏洞检测与LLM解释解耦，由智能体查阅代码库和触发规则后生成可追溯解释。实验显示，重构后可用性评分升至85.0，正确修复概率增至2.6倍，但分诊准确率、处理时间与信任未显著改善。
-
-📚 arXiv:cs.SE · 2026 · 引用 0
-👤 Oshando Johnson, Ranjith Krishnamurthy, Rohith Kumar Shanmuganathan, Goran Piskachev, Eric Bodden
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.13041v1</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>软件工程</category><category>可解释性</category><category>可用性</category><category>人机交互(HCI)</category><category>LLM</category><category>智能体/Agent</category><category>可解释 AI</category><category>人机协作</category>
-    </item>    <item>
-      <title>动态定价中我们信任谁？消费者对AI与人类定价者的反应</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38867</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38867</guid>
-      <description>📝 动态定价中我们信任谁？消费者对AI与人类定价者的反应
-EN: In pricing we trust? Consumer responses to AI and human price setters in dynamic pricing
-
-💡 比较由AI与人类设定动态价格时消费者的反应，重点考察消费者是否信任不同类型的定价者，以及定价者身份对消费者态度和决策的影响。
-
-📚 JAMS · 2026 · 引用 0
-👤 Begum Kaplan, Elizabeth A. Minton, Cait Poynor Lamberton
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>信任</category><category>动态定价</category><category>定价公平</category><category>动态定价AI</category><category>算法决策</category>
-    </item>    <item>
-      <title>基于用户导航行为的人格特征实时识别</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38852</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38852</guid>
-      <description>📝 基于用户导航行为的人格特征实时识别
-EN: Real-Time Identification of Personality Traits Based on User Navigation Behavior
-
-💡 以用户实时导航轨迹为行为特征，探索人格特征的即时识别，评估由浏览行为推断人格并支持个性化服务的可行性；具体人格维度、识别性能与结论需由正文确认。
-
-📚 THMS · 2026 · 引用 1
-👤 Caio Felix de Araujo, Plinio Thomaz Aquino Junior
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>用户行为分析</category><category>个性化</category><category>用户画像</category><category>个性推断</category><category>机器学习</category>
-    </item>    <item>
-      <title>可视叙事式讲解概念的设计与评估：提升终端用户对概念型AI助手解释的理解</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38845</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38845</guid>
-      <description>📝 可视叙事式讲解概念的设计与评估：提升终端用户对概念型AI助手解释的理解
-EN: The design and evaluation of a visual narrated storytelling concept to improve end users understanding of explanations from a conceptual AI assistant
-
-💡 设计并评估结合视觉叙事与语音讲解的AI解释方式，检验其能否帮助终端用户理解概念型AI助手的说明，并改善解释的可理解性与交互体验。
-
-📚 BIT · 2025 · 引用 1
-👤 Jekaterina Basjuka, Carl Westin, Gustaf Söderholm, Karl Johan Klang, Jonas Lundberg
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>可解释性</category><category>可视化</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>可解释 AI</category><category>AI 助手</category><category>多模态交互</category>
-    </item>    <item>
-      <title>像给五岁儿童讲的那样：利用解释效能提升员工对工作场景生成式AI的信任</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38844</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38844</guid>
-      <description>📝 像给五岁儿童讲的那样：利用解释效能提升员工对工作场景生成式AI的信任
-EN: Explain it to me like I’m five: harnessing the power of explanations to increase trust in workplace generative AI
-
-💡 将通俗易懂、类似“像五岁儿童解释”的说明用于职场生成式AI，考察解释如何影响用户信任，并探索其缓解疑虑、促进生成式AI采用的作用。
-
-📚 BIT · 2025 · 引用 6
-👤 Katherine Gibbard, Harjinder Gill, Deborah Powell, Peter A. Hausdorf
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>信任</category><category>可解释性</category><category>AI 采用</category><category>人机交互(HCI)</category><category>GenAI</category><category>可解释 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>我们不同吗？：从性别差异视角分析在线购物中算法策展与算法素养的作用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38842</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38842</guid>
-      <description>📝 我们不同吗？：从性别差异视角分析在线购物中算法策展与算法素养的作用
-EN: Are we different? Analyzing the role of algorithmic curation and algorithmic literacy during online shopping from a gender differences perspective
-
-💡 聚焦在线购物中算法策展与算法素养的性别差异，分析推荐内容组织以及用户理解和评估算法的能力是否对不同性别产生不同影响，并讨论个性化推荐与算法素养干预的差异化设计。
-
-📚 BIT · 2023 · 引用 8
-👤 Jing Liu, Dan Wu, Qingyue Guo
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>推荐系统</category><category>个性化</category><category>性别差异</category><category>推荐算法</category><category>AI 推荐</category><category>算法素养</category>
-    </item>    <item>
-      <title>探索智能虚拟角色在拼图协作任务中自我纠正行为的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/38840</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/38840</guid>
-      <description>📝 探索智能虚拟角色在拼图协作任务中自我纠正行为的影响
-EN: Exploring the Effects of Self-Correction Behavior of an Intelligent Virtual Character during a Jigsaw Puzzle Co-Solving Task
-
-💡 针对虚拟角色犯错后自我纠正对用户判断的影响，在VR拼图协作中操纵角色智能水平与纠错准确性，对23名参与者开展组内实验，采集感知、信任、愉悦、挫败、凝视及任务表现。结果显示，自我纠错特征会塑造角色智能与情境意识感知，并影响用户体验和协作结果。
-
-📚 TiiS · 2024 · 引用 7
-👤 Minsoo Choi, Siqi Guo, Alexandros Koilias, Matias Volonte, Dominic Kao
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>人机协作</category><category>信任</category><category>用户体验(UX)</category><category>智能体/Agent</category><category>人机交互</category><category>可用性 AI</category>
     </item>
   </channel>
 </rss>
