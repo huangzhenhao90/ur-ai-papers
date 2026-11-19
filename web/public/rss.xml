@@ -6,9 +6,77 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:39:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:50:04 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>激活引导能否替代 LLM 数字孪生中的提示词情感预激活？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39369</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39369</guid>
+      <description>📝 激活引导能否替代 LLM 数字孪生中的提示词情感预激活？
+EN: Can Activation Steering Substitute for Prompt-Based Affective Priming in LLM Digital Twins?
+
+💡 比较Llama-3.1-8B数字孪生中真实情感提示与从人类写作提取的激活引导，检验后者能否替代写作式情感启动。注入效应随强度变化，并在感恩场景某一强度匹配提示，但会过冲且在控制感方向不对称，表明替代效果依赖测量指标。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Junyi Fan
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.22738v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>情感计算</category><category>用户模拟</category><category>数字孪生</category><category>心理实验</category><category>LLM</category><category>激活引导</category><category>数字孪生</category>
+    </item>    <item>
+      <title>利用生成式心理测量学评估音乐生成模型的评价方法</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39367</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39367</guid>
+      <description>📝 利用生成式心理测量学评估音乐生成模型的评价方法
+EN: Evaluating the Evaluation of Music Generation Models with Generative Psychometrics
+
+💡 梳理2020—2025年ISMIR音乐生成论文的主观评价题项，经LLM抽取与人工校验、语义嵌入去冗余，并用探索性图分析检验结构，得到节奏、旋律、音频、作曲、结构与歌词六个稳定质量维度，为可复现、可比较的用户评价协议提供基础。
+
+📚 arXiv:cs.SD · 2026 · 引用 0
+👤 João Carlos Santana Silveira, Caio Von Rondow Morais, Frederico Pedrosa, Lucas N. Ferreira
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.21809v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>音乐生成</category><category>主观评价</category><category>心理测量</category><category>音频生成</category><category>LLM</category><category>语义嵌入</category><category>生成式心理测量</category>
+    </item>    <item>
+      <title>SimAI：基于心理网络模型的机制化用户模拟</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39363</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39363</guid>
+      <description>📝 SimAI：基于心理网络模型的机制化用户模拟
+EN: SimAI: Mechanistic User Simulation through Psychological Network Models
+
+💡 提出SimAI，以心理因素网络建模用户响应，并用图重建目标奖励模拟对话与心理关系的一致性。基于516个心理治疗案例构建1.8万余组数据；自动指标、30名专业人员互动评价及安全测试显示，其真实性、求助行为多样性和训练效用优于既有患者模拟器，还可暴露脆弱用户长时交互风险。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Cheng Li, Adhyyan Narang, Jiayi Yuan, John F. Buss, Jina Suh
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.21808v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户模拟</category><category>心理健康</category><category>人机交互(HCI)</category><category>心理网络</category><category>对话式 AI</category><category>用户模拟</category><category>图级奖励</category><category>心理网络建模</category>
+    </item>    <item>
+      <title>支持研究者掌控AI辅助社交媒体分析：AI4OSN混合方法研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39361</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39361</guid>
+      <description>📝 支持研究者掌控AI辅助社交媒体分析：AI4OSN混合方法研究
+EN: Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN
+
+💡 面向社交媒体研究，开发保留研究者主导的数据采集、相关性标注与解释流程，将大模型作为可审查的建议资源。18人研究显示系统可用性高、认知负担低并增强标注信心；新手与AI一致度更高，提示应按专业水平设计核验机制。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Qile Wang, Abhishek Karwankar, Shukria Muhammadi, Srikanth Kumar Perumalla, Abhin Suresh
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.22006v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性测试</category><category>信任</category><category>用户研究方法</category><category>LLM</category><category>AI 助手</category><category>人机协作</category><category>可解释 AI</category>
+    </item>    <item>
       <title>人机协作中的互惠性及其神经学关联</title>
       <link>https://ur-ai-papers.vercel.app/papers/39327</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39327</guid>
@@ -83,6 +151,40 @@ EN: SnapSound: Empowering everyone to customize sound experience with Generative
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>个性化</category><category>人机交互</category><category>生成式AI</category><category>可访问性</category><category>GenAI</category><category>人机交互</category>
+    </item>    <item>
+      <title>与对话式智能体交流：真实对话而非模拟对话</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39291</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39291</guid>
+      <description>📝 与对话式智能体交流：真实对话而非模拟对话
+EN: Conversing with a Conversational Agent: A Real Conversation, Not a Simulated One
+
+💡 基于语言语用学、符号学及关系本体论，论证与大模型智能体交谈属于真实的会话活动，而非对人类交流的简单模拟，但不意味着其具有意识或主观理解；会话意义由人类与人工系统分布式共同生成。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Christophe Denis
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.20826v1</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>对话式 AI</category><category>语言与符号学</category><category>AI 伦理</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>开发者人格如何塑造AI编程助手的使用</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39289</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39289</guid>
+      <description>📝 开发者人格如何塑造AI编程助手的使用
+EN: How Developer Personality Shapes the Use of AI Coding Assistants
+
+💡 通过系统综述12项研究及两轮开发者问卷调查，分析大五人格与AI编程助手体验的关系。外向性与积极的私人使用体验相关，宜人性与职业体验的关联随波次变化，凸显个性化设计需纳入人格差异，但样本较小、结论仍待验证。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Annemarie Wittig, Alina Mailach, Norbert Siegmund
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.21240v1</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>个性化</category><category>AI 采用</category><category>问卷</category><category>LLM</category><category>AI 助手</category><category>AI 编程助手</category><category>个性化</category>
     </item>    <item>
       <title>精准提问，审慎推断：大型语言模型歧义消解的交互式评估</title>
       <link>https://ur-ai-papers.vercel.app/papers/39288</link>
@@ -399,96 +501,6 @@ AI 分: 5.0 / 领域分: 5.0
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI 采用</category><category>信任</category><category>消费者行为</category><category>具身智能</category><category>自动驾驶</category>
-    </item>    <item>
-      <title>印度顾客对餐饮服务中服务机器人的接受度</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39125</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39125</guid>
-      <description>📝 印度顾客对餐饮服务中服务机器人的接受度
-EN: Indian customers’ acceptance of service robots in restaurant services
-
-💡 聚焦印度餐饮场景，考察顾客对服务机器人的接受意愿及其影响因素，为餐厅引入机器人、优化服务体验与部署策略提供参考。
-
-📚 BIT · 2022 · 引用 56
-👤 Smriti Pande, Kriti Priya Gupta
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI采用</category><category>消费者行为</category><category>服务体验</category><category>服务机器人</category><category>服务机器人</category><category>人机交互</category>
-    </item>    <item>
-      <title>智能家居中的隐私：机器人角色、沟通与情境如何影响用户对家用服务机器人的感知</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39119</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39119</guid>
-      <description>📝 智能家居中的隐私：机器人角色、沟通与情境如何影响用户对家用服务机器人的感知
-EN: Navigating privacy in smart homes: how robot roles, communication styles, and contextual scenarios shape user perceptions of domestic service robots
-
-💡 家庭服务机器人实验显示，自主性并非隐私顾虑主因；相较仅接受指令的机器人，自主管家反而被感知为更安全。采用高度隐晦的隐私相关沟通可提升安全感知并降低担忧，效果在监控情境中最明显，且受年龄、性别和技术背景调节。
-
-📚 IwC · 2026 · 引用 0
-👤 Yiming Luo, Shihao Liu, Hao Wang, Di Wu, Ding Wang
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>隐私</category><category>服务机器人</category><category>信任</category><category>人机交互</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>人工智能个性化界面中被动感知的知情同意：监控感知、透明度与信任</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39118</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39118</guid>
-      <description>📝 人工智能个性化界面中被动感知的知情同意：监控感知、透明度与信任
-EN: Consent to passive sensing in artificial intelligence-personalized interfaces: perceived surveillance, transparency, and trust
-
-💡 两项实验表明，AI个性化界面的被动感知比主动共享更易引发监控感与不适，并降低信任、同意意愿和行为接受；提升数据使用透明度与用户控制可缓解这些影响。眼动与皮电结果显示，被动感知会增加注意并提高决策期唤醒，透明控制具有缓冲作用。
-
-📚 IwC · 2026 · 引用 0
-👤 Stefanos Balaskas, Kyriakos Komis
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>隐私</category><category>个性化</category><category>透明度</category><category>信任</category><category>人机交互</category><category>个性化 AI</category>
-    </item>    <item>
-      <title>人类与机器解读的对话中的词汇适应</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39105</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39105</guid>
-      <description>📝 人类与机器解读的对话中的词汇适应
-EN: Lexical accommodation in human- and machine-interpreted dialogues
-
-💡 比较人类与机器对对话中词汇适应现象的解释，考察说话者如何随交流对象调整用词，以及机器能否理解和复现这种动态适应。
-
-📚 IJHCS · 1998 · 引用 4
-👤 LAUREL FAIS
-
-AI 分: 4.0 / 领域分: 4.0</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>对话式AI</category><category>人机交互</category><category>自然语言理解</category><category>对话式AI</category><category>人机交互</category><category>自然语言理解</category>
-    </item>    <item>
-      <title>社交网络服务用户的隐私、风险认知与互动动机关联：基于可观测特征的动机预测</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39086</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39086</guid>
-      <description>📝 社交网络服务用户的隐私、风险认知与互动动机关联：基于可观测特征的动机预测
-EN: Associations between privacy, risk awareness, and interactive motivations of social networking service users, and motivation prediction from observable features
-
-💡 考察社交网络服务用户的隐私态度、风险感知与互动动机之间的关系，并检验能否依据可观测特征预测动机，为识别互动需求和开展隐私感知设计提供依据。
-
-📚 CHB · 2015 · 引用 4
-👤 Basilisa Mvungi, Mizuho Iwaihara
-
-AI 分: 3.0 / 领域分: 5.0</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>隐私</category><category>风险感知</category><category>用户动机</category><category>在线社区</category><category>用户建模</category><category>行为预测</category>
-    </item>    <item>
-      <title>灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39069</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39069</guid>
-      <description>📝 灾难响应中采用机器人还是人类：对消费者亲社会性的影响及可能解释
-EN: Robots or humans for disaster response? Impact on consumer prosociality and possible explanations
-
-💡 多项研究考察灾难救援中强调机器人而非人类参与对消费者亲社会行为的影响。结果显示，机器人助人叙事因激励感较弱且被认为勇气较低，反而减少公益捐赠；提升其勇气感知可缓解负面效应。
-
-📚 JCP · 2023 · 引用 19
-👤 Fangyuan Chen, Szu‐chi Huang
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>消费者行为</category><category>公益捐赠</category><category>灾害响应</category><category>机器人</category><category>人机交互</category>
     </item>
   </channel>
 </rss>
