@@ -6,9 +6,92 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:50:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:34:22 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>FLUID：灵活、循证的情境化任务指导</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39525</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39525</guid>
+      <description>📝 FLUID：灵活、循证的情境化任务指导
+EN: FLUID: Flexible, Evidence-Grounded Situated Task Guidance
+
+💡 针对实时任务指导中“何时说、说什么、何时保持沉默”不固定的问题，FLUID基于WTaG与HoloAssist自然指导语料，以证据、必要性和时机灵活性统一建模与评测，并构建多模态实时代理。该代理在正确性、干预精确度、及时性和延迟上取得最佳总体平衡，但语音重叠仍待改善。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Yunqi Zhao, Run Peng, Ze Dong, Ryan Lu, Yinpei Dai
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.26491v1</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>多模态交互</category><category>人机协作</category><category>任务指导</category><category>多模态</category><category>智能体/Agent</category><category>人机交互</category>
+    </item>    <item>
+      <title>通过多样化解释增强语言模型的理解</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39521</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39521</guid>
+      <description>📝 通过多样化解释增强语言模型的理解
+EN: Enhancing Understanding of Language Models with Varied Explanations
+
+💡 面向复杂推理模型难以理解和验证的问题，比较高亮解释、自然语言解释与思维链在忠实性、合理性和效用上的互补性；提出高亮解释评估框架及思维链忠实度指标的元评估框架，为跨解释形式、跨任务可靠评测模型行为提供基础。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Jingyi Sun
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.25314v1</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>可解释性</category><category>模型评估</category><category>人机交互</category><category>LLM</category><category>可解释 AI</category><category>自然语言解释</category>
+    </item>    <item>
+      <title>评估AI助手多轮对话中的安全防护</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39520</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39520</guid>
+      <description>📝 评估AI助手多轮对话中的安全防护
+EN: Evaluating safeguarding in multi-turn conversations with AI assistants
+
+💡 与3名社区心理健康工作者建立9个抑郁、精神病或家暴场景及金标准，在7,400余次对话中评测6款模型。多数模型在集中线索下达标率为26%—59%，线索分散后降至3%—6%；Claude系列差距较小但仍有退化，表明单轮安全表现不能代表长期多轮互动。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Charlotte Peart, Franziska Sofia Hafner, Luc Rocher
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.26009v1</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI 伦理</category><category>对话式 AI</category><category>安全评估</category><category>心理健康</category><category>对话式 AI</category><category>LLM</category><category>多轮对话</category><category>安全评测</category>
+    </item>    <item>
+      <title>The Depth of a Prediction: Where Language Models Resolve a Word Predicts Human Reading Time</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39516</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39516</guid>
+      <description>📝 The Depth of a Prediction: Where Language Models Resolve a Word Predicts Human Reading Time
+
+💡 语言模型的最终层困惑度可预测阅读时长，但预测实际在多层逐步形成。研究用调谐透镜提取各层的“解决深度”，在8个英语眼动与自定速阅读语料、10个模型中验证：较晚解析的词及其后继词阅读更慢，该指标优于最终层困惑度、熵和最佳单层，并具有跨模型家族泛化能力。
+
+📚 arXiv:cs.CL · 2026 · 引用 0
+👤 Donato Riccio, Fabrizio Maturo
+
+AI 分: 5.0 / 领域分: 3.0
+
+📄 PDF: https://arxiv.org/pdf/2611.25970v1</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>眼动追踪</category><category>阅读理解</category><category>认知建模</category><category>自然语言处理</category><category>语言模型</category><category>可解释 AI</category>
+    </item>    <item>
+      <title>GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39514</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39514</guid>
+      <description>📝 GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study
+
+💡 30天随机试点将45名大学生分配至DBT引导的生成式AI助手、普通聊天机器人或静态网页。三组可用性及主要心理量表无显著差异；GenAI-DBT依从率和语言效价改善较高，用户认可情境化练习，但响应延迟、内容重复和个性化不足仍待改进，临床疗效尚未确立。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Jingchen Ye, Yujia Chen, Leyang Han, Siyuan Wang, Mark Zachary Rosenthal
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.25428v1</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>可用性测试</category><category>人机交互(HCI)</category><category>数字心理健康</category><category>随机对照试验</category><category>GenAI</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category>
+    </item>    <item>
       <title>激活引导能否替代 LLM 数字孪生中的提示词情感预激活？</title>
       <link>https://ur-ai-papers.vercel.app/papers/39369</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39369</guid>
@@ -151,6 +234,20 @@ EN: SnapSound: Empowering everyone to customize sound experience with Generative
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>个性化</category><category>人机交互</category><category>生成式AI</category><category>可访问性</category><category>GenAI</category><category>人机交互</category>
+    </item>    <item>
+      <title>Hey StepByStep! Can you teach me how to use my phone better?</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39311</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39311</guid>
+      <description>📝 Hey StepByStep! Can you teach me how to use my phone better?
+
+💡 从标题推测，研究关注智能助手能否通过分步骤教学帮助用户更好地使用手机，并可能评估其任务指导效果、可用性与交互体验。因缺少摘要，具体技术方法、样本及结论无法确认。
+
+📚 IJHCS · 2024 · 引用 5
+👤 Alberto Monge Roffarello, Luigi De Russis
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>可用性</category><category>移动端交互</category><category>对话式 AI</category><category>AI 助手</category>
     </item>    <item>
       <title>与对话式智能体交流：真实对话而非模拟对话</title>
       <link>https://ur-ai-papers.vercel.app/papers/39291</link>
@@ -406,101 +503,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.21405v1</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>用户体验(UX)</category><category>人机协作</category><category>共创设计</category><category>GenAI</category><category>可解释 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>当AI说“不”：AI驱动的服务拒绝对客户满意度的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39252</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39252</guid>
-      <description>📝 当AI说“不”：AI驱动的服务拒绝对客户满意度的影响
-EN: When AI Says No: AI-Driven Service Rejection and Its Impact on Customer Satisfaction
-
-💡 比较AI与人工拒绝服务申请对满意度的影响后发现，消费者对AI拒绝更不满，并因其决策能力 perceived 较低而归责更多。目的论解释说明拒绝原因，比机制论解释或无解释更能缓解负面反应。
-
-📚 JSR · 2026 · 引用 0
-👤 Panagiotis Sarantopoulos, Nan Liu, Sumin Kim, Hongwei He
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://research.manchester.ac.uk/en/publications/d4169df0-1a43-4fa9-ab7d-3c7a08dd6dcc</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>客户体验(CX)</category><category>消费者行为</category><category>服务体验</category><category>AI拒绝</category><category>AI 客服</category><category>可解释 AI</category>
-    </item>    <item>
-      <title>Alexa，闭嘴！：家庭中对语音助手负面语义沟通行为的2.5年研究</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39231</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39231</guid>
-      <description>📝 Alexa，闭嘴！：家庭中对语音助手负面语义沟通行为的2.5年研究
-EN: Alexa, shut up! – A 2.5-year study on negatively connotated communication behaviour towards voice assistants in the family home
-
-💡 基于标题推测，2.5年纵向研究考察家庭成员以负面或排斥性方式与语音助手沟通的情形，刻画此类行为在家庭场景中的持续模式；标题未说明具体发现。
-
-📚 BIT · 2025 · 引用 6
-👤 Clara Strathmann, Aike C. Horstmann, Jessica M. Szczuka, Nicole C. Krämer
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>语音助手</category><category>家庭交互</category><category>AI 拒绝</category><category>人机交互(HCI)</category><category>AI 助手</category><category>对话式 AI</category><category>语音交互</category>
-    </item>    <item>
-      <title>Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39205</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39205</guid>
-      <description>📝 Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care
-
-💡 对80名老年人开展3天远程研究，完成473次ARC语音对话会话，评估个性化、循证干预执行保真度与隐私期待。结果显示可用性、可接受性和使用意愿良好；系统能复用领域情境但个体化有限，保真度主要受干预组件缺失影响，隐私期待随数据类型和接收方而异。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Thalia Viranda, Shupeng Wang, Jia Bo, Yuchen Yang, Hongjiao Zhang
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.18385v1</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>个性化</category><category>儿童/老人/无障碍</category><category>隐私</category><category>GenAI</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>Alleviating Interview Stress: Effects of Robot Persona and Reactive Backchanneling on High-Pressure Mock Interviews</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39204</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39204</guid>
-      <description>📝 Alleviating Interview Stress: Effects of Robot Persona and Reactive Backchanneling on High-Pressure Mock Interviews
-
-💡 通过2×2被试间实验（N=28），让参与者与NAO机器人完成高压模拟面试，操纵支持/挑战型人格与主动/负向附和反馈，结合问卷和面部情绪识别。支持型人格降低任务负荷并提升温暖感；主动反馈增加非中性及紧张表情，并与人格共同影响社会临场感；主客观指标一致率为67.9%。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Haochen Yang, Zhuoran Gao, Geqing Tao, Yusi Dong, Pei-Luen Patrick Rau
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.17830v1</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>用户研究方法</category><category>情感计算</category><category>社会机器人</category><category>人机交互</category><category>情感识别</category><category>社会机器人</category>
-    </item>    <item>
-      <title>LLM控制型助手机器人的基本与道德价值观个性化</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39203</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39203</guid>
-      <description>📝 LLM控制型助手机器人的基本与道德价值观个性化
-EN: Personalization of Basic and Moral Values Guiding LLM-Controlled Assistant Robots
-
-💡 比较22名潜在用户自身及期望助手机器人的基本与道德价值观，并评测三种心理量表及15个LLM。用户希望机器人强化社会价值、弱化个人价值，道德取向近似；提示工程影响有限，显式价值个性化更有效。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Mateusz Wozniak, Qi Gao, Agnieszka Wykowska
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.18230v1</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>用户画像</category><category>价值对齐</category><category>个性化</category><category>LLM</category><category>AI 助手</category><category>人机交互</category><category>价值对齐</category>
-    </item>    <item>
-      <title>Media attention and public acceptance of robotaxis: A moderated mediation of risk perception and perceived social approval in embodied AI</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39191</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39191</guid>
-      <description>📝 Media attention and public acceptance of robotaxis: A moderated mediation of risk perception and perceived social approval in embodied AI
-
-💡 以无人驾驶出租车为情境，采用有调节的中介模型，考察媒体关注度如何通过风险感知影响公众接受度，以及感知社会认同的调节作用；标题指向媒体曝光与群体认可共同塑造具身AI服务接受判断，因无摘要，效应方向无法确定。
-
-📚 BIT · 2026 · 引用 0
-👤 Haodong Liu, Yi‐Hui Christine Huang
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI 采用</category><category>信任</category><category>消费者行为</category><category>具身智能</category><category>自动驾驶</category>
     </item>
   </channel>
 </rss>
