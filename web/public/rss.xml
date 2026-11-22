@@ -6,9 +6,38 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:12:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 09:10:13 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39619</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39619</guid>
+      <description>📝 The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments
+
+💡 在开放式游戏设计学习环境中评估教学智能体，比较无干预、单次与重复干预对两类错误的影响；学生整体评价积极，重复干预可减少部分错误并促进正确行为，但效果依错误类型而异。
+
+📚 TiiS · 2023 · 引用 7
+👤 Özge Nilay Yalçın, Sébastien Lallé, Cristina Conati
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机协作</category><category>个性化</category><category>儿童教育</category><category>智能教学体</category><category>智能体/Agent</category><category>人机交互</category><category>可用性AI</category>
+    </item>    <item>
+      <title>人格特质对用户与推荐界面交互的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39618</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39618</guid>
+      <description>📝 人格特质对用户与推荐界面交互的影响
+EN: The Influence of Personality Traits on User Interaction with Recommendation Interfaces
+
+💡 通过108名参与者、眼动追踪及跨电子、娱乐、旅游三类推荐界面的用户研究，检验人格对感知、任务表现与视觉行为的影响。结果表明，开放性、尽责性与宜人性具有显著影响，且作用随应用领域而异，并据此提出个性化推荐界面设计准则。
+
+📚 TiiS · 2023 · 引用 10
+👤 Dongning Yan, Li Chen
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户画像</category><category>人机交互(HCI)</category><category>眼动追踪</category><category>推荐系统</category><category>推荐算法</category><category>AI 推荐</category><category>人机交互</category><category>眼动 AI</category>
+    </item>    <item>
       <title>人机共生：对个人控制权得失的矛盾直觉解释智能助行工具的接受度</title>
       <link>https://ur-ai-papers.vercel.app/papers/39569</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39569</guid>
@@ -241,6 +270,21 @@ AI 分: 5.0 / 领域分: 5.0
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>用户研究方法</category><category>田野研究</category><category>可穿戴设备</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>多模态</category>
     </item>    <item>
+      <title>当任务与你相关时：任务兴趣对算法预测与人类预测评估的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39392</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39392</guid>
+      <description>📝 当任务与你相关时：任务兴趣对算法预测与人类预测评估的影响
+EN: When it matters to you: the impact of interest in the task on the evaluation of algorithmic versus human predictions
+
+💡 比较算法预测与人类预测，考察任务兴趣度对评价的影响。结果显示，预测来源并非决定评价的唯一因素；任务与个体的关联程度会改变受众判断，凸显算法信任的情境性。
+
+📚 BIT · 2026 · 引用 0
+👤 Nalan Akın, Zeynep Cemalcılar, Lemi Baruh, Baptist Liefooghe
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>算法预测</category><category>信任</category><category>用户认知</category><category>人机协作</category><category>预测算法</category><category>人机交互</category>
+    </item>    <item>
       <title>激活引导能否替代 LLM 数字孪生中的提示词情感预激活？</title>
       <link>https://ur-ai-papers.vercel.app/papers/39369</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39369</guid>
@@ -308,6 +352,74 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.22006v1</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>可用性测试</category><category>信任</category><category>用户研究方法</category><category>LLM</category><category>AI 助手</category><category>人机协作</category><category>可解释 AI</category>
+    </item>    <item>
+      <title>AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39360</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39360</guid>
+      <description>📝 AI作为锚点：访谈排序与设计教育中对合成利益相关者声音的挪用之关系
+EN: AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education
+
+💡 在设计课程中对8个团队开展田野研究，改变AI与真实利益相关者的访谈顺序。AI先访会提供宽泛框架并被后续人类访谈修正；人类先访时，AI主要用于复核生活经验。最终设计更多回应人类关切。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Osnat Mokryn, Oshrat Ayalon, Noga Dines, Orit Shaer
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.22740v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>设计教育</category><category>用户研究方法</category><category>访谈</category><category>人机协作</category><category>LLM</category><category>对话式 AI</category><category>AI 用户画像</category><category>人机协作</category>
+    </item>    <item>
+      <title>面向年轻成人照护者的AI伴侣：实用建议、情感深度与指标评估的局限</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39359</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39359</guid>
+      <description>📝 面向年轻成人照护者的AI伴侣：实用建议、情感深度与指标评估的局限
+EN: AI Companions for Young Adult Caregivers: Practical Advice, Emotional Depth, and the Limits of Metric Evaluation
+
+💡 面向18—25岁青年照护者构建Carebot，对比微调、RAG及组合方案。专家与LLM评审更偏好微调模型的实用建议，但90人用户研究显示，其回复被评价为过于简短、实务化且情感支持不足，揭示自动指标与体验不一致。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Trizal Garg, Xuelong Fu, Dhruv Shah, Jin Huang, Shrigopal Maheshwari
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.23147v1</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI 助手</category><category>情感支持</category><category>青年照护者</category><category>用户研究</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>RAG</category>
+    </item>    <item>
+      <title>Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39357</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39357</guid>
+      <description>📝 Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing
+
+💡 分析895个企业合成受访者项目的使用日志，发现多数项目由非研究人员发起，中位3.9小时即可获得结果；其主要用途是概念筛选和客户、市场描述，支持低成本、低风险的微型市场决策。
+
+📚 IJMR · 2026 · 引用 0
+👤 Kamila Zahradníčková, Jan Polišenský
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>AI采用</category><category>市场研究</category><category>生成式AI</category><category>合成受访者</category>
+    </item>    <item>
+      <title>Too Old to Benefit From
+                    &lt;scp&gt;FinTech&lt;/scp&gt;
+                    ? An Exploratory Study on Older Adults' Access to and Adoption of Robo‐Advice</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39354</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39354</guid>
+      <description>📝 Too Old to Benefit From
+                    &amp;lt;scp&amp;gt;FinTech&amp;lt;/scp&amp;gt;
+                    ? An Exploratory Study on Older Adults' Access to and Adoption of Robo‐Advice
+
+💡 通过老年人调查及行业专家访谈，梳理其采用智能投顾的障碍，包括系统设计、数字与金融能力、信任、心理舒适度、监管不足和社会影响，并据此构建消费采纳框架与实践建议。
+
+📚 JCA · 2026 · 引用 0
+👤 Xinye Cao, Steffen Westermann, Laura de Zwaan, Victor S. H. Wong
+
+AI 分: 4.0 / 领域分: 5.0
+
+📄 PDF: https://doi.org/10.1111/joca.70089</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>老年人</category><category>消费者行为</category><category>信任</category><category>智能投顾</category><category>推荐算法</category><category>AI助手</category><category>人机交互</category>
     </item>    <item>
       <title>人机协作中的互惠性及其神经学关联</title>
       <link>https://ur-ai-papers.vercel.app/papers/39327</link>
@@ -383,123 +495,6 @@ EN: SnapSound: Empowering everyone to customize sound experience with Generative
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>个性化</category><category>人机交互</category><category>生成式AI</category><category>可访问性</category><category>GenAI</category><category>人机交互</category>
-    </item>    <item>
-      <title>嘿，StepByStep！你能教我更好地使用手机吗？</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39311</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39311</guid>
-      <description>📝 嘿，StepByStep！你能教我更好地使用手机吗？
-EN: Hey StepByStep! Can you teach me how to use my phone better?
-
-💡 从标题推测，研究关注智能助手能否通过分步骤教学帮助用户更好地使用手机，并可能评估其任务指导效果、可用性与交互体验。因缺少摘要，具体技术方法、样本及结论无法确认。
-
-📚 IJHCS · 2024 · 引用 5
-👤 Alberto Monge Roffarello, Luigi De Russis
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可用性</category><category>移动端交互</category><category>对话式 AI</category><category>AI 助手</category>
-    </item>    <item>
-      <title>与对话式智能体交流：真实对话而非模拟对话</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39291</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39291</guid>
-      <description>📝 与对话式智能体交流：真实对话而非模拟对话
-EN: Conversing with a Conversational Agent: A Real Conversation, Not a Simulated One
-
-💡 基于语言语用学、符号学及关系本体论，论证与大模型智能体交谈属于真实的会话活动，而非对人类交流的简单模拟，但不意味着其具有意识或主观理解；会话意义由人类与人工系统分布式共同生成。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Christophe Denis
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.20826v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>对话式 AI</category><category>语言与符号学</category><category>AI 伦理</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category><category>人机交互</category>
-    </item>    <item>
-      <title>开发者人格如何塑造AI编程助手的使用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39289</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39289</guid>
-      <description>📝 开发者人格如何塑造AI编程助手的使用
-EN: How Developer Personality Shapes the Use of AI Coding Assistants
-
-💡 通过系统综述12项研究及两轮开发者问卷调查，分析大五人格与AI编程助手体验的关系。外向性与积极的私人使用体验相关，宜人性与职业体验的关联随波次变化，凸显个性化设计需纳入人格差异，但样本较小、结论仍待验证。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Annemarie Wittig, Alina Mailach, Norbert Siegmund
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.21240v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户画像</category><category>个性化</category><category>AI 采用</category><category>问卷</category><category>LLM</category><category>AI 助手</category><category>AI 编程助手</category><category>个性化</category>
-    </item>    <item>
-      <title>精准提问，审慎推断：大型语言模型歧义消解的交互式评估</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39288</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39288</guid>
-      <description>📝 精准提问，审慎推断：大型语言模型歧义消解的交互式评估
-EN: Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models
-
-💡 构建偏好约束的模拟用户框架，以多轮交互评估大模型处理歧义的能力，并从错误假设、重复追问和无关追问刻画用户不满。结果显示，勤于追问易导致过度澄清，偏好假设则易偏离意图；据此优化提示可降低最高7.65%的错误率。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Avik Dutta, Aayush Kumar, Zahra Ashktorab, Hosein Hasanbeig, Austin Z. Henley
-
-AI 分: 5.0 / 领域分: 3.0
-
-📄 PDF: https://arxiv.org/pdf/2611.18905v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互(HCI)</category><category>可用性</category><category>用户研究方法</category><category>LLM</category><category>对话式 AI</category><category>智能体/Agent</category><category>可用性 AI</category>
-    </item>    <item>
-      <title>LLM 对群体决策的促进作用</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39279</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39279</guid>
-      <description>📝 LLM 对群体决策的促进作用
-EN: LLM Facilitation of Group Decision-Making
-
-💡 在线实验将138个三人小组随机分配至无辅助、个体级LLM辅助和群组级LLM辅助条件。两种LLM辅助均将正确决策共识率从32.6%提升至56.5%；群组级辅助还促进信息披露，并获得更高可用性评价。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 José Córdova, Chun-Wei Chiang, Miriam Schirmer, Ming Yin, Emőke-Ágnes Horvát
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.19652v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>群体决策</category><category>人机协作</category><category>用户研究方法</category><category>可用性</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>推进以人为本人工智能与数据科学中的认知成对比较：人在回路框架</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39277</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39277</guid>
-      <description>📝 推进以人为本人工智能与数据科学中的认知成对比较：人在回路框架
-EN: Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework
-
-💡 针对自动化机器学习难以吸收隐性知识且易产生自动化偏差的问题，扩展认知成对比较框架，量化用户对数据变换、特征和模型的偏好；MovieLens推荐实验验证了其在监督学习、降维和无监督流程中的可用性与有效性。
-
-📚 arXiv:cs.AI · 2026 · 引用 0
-👤 Kevin Kam Fung Yuen
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.20926v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机交互</category><category>用户研究方法</category><category>推荐系统</category><category>个性化</category><category>人机协作</category><category>AI 推荐</category><category>推荐算法</category>
-    </item>    <item>
-      <title>超越双语：借助对话式人工智能研究四语语码转换</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39276</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39276</guid>
-      <description>📝 超越双语：借助对话式人工智能研究四语语码转换
-EN: Beyond Bilingual: Studying Quadrilingual Code-Switching with Conversational AI
-
-💡 在库拉索和阿鲁巴对42名大学生开展预注册四语聊天实验，并与20名国际学生比较：用户主要按话轮切换语言，文化话题提升了Papiamentu/o和西语使用；对机器人的语言切换舒适度不低于与人交谈，凸显多语代理支持低资源语言的必要性。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Annika Bush, Melika Minnaar, Salys Sultan, Tasnimul Hasan Tashin, Ankur Bhatt
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.21394v1</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <category>对话式 AI</category><category>用户研究方法</category><category>多语种交互</category><category>自然语言处理</category><category>LLM</category><category>对话式 AI</category><category>多语言处理</category>
     </item>
   </channel>
 </rss>
