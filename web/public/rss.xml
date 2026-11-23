@@ -6,13 +6,63 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 10:08:45 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
-      <title>The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments</title>
+      <title>双层情感框架：网页搜索中可扩展的多模态UX归因</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39673</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39673</guid>
+      <description>📝 双层情感框架：网页搜索中可扩展的多模态UX归因
+EN: The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search
+
+💡 面向大规模网页搜索的UX评估，双层框架以微调LLM从遥测数据回归用户满意度，并用多模态LLM诊断结果页的视觉布局与操作负担。测量周期由数周缩至数小时，问卷成本降低逾40%，异常识别精度亦获提升。
+
+📚 arXiv:cs.AI · 2026 · 引用 0
+👤 Yi Ding, Gaurav Kumar, Rui Min, Isabella Ye, Bhavika Goyal
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.27899v1</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>可用性</category><category>用户研究方法</category><category>多模态交互</category><category>LLM</category><category>多模态</category><category>情感识别</category><category>可用性 AI</category>
+    </item>    <item>
+      <title>回应角色而非个人：合成受访者构建中的过度决定</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39668</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39668</guid>
+      <description>📝 回应角色而非个人：合成受访者构建中的过度决定
+EN: Answering the persona, not the person: Over-determination in the construction of synthetic respondents
+
+💡 以欧洲社会调查画像构建1.4万个LLM合成受访者并回答态度题，发现其更贴近画像条件均值，却难追踪真实个体。画像属性解释的方差远高于人类、个体维度更少，重复生成也难补足残余差异，显示人格提示会造成“过度决定”并削弱个体真实性。
+
+📚 arXiv:cs.CY · 2026 · 引用 0
+👤 Suchecki Konrad, Flores Laurent
+
+AI 分: 5.0 / 领域分: 4.0
+
+📄 PDF: https://arxiv.org/pdf/2611.27449v1</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户研究方法</category><category>问卷</category><category>用户画像</category><category>LLM</category><category>AI 问卷生成</category><category>AI 用户画像</category>
+    </item>    <item>
+      <title>BlueSpace：通过感知与适应性实现工作区个性化</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39645</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39645</guid>
+      <description>📝 BlueSpace：通过感知与适应性实现工作区个性化
+EN: BlueSpace: personalizing workspace through awareness and adaptability
+
+💡 BlueSpace旨在通过情境感知与自适应能力个性化工作空间，使环境随用户活动及需求动态调整；因缺少摘要，具体交互机制、评价指标与实证效果尚无法确认。
+
+📚 IJHCS · 2002 · 引用 21
+👤 JENNIFER LAI, ANTHONY LEVAS, PAUL CHOU, CLAUDIO PINHANEZ, MARISA VIVEROS
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>个性化</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>情境感知</category><category>人机交互</category><category>上下文感知</category><category>自适应系统</category>
+    </item>    <item>
+      <title>智能教学智能体干预对开放式游戏设计环境中学生行为与表现的影响</title>
       <link>https://ur-ai-papers.vercel.app/papers/39619</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39619</guid>
-      <description>📝 The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments
+      <description>📝 智能教学智能体干预对开放式游戏设计环境中学生行为与表现的影响
+EN: The Impact of Intelligent Pedagogical Agents’ Interventions on Student Behavior and Performance in Open-Ended Game Design Environments
 
 💡 在开放式游戏设计学习环境中评估教学智能体，比较无干预、单次与重复干预对两类错误的影响；学生整体评价积极，重复干预可减少部分错误并促进正确行为，但效果依错误类型而异。
 
@@ -119,10 +169,11 @@ AI 分: 5.0 / 领域分: 4.0
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI 伦理</category><category>对话式 AI</category><category>安全评估</category><category>心理健康</category><category>对话式 AI</category><category>LLM</category><category>多轮对话</category><category>安全评测</category>
     </item>    <item>
-      <title>The Depth of a Prediction: Where Language Models Resolve a Word Predicts Human Reading Time</title>
+      <title>预测的深度：语言模型消解词汇的位置可预测人类阅读时间</title>
       <link>https://ur-ai-papers.vercel.app/papers/39516</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39516</guid>
-      <description>📝 The Depth of a Prediction: Where Language Models Resolve a Word Predicts Human Reading Time
+      <description>📝 预测的深度：语言模型消解词汇的位置可预测人类阅读时间
+EN: The Depth of a Prediction: Where Language Models Resolve a Word Predicts Human Reading Time
 
 💡 语言模型的最终层困惑度可预测阅读时长，但预测实际在多层逐步形成。研究用调谐透镜提取各层的“解决深度”，在8个英语眼动与自定速阅读语料、10个模型中验证：较晚解析的词及其后继词阅读更慢，该指标优于最终层困惑度、熵和最佳单层，并具有跨模型家族泛化能力。
 
@@ -152,10 +203,11 @@ AI 分: 5.0 / 领域分: 5.0
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI依赖</category><category>心理福祉</category><category>社会互动</category><category>用户研究方法</category><category>ChatGPT</category><category>GenAI</category><category>AI助手</category><category>对话式AI</category>
     </item>    <item>
-      <title>GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study</title>
+      <title>GenAI-DBT：DBT启发的正念技能训练生成式AI平台评估：先导随机研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/39514</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39514</guid>
-      <description>📝 GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study
+      <description>📝 GenAI-DBT：DBT启发的正念技能训练生成式AI平台评估：先导随机研究
+EN: GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study
 
 💡 30天随机试点将45名大学生分配至DBT引导的生成式AI助手、普通聊天机器人或静态网页。三组可用性及主要心理量表无显著差异；GenAI-DBT依从率和语言效价改善较高，用户认可情境化练习，但响应延迟、内容重复和个性化不足仍待改进，临床疗效尚未确立。
 
@@ -387,10 +439,11 @@ AI 分: 5.0 / 领域分: 4.0
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>AI 助手</category><category>情感支持</category><category>青年照护者</category><category>用户研究</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>RAG</category>
     </item>    <item>
-      <title>Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing</title>
+      <title>合成微型研究：当受访者不再产生成本时，组织会询问什么</title>
       <link>https://ur-ai-papers.vercel.app/papers/39357</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39357</guid>
-      <description>📝 Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing
+      <description>📝 合成微型研究：当受访者不再产生成本时，组织会询问什么
+EN: Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing
 
 💡 分析895个企业合成受访者项目的使用日志，发现多数项目由非研究人员发起，中位3.9小时即可获得结果；其主要用途是概念筛选和客户、市场描述，支持低成本、低风险的微型市场决策。
 
@@ -450,51 +503,6 @@ EN: Interactional Uncertainty in Social Chat AI: Cognitive and Emotional Fatigue
 AI 分: 5.0 / 领域分: 4.0</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>老年用户</category><category>人机交互(HCI)</category><category>AI 采用</category><category>信任</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>过程崩溃与补偿行为探究：AI 导师辅助下求助行为的画像分析与支架支持</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39315</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39315</guid>
-      <description>📝 过程崩溃与补偿行为探究：AI 导师辅助下求助行为的画像分析与支架支持
-EN: Exploring process collapse and compensatory behavior: Profiling and scaffolding help-seeking with an AI tutor
-
-💡 分析AI导师使用中的学习过程崩塌与补偿性行为，以用户画像定位学习需求、用支架支持求助，从而恢复学习过程并改善学习者与AI的协作。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Manuel Valle Torre, Ruben Weijers, Marcus Specht, Catharine Oertel
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>在线学习</category><category>用户画像</category><category>个性化</category><category>人机协作</category><category>AI 助手</category><category>智能体/Agent</category><category>个性化 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>人类–AI 风险决策：冒险倾向与透明度设计的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39314</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39314</guid>
-      <description>📝 人类–AI 风险决策：冒险倾向与透明度设计的影响
-EN: Human–AI Risk Decision-Making: The Effects of Risk-Taking Tendency and Transparency Design
-
-💡 在人类与AI共同进行风险决策时，检验个体风险倾向与AI透明度设计的影响；二者共同塑造建议解读和决策行为，可用于优化风险沟通及信任校准。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Xupu Chen, Yifan Zhang, Jie Xu
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>风险决策</category><category>信任</category><category>可解释性</category><category>人机协作</category><category>决策支持 AI</category><category>可解释 AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>SnapSound：利用生成式人工智能赋能每个人定制声音体验</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39312</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39312</guid>
-      <description>📝 SnapSound：利用生成式人工智能赋能每个人定制声音体验
-EN: SnapSound: Empowering everyone to customize sound experience with Generative AI
-
-💡 针对声音定制门槛高、个性化不足的问题，探索利用生成式AI帮助非专业用户自主创建与调节声音体验，推动更包容、更易用的个性化交互。
-
-📚 IJHCS · 2026 · 引用 1
-👤 Jiyeon Oh, Jin-Woo Jeong
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>个性化</category><category>人机交互</category><category>生成式AI</category><category>可访问性</category><category>GenAI</category><category>人机交互</category>
     </item>
   </channel>
 </rss>
