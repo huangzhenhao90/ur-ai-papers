@@ -6,9 +6,39 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 10:08:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:10:15 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>不同患者需求对应不同平台：不同在线健康信息平台的自动内容分析</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39691</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39691</guid>
+      <description>📝 不同患者需求对应不同平台：不同在线健康信息平台的自动内容分析
+EN: Different platforms for different patients’ needs: Automatic content analysis of different online health information platforms
+
+💡 自动分析不同在线健康信息平台的内容，比较其主题、功能及信息组织差异，揭示平台定位与患者需求之间的对应关系，为面向不同患者提供匹配的在线健康信息服务提供依据。
+
+📚 IJHCS · 2020 · 引用 20
+👤 Remco Sanders, Annemiek J. Linn, Theo B. Araujo, Rens Vliegenthart, Mies C. van Eenbergen
+
+AI 分: 4.0 / 领域分: 3.0</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>医疗健康信息</category><category>患者需求</category><category>内容分析</category><category>个性化</category><category>自然语言处理</category><category>文本分析</category><category>主题分析</category>
+    </item>    <item>
+      <title>利用基于情景的模糊认知图评估元宇宙可持续特征</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39687</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39687</guid>
+      <description>📝 利用基于情景的模糊认知图评估元宇宙可持续特征
+EN: Evaluation of sustainable metaverse characteristics using scenario-based fuzzy cognitive map
+
+💡 构建情景化模糊认知图，刻画可持续元宇宙特征间的因果关系及权重，评估不同发展情景下的关键因素，为元宇宙的可持续规划与治理提供决策依据。
+
+📚 CHB · 2024 · 引用 35
+👤 Ayça Maden, G. Nilay Yücenur
+
+AI 分: 3.0 / 领域分: 4.0</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <category>元宇宙</category><category>可持续性</category><category>模糊认知图</category><category>情景分析</category><category>模糊认知图</category><category>认知计算</category><category>决策支持</category>
+    </item>    <item>
       <title>双层情感框架：网页搜索中可扩展的多模态UX归因</title>
       <link>https://ur-ai-papers.vercel.app/papers/39673</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39673</guid>
@@ -58,6 +88,21 @@ AI 分: 4.0 / 领域分: 4.0</description>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
       <category>个性化</category><category>人机交互(HCI)</category><category>用户体验(UX)</category><category>情境感知</category><category>人机交互</category><category>上下文感知</category><category>自适应系统</category>
     </item>    <item>
+      <title>基于机器学习方法的在线购物车放弃预测</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39632</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39632</guid>
+      <description>📝 基于机器学习方法的在线购物车放弃预测
+EN: Predicting online shopping cart abandonment with machine learning approaches
+
+💡 基于德国零售商82.1万条点击流数据比较多种机器学习弃购预测方法。正则化梯度提升效果最佳（F1为0.8569、AUC为0.8182），但计算成本较高；决策树或提升逻辑回归可兼顾效率与精度。
+
+📚 IJMR · 2020 · 引用 32
+👤 Theresa Maria Rausch, Nicholas Daniel Derra, Lukas Wolf
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>消费者行为</category><category>电子商务</category><category>购物车放弃</category><category>点击流分析</category><category>机器学习</category><category>分类预测</category><category>梯度提升</category><category>决策树</category>
+    </item>    <item>
       <title>智能教学智能体干预对开放式游戏设计环境中学生行为与表现的影响</title>
       <link>https://ur-ai-papers.vercel.app/papers/39619</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39619</guid>
@@ -102,6 +147,21 @@ EN: Human-machine symbiosis: ambivalent intuitions regarding gain and loss of pe
 AI 分: 3.0 / 领域分: 5.0</description>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       <category>人机交互(HCI)</category><category>人机协作</category><category>用户体验(UX)</category><category>AI 采用</category><category>智能辅助系统</category><category>人机交互</category><category>人机协作</category>
+    </item>    <item>
+      <title>面向故障诊断的对话系统症状描述改写：如何请求澄清？</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39548</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39548</guid>
+      <description>📝 面向故障诊断的对话系统症状描述改写：如何请求澄清？
+EN: Reformulation of symptom descriptions in dialogue systems for fault diagnosis: How to ask for clarification?
+
+💡 面向故障诊断中的症状描述不完整与歧义，引入澄清式提问和描述重述机制，引导用户补充规范化信息，以提升对话诊断的准确性与效率。
+
+📚 IJHCS · 2021 · 引用 4
+👤 Romy Müller, Dennis Paul, Yijun Li
+
+AI 分: 4.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>对话式 AI</category><category>故障诊断</category><category>澄清提问</category><category>症状重述</category><category>对话式 AI</category><category>自然语言处理</category><category>澄清问答</category><category>故障诊断 AI</category>
     </item>    <item>
       <title>正确代理，错误享乐水平：AI任务的高（低）享乐价值降低拟人感、温暖感与消费者支持</title>
       <link>https://ur-ai-papers.vercel.app/papers/39533</link>
@@ -253,6 +313,21 @@ AI 分: 3.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.25294v1</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <category>眼动追踪</category><category>可用性测试</category><category>在线学习</category><category>人机交互(HCI)</category><category>GenAI</category><category>眼动AI</category><category>人机交互</category>
+    </item>    <item>
+      <title>共情代理以降低用户挫败感：代理特征变化的影响</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39459</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39459</guid>
+      <description>📝 共情代理以降低用户挫败感：代理特征变化的影响
+EN: Empathic agents to reduce user frustration: The effects of varying agent characteristics
+
+💡 比较具有不同同理心特征的智能体对用户挫败感的影响，考察代理特质能否缓解交互中的负面情绪。结果表明，合理设计同理心特征有助于减少智能体交互引发的用户挫败感。
+
+📚 IwC · 2006 · 引用 125
+👤 Kate Hone
+
+AI 分: 5.0 / 领域分: 5.0</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>情感计算</category><category>用户体验(UX)</category><category>可用性</category><category>智能体/Agent</category><category>对话式 AI</category><category>情感计算</category>
     </item>    <item>
       <title>智能体框架工程 Beta：以需求为中心的智能体框架演进</title>
       <link>https://ur-ai-papers.vercel.app/papers/39424</link>
@@ -421,88 +496,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.22740v1</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <category>设计教育</category><category>用户研究方法</category><category>访谈</category><category>人机协作</category><category>LLM</category><category>对话式 AI</category><category>AI 用户画像</category><category>人机协作</category>
-    </item>    <item>
-      <title>面向年轻成人照护者的AI伴侣：实用建议、情感深度与指标评估的局限</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39359</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39359</guid>
-      <description>📝 面向年轻成人照护者的AI伴侣：实用建议、情感深度与指标评估的局限
-EN: AI Companions for Young Adult Caregivers: Practical Advice, Emotional Depth, and the Limits of Metric Evaluation
-
-💡 面向18—25岁青年照护者构建Carebot，对比微调、RAG及组合方案。专家与LLM评审更偏好微调模型的实用建议，但90人用户研究显示，其回复被评价为过于简短、实务化且情感支持不足，揭示自动指标与体验不一致。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Trizal Garg, Xuelong Fu, Dhruv Shah, Jin Huang, Shrigopal Maheshwari
-
-AI 分: 5.0 / 领域分: 4.0
-
-📄 PDF: https://arxiv.org/pdf/2611.23147v1</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>AI 助手</category><category>情感支持</category><category>青年照护者</category><category>用户研究</category><category>LLM</category><category>对话式 AI</category><category>AI 助手</category><category>RAG</category>
-    </item>    <item>
-      <title>合成微型研究：当受访者不再产生成本时，组织会询问什么</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39357</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39357</guid>
-      <description>📝 合成微型研究：当受访者不再产生成本时，组织会询问什么
-EN: Synthetic Micro-research: What Organisations Ask once Respondents Cost Nothing
-
-💡 分析895个企业合成受访者项目的使用日志，发现多数项目由非研究人员发起，中位3.9小时即可获得结果；其主要用途是概念筛选和客户、市场描述，支持低成本、低风险的微型市场决策。
-
-📚 IJMR · 2026 · 引用 0
-👤 Kamila Zahradníčková, Jan Polišenský
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>AI采用</category><category>市场研究</category><category>生成式AI</category><category>合成受访者</category>
-    </item>    <item>
-      <title>Too Old to Benefit From
-                    &lt;scp&gt;FinTech&lt;/scp&gt;
-                    ? An Exploratory Study on Older Adults' Access to and Adoption of Robo‐Advice</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39354</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39354</guid>
-      <description>📝 Too Old to Benefit From
-                    &amp;lt;scp&amp;gt;FinTech&amp;lt;/scp&amp;gt;
-                    ? An Exploratory Study on Older Adults' Access to and Adoption of Robo‐Advice
-
-💡 通过老年人调查及行业专家访谈，梳理其采用智能投顾的障碍，包括系统设计、数字与金融能力、信任、心理舒适度、监管不足和社会影响，并据此构建消费采纳框架与实践建议。
-
-📚 JCA · 2026 · 引用 0
-👤 Xinye Cao, Steffen Westermann, Laura de Zwaan, Victor S. H. Wong
-
-AI 分: 4.0 / 领域分: 5.0
-
-📄 PDF: https://doi.org/10.1111/joca.70089</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>老年人</category><category>消费者行为</category><category>信任</category><category>智能投顾</category><category>推荐算法</category><category>AI助手</category><category>人机交互</category>
-    </item>    <item>
-      <title>人机协作中的互惠性及其神经学关联</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39327</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39327</guid>
-      <description>📝 人机协作中的互惠性及其神经学关联
-EN: Reciprocity and Its Neurological Correlates in Human-Agent Cooperation
-
-💡 考察人机合作中的互惠行为及其神经基础，结合行为实验与神经测量，分析个体如何依据智能体的互惠反馈调整合作策略。
-
-📚 THMS · 2020 · 引用 10
-👤 Jiahao Li, Shen Dong, Erin K. Chiou, Jie Xu
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>人机协作</category><category>神经科学</category><category>人机交互</category><category>智能体/Agent</category><category>人机协作</category><category>人机交互</category>
-    </item>    <item>
-      <title>社交聊天 AI 的互动不确定性：老年人回避使用背后的认知与情感疲劳</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39316</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39316</guid>
-      <description>📝 社交聊天 AI 的互动不确定性：老年人回避使用背后的认知与情感疲劳
-EN: Interactional Uncertainty in Social Chat AI: Cognitive and Emotional Fatigue Underlying Use Avoidance Among Older Adults
-
-💡 聚焦老年用户使用社交聊天AI时面临的互动不确定性，探讨认知与情绪疲劳如何促成使用回避，并提示通过降低不确定性和改善可理解性提升采纳意愿。
-
-📚 IJHCS · 2026 · 引用 0
-👤 Mingxi Sun, Jingxi Chen
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <category>老年用户</category><category>人机交互(HCI)</category><category>AI 采用</category><category>信任</category><category>对话式 AI</category><category>AI 助手</category><category>人机交互</category>
     </item>
   </channel>
 </rss>
