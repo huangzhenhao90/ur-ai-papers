@@ -6,9 +6,54 @@
     <atom:link href="https://ur-ai-papers.vercel.app/rss.xml" rel="self" type="application/rss+xml" />
     <description>用户研究 / HCI / CX 领域 AI 论文索引 — 双 LLM 打分 + 中文标题 + TL;DR</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 10:26:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:43:43 +0000</lastBuildDate>
     <generator>ur-ai-papers export pipeline</generator>
     <item>
+      <title>组装流：理解AI赋能世界在线体验的统一理论框架</title>
+      <link>https://ur-ai-papers.vercel.app/papers/40097</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/40097</guid>
+      <description>📝 组装流：理解AI赋能世界在线体验的统一理论框架
+EN: Assembling flow: A unified theoretical framework for understanding online experience in an AI-powered world
+
+💡 从标题看，旨在构建理解AI驱动在线体验的统一理论框架，整合“心流”与界面要素，解释用户投入和流畅体验的形成机制，为AI嵌入在线服务的设计与评估提供理论视角。
+
+📚 JAMS · 2026 · 引用 1
+👤 Donna L. Hoffman, Thomas P. Novak
+
+AI 分: 3.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>用户体验(UX)</category><category>人机交互(HCI)</category><category>服务体验</category><category>人机交互</category>
+    </item>    <item>
+      <title>AI核查后由谁整合：Human–GenAI探究中的责任分配</title>
+      <link>https://ur-ai-papers.vercel.app/papers/40085</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/40085</guid>
+      <description>📝 AI核查后由谁整合：Human–GenAI探究中的责任分配
+EN: After AI Checks, Who Consolidates? Responsibility Allocation in Human–GenAI Inquiry
+
+💡 聚焦GenAI完成检查后由谁整合结论并承担责任，分析AI核查情境下人类与GenAI之间的责任分配，揭示自动化检查如何改变后续确认、判断与问责边界。
+
+📚 CHB · 2026 · 引用 0
+👤 Chia-Mei Lu, Shu Ching Yang
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>人机协作</category><category>信任</category><category>责任分配</category><category>GenAI</category><category>人机交互</category><category>人机协作</category>
+    </item>    <item>
+      <title>从社会信任到AI技术接受：新加坡AI赋能自动驾驶汽车采纳的面板研究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/40084</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/40084</guid>
+      <description>📝 从社会信任到AI技术接受：新加坡AI赋能自动驾驶汽车采纳的面板研究
+EN: From social trust to AI technology acceptance: A panel study of AI-Powered autonomous vehicle adoption in Singapore
+
+💡 基于新加坡面板研究，考察社会信任如何影响居民对AI驱动自动驾驶车的技术接受，追踪社会信任向采纳意愿转变的动态关系，为智能交通普及提供依据。
+
+📚 CHB · 2026 · 引用 1
+👤 Hongjie Tang, Shirley S. Ho, Liang Chen
+
+AI 分: 4.0 / 领域分: 5.0</description>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <category>AI采用</category><category>信任</category><category>消费者行为</category><category>智能交通</category><category>自动驾驶</category><category>AI技术接受</category>
+    </item>    <item>
       <title>并非所有危害都同等：深度伪造危害的第三人称感知研究</title>
       <link>https://ur-ai-papers.vercel.app/papers/40045</link>
       <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/40045</guid>
@@ -38,6 +83,21 @@ EN: Children’s communication repairs with AI versus human partners
 AI 分: 5.0 / 领域分: 5.0</description>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
       <category>儿童</category><category>对话式AI</category><category>人机交互</category><category>沟通修复</category><category>对话式AI</category><category>人机交互</category><category>自然语言处理</category>
+    </item>    <item>
+      <title>机器的伦理精神：人工伦理精神与信任之探究</title>
+      <link>https://ur-ai-papers.vercel.app/papers/40030</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/40030</guid>
+      <description>📝 机器的伦理精神：人工伦理精神与信任之探究
+EN: A Machine's ethos? An inquiry into artificial ethos and trust
+
+💡 从标题看，聚焦人工制品的“气质”（ethos）及其与信任的关系，探讨机器如何被感知为具有意图、价值或道德取向，以及这种人工属性如何塑造用户信任。
+
+📚 CHB · 2024 · 引用 11
+👤 Henrik Skaug Sætra
+
+AI 分: 5.0 / 领域分: 4.0</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>信任</category><category>伦理</category><category>人机交互(HCI)</category><category>人机交互</category><category>AI 治理</category>
     </item>    <item>
       <title>KeyDeck：基于跨论文综合与参考引导个性化的多论文转幻灯片生成</title>
       <link>https://ur-ai-papers.vercel.app/papers/40008</link>
@@ -140,6 +200,23 @@ AI 分: 5.0 / 领域分: 3.0
 📄 PDF: https://arxiv.org/pdf/2611.34785v1</description>
       <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
       <category>用户画像</category><category>合成数据</category><category>个性化</category><category>多语言对话</category><category>LLM</category><category>GenAI</category><category>AI 用户画像</category><category>对话式 AI</category>
+    </item>    <item>
+      <title>创意任务中Human-AI协同创作的集体多样性动态</title>
+      <link>https://ur-ai-papers.vercel.app/papers/39999</link>
+      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39999</guid>
+      <description>📝 创意任务中Human-AI协同创作的集体多样性动态
+EN: Dynamics of Collective Diversity in Human-AI Co-Creation for Creative Tasks
+
+💡 通过两项创意任务的大规模众包研究，刻画AI采用规模下集体多样性、质量与投入的变化。AI代理虽能提升产出质量、降低努力，却导致多样性随采用率上升而下降；细粒度人机交互及多样化代理策略可缓解这一趋势。
+
+📚 arXiv:cs.HC · 2026 · 引用 0
+👤 Manh Hung Nguyen, Chao Wen, Sebastian Tschiatschek, Adish Singla
+
+AI 分: 5.0 / 领域分: 5.0
+
+📄 PDF: https://arxiv.org/pdf/2611.33192v1</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>人机交互(HCI)</category><category>人机协作</category><category>AI采用</category><category>集体多样性</category><category>GenAI</category><category>智能体/Agent</category><category>人机协作</category><category>人机交互</category>
     </item>    <item>
       <title>RecField：将推荐嵌入空间电影组织，提供促成偶遇的可供性</title>
       <link>https://ur-ai-papers.vercel.app/papers/39997</link>
@@ -423,82 +500,6 @@ AI 分: 5.0 / 领域分: 5.0
 📄 PDF: https://arxiv.org/pdf/2611.32939v1</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <category>对话式AI</category><category>用户体验(UX)</category><category>信任</category><category>文化差异</category><category>LLM</category><category>对话式AI</category><category>人机交互</category>
-    </item>    <item>
-      <title>超越平均学习增益：探析用于学习的结构化视觉AI中的公平—脆弱性张力</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39902</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39902</guid>
-      <description>📝 超越平均学习增益：探析用于学习的结构化视觉AI中的公平—脆弱性张力
-EN: Beyond Average Gains: Probing the Equity--Vulnerability Tension in Structured Visual AI for Learning
-
-💡 随机比较结构化可视化聊天机器人与文本机器人辅助图算法学习。结构化界面总体可用性和感知有效性更高，但效率、满意度及情绪无显著差异；不同聊天机器人经验者表现分化，平均收益掩盖了使用与设备方面的包容性风险。
-
-📚 arXiv:cs.HC · 2026 · 引用 0
-👤 Mingyuan Li, Duan Wang, Erick Purwanto, Yihong Wang
-
-AI 分: 5.0 / 领域分: 5.0
-
-📄 PDF: https://arxiv.org/pdf/2611.31899v1</description>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <category>可用性</category><category>用户体验(UX)</category><category>AI采用</category><category>教育技术</category><category>对话式AI</category><category>多模态交互</category><category>可用性AI</category>
-    </item>    <item>
-      <title>Google还是问ChatGPT？软件开发者信息搜索实践对组织信息安全的影响</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39827</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39827</guid>
-      <description>📝 Google还是问ChatGPT？软件开发者信息搜索实践对组织信息安全的影响
-EN: Google it or ask ChatGPT? Impact of software developers' information search practices on organisational information security
-
-💡 考察软件开发者使用Google或ChatGPT搜索信息的实践及其对组织信息安全的影响，聚焦传统搜索与生成式AI回答在安全知识获取和使用中的差异。
-
-📚 BIT · 2026 · 引用 1
-👤 Maayan Paz-Chen, Joel Lanir, Oshrat Ayalon
-
-AI 分: 5.0 / 领域分: 4.0</description>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <category>信息安全</category><category>信息搜索</category><category>AI采用</category><category>开发者</category><category>GenAI</category><category>LLM</category><category>ChatGPT</category><category>AI助手</category>
-    </item>    <item>
-      <title>AttentiveVideo</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39815</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39815</guid>
-      <description>📝 AttentiveVideo
-
-💡 AttentiveVideo利用普通智能手机的隐式PPG信号与面部表情分析，实时估计观众观看视频广告时的注意、参与度与情绪。24人研究中九项指标的最佳平均准确率达82.6%，特征与模型联合融合可提升预测效果，两类信号在延迟、准确性和环境适应性上各有所长。
-
-📚 TiiS · 2019 · 引用 8
-👤 Phuong Pham, Jingtao Wang
-
-AI 分: 4.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <category>广告</category><category>情感计算</category><category>移动端交互</category><category>用户体验(UX)</category><category>情感识别</category><category>多模态</category><category>人机交互</category>
-    </item>    <item>
-      <title>人工智能与IT行业的工作投入度</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39814</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39814</guid>
-      <description>📝 人工智能与IT行业的工作投入度
-EN: AI and work engagement in the IT industry
-
-💡 基于瑞典28名IT从业者的半结构式访谈与主题分析，AI通过减少重复劳动、支持学习和提升工作意义感促进敬业度，但也带来认知过载、技能不确定性及支持不足等问题；据此提出“数字工作敬业度”概念。
-
-📚 IwC · 2026 · 引用 1
-👤 Andreas Bergqvist, Niklas Humble, Mats Daniels, Åsa Cajander
-
-AI 分: 5.0 / 领域分: 5.0</description>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-      <category>用户研究方法</category><category>访谈</category><category>AI采用</category><category>员工敬业度</category><category>AI</category><category>人机协作</category>
-    </item>    <item>
-      <title>不同患者需求对应不同平台：不同在线健康信息平台的自动内容分析</title>
-      <link>https://ur-ai-papers.vercel.app/papers/39691</link>
-      <guid isPermaLink="true">https://ur-ai-papers.vercel.app/papers/39691</guid>
-      <description>📝 不同患者需求对应不同平台：不同在线健康信息平台的自动内容分析
-EN: Different platforms for different patients’ needs: Automatic content analysis of different online health information platforms
-
-💡 自动分析不同在线健康信息平台的内容，比较其主题、功能及信息组织差异，揭示平台定位与患者需求之间的对应关系，为面向不同患者提供匹配的在线健康信息服务提供依据。
-
-📚 IJHCS · 2020 · 引用 20
-👤 Remco Sanders, Annemiek J. Linn, Theo B. Araujo, Rens Vliegenthart, Mies C. van Eenbergen
-
-AI 分: 4.0 / 领域分: 3.0</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <category>医疗健康信息</category><category>患者需求</category><category>内容分析</category><category>个性化</category><category>自然语言处理</category><category>文本分析</category><category>主题分析</category>
     </item>
   </channel>
 </rss>
